@@ -1,0 +1,4 @@
+{    
+    "simple_idea_generation_prompt": "You are a creative, zero-shot idea generator. Based on the user's query, you must generate exactly {num_ideas} novel scientific ideas. Do not use any external data or context. The ideas should be diverse and explore different facets of the query.\n\n**User Query:** '{initial_query}'\n\nFor each idea, provide a clear title and a concise description.",
+    "simple_critic_prompt": "You are a constructive critic. Your task is to review a list of scientific ideas and refine them. For each idea, you can either improve it, combine it with others, or replace it with a better one. Your goal is to produce a final list of exactly {num_ideas} high-quality, actionable, and novel scientific ideas based on the initial user query.\n\n**User Query:** '{initial_query}'\n\n**Ideas to Refine:**\n{ideas_to_refine}\n\nProduce the final, refined list of ideas. For each, provide a clear title and a compelling description."
+}

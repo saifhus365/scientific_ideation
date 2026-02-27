@@ -1,0 +1,1549 @@
+{
+    "initial_query": "research paper retrieval methodologies using Multi Agent Systems",
+    "query_analysis": {
+        "topics": [
+            "Multi-Agent Systems",
+            "research paper retrieval",
+            "methodologies"
+        ],
+        "timeline": {
+            "start_date": "2010-01-01",
+            "end_date": "2023-12-31",
+            "specific_year": null
+        },
+        "intention": "Descriptive"
+    },
+    "discovered_papers": [
+        {
+            "paperId": "d02b745098eebc8d4b33efbac46d1edfd7cc3dff",
+            "title": "A Multi-Agent Framework for Multi-Source Manufacturing Knowledge Integration and Question Answering",
+            "venue": "The Web Conference",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1145/3701716.3716884?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1145/3701716.3716884, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A Multi-Agent-based, Multi-Source, and Multimodal Retrieval-Augmented Generation (RAG) framework specifically designed for the manufacturing industry and provides a holistic solution to the complexities associated with knowledge management and improves retrieval efficiency in the manufacturing sector."
+            },
+            "authors": [
+                {
+                    "authorId": "2362920774",
+                    "name": "Teng Mao"
+                },
+                {
+                    "authorId": "2269749522",
+                    "name": "Shuangtao Yang"
+                },
+                {
+                    "authorId": "2269459467",
+                    "name": "Bo Fu"
+                }
+            ],
+            "abstract": "The integration of next-generation information technologies in the manufacturing sector has resulted in the generation of extensive and complex knowledge data by organizations. Effectively managing and utilizing this dispersed knowledge presents a significant challenge. This paper proposes a Multi-Agent-based, Multi-Source, and Multimodal Retrieval-Augmented Generation (RAG) framework specifically designed for the manufacturing industry. By employing advanced methodologies such as multimodal document parsing, multi-source data integration, and intelligent agent-driven querying, the proposed framework aims to address the interconnected challenges of knowledge management and intelligent question answering in complex manufacturing environments. The principal contributions of this research include: (1) the advancement of sophisticated multimodal document parsing techniques, (2) the establishment of robust strategies for multi-source data integration, (3) the development of a comprehensive multi-agent intelligent question-answering system, and (4) the enhancement of the Thinking RAG model. This framework provides a holistic solution to the complexities associated with knowledge management and improves retrieval efficiency in the manufacturing sector.",
+            "score": 10
+        },
+        {
+            "paperId": "4fac2760a770bf548c4264e622312e6c02e7bce0",
+            "title": "LLM-Powered Multi-Agent Systems: A Technical Framework for Collaborative Intelligence Through Optimized Knowledge Retrieval and Communication",
+            "venue": "2025 6th International Conference on Artificial Intelligence, Robotics and Control (AIRC)",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/AIRC64931.2025.11077480?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/AIRC64931.2025.11077480, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This paper examines how multiple LLM-based agents can collaborate to solve complex problems beyond the capabilities of single agents through specialized knowledge integration and optimized communication protocols."
+            },
+            "authors": [
+                {
+                    "authorId": "2368450847",
+                    "name": "Vineeth Gogineni"
+                }
+            ],
+            "abstract": "This paper presents a comprehensive technical framework for constructing effective multi-agent systems powered by large language models (LLMs). We examine how multiple LLM-based agents can collaborate to solve complex problems beyond the capabilities of single agents through specialized knowledge integration and optimized communication protocols. Our novel architecture enables efficient collaboration between heterogeneous LLM agents, each with domain-specific capabilities and knowledge bases. Experimental results demonstrate that our multi-agent LLM system achieves 42% higher accuracy on complex knowledge tasks, 37% reduction in hallucinations, and 29% faster convergence on collaborative problem-solving compared to baseline approaches. By implementing optimized knowledge retrieval mechanisms and structured communication patterns, our system reduces token usage by 45% while maintaining semantic fidelity across agent interactions. These findings establish key design principles for building more effective and reliable collaborative LLM-based multi-agent systems for enterprise applications",
+            "score": 10
+        },
+        {
+            "paperId": "e14be4b8b9eff39f74e4b1527a35ea45e2a85cf8",
+            "title": "RAG-KG-IL: A Multi-Agent Hybrid Framework for Reducing Hallucinations and Enhancing LLM Reasoning through RAG and Incremental Knowledge Graph Learning Integration",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 5,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2503.13514, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Experimental results demonstrate that the proposed RAG-KG-IL approach significantly reduces hallucination rates and improves answer completeness and reasoning accuracy, and underscores the potential of combining RAG, KGs, and multi-agent systems to create intelligent, adaptable systems capable of real-time knowledge integration and reasoning in complex domains."
+            },
+            "authors": [
+                {
+                    "authorId": "2351728696",
+                    "name": "Hong Qing Yu"
+                },
+                {
+                    "authorId": "2350756862",
+                    "name": "Frank McQuade"
+                }
+            ],
+            "abstract": "This paper presents RAG-KG-IL, a novel multi-agent hybrid framework designed to enhance the reasoning capabilities of Large Language Models (LLMs) by integrating Retrieval-Augmented Generation (RAG) and Knowledge Graphs (KGs) with an Incremental Learning (IL) approach. Despite recent advancements, LLMs still face significant challenges in reasoning with structured data, handling dynamic knowledge evolution, and mitigating hallucinations, particularly in mission-critical domains. Our proposed RAG-KG-IL framework addresses these limitations by employing a multi-agent architecture that enables continuous knowledge updates, integrates structured knowledge, and incorporates autonomous agents for enhanced explainability and reasoning. The framework utilizes RAG to ensure the generated responses are grounded in verifiable information, while KGs provide structured domain knowledge for improved consistency and depth of understanding. The Incremental Learning approach allows for dynamic updates to the knowledge base without full retraining, significantly reducing computational overhead and improving the model's adaptability. We evaluate the framework using real-world case studies involving health-related queries, comparing it to state-of-the-art models like GPT-4o and a RAG-only baseline. Experimental results demonstrate that our approach significantly reduces hallucination rates and improves answer completeness and reasoning accuracy. The results underscore the potential of combining RAG, KGs, and multi-agent systems to create intelligent, adaptable systems capable of real-time knowledge integration and reasoning in complex domains.",
+            "score": 10
+        },
+        {
+            "paperId": "8d67ffb9bf4603a65da4a37e3836a1fc0491e31c",
+            "title": "Multi-Agent Safe Graph Reinforcement Learning for PV Inverters-Based Real-Time Decentralized Volt/Var Control in Zoned Distribution Networks",
+            "venue": "IEEE Transactions on Smart Grid",
+            "year": 2024,
+            "citationCount": 31,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/TSG.2023.3277087?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/TSG.2023.3277087, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Simulations on a 141-bus distribution system demonstrate that the proposed method can effectively minimize network energy loss and reduce voltage deviations, even in the presence of noisy or incomplete input measurements."
+            },
+            "authors": [
+                {
+                    "authorId": "2150430452",
+                    "name": "Rudai Yan"
+                },
+                {
+                    "authorId": "1996191207",
+                    "name": "Q. Xing"
+                },
+                {
+                    "authorId": "2118040469",
+                    "name": "Yan Xu"
+                }
+            ],
+            "abstract": "To realize real-time voltage/var control (VVC) in active distribution networks (ADNs), this paper proposes a new multi-agent safe graph reinforcement learning method to optimize reactive power output from PV inverters. The network is divided into several zones, and a decentralized framework is proposed for coordinated control of reactive power output in each zone to regulate voltage profiles and minimize network energy loss. The VVC problem is formulated as a multi-agent decentralized partially observable constrained Markov decision process. Each zone has a central control agent that embeds graph convolution networks (GCNs) in the policy network to improve the decision-making capability. The GCN extracts graph-structured features from the ADN topology, reflecting the relationship between VVC and grid topology, and can filter noise and impute missing data. The training process includes primal-dual policy optimization to rigorously satisfy voltage safety constraints. Simulations on a 141-bus distribution system demonstrate that the proposed method can effectively minimize network energy loss and reduce voltage deviations, even in the presence of noisy or incomplete input measurements.",
+            "score": 10
+        },
+        {
+            "paperId": "8a770815120fa13f02b4b378d1328eadc3f54ce2",
+            "title": "Hybrid Multi-Agent GraphRAG for E-Government: Towards a Trustworthy AI Assistant",
+            "venue": "Applied Sciences",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/app15116315?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/app15116315, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This work establishes a reproducible blueprint for deploying AI systems in e-government that require structured reasoning in comprehensive and factually accurate question answering in order to enhance policy-focused question answering."
+            },
+            "authors": [
+                {
+                    "authorId": "2274387490",
+                    "name": "George Papageorgiou"
+                },
+                {
+                    "authorId": "1742409056",
+                    "name": "Vangelis Sarlis"
+                },
+                {
+                    "authorId": "40083528",
+                    "name": "Manolis Maragoudakis"
+                },
+                {
+                    "authorId": "2133997497",
+                    "name": "Christos Tjortjis"
+                }
+            ],
+            "abstract": "As public institutions increasingly adopt AI-driven virtual assistants to support transparency and citizen engagement, the need for explainable, accurate, and context-aware language systems becomes vital. While traditional retrieval-augmented generation (RAG) frameworks effectively integrate external knowledge into Large Language Models (LLMs), their reliance on flat, unstructured document retrieval limits multi-hop reasoning and interpretability, especially with complex, structured e-government datasets. This study introduces a modular, extensible, multi-agent graph retrieval-augmented generation (GraphRAG) framework designed to enhance policy-focused question answering. This research aims to provide an overview of hybrid multi-agent GraphRAG architecture designed for operational deployment in e-government settings to support explainable AI systems. The study focuses on how the hybrid integration of standard RAG, embedding-based retrieval, real-time web search, and LLM-generated structured Graphs can optimize knowledge discovery from public e-government data, thereby reinforcing factual grounding, reducing hallucinations, and enhancing the quality of complex responses. To validate the proposed approach, we implement and evaluate the framework using the European Commission\u2019s Press Corner as a data source, constructing graph-based knowledge representations and embeddings, and incorporating web search. This work establishes a reproducible blueprint for deploying AI systems in e-government that require structured reasoning in comprehensive and factually accurate question answering.",
+            "score": 10
+        },
+        {
+            "paperId": "90bbc0fb2107a0fc7a15449f0e071d0dafbf97bb",
+            "title": "Towards an AI co-scientist",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 81,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2502.18864, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "An AI co-scientist is introduced, a multi-agent system built on Gemini 2.0 intended to help uncover new, original knowledge and to formulate demonstrably novel research hypotheses and proposals, building upon prior evidence and aligned to scientist-provided research objectives and guidance."
+            },
+            "authors": [
+                {
+                    "authorId": "2051681709",
+                    "name": "Juraj Gottweis"
+                },
+                {
+                    "authorId": "2239098855",
+                    "name": "Wei-Hung Weng"
+                },
+                {
+                    "authorId": "2347345594",
+                    "name": "Alexander Daryin"
+                },
+                {
+                    "authorId": "2244651851",
+                    "name": "Tao Tu"
+                },
+                {
+                    "authorId": "2266472373",
+                    "name": "Anil Palepu"
+                },
+                {
+                    "authorId": "2679779",
+                    "name": "Petar Sirkovic"
+                },
+                {
+                    "authorId": "2346506169",
+                    "name": "Artiom Myaskovsky"
+                },
+                {
+                    "authorId": "10805574",
+                    "name": "Felix Weissenberger"
+                },
+                {
+                    "authorId": "1996199677",
+                    "name": "Keran Rong"
+                },
+                {
+                    "authorId": "3480712",
+                    "name": "Ryutaro Tanno"
+                },
+                {
+                    "authorId": "2279021635",
+                    "name": "Khaled Saab"
+                },
+                {
+                    "authorId": "2347349817",
+                    "name": "Dan Popovici"
+                },
+                {
+                    "authorId": "2347350331",
+                    "name": "Jacob Blum"
+                },
+                {
+                    "authorId": "2298916585",
+                    "name": "Fan Zhang"
+                },
+                {
+                    "authorId": "2269148566",
+                    "name": "Katherine Chou"
+                },
+                {
+                    "authorId": "1809983",
+                    "name": "A. Hassidim"
+                },
+                {
+                    "authorId": "2225921342",
+                    "name": "Burak Gokturk"
+                },
+                {
+                    "authorId": "2347345719",
+                    "name": "Amin Vahdat"
+                },
+                {
+                    "authorId": "143967473",
+                    "name": "Pushmeet Kohli"
+                },
+                {
+                    "authorId": "2271424367",
+                    "name": "Yossi Matias"
+                },
+                {
+                    "authorId": "2347347621",
+                    "name": "Andrew Carroll"
+                },
+                {
+                    "authorId": "2269148145",
+                    "name": "Kavita Kulkarni"
+                },
+                {
+                    "authorId": "2213266",
+                    "name": "Nenad Toma\u0161ev"
+                },
+                {
+                    "authorId": "2261405027",
+                    "name": "Yuan Guan"
+                },
+                {
+                    "authorId": "2329370987",
+                    "name": "Vikram Dhillon"
+                },
+                {
+                    "authorId": "10664723",
+                    "name": "E. D. Vaishnav"
+                },
+                {
+                    "authorId": "2305695545",
+                    "name": "Byron Lee"
+                },
+                {
+                    "authorId": "2346514434",
+                    "name": "Tiago R D Costa"
+                },
+                {
+                    "authorId": "2347349050",
+                    "name": "Jos'e R Penad'es"
+                },
+                {
+                    "authorId": "2243119549",
+                    "name": "Gary Peltz"
+                },
+                {
+                    "authorId": "2275191526",
+                    "name": "Yunhan Xu"
+                },
+                {
+                    "authorId": "88475150",
+                    "name": "Annalisa Pawlosky"
+                },
+                {
+                    "authorId": "2213433382",
+                    "name": "A. Karthikesalingam"
+                },
+                {
+                    "authorId": "144223091",
+                    "name": "Vivek Natarajan"
+                }
+            ],
+            "abstract": "Scientific discovery relies on scientists generating novel hypotheses that undergo rigorous experimental validation. To augment this process, we introduce an AI co-scientist, a multi-agent system built on Gemini 2.0. The AI co-scientist is intended to help uncover new, original knowledge and to formulate demonstrably novel research hypotheses and proposals, building upon prior evidence and aligned to scientist-provided research objectives and guidance. The system's design incorporates a generate, debate, and evolve approach to hypothesis generation, inspired by the scientific method and accelerated by scaling test-time compute. Key contributions include: (1) a multi-agent architecture with an asynchronous task execution framework for flexible compute scaling; (2) a tournament evolution process for self-improving hypotheses generation. Automated evaluations show continued benefits of test-time compute, improving hypothesis quality. While general purpose, we focus development and validation in three biomedical areas: drug repurposing, novel target discovery, and explaining mechanisms of bacterial evolution and anti-microbial resistance. For drug repurposing, the system proposes candidates with promising validation findings, including candidates for acute myeloid leukemia that show tumor inhibition in vitro at clinically applicable concentrations. For novel target discovery, the AI co-scientist proposed new epigenetic targets for liver fibrosis, validated by anti-fibrotic activity and liver cell regeneration in human hepatic organoids. Finally, the AI co-scientist recapitulated unpublished experimental results via a parallel in silico discovery of a novel gene transfer mechanism in bacterial evolution. These results, detailed in separate, co-timed reports, demonstrate the potential to augment biomedical and scientific discovery and usher an era of AI empowered scientists.",
+            "score": 10
+        },
+        {
+            "paperId": "c1e3fe3a8802f593b2c6f899a9528032c8e2078c",
+            "title": "MuaLLM: A Multimodal Large Language Model Agent for Circuit Design Assistance with Hybrid Contextual Retrieval-Augmented Generation",
+            "venue": "",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2508.08137, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "MuaLLM, an open-source multimodal Large Language Model (LLM) agent for circuit design assistance that integrates a hybrid Retrieval-Augmented Generation (RAG) framework with an adaptive vector database of circuit design research papers, is proposed."
+            },
+            "authors": [
+                {
+                    "authorId": "2375387402",
+                    "name": "Pravallika Abbineni"
+                },
+                {
+                    "authorId": "2375387046",
+                    "name": "Saoud Aldowaish"
+                },
+                {
+                    "authorId": "2375387078",
+                    "name": "Colin Liechty"
+                },
+                {
+                    "authorId": "2375387199",
+                    "name": "Soroosh Noorzad"
+                },
+                {
+                    "authorId": "2328571688",
+                    "name": "Ali Ghazizadeh"
+                },
+                {
+                    "authorId": "2375386915",
+                    "name": "Morteza Fayazi"
+                }
+            ],
+            "abstract": "Conducting a comprehensive literature review is crucial for advancing circuit design methodologies. However, the rapid influx of state-of-the-art research, inconsistent data representation, and the complexity of optimizing circuit design objectives make this task significantly challenging. In this paper, we propose MuaLLM, an open-source multimodal Large Language Model (LLM) agent for circuit design assistance that integrates a hybrid Retrieval-Augmented Generation (RAG) framework with an adaptive vector database of circuit design research papers. Unlike conventional LLMs, the MuaLLM agent employs a Reason + Act (ReAct) workflow for iterative reasoning, goal-setting, and multi-step information retrieval. It functions as a question-answering design assistant, capable of interpreting complex queries and providing reasoned responses grounded in circuit literature. Its multimodal capabilities enable processing of both textual and visual data, facilitating more efficient and comprehensive analysis. The system dynamically adapts using intelligent search tools, automated document retrieval from the internet, and real-time database updates. Unlike conventional approaches constrained by model context limits, MuaLLM decouples retrieval from inference, enabling scalable reasoning over arbitrarily large corpora. At the maximum context length supported by standard LLMs, MuaLLM remains up to 10x less costly and 1.6x faster while maintaining the same accuracy. This allows rapid, no-human-in-the-loop database generation, overcoming the bottleneck of simulation-based dataset creation for circuits. To evaluate MuaLLM, we introduce two custom datasets: RAG-250, targeting retrieval and citation performance, and Reasoning-100 (Reas-100), focused on multistep reasoning in circuit design. MuaLLM achieves 90.1% recall on RAG-250, and 86.8% accuracy on Reas-100.",
+            "score": 9
+        },
+        {
+            "paperId": "e540e5f7c227e366184b63e2124a0ea05d7cd708",
+            "title": "Manalyzer: End-to-end Automated Meta-analysis with Multi-agent System",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2505.20310, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A multi-agent system, Manalyzer, is proposed, which achieves end-to-end automated meta-analysis through tool calls, and achieves significant performance improvements over the LLM baseline in multi meta-analysis tasks."
+            },
+            "authors": [
+                {
+                    "authorId": "2282543731",
+                    "name": "Wanghan Xu"
+                },
+                {
+                    "authorId": "2302816941",
+                    "name": "Wenlong Zhang"
+                },
+                {
+                    "authorId": "2006398365",
+                    "name": "Fenghua Ling"
+                },
+                {
+                    "authorId": "2330082502",
+                    "name": "Ben Fei"
+                },
+                {
+                    "authorId": "2363688841",
+                    "name": "Yusong Hu"
+                },
+                {
+                    "authorId": "2268066806",
+                    "name": "Fangxuan Ren"
+                },
+                {
+                    "authorId": "2363941462",
+                    "name": "Jintai Lin"
+                },
+                {
+                    "authorId": "2253464521",
+                    "name": "Wanli Ouyang"
+                },
+                {
+                    "authorId": "2363513509",
+                    "name": "Lei Bai"
+                }
+            ],
+            "abstract": "Meta-analysis is a systematic research methodology that synthesizes data from multiple existing studies to derive comprehensive conclusions. This approach not only mitigates limitations inherent in individual studies but also facilitates novel discoveries through integrated data analysis. Traditional meta-analysis involves a complex multi-stage pipeline including literature retrieval, paper screening, and data extraction, which demands substantial human effort and time. However, while LLM-based methods can accelerate certain stages, they still face significant challenges, such as hallucinations in paper screening and data extraction. In this paper, we propose a multi-agent system, Manalyzer, which achieves end-to-end automated meta-analysis through tool calls. The hybrid review, hierarchical extraction, self-proving, and feedback checking strategies implemented in Manalyzer significantly alleviate these two hallucinations. To comprehensively evaluate the performance of meta-analysis, we construct a new benchmark comprising 729 papers across 3 domains, encompassing text, image, and table modalities, with over 10,000 data points. Extensive experiments demonstrate that Manalyzer achieves significant performance improvements over the LLM baseline in multi meta-analysis tasks. Project page: https://black-yt.github.io/meta-analysis-page/ .",
+            "score": 9
+        },
+        {
+            "paperId": "deb7175dc3f338ee880908c968c7a2d6d101bac3",
+            "title": "An AI Agent-Based System for Retrieving Compound Information in Traditional Chinese Medicine",
+            "venue": "Information",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/info16070543?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/info16070543, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Results confirm the effectiveness and robustness of the proposed architecture in TCM compound retrieval, and highlight the advantage of combining structured matching with dynamic knowledge access in specialized biomedical applications."
+            },
+            "authors": [
+                {
+                    "authorId": "2299554054",
+                    "name": "Feifan Zhao"
+                },
+                {
+                    "authorId": "2369297841",
+                    "name": "Qianjin Li"
+                },
+                {
+                    "authorId": "2369954849",
+                    "name": "Meng Wang"
+                },
+                {
+                    "authorId": "2238733946",
+                    "name": "Xingchuang Xiong"
+                }
+            ],
+            "abstract": "Traditional Chinese medicine (TCM), as a vital component of traditional healthcare systems, relies heavily on its chemical constituents, which serve as a bridge between ancient therapeutic theories and modern biomedical science. Efficient access to compound-related information is crucial for promoting the modernization and scientific understanding of TCM. However, existing approaches primarily rely on fragmented databases and literature-based retrieval methods, which suffer from low intelligence, poor data integration, and limited retrieval efficiency.This study presents a novel AI agent-based retrieval system tailored for compound information in TCM. The core innovation of the system lies in its hybrid retrieval-augmented generation framework, which seamlessly combines structured database queries with semantic vector retrieval. Furthermore, it integrates knowledge from three complementary sources\u2014locally built knowledge bases, domain-specific APIs, and open web search\u2014allowing for comprehensive coverage and adaptive handling of diverse natural language queries. Experiments conducted on a benchmark dataset of 150 compound-related queries demonstrate that the system achieves a peak accuracy of 96.67% across multiple mainstream LLMs. Ablation studies further reveal that removing either the hybrid RAG or multi-source knowledge module leads to a notable accuracy decline, while the full system outperforms typical RAG baselines by over 25%. These results confirm the effectiveness and robustness of the proposed architecture in TCM compound retrieval, and highlight the advantage of combining structured matching with dynamic knowledge access in specialized biomedical applications.",
+            "score": 9
+        },
+        {
+            "paperId": "fd0bea427aa72b3ea2e2f485a90cf1c9da6b9305",
+            "title": "HybGRAG: Hybrid Retrieval-Augmented Generation on Textual and Relational Knowledge Bases",
+            "venue": "Annual Meeting of the Association for Computational Linguistics",
+            "year": 2024,
+            "citationCount": 5,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2412.16311, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "HybGRAG is proposed for HQA consisting of a retriever bank and a critic module, with the following advantages: Agentic, it automatically refines the output by incorporating feedback from the critic module, Adaptive, it solves hybrid questions requiring both textual and relational information with the retriever bank, and Effective, it surpasses all baselines on HQA benchmarks."
+            },
+            "authors": [
+                {
+                    "authorId": "151121638",
+                    "name": "Meng-Chieh Lee"
+                },
+                {
+                    "authorId": "2299062897",
+                    "name": "Qi Zhu"
+                },
+                {
+                    "authorId": "2336865777",
+                    "name": "C. Mavromatis"
+                },
+                {
+                    "authorId": "2337234732",
+                    "name": "Zhen Han"
+                },
+                {
+                    "authorId": "2121390172",
+                    "name": "Soji Adeshina"
+                },
+                {
+                    "authorId": "40043851",
+                    "name": "V. Ioannidis"
+                },
+                {
+                    "authorId": "145344187",
+                    "name": "H. Rangwala"
+                },
+                {
+                    "authorId": "2263543517",
+                    "name": "Christos Faloutsos"
+                }
+            ],
+            "abstract": "Given a semi-structured knowledge base (SKB), where text documents are interconnected by relations, how can we effectively retrieve relevant information to answer user questions? Retrieval-Augmented Generation (RAG) retrieves documents to assist large language models (LLMs) in question answering; while Graph RAG (GRAG) uses structured knowledge bases as its knowledge source. However, many questions require both textual and relational information from SKB - referred to as\"hybrid\"questions - which complicates the retrieval process and underscores the need for a hybrid retrieval method that leverages both information. In this paper, through our empirical analysis, we identify key insights that show why existing methods may struggle with hybrid question answering (HQA) over SKB. Based on these insights, we propose HybGRAG for HQA consisting of a retriever bank and a critic module, with the following advantages: (1) Agentic, it automatically refines the output by incorporating feedback from the critic module, (2) Adaptive, it solves hybrid questions requiring both textual and relational information with the retriever bank, (3) Interpretable, it justifies decision making with intuitive refinement path, and (4) Effective, it surpasses all baselines on HQA benchmarks. In experiments on the STaRK benchmark, HybGRAG achieves significant performance gains, with an average relative improvement in Hit@1 of 51%.",
+            "score": 9
+        },
+        {
+            "paperId": "7ab0670a9a0c700a737954ddd8060ba5bafdd1e7",
+            "title": "A Multi-Agent system for road traffic decision making based on Hierarchical Interval Type-2 Fuzzy Knowledge Representation System",
+            "venue": "IEEE International Conference on Fuzzy Systems",
+            "year": 2021,
+            "citationCount": 4,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/FUZZ45933.2021.9494502?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/FUZZ45933.2021.9494502, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A novel cooperative Multi-Agent system (MAS) for Road Traffic Decision Making in Vehicular Ad-Hoc network (VANET) based on a Hierarchical Interval Type-2 Fuzzy Knowledge Representation System (CMRHFS) used for travel route guidance is proposed."
+            },
+            "authors": [
+                {
+                    "authorId": "33168651",
+                    "name": "Mariam Zouari"
+                },
+                {
+                    "authorId": "38544212",
+                    "name": "N. Baklouti"
+                },
+                {
+                    "authorId": "2402177",
+                    "name": "H. M. Kammoun"
+                },
+                {
+                    "authorId": "38519683",
+                    "name": "Mounir Ben Ayed"
+                },
+                {
+                    "authorId": "144000830",
+                    "name": "A. Alimi"
+                },
+                {
+                    "authorId": "1780445",
+                    "name": "J. S. Medina"
+                }
+            ],
+            "abstract": "Traffic congestion is a problem in most large cities world wide. It occurs when the capacity of road is surpassed, resulting in augmented vehicular queuing and slower average speeds. The traffic congestion can be caused or increased by various conditions like weather, road work, road traffic incidents. To deal with these problems, we propose a novel cooperative Multi-Agent system (MAS) for Road Traffic Decision Making in Vehicular Ad-Hoc network (VANET) based on a Hierarchical Interval Type-2 Fuzzy Knowledge Representation System (CMRHFS) used for travel route guidance. Our proposal aims to increase the road safety and the quality of the entire road network, especially in case of congestions, accidents and jams, considering traffic information in real-time as well as drivers travel time to attain their destinations. The obtained simulation results have proved our suggested system efficiency compared to Dijkstra's algorithm and Hierarchical Interval Type-2 Fuzzy Logic System (HIT2FLS) regarding two criteria: average travel time and path flow.",
+            "score": 9
+        },
+        {
+            "paperId": "fd4dc706669aef240a57d848cfc85f4556ef54a2",
+            "title": "A Cooperative Decision-Making Approach Based on a Soar Cognitive Architecture for Multi-Unmanned Vehicles",
+            "venue": "Drones",
+            "year": 2024,
+            "citationCount": 3,
+            "openAccessPdf": {
+                "url": "https://www.mdpi.com/2504-446X/8/4/155/pdf?version=1713426538",
+                "status": "GOLD",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/drones8040155?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/drones8040155, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A real-time online collaborative decision-making model simulating human cognition is presented to solve problems under unknown, complex, and dynamic environments and reveals significant advantages for the agents in adversarial experiments."
+            },
+            "authors": [
+                {
+                    "authorId": "2183513436",
+                    "name": "Lin Ding"
+                },
+                {
+                    "authorId": "2118202345",
+                    "name": "Yongbing Tang"
+                },
+                {
+                    "authorId": "2156018215",
+                    "name": "Tao Wang"
+                },
+                {
+                    "authorId": "2292332198",
+                    "name": "Tianle Xie"
+                },
+                {
+                    "authorId": "2248686761",
+                    "name": "Peihao Huang"
+                },
+                {
+                    "authorId": "2248115981",
+                    "name": "Bingsan Yang"
+                }
+            ],
+            "abstract": "Multi-unmanned systems have demonstrated significant applications across various fields under complex or extreme operating environments. In order to make such systems highly efficient and reliable, cooperative decision-making methods have been utilized as a critical technology for successful future applications. However, current multi-agent decision-making algorithms pose many challenges, including difficulties understanding human decision processes, poor time efficiency, and reduced interpretability. Thus, a real-time online collaborative decision-making model simulating human cognition is presented in this paper to solve those problems under unknown, complex, and dynamic environments. The provided model based on the Soar cognitive architecture aims to establish domain knowledge and simulate the process of human cooperation and adversarial cognition, fostering an understanding of the environment and tasks to generate real-time adversarial decisions for multi-unmanned systems. This paper devised intricate forest environments to evaluate the collaborative capabilities of agents and their proficiency in implementing various tactical strategies while assessing the effectiveness, reliability, and real-time action of the proposed model. The results reveal significant advantages for the agents in adversarial experiments, demonstrating strong capabilities in understanding the environment and collaborating effectively. Additionally, decision-making occurs in milliseconds, with time consumption decreasing as experience accumulates, mirroring the growth pattern of human decision-making.",
+            "score": 9
+        },
+        {
+            "paperId": "0256975b4448b8945fc44ff71b22ddc3ca95731d",
+            "title": "A Confrontation Decision-Making Method with Deep Reinforcement Learning and Knowledge Transfer for Multi-Agent System",
+            "venue": "Symmetry",
+            "year": 2020,
+            "citationCount": 14,
+            "openAccessPdf": {
+                "url": "https://www.mdpi.com/2073-8994/12/4/631/pdf?version=1588055416",
+                "status": "GOLD",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/sym12040631?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/sym12040631, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "An auxiliary controller using a policy-based reinforcement learning (RL) method to achieve the assistant decision-making for the game agent and an effective reward function is used to help agents balance losses of enemies and the authors' side."
+            },
+            "authors": [
+                {
+                    "authorId": "49643950",
+                    "name": "Chunyang Hu"
+                }
+            ],
+            "abstract": "In this paper, deep reinforcement learning (DRL) and knowledge transfer are used to achieve the effective control of the learning agent for the confrontation in the multi-agent systems. Firstly, a multi-agent Deep Deterministic Policy Gradient (DDPG) algorithm with parameter sharing is proposed to achieve confrontation decision-making of multi-agent. In the process of training, the information of other agents is introduced to the critic network to improve the strategy of confrontation. The parameter sharing mechanism can reduce the loss of experience storage. In the DDPG algorithm, we use four neural networks to generate real-time action and Q-value function respectively and use a momentum mechanism to optimize the training process to accelerate the convergence rate for the neural network. Secondly, this paper introduces an auxiliary controller using a policy-based reinforcement learning (RL) method to achieve the assistant decision-making for the game agent. In addition, an effective reward function is used to help agents balance losses of enemies and our side. Furthermore, this paper also uses the knowledge transfer method to extend the learning model to more complex scenes and improve the generalization of the proposed confrontation model. Two confrontation decision-making experiments are designed to verify the effectiveness of the proposed method. In a small-scale task scenario, the trained agent can successfully learn to fight with the competitors and achieve a good winning rate. For large-scale confrontation scenarios, the knowledge transfer method can gradually improve the decision-making level of the learning agent.",
+            "score": 9
+        },
+        {
+            "paperId": "0593326144f4d13891cf730cb90e180b7069df04",
+            "title": "Accurate Insights, Trustworthy Interactions: Designing a Collaborative AI-Human Multi-Agent System with Knowledge Graph for Diagnosis Prediction",
+            "venue": "International Conference on Human Factors in Computing Systems",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1145/3706598.3713526?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1145/3706598.3713526, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A multi-agent decision-making system by combining a fine-tuned medical model, biomedical knowledge graphs, and PubMed data that can automatically convene clinical experts from various fields, retrieve domain knowledge, and provide clinical decision support for users is developed."
+            },
+            "authors": [
+                {
+                    "authorId": "2275908951",
+                    "name": "Haoran Li"
+                },
+                {
+                    "authorId": "2259681567",
+                    "name": "Xusen Cheng"
+                },
+                {
+                    "authorId": "2155357568",
+                    "name": "Xiaoping Zhang"
+                }
+            ],
+            "abstract": "Healthcare question-answering (QA) systems can assist physicians in making medical decisions. However, traditional medical QA systems struggle with multi-agents interaction and domain-specific knowledge processing, thereby reducing the accuracy and credibility of clinical decision-making. We thus develop a multi-agent decision-making system by combining a fine-tuned medical model, biomedical knowledge graphs, and PubMed data. By summarizing the symptoms described by users, our system can automatically convene clinical experts from various fields, retrieve domain knowledge, and provide clinical decision support for users. We have validated the system performance using both technical and user-centric approaches in terms of information accuracy, user satisfaction, user trust, ect. We thus provide an effective tool for healthcare professionals to make accurate and timely decisions. Furthermore, this study also reveals new design and research opportunities, including (1) optimizing multi-agent collaboration mechanisms for more complex medical decision-making, (2) improving interaction design to enhance system transparency and explainability, and (3) expanding the system to support a broader range of medical issues and multimodal data.",
+            "score": 9
+        },
+        {
+            "paperId": "2de1b12a17a89f044e820028e98215d914aee818",
+            "title": "Large Language Models and the Elliott Wave Principle: A Multi-Agent Deep Learning Approach to Big Data Analysis in Financial Markets",
+            "venue": "Applied Sciences",
+            "year": 2024,
+            "citationCount": 5,
+            "openAccessPdf": {
+                "url": "https://doi.org/10.3390/app142411897",
+                "status": "GOLD",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/app142411897?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/app142411897, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "ElliottAgents is presented, a multi-agent system that combines the Elliott wave principle with LLMs, showcasing the application of deep reinforcement learning (DRL) and natural language processing (NLP) in financial analysis."
+            },
+            "authors": [
+                {
+                    "authorId": "2336493302",
+                    "name": "Micha\u0142 Wawer"
+                },
+                {
+                    "authorId": "2326778359",
+                    "name": "Jaros\u0142aw A. Chudziak"
+                },
+                {
+                    "authorId": "2299052716",
+                    "name": "Ewa Niewiadomska-Szynkiewicz"
+                }
+            ],
+            "abstract": "Traditional technical analysis methods face limitations in accurately predicting trends in today\u2019s complex financial markets. Meanwhile, existing AI-driven approaches, while powerful in processing large datasets, often lack interpretability due to their black-box nature. This paper presents ElliottAgents, a multi-agent system that combines the Elliott wave principle with LLMs, showcasing the application of deep reinforcement learning (DRL) and natural language processing (NLP) in financial analysis. By integrating retrieval-augmented generation (RAG) and deep reinforcement learning (DRL), the system processes vast amounts of market data to identify Elliott wave patterns and generate actionable insights. The system employs a coordinated team of specialized agents, each responsible for specific aspects of analysis, from pattern recognition to investment strategy formulation. We tested ElliottAgents on both stock and cryptocurrency markets, evaluating its effectiveness in pattern identification and trend prediction across different time scales. Our experimental results demonstrate improvements in prediction accuracy when combining classical technical analysis with AI-driven approaches, particularly when enhanced by DRL-based backtesting process. This research contributes to the advancement of financial technology by introducing a scalable, interpretable framework that enhances market analysis capabilities, offering a promising new methodology for both practitioners and researchers.",
+            "score": 8
+        },
+        {
+            "paperId": "d5e957e8d49324272aedecc4372b3afe96368a1f",
+            "title": "DEMENTIA-PLAN: An Agent-Based Framework for Multi-Knowledge Graph Retrieval-Augmented Generation in Dementia Care",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 1,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2503.20950, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This work proposes DEMENTIA-PLAN, an innovative retrieval-augmented generation framework that leverages large language models to enhance conversational support for dementia care, and employs a multiple knowledge graph architecture, integrating various dimensional knowledge representations including daily routine graphs and life memory graphs."
+            },
+            "authors": [
+                {
+                    "authorId": "2324228461",
+                    "name": "Yutong Song"
+                },
+                {
+                    "authorId": "2352273286",
+                    "name": "Chenhan Lyu"
+                },
+                {
+                    "authorId": "2352372155",
+                    "name": "Pengfei Zhang"
+                },
+                {
+                    "authorId": "2277609403",
+                    "name": "Sabine Brunswicker"
+                },
+                {
+                    "authorId": "2262078531",
+                    "name": "Nikil Dutt"
+                },
+                {
+                    "authorId": "2279100360",
+                    "name": "Amir M. Rahmani"
+                }
+            ],
+            "abstract": "Mild-stage dementia patients primarily experience two critical symptoms: severe memory loss and emotional instability. To address these challenges, we propose DEMENTIA-PLAN, an innovative retrieval-augmented generation framework that leverages large language models to enhance conversational support. Our model employs a multiple knowledge graph architecture, integrating various dimensional knowledge representations including daily routine graphs and life memory graphs. Through this multi-graph architecture, DEMENTIA-PLAN comprehensively addresses both immediate care needs and facilitates deeper emotional resonance through personal memories, helping stabilize patient mood while providing reliable memory support. Our notable innovation is the self-reflection planning agent, which systematically coordinates knowledge retrieval and semantic integration across multiple knowledge graphs, while scoring retrieved content from daily routine and life memory graphs to dynamically adjust their retrieval weights for optimized response generation. DEMENTIA-PLAN represents a significant advancement in the clinical application of large language models for dementia care, bridging the gap between AI tools and caregivers interventions.",
+            "score": 8
+        },
+        {
+            "paperId": "92796fa4948f3e6b474fe7c97afcc25830db66e2",
+            "title": "Research and Application of a Multi-Agent-Based Intelligent Mine Gas State Decision-Making System",
+            "venue": "Applied Sciences",
+            "year": 2025,
+            "citationCount": 2,
+            "openAccessPdf": {
+                "url": "https://doi.org/10.3390/app15020968",
+                "status": "GOLD",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/app15020968?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/app15020968, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The Intelligent Mine Gas State Decision-Making System based on large language models (LLMs) and a multi-agent system is designed and implemented to enhance the accuracy of gas over-limit alarms and improve the efficiency of generating judgment reports in coal mines."
+            },
+            "authors": [
+                {
+                    "authorId": "2315592929",
+                    "name": "Yi Sun"
+                },
+                {
+                    "authorId": "2341447616",
+                    "name": "Xinke Liu"
+                }
+            ],
+            "abstract": "To address the issues of low efficiency in manual processing and lack of accuracy in judgment within traditional mine gas safety inspections, this paper designs and implements the Intelligent Mine Gas State Decision-Making System based on large language models (LLMs) and a multi-agent system. The system aims to enhance the accuracy of gas over-limit alarms and improve the efficiency of generating judgment reports. The system integrates the reasoning capabilities of LLMs and optimizes task allocation and execution efficiency of agents through the study of the hybrid multi-agent orchestration algorithm. Furthermore, the system establishes a comprehensive gas risk assessment knowledge base, encompassing historical alarm data, real-time monitoring data, alarm judgment criteria, treatment methods, and relevant policies and regulations. Additionally, the system incorporates several technologies, including retrieval-augmented generation based on human feedback mechanisms, tool management, prompt engineering, and asynchronous processing, which further enhance the application performance of the LLM in the gas status judgment system. Experimental results indicate that the system effectively improves the efficiency of gas alarm processing and the quality of judgment reports in coal mines, providing solid technical support for accident prevention and management in mining operations.",
+            "score": 8
+        },
+        {
+            "paperId": "72bacd76c5dee0987ad5dd1ac6dd937ec4064b69",
+            "title": "Autonomous network monitoring using LLMs and multi-agent systems",
+            "venue": "World Journal of Advanced Engineering Technology and Sciences",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.30574/wjaets.2024.13.2.0639?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.30574/wjaets.2024.13.2.0639, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The paper highlights the potential of converting network management with enhancements to automation and decision-making processes that LLMs and multi-agent systems provide and the implications are huge in terms of the future of NetOps where network infrastructures can be smarter and self-healing."
+            },
+            "authors": [
+                {
+                    "authorId": "2371000173",
+                    "name": "Oluwatosin Oladayo Aramide"
+                }
+            ],
+            "abstract": "This study researches the combination of the concept of large language models (LLMs) and multi-agent systems implementation into autonomous network monitoring. Dedicated to real-time anomaly detection in network telemetry (NetFlow, SNMP, GNMI), the study analyzes the possibility of GPT-based agents in efficiently identifying and responding to a network problem. The study also explores some details of Lang Graph and Auto Gen in construction of multi-agent systems to triage and remediate the network events. A case study on automating Root Cause Analysis (RCA) in spine-leaf topologies illustrates the practical application of these technologies. The results indicate that the detection of anomaly is quite efficient in speed, accuracy, and scalability and serve as a rather efficient way of simplifying network operations. The paper highlights, as the recognition of the role of AI in NetOps increases, the potential of converting network management with enhancements to automation and decision-making processes that LLMs and multi-agent systems provide. The implications are huge in terms of the future of NetOps where network infrastructures can be smarter and self-healing.",
+            "score": 8
+        },
+        {
+            "paperId": "c7d3d53ee7c78a8782a2a26cb6bcea653d760eaf",
+            "title": "Separation of concerns in hybrid component and agent systems",
+            "venue": "Int. J. Commun. Networks Distributed Syst.",
+            "year": 2011,
+            "citationCount": 2,
+            "openAccessPdf": {
+                "url": "http://researchrepository.ucd.ie/bitstreams/3c377eb6-69e4-43c6-9fc0-64305f2a68fe/download",
+                "status": "GREEN",
+                "license": "CCBYNCSA",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1504/IJCNDS.2011.038524?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1504/IJCNDS.2011.038524, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This paper provides a first evaluation of the Socially Situated Agent Architecture framework's application by applying well-known metrics to a distributed information retrieval case study, and by discussing how these results can be projected to a typical multi-agent application developed with this hybrid approach."
+            },
+            "authors": [
+                {
+                    "authorId": "1771442",
+                    "name": "Mauro Dragone"
+                },
+                {
+                    "authorId": "2302482",
+                    "name": "Howell R. Jordan"
+                },
+                {
+                    "authorId": "143707305",
+                    "name": "David Lillis"
+                },
+                {
+                    "authorId": "1709597",
+                    "name": "Rem W. Collier"
+                }
+            ],
+            "abstract": "This paper discusses the Socially Situated Agent Architecture (SoSAA) \u2013 a complete construction methodology that leverages existing well-established research and associated methodologies and frameworks in both the agent-oriented and component-based software engineering domains. As a software framework, SoSAA is intended to serve as a foundation on which to build agent-based applications by promoting separation of concerns in the development of open, heterogeneous, adaptive and distributed systems. The paper highlights concerns typically addressed in the development of distributed systems, such as adaptation, concurrency and fault-tolerance. It analyses how a hybrid agent/component integration approach can improve the separation of these concerns by leveraging modularity constructs already available in agent and component systems. Finally, it provides a first evaluation of the framework's application by applying well-known metrics to a distributed information retrieval case study, and by discussing how these results can be projected to a typical multi-agent application developed with this hybrid approach.",
+            "score": 7
+        },
+        {
+            "paperId": "7c8e1a06469a222e10f6a8a2f2b4c9b964bc283f",
+            "title": "A Bayesian Driver Agent Model for Autonomous Vehicles System Based on Knowledge-Aware and Real-Time Data",
+            "venue": "Italian National Conference on Sensors",
+            "year": 2021,
+            "citationCount": 11,
+            "openAccessPdf": {
+                "url": "https://www.mdpi.com/1424-8220/21/2/331/pdf?version=1610000452",
+                "status": "GOLD",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC7825336, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A Bayesian driver agent (BDA) model is proposed which is a vision-based autonomous vehicle system with learning and inference methods inspired by human driver\u2019s cognitive psychology that can extract the scene feature values effectively and predict the probability distribution of the human driver's decision-making process accurately based on inference."
+            },
+            "authors": [
+                {
+                    "authorId": "2045684043",
+                    "name": "Jichang Ma"
+                },
+                {
+                    "authorId": "145016703",
+                    "name": "H. Xie"
+                },
+                {
+                    "authorId": "152642479",
+                    "name": "Kang Song"
+                },
+                {
+                    "authorId": "2143857584",
+                    "name": "Hao Liu"
+                }
+            ],
+            "abstract": "A key research area in autonomous driving is how to model the driver\u2019s decision-making behavior, due to the fact it is significant for a self-driving vehicles considering their traffic safety and efficiency. However, the uncertain characteristics of vehicle and pedestrian trajectories affect urban roads, which poses severe challenges to the cognitive understanding and decision-making of autonomous vehicle systems in terms of accuracy and robustness. To overcome the abovementioned problems, this paper proposes a Bayesian driver agent (BDA) model which is a vision-based autonomous vehicle system with learning and inference methods inspired by human driver\u2019s cognitive psychology. Different from the end-to-end learning method and traditional rule-based methods, our approach breaks the driving system up into a scene recognition module and a decision inference module. The perception module, which is based on a multi-task learning neural network (CNN), takes a driver\u2019s-view image as its input and predicts the traffic scene\u2019s feature values. The decision module based on dynamic Bayesian network (DBN) then makes an inferred decision using the traffic scene\u2019s feature values. To explore the validity of the Bayesian driver agent model, we performed experiments on a driving simulation platform. The BDA model can extract the scene feature values effectively and predict the probability distribution of the human driver\u2019s decision-making process accurately based on inference. We take the lane changing scenario as an example to verify the model, the intraclass correlation coefficient (ICC) correlation between the BDA model and human driver\u2019s decision process reached 0.984. This work suggests a research in scene perception and autonomous decision-making that may apply to autonomous vehicle system.",
+            "score": 7
+        },
+        {
+            "paperId": "6f2c2ff215323cd3e77a184846fdc0b9ddc3b56a",
+            "title": "From Retrieval to Reasoning: Advancing AI Agents for Knowledge Discovery and Collaboration",
+            "venue": "The Web Conference",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1145/3696410.3714542?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1145/3696410.3714542, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This talk will explore the frontiers of AI-driven knowledge retrieval and reasoning, drawing from recent research on knowledge graphs, semi-structured retrieval, adaptive tool use, and multi-turn AI collaboration."
+            },
+            "authors": [
+                {
+                    "authorId": "1702139",
+                    "name": "J. Leskovec"
+                }
+            ],
+            "abstract": "The web is the world's largest knowledge repository, yet as AI systems become increasingly integrated into our digital infrastructure, the ability to retrieve, reason, and collaborate effectively has become paramount. Large Language Models (LLMs) are evolving from passive responders to active knowledge agents that can retrieve complex information, validate hypotheses, and optimize interactions over multiple turns. In this talk, I will explore the frontiers of AI-driven knowledge retrieval and reasoning, drawing from recent research on knowledge graphs, semi-structured retrieval, adaptive tool use, and multi-turn AI collaboration. I will also discuss how agentic frameworks enable rigorous, automated hypothesis validation through sequential falsifications. Together, these advancements push beyond traditional search and QA systems, unlocking new capabilities for knowledge discovery, scientific research, and human-AI collaboration. Finally, I will highlight key challenges and opportunities in building AI systems that are not just accurate, but also interactive, explainable, and aligned with human needs.",
+            "score": 7
+        },
+        {
+            "paperId": "4effe670a1f3c74eafe0e898d8cb596e2e46f041",
+            "title": "Design of an Autonomous Cyber Defence Agent using Hybrid AI models",
+            "venue": "2024 International Conference on Military Communication and Information Systems (ICMCIS)",
+            "year": 2024,
+            "citationCount": 12,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ICMCIS61231.2024.10540988?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ICMCIS61231.2024.10540988, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The goal is to take advantage of recent developments in AI models to define a hybrid architecture that combines deep reinforcement learning (DRL), large language models (LLMs), and rule-based models to enhance the defence of critical networks connected to untrusted infrastructure."
+            },
+            "authors": [
+                {
+                    "authorId": "118260411",
+                    "name": "Johannes F. Loevenich"
+                },
+                {
+                    "authorId": "2304789725",
+                    "name": "Erik Adler"
+                },
+                {
+                    "authorId": "2304790016",
+                    "name": "R\u00e9mi Mercier"
+                },
+                {
+                    "authorId": "2242956242",
+                    "name": "Alexander Velazquez"
+                },
+                {
+                    "authorId": "2242948655",
+                    "name": "R. R. F. Lopes"
+                }
+            ],
+            "abstract": "This paper extends the design of an autonomous cyber defence (ACD) agent to monitor and actuate within a protected core network segment. The goal is to take advantage of recent developments in AI models to define a hybrid architecture that combines deep reinforcement learning (DRL), large language models (LLMs), and rule-based models. The motivation comes from the fact that modern network segments within colored clouds are using software-defined controllers with the means to host ACD agents and other cybersecurity tools implementing hybrid AI models. For example, our ACD agent uses a DRL model and the chatbot uses an LLM to create an interface with human cybersecurity experts. The ACD agent was evaluated against two red agent strategies in a gym environment using a set of actions to defend services in the network (monitor, analyse, decoy, remove, and restore). Our chatbot was developed using retrieval augmented generation and a prompting agent to augment a pre-trained LLM with data from cybersecurity knowledge graphs. We performed a comparative analysis between a baseline implementation and our chatbot using generation/retrieval metrics. The results suggest that both ACD agent and chatbot can potentially enhance the defence of critical networks connected to untrusted infrastructure.",
+            "score": 6
+        },
+        {
+            "paperId": "c19bb5d98ad15bdeff28ffb0e0e10fccf0f3f768",
+            "title": "Towards Next-Generation Medical Agent: How o1 is Reshaping Decision-Making in Medical Scenarios",
+            "venue": "arXiv.org",
+            "year": 2024,
+            "citationCount": 8,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2411.14461, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The emergent o1 model is considered and its ability to enhance diagnostic accuracy and consistency is demonstrated, paving the way for smarter, more responsive AI tools that support better patient outcomes and decision-making efficacy in clinical practice."
+            },
+            "authors": [
+                {
+                    "authorId": "2211904452",
+                    "name": "Shaochen Xu"
+                },
+                {
+                    "authorId": "2325891087",
+                    "name": "Yifan Zhou"
+                },
+                {
+                    "authorId": "2145977326",
+                    "name": "Zheng Liu"
+                },
+                {
+                    "authorId": "2263593041",
+                    "name": "Zihao Wu"
+                },
+                {
+                    "authorId": "2215167446",
+                    "name": "Tianyang Zhong"
+                },
+                {
+                    "authorId": "2276747984",
+                    "name": "Huaqin Zhao"
+                },
+                {
+                    "authorId": "2257102397",
+                    "name": "Yiwei Li"
+                },
+                {
+                    "authorId": "2273631049",
+                    "name": "Hanqi Jiang"
+                },
+                {
+                    "authorId": "2221032216",
+                    "name": "Yi Pan"
+                },
+                {
+                    "authorId": "2325897685",
+                    "name": "Junhao Chen"
+                },
+                {
+                    "authorId": "2331910055",
+                    "name": "Jin Lu"
+                },
+                {
+                    "authorId": "2322347361",
+                    "name": "Wei Zhang"
+                },
+                {
+                    "authorId": "2269508672",
+                    "name": "Tuo Zhang"
+                },
+                {
+                    "authorId": "2182279069",
+                    "name": "Lu Zhang"
+                },
+                {
+                    "authorId": "2256392231",
+                    "name": "Dajiang Zhu"
+                },
+                {
+                    "authorId": "2324249770",
+                    "name": "Xiang Li"
+                },
+                {
+                    "authorId": "2261762348",
+                    "name": "Wei Liu"
+                },
+                {
+                    "authorId": "2210054417",
+                    "name": "Quanzheng Li"
+                },
+                {
+                    "authorId": "2284685728",
+                    "name": "Andrea Sikora"
+                },
+                {
+                    "authorId": "2249626607",
+                    "name": "Xiaoming Zhai"
+                },
+                {
+                    "authorId": "2288921730",
+                    "name": "Zhen Xiang"
+                },
+                {
+                    "authorId": "2208128324",
+                    "name": "Tian Xi Liu"
+                }
+            ],
+            "abstract": "Artificial Intelligence (AI) has become essential in modern healthcare, with large language models (LLMs) offering promising advances in clinical decision-making. Traditional model-based approaches, including those leveraging in-context demonstrations and those with specialized medical fine-tuning, have demonstrated strong performance in medical language processing but struggle with real-time adaptability, multi-step reasoning, and handling complex medical tasks. Agent-based AI systems address these limitations by incorporating reasoning traces, tool selection based on context, knowledge retrieval, and both short- and long-term memory. These additional features enable the medical AI agent to handle complex medical scenarios where decision-making should be built on real-time interaction with the environment. Therefore, unlike conventional model-based approaches that treat medical queries as isolated questions, medical AI agents approach them as complex tasks and behave more like human doctors. In this paper, we study the choice of the backbone LLM for medical AI agents, which is the foundation for the agent's overall reasoning and action generation. In particular, we consider the emergent o1 model and examine its impact on agents' reasoning, tool-use adaptability, and real-time information retrieval across diverse clinical scenarios, including high-stakes settings such as intensive care units (ICUs). Our findings demonstrate o1's ability to enhance diagnostic accuracy and consistency, paving the way for smarter, more responsive AI tools that support better patient outcomes and decision-making efficacy in clinical practice.",
+            "score": 6
+        },
+        {
+            "paperId": "d210ce7eddd575c02a70e3334ead59ea6bc51794",
+            "title": "Internet-of-Things framework for scalable end-of-life condition monitoring in remanufacturing",
+            "venue": "Integr. Comput. Aided Eng.",
+            "year": 2023,
+            "citationCount": 4,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3233/ICA-230716?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3233/ICA-230716, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A multi-agent network management system for the on-demand allocation of resources in end-of-life monitoring applications for remanufacturing that leverages LoRa\u2019s spreading factor orthogonality and network-wide knowledge to increase the number of nodes served in time-slotted monitoring setups."
+            },
+            "authors": [
+                {
+                    "authorId": "1403497969",
+                    "name": "Celia Garrido-Hidalgo"
+                },
+                {
+                    "authorId": "1403497983",
+                    "name": "Luis Roda-Sanchez"
+                },
+                {
+                    "authorId": "1397896370",
+                    "name": "A. Fern\u00e1ndez-Caballero"
+                },
+                {
+                    "authorId": "2289499",
+                    "name": "T. Olivares"
+                },
+                {
+                    "authorId": "11153033",
+                    "name": "F. J. Ram\u00edrez"
+                }
+            ],
+            "abstract": "The worldwide generation of waste electrical and electronic equipment is continuously growing, with electric vehicle batteries reaching their end-of-life having become a key concern for both the environment and human health in recent years. In this context, the proliferation of Internet of Things standards and data ecosystems is advancing the feasibility of data-driven condition monitoring and remanufacturing. This is particularly desirable for the end-of-life recovery of high-value equipment towards sustainable closed-loop production systems. Low-Power Wide-Area Networks, despite being relatively recent, are starting to be conceived as key-enabling technologies built upon the principles of long-range communication and negligible energy consumption. While LoRaWAN is considered the open standard with the highest level of acceptance from both industry and academia, it is its random access protocol (Aloha) that limits its capacity in large-scale deployments to some extent. Although time-slotted scheduling has proved to alleviate certain scalability limitations, the constrained nature of end nodes and their application-oriented requirements significantly increase the complexity of time-slotted network management tasks. To shed light on this matter, a multi-agent network management system for the on-demand allocation of resources in end-of-life monitoring applications for remanufacturing is introduced in this work. It leverages LoRa\u2019s spreading factor orthogonality and network-wide knowledge to increase the number of nodes served in time-slotted monitoring setups. The proposed system is validated and evaluated for end-of-life monitoring where two representative end-node distributions were emulated, with the achieved network capacity improvements ranging from 75.27% to 249.46% with respect to LoRaWAN\u2019s legacy operation. As a result, the suitability of different agent-based strategies has been evaluated and a number of lessons have been drawnaccording to different application and hardware constraints. While the presented findings can be used to further improve the explainability of the proposed models (in line with the concept of eXplainable AI), the overall framework represents a step forward in lightweight end-of-life condition monitoring for remanufacturing.",
+            "score": 6
+        },
+        {
+            "paperId": "3cda9bb3b4c5a0fcc60574f654ab996d86d2fe2d",
+            "title": "An Intrusion Response System utilizing Deep Q-Networks and System Partitions",
+            "venue": "Social Science Research Network",
+            "year": 2022,
+            "citationCount": 14,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2202.08182, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "An IRS software prototype is introduced, named irs-partition, that leverages the partitioning of the protected system and Deep Q-Networks to address the curse of dimensionality by supporting a multi-agent formulation and exploits transfer learning to follow the evolution of non-stationary systems."
+            },
+            "authors": [
+                {
+                    "authorId": "1706698",
+                    "name": "V. Cardellini"
+                },
+                {
+                    "authorId": "1721675",
+                    "name": "E. Casalicchio"
+                },
+                {
+                    "authorId": "2764399",
+                    "name": "Stefano Iannucci"
+                },
+                {
+                    "authorId": "2151204328",
+                    "name": "Matteo Lucantonio"
+                },
+                {
+                    "authorId": "2736774",
+                    "name": "Sudip Mittal"
+                },
+                {
+                    "authorId": "2154608320",
+                    "name": "Damodar Panigrahi"
+                },
+                {
+                    "authorId": "93533387",
+                    "name": "A. Silvi"
+                }
+            ],
+            "abstract": "Intrusion Response is a relatively new field of research. Recent approaches for the creation of Intrusion Response Systems (IRSs) use Reinforcement Learning (RL) as a primary technique for the optimal or near-optimal selection of the proper countermeasure to take in order to stop or mitigate an ongoing attack. However, most of them do not consider the fact that systems can change over time or, in other words, that systems exhibit a non-stationary behavior. Furthermore, stateful approaches, such as those based on RL, suffer the curse of dimensionality, due to a state space growing exponentially with the size of the protected system. In this paper, we introduce and develop an IRS software prototype, named irs-partition. It leverages the partitioning of the protected system and Deep Q-Networks to address the curse of dimensionality by supporting a multi-agent formulation. Furthermore, it exploits transfer learning to follow the evolution of non-stationary systems.",
+            "score": 5
+        },
+        {
+            "paperId": "0bea0ba1c470053560a4040eb41e776057720499",
+            "title": "Information Retrieval Multi-Agent System Established on the Metaphysics Lexical Database",
+            "venue": "Proceedings of the 7th International Conference on Networking, Intelligent Systems and Security",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1145/3659677.3659827?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1145/3659677.3659827, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The system, retrieving information from heterogeneous sources, based on multi-agent approach, works on a distributed environment, where component agents collaborate via XML web services and SOAP protocols."
+            },
+            "authors": [
+                {
+                    "authorId": "1581435511",
+                    "name": "D. Bystrov"
+                }
+            ],
+            "abstract": "The system, retrieving information from heterogeneous sources is discussed. Architecture of the system is based on multi-agent approach. The user's queries could be presented in the native language. Retrieving process based on using knowledge, representing via ontology scheme. For this purpose the wordnet ontology is used. The development process of the ontology is discussed. The presented system works on a distributed environment, where component agents collaborate via XML web services and SOAP protocols.",
+            "score": 5
+        },
+        {
+            "paperId": "d939e72413e8bcca47b1f5077cf815a7f7ad5f25",
+            "title": "Symptoms-Disease Detecting Conversation Agent using Knowledge Graphs",
+            "venue": "Australasian Computer Science Week",
+            "year": 2024,
+            "citationCount": 1,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1145/3641142.3641165?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1145/3641142.3641165, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This paper proposes an End-to-End knowledge-routed Relational Dialogue System that would incorporate a rich medical knowledge graph into the topic transition in dialogue management, and make it accommodative with NLU (Natural Language Understanding) and NLG (Natural Language Generation)."
+            },
+            "authors": [
+                {
+                    "authorId": "2280410963",
+                    "name": "Ila Ananta"
+                },
+                {
+                    "authorId": "3040675",
+                    "name": "Sonia Khetarpaul"
+                },
+                {
+                    "authorId": "2272260064",
+                    "name": "Dolly Sharma"
+                }
+            ],
+            "abstract": "Conversational agents have become extraordinarily popular over the last few years, with accelerated adoption due to COVID-19. Even though a lot of work has been done to devise a real-time agent very few of them focus on dynamic responses. The challenges for automatic medical diagnosis not only include issues for topic transition coherency and question understanding but also issues regarding the context of medical knowledge and symptoms of disease relations. In this paper, we propose a conversational agent that not only generates answers to specific medical questions but also makes more natural and human-like conversations and can adapt to the context and evolve over time. We propose an End-to-End knowledge-routed Relational Dialogue System that would incorporate a rich medical knowledge graph into the topic transition in dialogue management, and make it accommodative with NLU (Natural Language Understanding) and NLG (Natural Language Generation). A knowledge-routed graph for topic decision-making is used, which helps to identify relationships between symptoms and symptom-disease pairs. However, there are constraints on the extent of questions that knowledge graphs can address independently. To overcome these, we have used a fine-tuned GPT-3 model. While knowledge graphs organize data as interconnected entities, GPT-3 generates human-like text using learned patterns from large datasets. This approach enhances responses to intricate queries.",
+            "score": 5
+        },
+        {
+            "paperId": "74f54a083cb363f740a7ef6c010ed5686bb1edbf",
+            "title": "Towards Specialized Wireless Networks Using an ML-Driven Radio Interface",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 1,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2502.20996, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This paper introduces SpecNets and explains how MLDR interfaces enable this concept, and presents three illustrative use cases for wireless local area networks (WLANs): bespoke industrial networks, traffic-aware robust THz links, and coexisting networks."
+            },
+            "authors": [
+                {
+                    "authorId": "2348097532",
+                    "name": "Kamil Szczech"
+                },
+                {
+                    "authorId": "2214810161",
+                    "name": "M. Wojnar"
+                },
+                {
+                    "authorId": "1399346325",
+                    "name": "Katarzyna Kosek-Szott"
+                },
+                {
+                    "authorId": "2303136628",
+                    "name": "Krzysztof Rusek"
+                },
+                {
+                    "authorId": "1878623",
+                    "name": "S. Szott"
+                },
+                {
+                    "authorId": "145574925",
+                    "name": "Dileepa Marasinghe"
+                },
+                {
+                    "authorId": "3382552",
+                    "name": "N. Rajatheva"
+                },
+                {
+                    "authorId": "2348097388",
+                    "name": "Richard Combes"
+                },
+                {
+                    "authorId": "11174618",
+                    "name": "F. Wilhelmi"
+                },
+                {
+                    "authorId": "2167025843",
+                    "name": "Anders Jonsson"
+                },
+                {
+                    "authorId": "2274139267",
+                    "name": "Boris Bellalta"
+                }
+            ],
+            "abstract": "Future wireless networks will need to support diverse applications (such as extended reality), scenarios (such as fully automated industries), and technological advances (such as terahertz communications). Current wireless networks are designed to perform adequately across multiple scenarios so they lack the adaptability needed for specific use cases. Therefore, meeting the stringent requirements of next-generation applications incorporating technology advances and operating in novel scenarios will necessitate wireless specialized networks which we refer to as SpecNets. These networks, equipped with cognitive capabilities, dynamically adapt to the unique demands of each application, e.g., by automatically selecting and configuring network mechanisms. An enabler of SpecNets are the recent advances in artificial intelligence and machine learning (AI/ML), which allow to continuously learn and react to changing requirements and scenarios. By integrating AI/ML functionalities, SpecNets will fully leverage the concept of AI/ML-defined radios (MLDRs) that are able to autonomously establish their own communication protocols by acquiring contextual information and dynamically adapting to it. In this paper, we introduce SpecNets and explain how MLDR interfaces enable this concept. We present three illustrative use cases for wireless local area networks (WLANs): bespoke industrial networks, traffic-aware robust THz links, and coexisting networks. Finally, we showcase SpecNets' benefits in the industrial use case by introducing a lightweight, fast-converging ML agent based on multi-armed bandits (MABs). This agent dynamically optimizes channel access to meet varying performance needs: high throughput, low delay, or fair access. Results demonstrate significant gains over IEEE 802.11, highlighting the system's autonomous adaptability across diverse scenarios.",
+            "score": 5
+        },
+        {
+            "paperId": "8c817c49bbaba7ba517f7f4db9b427fdf126132a",
+            "title": "DMFuser: Distilled Multi-Task Learning for End-to-end Transformer-Based Sensor Fusion in Autonomous Driving",
+            "venue": "IEEE/RJS International Conference on Intelligent RObots and Systems",
+            "year": 2024,
+            "citationCount": 1,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/IROS58592.2024.10802740?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/IROS58592.2024.10802740, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "DMFuser, a transformer-based algorithm that employs knowledge distillation between multi-task student and single-task teachers and combines attention and convolutions to fuse multiple RGB-D camera representations to produce vehicular navigational commands is introduced."
+            },
+            "authors": [
+                {
+                    "authorId": "9336334",
+                    "name": "Pedram Agand"
+                },
+                {
+                    "authorId": "2226918372",
+                    "name": "Mohammad Mahdavian"
+                },
+                {
+                    "authorId": "2295141",
+                    "name": "M. Savva"
+                },
+                {
+                    "authorId": "2261185354",
+                    "name": "Mo Chen"
+                }
+            ],
+            "abstract": "In end-to-end autonomous driving, current sensor fusion and navigational control techniques used by imitation learning algorithms are insufficient in challenging scenarios involving multiple dynamic agents and result in poor driving capabilities. To tackle this issue, we introduce DMFuser, a transformer-based algorithm that employs knowledge distillation between multi-task student and single-task teachers and combines attention and convolutions to fuse multiple RGB-D camera representations to produce vehicular navigational commands (throttle, steering and brake). Our model incorporates two modules. The first module, perception, encodes data from RGB-D cameras for tasks like semantic segmentation, semantic depth cloud (SDC) mapping, and traffic light state recognition. To enhance feature extraction and fusion from both RGB and depth sources, we harness local and global capabilities of convolution and transformer modules. We employ an attention-CNN fusion structure to effectively learn and fuse RGB and SDC map features. Subsequently, the control module decodes these features along with supplementary data, containing environment\u2019s static and dynamic information, to predict waypoints and vehicular control actions. We evaluate the model and conduct a comparative analysis, in various scenarios, weather conditions, and traffic situations, spanning from normal to adversarial in the CARLA simulator. We achieve better or comparable results in term of driving score (DS) and other metrics with respect to our baselines. Also, our ablation studies demonstrate the effectiveness of our contributions to improve the driving skills. Our code is available at the following github page: https://github.com/pagand/e2etransfuser",
+            "score": 4
+        },
+        {
+            "paperId": "c461b7872fec7c2ea25a4e2889b3abfb2ee52e05",
+            "title": "Toward Cognitive and Immersive Systems: Experiments in a Cognitive Microworld",
+            "venue": "",
+            "year": 2017,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1709.05958, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "It is shown that a calculus of this type satisfies a set of formal requirements, and can enable a CAIS to understand a psychologically tricky scenario couched in what is called the Cognitive polysolid framework (CPF), and it is formally shown that a room that satisfies these requirements can have a useful property the authors term Expectation of usefulness."
+            },
+            "authors": [
+                {
+                    "authorId": "9588620",
+                    "name": "Matthew Peveler"
+                },
+                {
+                    "authorId": "52126055",
+                    "name": "Naveen Sundar Govindarajulu"
+                },
+                {
+                    "authorId": "1797985",
+                    "name": "S. Bringsjord"
+                },
+                {
+                    "authorId": "2305323522",
+                    "name": "Biplav Srivastava"
+                },
+                {
+                    "authorId": "35975080",
+                    "name": "Atriya Sen"
+                },
+                {
+                    "authorId": "2940762",
+                    "name": "Kartik Talamadupula"
+                },
+                {
+                    "authorId": "2305459138",
+                    "name": "Hui Su"
+                }
+            ],
+            "abstract": "As computational power has continued to increase, and sensors have become more accurate, the corresponding advent of systems that are at once cognitive and immersive has arrived. These \\textit{cognitive and immersive systems} (CAISs) fall squarely into the intersection of AI with HCI/HRI: such systems interact with and assist the human agents that enter them, in no small part because such systems are infused with AI able to understand and reason about these humans and their knowledge, beliefs, goals, communications, plans, etc. We herein explain our approach to engineering CAISs. We emphasize the capacity of a CAIS to develop and reason over a `theory of the mind' of its human partners. This capacity entails that the AI in question has a sophisticated model of the beliefs, knowledge, goals, desires, emotions, etc.\\ of these humans. To accomplish this engineering, a formal framework of very high expressivity is needed. In our case, this framework is a \\textit{cognitive event calculus}, a particular kind of quantified multi-operator modal logic, and a matching high-expressivity automated reasoner and planner. To explain, advance, and to a degree validate our approach, we show that a calculus of this type satisfies a set of formal requirements, and can enable a CAIS to understand a psychologically tricky scenario couched in what we call the \\textit{cognitive polysolid framework} (CPF). We also formally show that a room that satisfies these requirements can have a useful property we term \\emph{expectation of usefulness}. CPF, a sub-class of \\textit{cognitive microworlds}, includes machinery able to represent and plan over not merely blocks and actions (such as seen in the primitive `blocks worlds' of old), but also over agents and their mental attitudes about both other agents and inanimate objects.",
+            "score": 4
+        },
+        {
+            "paperId": "7700ae9480049f336836c550112954e865d4b4dc",
+            "title": "Enhancing Personalized Prognostic Assessment of Myelodysplastic Syndromes through a Multimodal and Explainable Deep Data Fusion Approach (MAGAERA)",
+            "venue": "Blood",
+            "year": 2024,
+            "citationCount": 2,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1182/blood-2024-205413?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1182/blood-2024-205413, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "MEGAERA is an innovative, deep learning-based framework for multimodal analysis of hematological malignancies that integrates clinical, multi-omics, and histopathological data, using specific strategies to ensure full clinical explainability and interpretability of predictions."
+            },
+            "authors": [
+                {
+                    "authorId": "2269297181",
+                    "name": "Elisabetta Sauta"
+                },
+                {
+                    "authorId": "2315314775",
+                    "name": "Flavio Sartori"
+                },
+                {
+                    "authorId": "2007061135",
+                    "name": "Luca Lanino"
+                },
+                {
+                    "authorId": "2220936942",
+                    "name": "Gianluca Asti"
+                },
+                {
+                    "authorId": "2066037960",
+                    "name": "S. D'amico"
+                },
+                {
+                    "authorId": "2306575651",
+                    "name": "Mattia Delleani"
+                },
+                {
+                    "authorId": "144914380",
+                    "name": "E. Riva"
+                },
+                {
+                    "authorId": "40427100",
+                    "name": "Matteo Zampini"
+                },
+                {
+                    "authorId": "2306578858",
+                    "name": "Elena Zazzetti"
+                },
+                {
+                    "authorId": "2092789965",
+                    "name": "Marilena Bicchieri"
+                },
+                {
+                    "authorId": "2036665990",
+                    "name": "G. Maggioni"
+                },
+                {
+                    "authorId": "66199932",
+                    "name": "Alessia Campagna"
+                },
+                {
+                    "authorId": "2269203847",
+                    "name": "Gabriele Todisco"
+                },
+                {
+                    "authorId": "6549461",
+                    "name": "C. A. Tentori"
+                },
+                {
+                    "authorId": "5375246",
+                    "name": "M. Ubezio"
+                },
+                {
+                    "authorId": "2220934232",
+                    "name": "Antonio Russo"
+                },
+                {
+                    "authorId": "2269297401",
+                    "name": "Alessandro Buizza"
+                },
+                {
+                    "authorId": "2310208624",
+                    "name": "F. Ficara"
+                },
+                {
+                    "authorId": "6145591",
+                    "name": "L. Crisafulli"
+                },
+                {
+                    "authorId": "2283696569",
+                    "name": "Matteo Brindisi"
+                },
+                {
+                    "authorId": "2334042532",
+                    "name": "Denise Ventura"
+                },
+                {
+                    "authorId": "2334069664",
+                    "name": "Nicole Pinocchio"
+                },
+                {
+                    "authorId": "2311020497",
+                    "name": "Daoud Rahal"
+                },
+                {
+                    "authorId": "46186544",
+                    "name": "Cesare Lancellotti"
+                },
+                {
+                    "authorId": "2316706214",
+                    "name": "Arturo Bonometti"
+                },
+                {
+                    "authorId": "2257914033",
+                    "name": "Luca di Tommaso"
+                },
+                {
+                    "authorId": "1768393295",
+                    "name": "V. Savevski"
+                },
+                {
+                    "authorId": "2269180322",
+                    "name": "Armando Santoro"
+                },
+                {
+                    "authorId": "2212656933",
+                    "name": "Nicolas Derus"
+                },
+                {
+                    "authorId": "2015000857",
+                    "name": "Daniele Dall\u2019Olio"
+                },
+                {
+                    "authorId": "2276294359",
+                    "name": "V. Santini"
+                },
+                {
+                    "authorId": "2263814269",
+                    "name": "Francesc Sol\u00e9"
+                },
+                {
+                    "authorId": "2264473744",
+                    "name": "U. Platzbecker"
+                },
+                {
+                    "authorId": "2245727064",
+                    "name": "Pierre Fenaux"
+                },
+                {
+                    "authorId": "1397302785",
+                    "name": "M. D\u00edez-Campelo"
+                },
+                {
+                    "authorId": "6071759",
+                    "name": "R. Komrokji"
+                },
+                {
+                    "authorId": "1393642056",
+                    "name": "G. Garcia-Manero"
+                },
+                {
+                    "authorId": "2293122974",
+                    "name": "T. Haferlach"
+                },
+                {
+                    "authorId": "81559990",
+                    "name": "S. Kordasti"
+                },
+                {
+                    "authorId": "144821812",
+                    "name": "A. Zeidan"
+                },
+                {
+                    "authorId": "2288888550",
+                    "name": "G. Castellani"
+                },
+                {
+                    "authorId": "2261903957",
+                    "name": "T. Sanavia"
+                },
+                {
+                    "authorId": "2261902282",
+                    "name": "Piero Fariselli"
+                },
+                {
+                    "authorId": "2264431842",
+                    "name": "M. D. Della Porta"
+                }
+            ],
+            "abstract": "\n \n Background. Recent advancements in genome characterization have transformed the study of myelodysplastic syndromes (MDS). Accordingly, there has been a shift from traditional classification and prognostication methods, which relied mainly on morphological and clinical data, to next-generation systems that incorporate genomic features. However, genetic abnormalities account for only part of the overall risk related to survival, disease progression, and individual response to hypomethylating agents (HMA), indicating that a significant portion of these risks is still tied to clinical and non-mutational factors. Increasing evidence suggests that transcriptomics, immune dysfunctions, and high-dimensional tumor morphology data extracted by Artificial Intelligence (AI) may play a crucial role in predicting clinical outcomes in human cancers, thereby improving the implementation of personalized medicine programs.\n Aim. In this scenario, we developed MEGAERA, an innovative, deep learning-based framework for multimodal analysis of hematological malignancies. MEGAERA integrates clinical, multi-omics, and histopathological data, using specific strategies to ensure full clinical explainability and interpretability of predictions. This study was conducted by the GenoMed4All and Synthema EU consortia, with MDS included as use case, to improve personalized predictions of patient outcomes.\n Methods. The study population consisted of 605 MDS patients from Humanitas Research Hospital. For these patients, multi-modal data were available, including clinical characteristics, cytogenetics, somatic mutation screening on 31 genes, bulk RNA-seq of CD34+ bone marrow (BM) cells, and deep flow cytometry evaluation of T lymphocytes, natural killer and myeloid cells. Whole slide images (WSI) of BM biopsies stained with Hematoxylin and Eosin (H&E) and May-Grunwald Giemsa (MGG) were also retrieved. Comprehensive information on treatments and clinical outcomes was collected.\n MEGAERA deep-learning workflow involves two processing layers. The first one exploits a custom fine-tuned implementation of Prov-GigaPath for WSI segmentation and features extraction. The second layer uses Self-Normalizing Networks with two hidden layers for handling clinical and molecular profiles. All the processed variables are combined and fed into a fusion model that correlates them to clinical outcomes. Explainability was implemented using attention-based maps for WSI and Shapley Additive Explanations Approach for feature importance rankings. The predictive ability of the approach was assessed using Harrell's concordance index (CI).\n Results. We used Prov-GigaPath on BM WSI for extracting morphological features. Prov-GigaPath outperformed current state-of-the-art methods including ResNet50 and DinoBloom, achieving 10% improvement of CI.\n We evaluated MAGAERA's predictive performance on MDS population, analyzing the multimodal integration alongside unimodal contributions, with Overall Survival (OS) as primary endpoint. Sequential integration of data modalities into the model showed an increasing CI for OS: starting with 0.56 CI considering clinical information alone, then rising to 0.81 CI by including cytogenetic, genomic, transcriptomic and immunologic signatures, and finally reaching 0.85 CI with morphological features integration. Our fusion model significantly enhanced the performance of conventional IPSS-R (0.68) and IPSS-M (0.76) scores. Similar improvements were observed in predicting leukemic evolution risk (0.83) and the individual probability of response to HMA treatment (0.84).\n An extensive validation of the model's performance was performed using multimodal synthetic data (PMID: 37390377), reaching comparable CI. To facilitate the clinical implementation of this framework, we are exploring innovative AI-based dimensionality reduction and inference approaches, to enable model's knowledge transfer to patients lacking information collected outside diagnostic routine tests.\n Conclusion. The MEGAERA multimodal fusion model demonstrated improved clinical outcome prediction in MDS patients. Our approach leverages full interpretability to elucidate features contribution to risk prediction. This framework is expected to significantly enhance clinical decision-making in MDS by supporting the implementation of personalized medicine programs.\n",
+            "score": 3
+        }
+    ]
+}

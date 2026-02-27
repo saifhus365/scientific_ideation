@@ -1,0 +1,55 @@
+{
+    "initial_query": "Apply principles from swarm intelligence and mycology to design more resilient and decentralized urban transportation networks.",
+    "query_analysis": {
+        "topics": [
+            "swarm intelligence",
+            "mycology-inspired networks",
+            "decentralized urban transport"
+        ],
+        "timeline": {
+            "start_date": "2010-01-01",
+            "end_date": null,
+            "specific_year": null
+        },
+        "intention": "Planning"
+    },
+    "discovered_papers": [
+        {
+            "paperId": "affac61ea7ee23fc98b6a6cc12800fada308eb89",
+            "title": "Analytical and Numerical Investigation of Ant Behavior under Crowded Conditions",
+            "venue": "Advances in Complex Systems",
+            "year": 2006,
+            "citationCount": 12,
+            "openAccessPdf": {
+                "url": "https://arxiv.org/pdf/0810.4583",
+                "status": "GREEN",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/0810.4583, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A mathematical analysis of physical interactions in the organization of traffic flows in ants under crowded conditions and potential applications of this design principle to routing in traffic or data networks and machine usage in supply systems are discussed."
+            },
+            "authors": [
+                {
+                    "authorId": "11330619",
+                    "name": "K. Peters"
+                },
+                {
+                    "authorId": "144373940",
+                    "name": "Anders Johansson"
+                },
+                {
+                    "authorId": "1847178",
+                    "name": "A. Dussutour"
+                },
+                {
+                    "authorId": "1768825",
+                    "name": "D. Helbing"
+                }
+            ],
+            "abstract": "Swarm intelligence is widely recognized as a powerful paradigm of self-organized optimization, with numerous examples of successful applications in distributed artificial intelligence. However, the role of physical interactions in the organization of traffic flows in ants under crowded conditions has only been studied very recently. The related results suggest new ways of congestion control and simple algorithms for optimal resource usage based on local interactions and, therefore, decentralized control concepts. Here, we present a mathematical analysis of such concepts for an experiment with two alternative ways with limited capacities between a food source and the nest of an ant colony. Moreover, we carry out microscopic computer simulations for generalized setups, in which ants have more alternatives or the alternative ways are of different lengths. In this way and by variation of interaction parameters, we can get a better idea of how powerful congestion control based on local repulsive interactions may be. Finally, we discuss potential applications of this design principle to routing in traffic or data networks and machine usage in supply systems.",
+            "score": 9
+        }
+    ]
+}

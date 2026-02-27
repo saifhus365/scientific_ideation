@@ -1,0 +1,416 @@
+{
+    "initial_query": "Science Search And research paper retrieval methodologies using Multi Agent Systems",
+    "query_analysis": {
+        "topics": [
+            "multi-agent systems",
+            "research retrieval",
+            "search methodologies"
+        ],
+        "timeline": {
+            "start_date": "1990-01-01",
+            "end_date": "2023-12-31",
+            "specific_year": null
+        },
+        "intention": "Descriptive"
+    },
+    "discovered_papers": [
+        {
+            "paperId": "e7e7eac080ffd7c9f73c4dd3927cf31a8cabcd91",
+            "title": "AI Agents as Knowledge Navigators: A Conceptual Framework for Multi-Agent Systems in Scientific Knowledge Management",
+            "venue": "AHFE International",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.54941/ahfe1006231?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.54941/ahfe1006231, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This study contributes to the field of scientific knowledge management by introducing a scalable and adaptive AI-driven framework capable of supporting research in high-information-density environments."
+            },
+            "authors": [
+                {
+                    "authorId": "116395939",
+                    "name": "P. Gemelli"
+                },
+                {
+                    "authorId": "2305958657",
+                    "name": "Laura Pagani"
+                },
+                {
+                    "authorId": "2305958383",
+                    "name": "Mario Ivan Zignego"
+                },
+                {
+                    "authorId": "2305957209",
+                    "name": "Alessandro Bertirotti"
+                }
+            ],
+            "abstract": "The rapid and continuous expansion of scientific literature has led to an unprecedented increase in the volume of knowledge produced, significantly complicating its organization, retrieval, and effective utilization. Researchers face considerable challenges in managing this vast information landscape, particularly in terms of identifying relevant studies, maintaining contextual integrity, and integrating knowledge across multiple disciplines. Traditional database-driven search engines and static indexing methods often fall short in addressing these issues, as they lack the capacity to dynamically interpret scientific discourse, establish meaningful cross-disciplinary connections, and facilitate real-time knowledge synthesis.To overcome these limitations, this study proposes a novel approach to scientific knowledge management through a multi-agent artificial intelligence (AI) system. This system is designed to enhance interactive, context-aware, and dynamic information retrieval by leveraging a network of AI agents, each specialized in distinct scientific domains. These agents operate collaboratively, employing advanced adaptive learning mechanisms, context-sensitive reasoning, and cooperative problem-solving strategies to improve the organization and accessibility of scientific knowledge.The multi-agent framework integrates state-of-the-art Natural Language Processing (NLP) techniques, transformer-based architectures, and knowledge graph methodologies to provide a more nuanced understanding of scientific texts. By doing so, it enables automated cross-domain conceptual linking, validation of theoretical and experimental claims, and the seamless integration of newly acquired information into existing knowledge structures. Moreover, the system incorporates reinforcement learning mechanisms to continuously optimize its retrieval and synthesis processes based on user interactions and evolving research trends.Beyond its immediate applications in knowledge retrieval, the proposed system fosters a paradigm shift in how scientific research is conducted, promoting more effective interdisciplinary collaboration and accelerating the development of innovative ideas. By facilitating automated synthesis of vast scientific corpora, it enables researchers to explore novel hypotheses, detect previously unrecognized connections between fields, and refine theoretical models with enhanced precision. Additionally, the ability of AI agents to autonomously process complex information reduces cognitive load on researchers, allowing them to focus on higher-order analytical tasks and creative problem-solving.This study contributes to the field of scientific knowledge management by introducing a scalable and adaptive AI-driven framework capable of supporting research in high-information-density environments. By bridging the gaps between disparate scientific disciplines and facilitating intelligent, real-time knowledge synthesis, the proposed system has the potential to revolutionize the way researchers interact with and utilize scientific information, ultimately advancing the efficiency and impact of knowledge discovery in the modern research landscape.",
+            "score": 10
+        },
+        {
+            "paperId": "db0530a6dc2d3c0fb66a7f597bc932af71518413",
+            "title": "HySemRAG: A Hybrid Semantic Retrieval-Augmented Generation Framework for Automated Literature Synthesis and Methodological Gap Analysis",
+            "venue": "",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2508.05666, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "HySemRAG, a framework that combines Extract, Transform, Load (ETL) pipelines with Retrieval-Augmented Generation (RAG) to automate large-scale literature synthesis and identify methodological research gaps, is presented, demonstrating broad applicability across scientific domains for accelerating evidence synthesis and discovery."
+            },
+            "authors": [
+                {
+                    "authorId": "2375329863",
+                    "name": "Alejandro Godinez"
+                }
+            ],
+            "abstract": "We present HySemRAG, a framework that combines Extract, Transform, Load (ETL) pipelines with Retrieval-Augmented Generation (RAG) to automate large-scale literature synthesis and identify methodological research gaps. The system addresses limitations in existing RAG architectures through a multi-layered approach: hybrid retrieval combining semantic search, keyword filtering, and knowledge graph traversal; an agentic self-correction framework with iterative quality assurance; and post-hoc citation verification ensuring complete traceability. Our implementation processes scholarly literature through eight integrated stages: multi-source metadata acquisition, asynchronous PDF retrieval, custom document layout analysis using modified Docling architecture, bibliographic management, LLM-based field extraction, topic modeling, semantic unification, and knowledge graph construction. The system creates dual data products - a Neo4j knowledge graph enabling complex relationship queries and Qdrant vector collections supporting semantic search - serving as foundational infrastructure for verifiable information synthesis. Evaluation across 643 observations from 60 testing sessions demonstrates structured field extraction achieving 35.1% higher semantic similarity scores (0.655 $\\pm$ 0.178) compared to PDF chunking approaches (0.485 $\\pm$ 0.204, p<0.000001). The agentic quality assurance mechanism achieves 68.3% single-pass success rates with 99.0% citation accuracy in validated responses. Applied to geospatial epidemiology literature on ozone exposure and cardiovascular disease, the system identifies methodological trends and research gaps, demonstrating broad applicability across scientific domains for accelerating evidence synthesis and discovery.",
+            "score": 10
+        },
+        {
+            "paperId": "cde196521ed35873762464a5a53051dcb52f1253",
+            "title": "Fine-Tuning and Prompt Engineering of LLMs, for the Creation of Multi-Agent AI for Addressing Sustainable Protein Production Challenges",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2506.20598, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A user interface was developed and published for enabling the use of the multi-agent AI system, alongside preliminary exploration of additional chemical safety-based search capabilities."
+            },
+            "authors": [
+                {
+                    "authorId": "2200479135",
+                    "name": "A. D. Kalian"
+                },
+                {
+                    "authorId": "2329044156",
+                    "name": "Jaewook Lee"
+                },
+                {
+                    "authorId": "2371069579",
+                    "name": "Stefan P. Johannesson"
+                },
+                {
+                    "authorId": "2278940015",
+                    "name": "Lennart Otte"
+                },
+                {
+                    "authorId": "2325839261",
+                    "name": "Christer Hogstrand"
+                },
+                {
+                    "authorId": "2369867304",
+                    "name": "Miao Guo"
+                }
+            ],
+            "abstract": "The global demand for sustainable protein sources has accelerated the need for intelligent tools that can rapidly process and synthesise domain-specific scientific knowledge. In this study, we present a proof-of-concept multi-agent Artificial Intelligence (AI) framework designed to support sustainable protein production research, with an initial focus on microbial protein sources. Our Retrieval-Augmented Generation (RAG)-oriented system consists of two GPT-based LLM agents: (1) a literature search agent that retrieves relevant scientific literature on microbial protein production for a specified microbial strain, and (2) an information extraction agent that processes the retrieved content to extract relevant biological and chemical information. Two parallel methodologies, fine-tuning and prompt engineering, were explored for agent optimisation. Both methods demonstrated effectiveness at improving the performance of the information extraction agent in terms of transformer-based cosine similarity scores between obtained and ideal outputs. Mean cosine similarity scores were increased by up to 25%, while universally reaching mean scores of $\\geq 0.89$ against ideal output text. Fine-tuning overall improved the mean scores to a greater extent (consistently of $\\geq 0.94$) compared to prompt engineering, although lower statistical uncertainties were observed with the latter approach. A user interface was developed and published for enabling the use of the multi-agent AI system, alongside preliminary exploration of additional chemical safety-based search capabilities",
+            "score": 9
+        },
+        {
+            "paperId": "c1e3fe3a8802f593b2c6f899a9528032c8e2078c",
+            "title": "MuaLLM: A Multimodal Large Language Model Agent for Circuit Design Assistance with Hybrid Contextual Retrieval-Augmented Generation",
+            "venue": "",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2508.08137, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "MuaLLM, an open-source multimodal Large Language Model (LLM) agent for circuit design assistance that integrates a hybrid Retrieval-Augmented Generation (RAG) framework with an adaptive vector database of circuit design research papers, is proposed."
+            },
+            "authors": [
+                {
+                    "authorId": "2375387402",
+                    "name": "Pravallika Abbineni"
+                },
+                {
+                    "authorId": "2375387046",
+                    "name": "Saoud Aldowaish"
+                },
+                {
+                    "authorId": "2375387078",
+                    "name": "Colin Liechty"
+                },
+                {
+                    "authorId": "2375387199",
+                    "name": "Soroosh Noorzad"
+                },
+                {
+                    "authorId": "2328571688",
+                    "name": "Ali Ghazizadeh"
+                },
+                {
+                    "authorId": "2375386915",
+                    "name": "Morteza Fayazi"
+                }
+            ],
+            "abstract": "Conducting a comprehensive literature review is crucial for advancing circuit design methodologies. However, the rapid influx of state-of-the-art research, inconsistent data representation, and the complexity of optimizing circuit design objectives make this task significantly challenging. In this paper, we propose MuaLLM, an open-source multimodal Large Language Model (LLM) agent for circuit design assistance that integrates a hybrid Retrieval-Augmented Generation (RAG) framework with an adaptive vector database of circuit design research papers. Unlike conventional LLMs, the MuaLLM agent employs a Reason + Act (ReAct) workflow for iterative reasoning, goal-setting, and multi-step information retrieval. It functions as a question-answering design assistant, capable of interpreting complex queries and providing reasoned responses grounded in circuit literature. Its multimodal capabilities enable processing of both textual and visual data, facilitating more efficient and comprehensive analysis. The system dynamically adapts using intelligent search tools, automated document retrieval from the internet, and real-time database updates. Unlike conventional approaches constrained by model context limits, MuaLLM decouples retrieval from inference, enabling scalable reasoning over arbitrarily large corpora. At the maximum context length supported by standard LLMs, MuaLLM remains up to 10x less costly and 1.6x faster while maintaining the same accuracy. This allows rapid, no-human-in-the-loop database generation, overcoming the bottleneck of simulation-based dataset creation for circuits. To evaluate MuaLLM, we introduce two custom datasets: RAG-250, targeting retrieval and citation performance, and Reasoning-100 (Reas-100), focused on multistep reasoning in circuit design. MuaLLM achieves 90.1% recall on RAG-250, and 86.8% accuracy on Reas-100.",
+            "score": 9
+        },
+        {
+            "paperId": "a70e0cb2d323d03b43333d08ef3cc72f13e1fc74",
+            "title": "Automated Retrosynthesis Planning of Macromolecules Using Large Language Models and Knowledge Graphs.",
+            "venue": "Macromolecular rapid communications",
+            "year": 2025,
+            "citationCount": 1,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2501.08897, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This work represents the first attempt to develop a fully automated retrosynthesis planning agent tailored specially for macromolecules powered by LLMs, which constructs a retrosynthetic pathway tree with hundreds of pathways and recommends optimized routes, including both known and novel pathways."
+            },
+            "authors": [
+                {
+                    "authorId": "2341926024",
+                    "name": "Qinyu Ma"
+                },
+                {
+                    "authorId": "2340351384",
+                    "name": "Yuhao Zhou"
+                },
+                {
+                    "authorId": "2340396820",
+                    "name": "Jianfeng Li"
+                }
+            ],
+            "abstract": "Identifying reliable synthesis pathways in materials chemistry is a complex task, particularly in polymer science, due to the intricate and often nonunique nomenclature of macromolecules. To address this challenge, an agent system that integrates large language models (LLMs) and knowledge graphs is proposed. By leveraging LLMs' powerful capabilities for extracting and recognizing chemical substance names, and storing the extracted data in a structured knowledge graph, the system fully automates the retrieval of relevant literature, extraction of reaction data, database querying, construction of retrosynthetic pathway trees, further expansion through the retrieval of additional literature and recommendation of optimal reaction pathways. By considering the complex interdependencies among chemical reactants, a novel Multi-branched Reaction Pathway Search Algorithm (MBRPS) is proposed to help identify all valid multi-branched reaction pathways, which arise when a single product decomposes into multiple reaction intermediates. In contrast, previous studies are limited to cases where a product decomposes into at most one reaction intermediate. This work represents the first attempt to develop a fully automated retrosynthesis planning agent tailored specially for macromolecules powered by LLMs. Applied to polyimide synthesis, the new approach constructs a retrosynthetic pathway tree with hundreds of pathways and recommends optimized routes, including both known and novel pathways.",
+            "score": 9
+        },
+        {
+            "paperId": "85e230a09221f0f1148b42a2b04422c049ad3fe4",
+            "title": "AI-Forge - Your Coding Assistant",
+            "venue": "International Journal for Research in Applied Science and Engineering Technology",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.22214/ijraset.2025.69166?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.22214/ijraset.2025.69166, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The innovative multi-agent framework at the heart of Ai- Forge combines cutting-edge large language models for automated documentation production with real-time event-driven triggers, and is able to continuously adapt and develop due to the dynamic interaction between agents."
+            },
+            "authors": [
+                {
+                    "authorId": "2357445251",
+                    "name": "Malik Mohammed Ali"
+                }
+            ],
+            "abstract": "The need for quicker development cycles, better teamwork, and shorter technical onboarding times has increased in the\nmodern era of software innovation, especially in huge codebases and enterprise-grade software systems. When growing modular\narchitectures, maintaining old systems, or integrating new developers, traditional development pipelines frequently run into\nproblems. A recurring barrier to guaranteeing code understanding, consistency, and maintainability is the enormous complexity\nof these systems, which is exacerbated by poor documentation and the dispersed structure of development teams. The problem is\nmade worse by the lack of context-aware, real-time documentation, which raises deployment mistake rates, reduces productivity,\nand increases technical debt. In response to this problem, Ai-Forge stands out as a game- changing solution, providing an\necosystem powered by AI that revolutionizes the way developers engage with codebases. Ai-Forge uses sophisticated natural\nlanguage processing (NLP), retrieval-augmented generation (RAG), and real-time embedding architectures to enable intelligent\nunderstanding, querying, and visualization of software systems, in contrast to traditional documentation tools that function\nstatically or necessitate human intervention. By making sure that every line of code is self-explanatory, current, and dynamically\ninterpretable, this innovation aims to reduce the knowledge imbalance among development teams and transform the software\nengineering workflow. The innovative multi-agent framework at the heart of Ai- Forge combines cutting-edge large language\nmodels (LLMs) for automated documentation production with real-time event-driven triggers. The system uses cloud- based\nfeatures to identify code contributions and start a series of automated procedures, mostly through GitHub webhooks and AWS\nLambda. Specialized agents are assigned specific tasks by this distributed architecture: documentation synthesis agents create\ndescriptive, readable content that reflects the current state of the codebase, code analysis agents segment and interpret the code's\nsemantics, and event detection agents record changes as they happen. Every agent functions within a meticulously crafted\ncommunication protocol that draws inspiration from conversational paradigms present in contemporary multi-agent\nframeworks. The agents collaboratively improve their outputs through repeated multi-turn dialogues, guaranteeing that the final\ndocumentation captures the code's underlying functional and contextual subtleties in addition to its syntactic structure. Even\nwith changing project complexity and massive codebases, Ai-Forge is able to continuously adapt and develop due to the dynamic\ninteraction between agents.",
+            "score": 9
+        },
+        {
+            "paperId": "87cd153439e2a51d797de067a53e44fff07370d3",
+            "title": "GreenIQ: A Deep Search Platform for Comprehensive Carbon Market Analysis and Automated Report Generation",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2503.16041, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "An AI-powered deep search platform designed to revolutionise carbon market intelligence through autonomous analysis and automated report generation and a novel AI persona-based evaluation framework involving 16 domain-specific AI personas highlights its superior cross-jurisdictional analytical capabilities and regulatory insight generation."
+            },
+            "authors": [
+                {
+                    "authorId": "2280467124",
+                    "name": "Oluwole Fagbohun"
+                },
+                {
+                    "authorId": "2351600635",
+                    "name": "Sai Yashwanth"
+                },
+                {
+                    "authorId": "2316060351",
+                    "name": "Akin Akintola"
+                },
+                {
+                    "authorId": "2351600626",
+                    "name": "Ifeoluwa Wurola"
+                },
+                {
+                    "authorId": "2338577801",
+                    "name": "Lanre Shittu"
+                },
+                {
+                    "authorId": "2348464118",
+                    "name": "Aniema Inyang"
+                },
+                {
+                    "authorId": "2334691190",
+                    "name": "Oluwatimilehin Odubola"
+                },
+                {
+                    "authorId": "2348457061",
+                    "name": "Udodirim Ibem Offia"
+                },
+                {
+                    "authorId": "2375599694",
+                    "name": "Said Olanrewaju"
+                },
+                {
+                    "authorId": "2351600600",
+                    "name": "Ogidan Toluwaleke"
+                },
+                {
+                    "authorId": "2341040305",
+                    "name": "Ilemona Abutu"
+                },
+                {
+                    "authorId": "2351600820",
+                    "name": "Taiwo Akinbolaji"
+                }
+            ],
+            "abstract": "This study introduces GreenIQ, an AI-powered deep search platform designed to revolutionise carbon market intelligence through autonomous analysis and automated report generation. Carbon markets operate across diverse regulatory landscapes, generating vast amounts of heterogeneous data from policy documents, industry reports, academic literature, and real-time trading platforms. Traditional research approaches remain labour-intensive, slow, and difficult to scale. GreenIQ addresses these limitations through a multi-agent architecture powered by Large Language Models (LLMs), integrating five specialised AI agents: a Main Researcher Agent for intelligent information retrieval, a Report Writing Agent for structured synthesis, a Final Reviewer Agent for accuracy verification, a Data Visualisation Agent for enhanced interpretability, and a Translator Agent for multilingual adaptation. The system achieves seamless integration of structured and unstructured information with AI-driven citation verification, ensuring high transparency and reliability. GreenIQ delivers a 99.2\\% reduction in processing time and a 99.7\\% cost reduction compared to traditional research methodologies. A novel AI persona-based evaluation framework involving 16 domain-specific AI personas highlights its superior cross-jurisdictional analytical capabilities and regulatory insight generation. GreenIQ sets new standards in AI-driven research synthesis, policy analysis, and sustainability finance by streamlining carbon market research. It offers an efficient and scalable framework for environmental and financial intelligence, enabling more accurate, timely, and cost-effective decision-making in complex regulatory landscapes",
+            "score": 8
+        },
+        {
+            "paperId": "c48532e6546a72b3b8cf9faa9f0019b70a3d16ba",
+            "title": "LLM Agents Improve Semantic Code Search",
+            "venue": "arXiv.org",
+            "year": 2024,
+            "citationCount": 6,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2408.11058, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This research introduces the approach of using Retrieval Augmented Generation (RAG) powered agents to inject information into user prompts allowing for better inputs into embedding models, highlighting the potential of agentic LLMs and RAG to enhance code retrieval systems."
+            },
+            "authors": [
+                {
+                    "authorId": "2316670447",
+                    "name": "Sarthak Jain"
+                },
+                {
+                    "authorId": "2316559063",
+                    "name": "Aditya Dora"
+                },
+                {
+                    "authorId": "2316559073",
+                    "name": "Ka Seng Sam"
+                },
+                {
+                    "authorId": "2316591709",
+                    "name": "Prabhat Singh"
+                }
+            ],
+            "abstract": "Code Search is a key task that many programmers often have to perform while developing solutions to problems. Current methodologies suffer from an inability to perform accurately on prompts that contain some ambiguity or ones that require additional context relative to a code-base. We introduce the approach of using Retrieval Augmented Generation (RAG) powered agents to inject information into user prompts allowing for better inputs into embedding models. By utilizing RAG, agents enhance user queries with relevant details from GitHub repositories, making them more informative and contextually aligned. Additionally, we introduce a multi-stream ensemble approach which when paired with agentic workflow can obtain improved retrieval accuracy, which we deploy on application called repo-rift.com. Experimental results on the CodeSearchNet dataset demonstrate that RepoRift significantly outperforms existing methods, achieving an 78.2% success rate at Success@10 and a 34.6% success rate at Success@1. This research presents a substantial advancement in semantic code search, highlighting the potential of agentic LLMs and RAG to enhance code retrieval systems.",
+            "score": 7
+        },
+        {
+            "paperId": "98ddccb6cd68175d58f83a5337881d443558f087",
+            "title": "Data Mining for Decision Making in Multi-Agent Systems",
+            "venue": "",
+            "year": 2011,
+            "citationCount": 4,
+            "openAccessPdf": {
+                "url": "https://www.intechopen.com/citation-pdf-url/14496",
+                "status": "HYBRID",
+                "license": "CCBYNCSA",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5772/15584?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5772/15584, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This chapter considers applying different data mining techniques for the decision making process in a MultiAgent System for Collaborative E-learning (MASCE), which is designed to be used to assist the dynamism in elearning can be made more powerful with the help of intelligent agents."
+            },
+            "authors": [
+                {
+                    "authorId": "2459855",
+                    "name": "Hani M. K. Mahdi"
+                },
+                {
+                    "authorId": "8896862",
+                    "name": "H. K. Mohamed"
+                },
+                {
+                    "authorId": "3129055",
+                    "name": "Sally S. Attia"
+                }
+            ],
+            "abstract": "The intelligent agent paradigm has generated such a remarkable interest in many application domains over the last two decades. It is growing to be a continuously evolving and expanding area. Agents, Software Agents or Intelligent Agents are intelligent in the sense that they are adaptive, independent, and possess reasoning capability. They can plan and execute tasks in cooperation with other agents in order to satisfy their goals. A MultiAgent System (MAS) is defined as a loosely coupled network of problem solvers that work together to solve problems that are beyond the individual capabilities or knowledge of each problem solver (Agent). The increasing interest in MAS research is due to significant advantages inherent in such systems, including their ability to solve problems that may be too large for a centralized single agent, provide enhanced speed and reliability, and tolerate uncertain data and knowledge. Some of the key research issues related to problem-solving activities of agents in a multi-agent system MAS are in the areas of coordination, negotiation, and communication. With advances in Web technologies, collaborative applications are now server based and the user interface is typically a Web browser. Thus, a collaborative application can be a Webbased solution that runs on a local server that allows people communicate and work together, share information and documents, and talk in real-time over the Internet. Recently, much research has been conducted in distributed artificial intelligence and collaborative applications. Several interesting methodologies and systems have been developed in areas such as distributed multi-agent systems for decision support, web search and information retrieval, information systems modeling, and supply chain management. This chapter considers applying different data mining techniques for the decision making process in a Multi-Agent System for Collaborative E-learning (MASCE). The dynamism in elearning can be made more powerful with the help of intelligent agents. Intelligent agents \u2013 the so called e-assistants or helper programs can reside inside a computer and make the learning in e-learning occur dynamically to suit the need of the user. They can track the user\u2019s likes and dislikes in different areas, the level of knowledge and the learning style and accordingly recommend the best matching helpers for collaboration. A previous research outlined the development and the implementation processes of a MultiAgent System for Collaborative E-learning (MASCE) which is designed to be used to assist",
+            "score": 6
+        },
+        {
+            "paperId": "d5de6d3e59f04c1d8ba59aa9ca1cf553fefba524",
+            "title": "Plenary Lectures",
+            "venue": "2018 26th Mediterranean Conference on Control and Automation (MED)",
+            "year": 2018,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "https://febs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2211-5463.12448",
+                "status": "GOLD",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC6031937, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Findings support the importance of glucose and glutamine in driving GBM growth and provide a plausible therapeutic strategy for the non-toxic metabolic management of GBM."
+            },
+            "authors": [
+                {
+                    "authorId": "2265902987",
+                    "name": "B. D. Moor"
+                },
+                {
+                    "authorId": "3256436",
+                    "name": "Yasamin Mostofi"
+                },
+                {
+                    "authorId": "2360995491",
+                    "name": "Maryam Kamgarpour"
+                },
+                {
+                    "authorId": "2288423427",
+                    "name": "Zdenko Kovacic"
+                },
+                {
+                    "authorId": "2360989259",
+                    "name": "Maja Cepanec"
+                },
+                {
+                    "authorId": "37342102",
+                    "name": "Airlie Chapman"
+                },
+                {
+                    "authorId": "1778153",
+                    "name": "M. Mesbahi"
+                }
+            ],
+            "abstract": "Finding some or all of the roots of a set of multivariate polynomials has numerous applications. This century old problem is at the foundation of algebraic geometry sometimes called the \u2018queen of mathematics\u2019. In this discipline, typically, numerical computations are done symbolically, and only quite recently, it was realized that the multivariate polynomial rooting problem can be tackled using the machinery of numerical linear algebra, because of the fundamental insight that it is equivalent to an eigenvalue problem. In order to find some or all roots, we deploy tools like the QR-and singular value decomposition, and (possibly large scale) iterative eigenvalue solvers. We will discuss several eigenvalue decomposition based algorithms to calculate the global minimum of multivariate polynomial optimization problems. We will illustrate our approach with the numerical solution of two open problems in system theory: Calculating from (noisy) data linear dynamic models that are least squares optimal, and finding the least squares global optimum of the H2 model reduction problem. Recent years have seen a great progress in the area of robotics. Communication signals are also ubiquitous these dayzs. In this talk, I will explore the opportunities and challenges at this intersection, for robotic sensing and communication. For instance, imagine two unmanned vehicles arriving behind thick concrete walls. They have no prior knowledge of the area behind these walls, but are interested in imaging every square inch of the invisible area through the walls with a high accuracy. Can the robots achieve this with only WiFi signals? In the first part of the talk, I will show that this is indeed possible. I will discuss how our methodology for the co-optimization of path planning and communication has enabled the first demonstration of 3d imaging through walls with only drones and WiFi. I will also discuss other new sensing capabilities that have emerged from our approach, such as occupancy estimation and crowd analytics with only WiFi signals. We began using robots to help us with simple and repetitive tasks. Now, we are introducing automation in ever increasing safety critical and complex tasks: intelligent transportation networks, smart power grid, robotics search and rescue, personalized medicine. How do we ensure that these autonomous systems contribute to making our societies safer and more efficient? To answer this question, we have to address two main control challenges: 1) The autonomous systems need to complete complex tasks in partially known changing environments; 2) Network of interacting autonomous systems need to coordinate their decision making and optimise their choices using only local information. Guided by addressing these two challenges, I will present the two main threads of my research. Specifically, I discuss my latest works on data-driven safe control synthesis in uncertain environments and on game theory and mechanism design for coordinating multi-agent decision making. In both cases, I present the underlying theoretical tools and discuss potential applications. The development of new technologies enables changes in all spheres of social activity. Particularly vulnerable social categories are people suffering from autistic spectrum disorders, as well as people with other forms of disability. The aim of the workshop is to share knowledge about the different technologies that should facilitate the easier inclusion of these people in society. Special attention is devoted to technologies that enable the diagnosis of autistic spectrum disorders and appropriate therapy from the earliest years of life. Particularly important roles are referred to robotics and information technology. Very common side effects of autistic spectrum disorders are motoric dysfunctions, where advanced robotic systems can playa very important role in successful rehabilitation. The half-day workshop will bring together top experts - trainers from the field of robotics, information technology, human-robot interaction, rehabilitation and other related areas. In this half-day tutorial session, two leading researchers in the area of networked systems provide a concise, yet thorough tutorial on the key concepts in graph theory that have proved instrumental in the analysis and synthesis of multi-agent networked systems. The tutorial will first motivate a number of applications where the interaction topology between dynamic nodes plays a fundamental role on their stability and performance properties. These examples include robotic networks, formation flight, aerial swarms, distributed estimation and filtering, and distributed optimization, as well as infrastructure and social-cyber-physical systems. Examining system theoretic properties of such systems have direct implications for their performance, resilience, and security; as such, they provide a compelling motivation for abstracting these networks-and how their structure dictates their system theoretic properties-in terms of graph theoretical constructs.",
+            "score": 6
+        }
+    ]
+}

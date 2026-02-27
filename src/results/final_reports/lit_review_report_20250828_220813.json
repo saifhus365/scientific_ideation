@@ -1,0 +1,1237 @@
+{
+    "initial_query": "sequential searching to find anamolies in the blood stream through model training\n",
+    "query_analysis": {
+        "topics": [
+            "anomaly detection",
+            "bloodstream analysis",
+            "sequential model training"
+        ],
+        "timeline": {
+            "start_date": "2018-01-01",
+            "end_date": null,
+            "specific_year": null
+        },
+        "intention": "Exploratory"
+    },
+    "discovered_papers": [
+        {
+            "paperId": "11486cfaee85f72324a29e8f60b38d6df782bd22",
+            "title": "Self-attention-enhanced Temporal Convolutional Networks for Anomaly Detection in Time Series",
+            "venue": "Proceedings of the 2025 4th International Conference on Cryptography, Network Security and Communication Technology",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1145/3723890.3723911?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1145/3723890.3723911, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The proposed Self-attention-enhanced time convolutional network (SATCN) adopts time convolution neural network architecture and introduces self-attention mechanism, which enables it to process long input sequences in parallel and dynamically study the key information in the input sequences, thus can improve its long-term and short-term dependence modeling ability."
+            },
+            "authors": [
+                {
+                    "authorId": "2144447603",
+                    "name": "Chao Wang"
+                },
+                {
+                    "authorId": "2357231354",
+                    "name": "Qihui Liu"
+                },
+                {
+                    "authorId": "2315356527",
+                    "name": "Lianglin Qu"
+                },
+                {
+                    "authorId": "2214976005",
+                    "name": "Wuliang Chang"
+                },
+                {
+                    "authorId": "2357233543",
+                    "name": "Teng Wang"
+                },
+                {
+                    "authorId": "2854611",
+                    "name": "Pengsong Duan"
+                },
+                {
+                    "authorId": "2125468669",
+                    "name": "Yangjie Cao"
+                }
+            ],
+            "abstract": "Currently, the swift advancement of information technology has resulted in the prevalence of time series data across various domains, including industrial monitoring, financial analysis, and medical diagnosis. Anomaly detection of time series data can predict the potential problems of the system in advance and play an important role in ensuring the reliability and providing decision-making basis of the system. However, in the existing methods, how to effectively capture the long-term and short-term dependencies and global data characteristics in time series data is still facing challenges. In order to overcome these problems, we propose a Self-attention-enhanced time convolutional network (SATCN). The SATCN adopts time convolution neural network architecture and introduces self-attention mechanism, which enables it to process long input sequences in parallel and dynamically study the key information in the input sequences, thus can improve its long-term and short-term dependence modeling ability. The experimental results show that SATCN is superior to traditional models including LSTM and CNN and other methods in anomaly detection task, and has the potential to solve the challenge of complex time series analysis.",
+            "score": 10
+        },
+        {
+            "paperId": "c617eacbc3476c48dddf3aea45faa937ff1412f9",
+            "title": "DCT-GAN: Dilated Convolutional Transformer-Based GAN for Time Series Anomaly Detection",
+            "venue": "IEEE Transactions on Knowledge and Data Engineering",
+            "year": 2023,
+            "citationCount": 84,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/TKDE.2021.3130234?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/TKDE.2021.3130234, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This article proposed a Dilated Convolutional Transformer-based GAN (DCT-GAN), which utilizes several generators and a single discriminator to alleviate the mode collapse problem and enhance accuracy and improve generalization capability of the model."
+            },
+            "authors": [
+                {
+                    "authorId": "2110488598",
+                    "name": "Yifan Li"
+                },
+                {
+                    "authorId": "2115816193",
+                    "name": "Xiao-Juan Peng"
+                },
+                {
+                    "authorId": "2144190152",
+                    "name": "Jia Zhang"
+                },
+                {
+                    "authorId": "2109822026",
+                    "name": "Zhiyong Li"
+                },
+                {
+                    "authorId": "2055605749",
+                    "name": "Ming Wen"
+                }
+            ],
+            "abstract": "Time series anomaly detection (TSAD) is an essential problem faced in several fields, e.g., fault detection, fraud detection, and intrusion detection, etc. Although TSAD is a crucial problem in anomaly detection, few solutions in anomaly detection are suitable for it at present. Recently, some researchers use GAN-based methods such as TAnoGAN and TadGAN to solve TSAD problem. However, problems such as model collapse, low generalization capability and poor accuracy still exist. In this article, we proposed a Dilated Convolutional Transformer-based GAN (DCT-GAN) to enhance accuracy and improve generalization capability of the model. Specifically, DCT-GAN utilize several generators and a single discriminator to alleviate the mode collapse problem. Each generator consists of a dilated convolutional neural network and a Transformer block to obtain fine-grained and coarse-grained information of the time series, which is a useful component to improve generalization capability. We also use weight-based mechanism to balance these generators. Experiments verify the effectiveness of our method and each part of DCT-GAN.",
+            "score": 10
+        },
+        {
+            "paperId": "bcf486bca71573fca762e91a8716907ba4a02185",
+            "title": "Adversarial Transformer-Based Anomaly Detection for Multivariate Time Series",
+            "venue": "IEEE Transactions on Industrial Informatics",
+            "year": 2025,
+            "citationCount": 2,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/TII.2024.3507211?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/TII.2024.3507211, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This work designs an adversarial transformers-based unsupervised anomaly detection model (ATUAD), a Transformer-based encoder\u2013decoder is constructed to learn sequence features, and adversarial training is adopted to amplify mild anomalies and enhance the robustness."
+            },
+            "authors": [
+                {
+                    "authorId": "2318650436",
+                    "name": "Xinying Yu"
+                },
+                {
+                    "authorId": "2268620935",
+                    "name": "Kejun Zhang"
+                },
+                {
+                    "authorId": "2271521231",
+                    "name": "Yaqi Liu"
+                },
+                {
+                    "authorId": "2268498888",
+                    "name": "Bing Zou"
+                },
+                {
+                    "authorId": "2318960393",
+                    "name": "Jun Wang"
+                },
+                {
+                    "authorId": "2268631335",
+                    "name": "Wenbin Wang"
+                },
+                {
+                    "authorId": "2061001542",
+                    "name": "Rong Qian"
+                }
+            ],
+            "abstract": "Anomaly detection in multivariate time series is crucial to monitor system status, such as fault detection in industrial systems. However, detecting anomalies in multivariate time series is challenging due to few labels, complex spatiotemporal correlations, and ultrafast detecting demands. Existing anomaly detection methods rarely address these challenges simultaneously. Herein, we design an adversarial transformers-based unsupervised anomaly detection model (ATUAD). In ATUAD, a Transformer-based encoder\u2013decoder is constructed to learn sequence features, and adversarial training is adopted to amplify mild anomalies and enhance the robustness. Besides, we propose a peak-over-threshold-based dynamic threshold mechanism to improve the anomaly detection performance of ATUAD by automatically determining the threshold. In addition, we provide an anomaly explanation method to help ATUAD pinpoint root causes for anomalies. Comparison experiments, ablation studies, and overhead analysis on public datasets show that ATUAD can outperform the state-of-the-art baseline methods.",
+            "score": 10
+        },
+        {
+            "paperId": "6b8af9efb09d446dbe1762a3c3de30d25ea85447",
+            "title": "Spatial-temporal Attention Model Based on Transformer Architecture for Anomaly Detection in Multivariate Time Series Data",
+            "venue": "\u96fb\u8166\u5b78\u520a",
+            "year": 2024,
+            "citationCount": 1,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.53106/199115992024063503014?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.53106/199115992024063503014, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "To amplify the reconstruction errors of anomalous points during network training, a two-phase training style with an adversarial training strategy is used to improve the anomaly detection performance of the BSAAD model."
+            },
+            "authors": [
+                {
+                    "authorId": "2308935869",
+                    "name": "Lai Zeng Lai Zeng"
+                },
+                {
+                    "authorId": "2308935882",
+                    "name": "Xiaomei Yang Lai Zeng"
+                }
+            ],
+            "abstract": "\n Anomaly detection with multivariate time series data collected by multi-sensors is a challenging problem due to the complexity and high dimension of data and the difficulty of manually labelling data. This paper proposes a novel unsupervised anomaly detection model using spatial-temporal self-attention based on transformer architecture, denoted the biself-attention anomaly detection (BSAAD) model. The BSAAD model not only utilizes a time-step encoder with a self-attention mechanism to capture temporal correlation but also constructs a sensor encoder with a self-attention mechanism to capture spatial correlation among multivariate time series data. To amplify the reconstruction errors of anomalous points during network training, a two-phase training style with an adversarial training strategy is used to improve the anomaly detection performance of the BSAAD model. Experiments on six multivariate time series datasets show that the BSAAD model outperforms state-of-the-art anomaly detection methods.\n\u00a0\n",
+            "score": 10
+        },
+        {
+            "paperId": "b6b5bd9d92bc47b4064f650986475c096ffa7654",
+            "title": "RESTAD: Reconstruction and Similarity Based Transformer for Time Series Anomaly Detection",
+            "venue": "International Workshop on Machine Learning for Signal Processing",
+            "year": 2024,
+            "citationCount": 2,
+            "openAccessPdf": {
+                "url": "https://arxiv.org/pdf/2405.07509",
+                "status": "GREEN",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2405.07509, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "RESTAD is introduced, an adaptation of the Transformer model by incorporating a layer of Radial Basis Function neurons within its architecture that fits a non-parametric density in the latent representation, such that a high RBF output indicates similarity with predominantly normal training data."
+            },
+            "authors": [
+                {
+                    "authorId": "2065912485",
+                    "name": "Ramin Ghorbani"
+                },
+                {
+                    "authorId": "2283873148",
+                    "name": "Marcel J. T. Reinders"
+                },
+                {
+                    "authorId": "2184775204",
+                    "name": "David M. J. Tax"
+                }
+            ],
+            "abstract": "Anomaly detection in time series data is crucial across various domains. The scarcity of labeled data for such tasks has increased the attention towards unsupervised learning methods. These approaches, often relying solely on reconstruction error, typically fail to detect subtle anomalies in complex datasets. To address this, we introduce RESTAD, an adaptation of the Transformer model by incorporating a layer of Radial Basis Function (RBF) neurons within its architecture. This layer fits a non-parametric density in the latent representation, such that a high RBF output indicates similarity with predominantly normal training data. RESTAD integrates the RBF similarity scores with the reconstruction errors to increase sensitivity to anomalies. Our empirical evaluations demonstrate that RESTAD outperforms various established baselines across multiple benchmark datasets.",
+            "score": 10
+        },
+        {
+            "paperId": "792267a4d0b5e37fb532b0dac9f7b4f81412a998",
+            "title": "Unsupervised Multivariate Time Series Anomaly Detection by Feature Decoupling in Federated Learning Scenarios",
+            "venue": "IEEE Transactions on Artificial Intelligence",
+            "year": 2025,
+            "citationCount": 2,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/TAI.2025.3533437?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/TAI.2025.3533437, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This article introduces feature decoupling federated learning (FDFL), an approach designed to collaboratively train a representation learning network over multiple clients for unsupervised anomaly detection in MTS, and develops a self-attention block that integrates the representations derived from both shared and private parameters to reconstruct MTS and identify anomalies based on reconstruction errors."
+            },
+            "authors": [
+                {
+                    "authorId": "2292587635",
+                    "name": "Yifan He"
+                },
+                {
+                    "authorId": "2300142979",
+                    "name": "Xi Ding"
+                },
+                {
+                    "authorId": "2345778461",
+                    "name": "Yateng Tang"
+                },
+                {
+                    "authorId": "1707899",
+                    "name": "J. Guan"
+                },
+                {
+                    "authorId": "50730331",
+                    "name": "Shuigeng Zhou"
+                }
+            ],
+            "abstract": "Anomalies are usually regarded as data errors or novel patterns previously unseen, which are quite different from most observed data. Accurate detection of anomalies is crucial in various application scenarios. This article focuses on unsupervised anomaly detection from multivariate time series (MTS), as real-world data collected from sources such as wearable devices, medical equipment, and industrial machines typically manifest as MTS and are often unlabeled. Anomaly detection in MTS represents a data-driven challenge that traditionally requires substantial centralized data for training models. However, in practice, data are frequently distributed among multiple institutions, with privacy concerns restricting unrestricted access. To address these issues, we introduce feature decoupling federated learning (FDFL), an approach designed to collaboratively train a representation learning network over multiple clients for unsupervised anomaly detection in MTS. Unlike previous methods that simply integrate MTS anomaly detection (MTS-AD) algorithms with federated learning (FL) strategies, FDFL specifically addresses heterogeneity among clients by decoupling the representation network into shared and private branches through a contrastive learning mechanism. This method aggregates shared parameters during each federated round while maintaining client-specific private parameters locally. Additionally, we develop a self-attention block that integrates the representations derived from both shared and private parameters to reconstruct MTS and identify anomalies based on reconstruction errors. Extensive experiments conducted on three publicly available datasets demonstrate that FDFL outperforms existing algorithms in most cases, highlighting the effectiveness and superiority of our proposed method in MTS-AD.",
+            "score": 10
+        },
+        {
+            "paperId": "725b5b249cb7119c513a454a4550e5ac36c7fe1b",
+            "title": "Application of Unsupervised Anomaly Detection on Time Series Medical Radiation Data",
+            "venue": "2024 IEEE International Conference on Computing (ICOCO)",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ICOCO62848.2024.10928194?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ICOCO62848.2024.10928194, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The results indicates that the LSTM autoencoder model showed the best performance in accurately detecting anomalies within in the medical radiation dataset, due to its ability to capture long-term temporal dependencies."
+            },
+            "authors": [
+                {
+                    "authorId": "2300723751",
+                    "name": "Yuen-Yi Wong"
+                },
+                {
+                    "authorId": "100517127",
+                    "name": "A. Basaif"
+                },
+                {
+                    "authorId": "2125099236",
+                    "name": "A. Oresegun"
+                },
+                {
+                    "authorId": "72984023",
+                    "name": "H. Zubair"
+                },
+                {
+                    "authorId": "2559626",
+                    "name": "H. Zin"
+                },
+                {
+                    "authorId": "2351951508",
+                    "name": "H.A. Abdul-Rashid"
+                },
+                {
+                    "authorId": "2213240219",
+                    "name": "D. Bradley"
+                },
+                {
+                    "authorId": "2269741696",
+                    "name": "Sian Lun Lau"
+                }
+            ],
+            "abstract": "This paper examines the application of three unsupervised anomaly detection techniques on time series medical radiation data: Long-Short Term Memory (LSTM) autoencoder, Reconstruction Convolutional Autoencoder (RCAE) and Isolation Forest. An unlabelled time series radiotherapy dataset with artificially inserted anomalies was used to evaluate the performance of these models, with a goal to identify anomalous data in medical radiation which could signify dangerous spikes or inadequate dosages for a patient. The results indicates that the LSTM autoencoder model showed the best performance in accurately detecting anomalies within in the medical radiation dataset, due to its ability to capture long-term temporal dependencies. Meanwhile, RCAE performed the best on a separate dataset from the Numenta Anomaly Benchmark (NAB), suggesting its strength in handling datasets with structured or spatial patterns. The study highlights the importance of considering temporal relationships for anomaly detection in sequential data and provides insights into the strengths of different models for specific applications.",
+            "score": 9
+        },
+        {
+            "paperId": "4535f3e98c48b5650e58a3b44650a27bbaf1b123",
+            "title": "TSI-GAN: Unsupervised Time Series Anomaly Detection using Convolutional Cycle-Consistent Generative Adversarial Networks",
+            "venue": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+            "year": 2023,
+            "citationCount": 8,
+            "openAccessPdf": {
+                "url": "http://arxiv.org/pdf/2303.12952",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2303.12952, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This paper proposes TSI-GAN, an unsupervised anomaly detection model for time-series that can learn complex temporal patterns automatically and generalize well, i.e., no need for choosing dataset-specific parameters, making statistical assumptions about underlying data, or changing model architectures."
+            },
+            "authors": [
+                {
+                    "authorId": "2221170771",
+                    "name": "S. Saravanan"
+                },
+                {
+                    "authorId": null,
+                    "name": "Tie Luo"
+                },
+                {
+                    "authorId": "31889382",
+                    "name": "Mao V. Ngo"
+                }
+            ],
+            "abstract": "Anomaly detection is widely used in network intrusion detection, autonomous driving, medical diagnosis, credit card frauds, etc. However, several key challenges remain open, such as lack of ground truth labels, presence of complex temporal patterns, and generalizing over different datasets. This paper proposes TSI-GAN, an unsupervised anomaly detection model for time-series that can learn complex temporal patterns automatically and generalize well, i.e., no need for choosing dataset-specific parameters, making statistical assumptions about underlying data, or changing model architectures. To achieve these goals, we convert each input time-series into a sequence of 2D images using two encoding techniques with the intent of capturing temporal patterns and various types of deviance. Moreover, we design a reconstructive GAN that uses convolutional layers in an encoder-decoder network and employs cycle-consistency loss during training to ensure that inverse mappings are accurate as well. In addition, we also instrument a Hodrick-Prescott filter in post-processing to mitigate false positives. We evaluate TSI-GAN using 250 well-curated and harder-than-usual datasets and compare with 8 state-of-the-art baseline methods. The results demonstrate the superiority of TSI-GAN to all the baselines, offering an overall performance improvement of 13% and 31% over the second-best performer MERLIN and the third-best performer LSTM-AE, respectively.",
+            "score": 9
+        },
+        {
+            "paperId": "0c9913dcf8287eadd2879b73c027b34d2f38458f",
+            "title": "TadGAN: Time Series Anomaly Detection Using Generative Adversarial Networks",
+            "venue": "2020 IEEE International Conference on Big Data (Big Data)",
+            "year": 2020,
+            "citationCount": 217,
+            "openAccessPdf": {
+                "url": "http://arxiv.org/pdf/2009.07769",
+                "status": "GREEN",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2009.07769, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "TadGAN is an unsupervised anomaly detection approach built on Generative Adversarial Networks (GANs) that can effectively detect anomalies and outperform baseline methods in most cases, and has the highest averaged F1 score across all the datasets."
+            },
+            "authors": [
+                {
+                    "authorId": "47237127",
+                    "name": "Alexander Geiger"
+                },
+                {
+                    "authorId": "35386454",
+                    "name": "Dongyu Liu"
+                },
+                {
+                    "authorId": "1414097513",
+                    "name": "Sarah Alnegheimish"
+                },
+                {
+                    "authorId": "1402348047",
+                    "name": "Alfredo Cuesta-Infante"
+                },
+                {
+                    "authorId": "1803567",
+                    "name": "K. Veeramachaneni"
+                }
+            ],
+            "abstract": "Time series anomalies can offer information relevant to critical situations facing various fields, from finance and aerospace to the IT, security, and medical domains. However, detecting anomalies in time series data is particularly challenging due to the vague definition o f a nomalies and said data\u2019s frequent lack of labels and highly complex temporal correlations. Current state-of-the-art unsupervised machine learning methods for anomaly detection suffer from scalability and portability issues, and may have high false positive rates. In this paper, we propose TadGAN, an unsupervised anomaly detection approach built on Generative Adversarial Networks (GANs). To capture the temporal correlations of time series distributions, we use LSTM Recurrent Neural Networks as base models for Generators and Critics. TadGAN is trained with cycle consistency loss to allow for effective time-series data reconstruction. We further propose several novel methods to compute reconstruction errors, as well as different approaches to combine reconstruction errors and Critic outputs to compute anomaly scores. To demonstrate the performance and generalizability of our approach, we test several anomaly scoring techniques and report the best-suited one. We compare our approach to 8 baseline anomaly detection methods on 11 datasets from multiple reputable sources such as NASA, Yahoo, Numenta, Amazon, and Twitter. The results show that our approach can effectively detect anomalies and outperform baseline methods in most cases (6 out of 11). Notably, our method has the highest averaged F1 score across all the datasets. Our code is open source and is available as a benchmarking tool.",
+            "score": 9
+        },
+        {
+            "paperId": "4b52e9e2ddebf86ef1a72bc432901a3a4aed1257",
+            "title": "Approaching adverse event detection utilizing transformers on clinical time-series",
+            "venue": "arXiv.org",
+            "year": 2023,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2311.09165, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The preliminary results from this ongoing research are promising, but they underscore the importance of enhancing the dataset with additional demographic information from patients, which will be crucial for a more comprehensive evaluation of the method's performance."
+            },
+            "authors": [
+                {
+                    "authorId": "103238370",
+                    "name": "Helge Fredriksen"
+                },
+                {
+                    "authorId": "2266750039",
+                    "name": "Per Joel Burman"
+                },
+                {
+                    "authorId": "19165702",
+                    "name": "A. Woldaregay"
+                },
+                {
+                    "authorId": "1700727",
+                    "name": "Karl \u00d8yvind Mikalsen"
+                },
+                {
+                    "authorId": "2266750944",
+                    "name": "Staale Nymo UiT - The Arctic University of Norway"
+                },
+                {
+                    "authorId": "2266750440",
+                    "name": "The Norwegian Centre for Clinical Artificial Intelligence"
+                },
+                {
+                    "authorId": "2266753081",
+                    "name": "Nordland Hospital Trust"
+                }
+            ],
+            "abstract": "Patients being admitted to a hospital will most often be associated with a certain clinical development during their stay. However, there is always a risk of patients being subject to the wrong diagnosis or to a certain treatment not pertaining to the desired effect, potentially leading to adverse events. Our research aims to develop an anomaly detection system for identifying deviations from expected clinical trajectories. To address this goal we analyzed 16 months of vital sign recordings obtained from the Nordland Hospital Trust (NHT). We employed an self-supervised framework based on the STraTS transformer architecture to represent the time series data in a latent space. These representations were then subjected to various clustering techniques to explore potential patient phenotypes based on their clinical progress. While our preliminary results from this ongoing research are promising, they underscore the importance of enhancing the dataset with additional demographic information from patients. This additional data will be crucial for a more comprehensive evaluation of the method's performance.",
+            "score": 9
+        },
+        {
+            "paperId": "a6f586ded8e4d668b4d0b8977120a9c4c1b3cc91",
+            "title": "Counterfactual Explanation for Multivariate Times Series Using A Contrastive Variational Autoencoder",
+            "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+            "year": 2023,
+            "citationCount": 8,
+            "openAccessPdf": {
+                "url": "https://doi.org/10.1109/icassp49357.2023.10095789",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ICASSP49357.2023.10095789?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ICASSP49357.2023.10095789, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This paper presents a new variational autoencoder (VAE) training method that focuses on dividing the latent space into general and class-based features using supervised contrastive learning and demonstrates the superiority of this approach over other counterfactual methods in terms of validity and performance."
+            },
+            "authors": [
+                {
+                    "authorId": "2163449806",
+                    "name": "William Todo"
+                },
+                {
+                    "authorId": "90404500",
+                    "name": "Merwann Selmani"
+                },
+                {
+                    "authorId": "32722726",
+                    "name": "B. Laurent"
+                },
+                {
+                    "authorId": "144736569",
+                    "name": "J. Loubes"
+                }
+            ],
+            "abstract": "We tackle the issue of anomaly detection for multivariate functional data in a supervised setting. Deep learning applied to multivariate time series has become common nowadays, especially for medical data such as electrocardiogram (ECG). There are not many explanability techniques that can handle multivariate time series. In this paper, we propose a model to understand abnormal class features on multivariate time series. We present a new variational autoencoder (VAE) training method that focuses on dividing the latent space into general and class-based features using supervised contrastive learning. The Contrastive VAE produces a well-organized latent space that enables us to modify only the class-based features and to use the generative part of the VAE to produce counterfactual examples. This method is able to easily provide plausible counterfactual observations, which highlights the differences between pathological and non-pathological data. We demonstrate the superiority of our approach over other counterfactual methods in terms of validity and performance.",
+            "score": 9
+        },
+        {
+            "paperId": "88132a4fff52877eeff40dca903020b631e38635",
+            "title": "Anomaly detection for time series using temporal convolutional networks and Gaussian mixture model",
+            "venue": "Journal of Physics: Conference Series",
+            "year": 2019,
+            "citationCount": 19,
+            "openAccessPdf": {
+                "url": "https://doi.org/10.1088/1742-6596/1187/4/042111",
+                "status": "GOLD",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1088/1742-6596/1187/4/042111?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/1742-6596/1187/4/042111, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A novel anomaly detection framework is presented, which applies temporal convolutional networks to extract features of time series and combined Gaussian mixture model with Bayesian inference to detect anomalies of systems."
+            },
+            "authors": [
+                {
+                    "authorId": "2108375975",
+                    "name": "Jianwei Liu"
+                },
+                {
+                    "authorId": "40631035",
+                    "name": "Hongwei Zhu"
+                },
+                {
+                    "authorId": "2108031605",
+                    "name": "Yongxia Liu"
+                },
+                {
+                    "authorId": "6570709",
+                    "name": "H. Wu"
+                },
+                {
+                    "authorId": "1380730721",
+                    "name": "Yunsheng Lan"
+                },
+                {
+                    "authorId": "2125497134",
+                    "name": "Xinyu Zhang"
+                }
+            ],
+            "abstract": "Anomaly detection, as an important research field in the analysis of time series, has practical and significant applications in many occasions, such as network security, medical health, Internet of Things (IoT), fault diagnosis and so on. However, due to the inherent characteristics of time series, such as tremendous data volumes, the imbalance of normal data and abnormal data, additional constraints and challenges are added for anomaly detection for time series. We present a novel anomaly detection framework, which applies temporal convolutional networks to extract features of time series and combined Gaussian mixture model with Bayesian inference to detect anomalies of systems. In order to evaluate the effectiveness of our approach, experiments are carried out on two typical time series datasets including EEG dataset and current dataset of electrical equipment. The experiments indicate that temporal convolutional network can contribute to extracting salient features of time series and Gaussian mixture model with Bayesian inference has good generalization and reliability for anomaly detection. Meanwhile, the designed architecture and analysis approach of anomaly detection reveal the method\u2019s effectiveness and generalization in the feature extraction and anomaly detection for other time series.",
+            "score": 8
+        },
+        {
+            "paperId": "07779deb29c35a5ba427612b3b4dfab5498a7d51",
+            "title": "Categorization of phenotype trajectories utilizing transformers on clinical time-series",
+            "venue": "International Conference on Machine Learning Technologies",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1145/3674029.3674077?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1145/3674029.3674077, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Preliminary results from this ongoing research are promising, and underscore the importance of enhancing the dataset with additional demographic information from patients, which will be crucial for a more comprehensive evaluation of the method\u2019s performance."
+            },
+            "authors": [
+                {
+                    "authorId": "103238370",
+                    "name": "Helge Fredriksen"
+                },
+                {
+                    "authorId": "2266750039",
+                    "name": "Per Joel Burman"
+                },
+                {
+                    "authorId": "19165702",
+                    "name": "A. Woldaregay"
+                },
+                {
+                    "authorId": "1700727",
+                    "name": "Karl \u00d8yvind Mikalsen"
+                },
+                {
+                    "authorId": "2094973094",
+                    "name": "Stale Nymo"
+                }
+            ],
+            "abstract": "Patients being admitted to a hospital will most often be associated with a certain clinical development during their stay. However, there is always a risk of patients being subject to the wrong diagnosis or to a certain treatment not pertaining to the desired effect, potentially leading to adverse events. Thus, there is a need to develop an anomaly detection system for deviations from expected clinical progress. As a first step towards this goal we have considered methods for categorization of typical developments, coined phenotype trajectories. We analyzed 16 months of vital sign recordings obtained from the Nordland Hospital Trust (NHT), where we employed an self-supervised framework based on the STraTS transformer architecture to represent the time series data in a latent space. These representations were then subjected to various clustering techniques to explore potential phenotype trajectories. While our preliminary results from this ongoing research are promising, they underscore the importance of enhancing the dataset with additional demographic information from patients. This additional data will be crucial for a more comprehensive evaluation of the method\u2019s performance. Our data preprocessing and model implementation are available at https://github.com/helgeingvart/phenotypeTrajectories.",
+            "score": 8
+        },
+        {
+            "paperId": "98b1c5a0bb423d5fb6620ff73a8a5f4f6d9ed8b3",
+            "title": "Counterfactual Explanation for Auto-Encoder Based Time-Series Anomaly Detection",
+            "venue": "PHM Society European Conference",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2501.02069, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The experimental findings illustrate that the proposed counterfactual approach can offer meaningful and valuable insights into the model decision-making process, by explaining fewer signals compared to conventional approaches, which enhance the trustworthiness and interpretability of anomaly detection models."
+            },
+            "authors": [
+                {
+                    "authorId": "2338834457",
+                    "name": "Abhishek Srinivasan"
+                },
+                {
+                    "authorId": "2338834800",
+                    "name": "Varun Singapuri Ravi"
+                },
+                {
+                    "authorId": "4639904",
+                    "name": "J. C. Andresen"
+                },
+                {
+                    "authorId": "2244622603",
+                    "name": "Anders Holst"
+                }
+            ],
+            "abstract": "The complexity of modern electro-mechanical systems require the development of sophisticated diagnostic methods like anomaly detection capable of detecting deviations. Conventional anomaly detection approaches like signal processing and statistical modelling often struggle to effectively handle the intricacies of complex systems, particularly when dealing with multi-variate signals. In contrast, neural network-based anomaly detection methods, especially Auto-Encoders, have emerged as a compelling alternative, demonstrating remarkable performance. However, Auto-Encoders exhibit inherent opaqueness in their decision-making processes, hindering their practical implementation at scale. Addressing this opacity is essential for enhancing the interpretability and trustworthiness of anomaly detection models. In this work, we address this challenge by employing a feature selector to select features and counterfactual explanations to give a context to the model output. We tested this approach on the SKAB benchmark dataset and an industrial time-series dataset. The gradient based counterfactual explanation approach was evaluated via validity, sparsity and distance measures. Our experimental findings illustrate that our proposed counterfactual approach can offer meaningful and valuable insights into the model decision-making process, by explaining fewer signals compared to conventional approaches. These insights enhance the trustworthiness and interpretability of anomaly detection models.",
+            "score": 8
+        },
+        {
+            "paperId": "404e862cc02b9024b40bfe059439299d0a239f98",
+            "title": "Task-aware Similarity Learning for Event-triggered Time Series",
+            "venue": "arXiv.org",
+            "year": 2022,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "http://arxiv.org/pdf/2207.08159",
+                "status": "GREEN",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2207.08159, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The proposed framework aspires to offer a stepping stone that gives rise to a systematic approach to model and learn similarities among a multitude of event-triggered time series and outperforms state-of-the-art methods considerably."
+            },
+            "authors": [
+                {
+                    "authorId": "10675825",
+                    "name": "Shaoyu Dou"
+                },
+                {
+                    "authorId": "2163436495",
+                    "name": "Kai Yang"
+                },
+                {
+                    "authorId": "2055181125",
+                    "name": "Yang Jiao"
+                },
+                {
+                    "authorId": null,
+                    "name": "Chengbo Qiu"
+                },
+                {
+                    "authorId": "2145257973",
+                    "name": "Kui Ren"
+                }
+            ],
+            "abstract": "Time series analysis has achieved great success in diverse applications such as network security, environmental monitoring, and medical informatics. Learning similarities among different time series is a crucial problem since it serves as the foundation for downstream analysis such as clustering and anomaly detection. It often remains unclear what kind of distance metric is suitable for similarity learning due to the complex temporal dynamics of the time series generated from event-triggered sensing, which is common in diverse applications, including automated driving, interactive healthcare, and smart home automation. The overarching goal of this paper is to develop an unsupervised learning framework that is capable of learning task-aware similarities among unlabeled event-triggered time series. From the machine learning vantage point, the proposed framework harnesses the power of both hierarchical multi-scale sequence autoencoders and Gaussian Mixture Model (GMM) to effectively learn the low-dimensional representations from the time series. Finally, the obtained similarity measure can be easily visualized for explaining. The proposed framework aspires to offer a stepping stone that gives rise to a systematic approach to model and learn similarities among a multitude of event-triggered time series. Through extensive qualitative and quantitative experiments, it is revealed that the proposed method outperforms state-of-the-art methods considerably.",
+            "score": 7
+        },
+        {
+            "paperId": "8518f2e2c4905d8acfd8fcea1a47e56f512ee192",
+            "title": "Enhanced Anomaly Detection in IoT: A Transformer Based Approach for Multivariate Time Series data",
+            "venue": "2024 International Conference on Engineering & Computing Technologies (ICECT)",
+            "year": 2024,
+            "citationCount": 2,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ICECT61618.2024.10581104?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ICECT61618.2024.10581104, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The proposed model employs a transformer encoder-decoder architecture, leveraging its robust capabilities to analyze and identify aberrant patterns within intricately connected and complex data streams, contributing to the development of more resilient and efficient IoT systems."
+            },
+            "authors": [
+                {
+                    "authorId": "2310475145",
+                    "name": "Saher Zia"
+                },
+                {
+                    "authorId": "2486151",
+                    "name": "Nargis Bibi"
+                }
+            ],
+            "abstract": "In IoT (Internet of Things) systems, the identification of anomalies plays a crucial role in ensuring the security and reliability of data. The rapid progression of digitization has led to the widespread deployment of sensor networks across various domains, supplying vital information for organizations to achieve complete autonomy. These sensor networks generate copious amounts of data, often in the form of multivariate time series, capturing both typical operational patterns and unusual occurrences. In the realm of anomaly detection for multivariate time series within IoT networks, our research introduces a transformer-based approach. The chosen model employs a transformer encoder-decoder architecture, leveraging its robust capabilities to analyze and identify aberrant patterns within intricately connected and complex data streams. To enhance the accuracy of anomaly detection, the study addresses the challenges posed by multivariate time series data and proposes a distinctive transformer-based methodology. Through experimentation and evaluation of authentic IoT dataset, this research illustrates the potential of the proposed model in delivering improved anomaly detection performance, consequently contributing to the development of more resilient and efficient IoT systems.",
+            "score": 7
+        },
+        {
+            "paperId": "cd99b834d35b6877f9723528207377320765e0cd",
+            "title": "Graph Neural Networks for Anomaly Detection in Internet of Medical Things",
+            "venue": "International Conference on e-Health Networking, Applications and Services",
+            "year": 2023,
+            "citationCount": 1,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/Healthcom56612.2023.10472339?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/Healthcom56612.2023.10472339, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This investigation demonstrates that through this graph conversion process, GNNs acquire the capability to train and classify on a limited range of configurations, thereby improving both efficiency and classification performance."
+            },
+            "authors": [
+                {
+                    "authorId": "2268669928",
+                    "name": "Mickael Mohammed"
+                },
+                {
+                    "authorId": "144491655",
+                    "name": "Osman Salem"
+                },
+                {
+                    "authorId": "1761775",
+                    "name": "A. Mehaoua"
+                }
+            ],
+            "abstract": "Recent advancements in the realm of Graph Neural Networks (GNN) have introduced interesting opportunities for classifying and detecting anomalies in medical data. This paper explores the effectiveness of GNNs by utilizing various graphical representations, such as tree and bipartite graphs, to capture and exploit the intricate relationships inherent in medical data. Our investigation demonstrates that through this graph conversion process, GNNs acquire the capability to train and classify on a limited range of configurations, thereby improving both efficiency and classification performance. Furthermore, by employing complete graphs and multi-parametric temporal graphs, we can identify anomalies in health values by considering correlation factors. This sequential approach, where GNNs are repeatedly applied to graphs free from erroneous values, facilitates more precise classification, leading to exceptional accuracy rates. These findings highlight the crucial role of graphs in medical data analysis and demonstrate the effectiveness and robustness of GNNs in this specific domain.",
+            "score": 7
+        },
+        {
+            "paperId": "6975f93aa3f0a6da16bed486c8705448c2d7aadc",
+            "title": "ProMedTS: A Self-Supervised, Prompt-Guided Multimodal Approach for Integrating Medical Text and Time Series",
+            "venue": "Annual Meeting of the Association for Computational Linguistics",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2502.13509, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This work introduces ProMedTS, a novel self-supervised multimodal framework that employs prompt-guided learning to unify these heterogeneous data types, and demonstrates that the method consistently outperforms state-of-the-art approaches."
+            },
+            "authors": [
+                {
+                    "authorId": "2150142097",
+                    "name": "Shuai Niu"
+                },
+                {
+                    "authorId": "2258559894",
+                    "name": "Jing Ma"
+                },
+                {
+                    "authorId": "2109380683",
+                    "name": "Hongzhan Lin"
+                },
+                {
+                    "authorId": "2236526401",
+                    "name": "Liang Bai"
+                },
+                {
+                    "authorId": "2155397762",
+                    "name": "Zhihua Wang"
+                },
+                {
+                    "authorId": "2346108472",
+                    "name": "Wei Bi"
+                },
+                {
+                    "authorId": "2297510778",
+                    "name": "Yida Xu"
+                },
+                {
+                    "authorId": "2346279414",
+                    "name": "Guo Li"
+                },
+                {
+                    "authorId": "2221682690",
+                    "name": "Xian Yang"
+                }
+            ],
+            "abstract": "Large language models (LLMs) have shown remarkable performance in vision-language tasks, but their application in the medical field remains underexplored, particularly for integrating structured time series data with unstructured clinical notes. In clinical practice, dynamic time series data, such as lab test results, capture critical temporal patterns, while clinical notes provide rich semantic context. Merging these modalities is challenging due to the inherent differences between continuous signals and discrete text. To bridge this gap, we introduce ProMedTS, a novel self-supervised multimodal framework that employs prompt-guided learning to unify these heterogeneous data types. Our approach leverages lightweight anomaly detection to generate anomaly captions that serve as prompts, guiding the encoding of raw time series data into informative prompt embeddings. These prompt embeddings are aligned with textual representations in a shared latent space, preserving fine-grained temporal nuances alongside semantic insights. Furthermore, our framework incorporates tailored self-supervised objectives to enhance both intra- and inter-modal alignment. We evaluate ProMedTS on disease diagnosis tasks using real-world datasets, and the results demonstrate that our method consistently outperforms state-of-the-art approaches.",
+            "score": 6
+        },
+        {
+            "paperId": "14cd2db104db2b7e8bfcf7e3a297228a4a207ce4",
+            "title": "Clustering disease trajectories in contrastive feature space for biomarker discovery in age-related macular degeneration",
+            "venue": "arXiv.org",
+            "year": 2023,
+            "citationCount": 2,
+            "openAccessPdf": {
+                "url": "http://arxiv.org/pdf/2301.04525",
+                "status": "GREEN",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2301.04525, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This work presents the first method to automatically discover biomarkers that capture temporal dynamics of disease progression, representing patient time series as trajectories in a latent feature space built with contrastive learning."
+            },
+            "authors": [
+                {
+                    "authorId": "2054708486",
+                    "name": "R. Holland"
+                },
+                {
+                    "authorId": "103103132",
+                    "name": "Oliver Leingang"
+                },
+                {
+                    "authorId": "49468749",
+                    "name": "C. Holmes"
+                },
+                {
+                    "authorId": "79862171",
+                    "name": "Philipp Anders"
+                },
+                {
+                    "authorId": "1561434672",
+                    "name": "J. Paetzold"
+                },
+                {
+                    "authorId": "51148535",
+                    "name": "Rebecca A. Kaye"
+                },
+                {
+                    "authorId": "1412559691",
+                    "name": "Sophie Riedl"
+                },
+                {
+                    "authorId": "2154606862",
+                    "name": "Hrvoje Bogunovi'c"
+                },
+                {
+                    "authorId": "2066227145",
+                    "name": "U. Schmidt-Erfurth"
+                },
+                {
+                    "authorId": "34674072",
+                    "name": "L. Fritsche"
+                },
+                {
+                    "authorId": "2166145548",
+                    "name": "H. Scholl"
+                },
+                {
+                    "authorId": "1869515",
+                    "name": "S. Sivaprasad"
+                },
+                {
+                    "authorId": "3119846",
+                    "name": "A. Lotery"
+                },
+                {
+                    "authorId": "1717710",
+                    "name": "D. Rueckert"
+                },
+                {
+                    "authorId": "31444976",
+                    "name": "M. Menten"
+                }
+            ],
+            "abstract": "Age-related macular degeneration (AMD) is the leading cause of blindness in the elderly. Current grading systems based on imaging biomarkers only coarsely group disease stages into broad categories and are unable to predict future disease progression. It is widely believed that this is due to their focus on a single point in time, disregarding the dynamic nature of the disease. In this work, we present the first method to automatically discover biomarkers that capture temporal dynamics of disease progression. Our method represents patient time series as trajectories in a latent feature space built with contrastive learning. Then, individual trajectories are partitioned into atomic sub-sequences that encode transitions between disease states. These are clustered using a newly introduced distance metric. In quantitative experiments we found our method yields temporal biomarkers that are predictive of conversion to late AMD. Furthermore, these clusters were highly interpretable to ophthalmologists who confirmed that many of the clusters represent dynamics that have previously been linked to the progression of AMD, even though they are currently not included in any clinical grading system.",
+            "score": 5
+        },
+        {
+            "paperId": "26dab45504920dccd2ad380730fa73a56e7c3543",
+            "title": "Prioritizing Alignment Paradigms over Task-Specific Model Customization in Time-Series LLMs",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2506.11512, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Three alignment paradigms are proposed: Injective Alignment, Bridging Alignment, and Internal Alignment, which are emphasized by prioritizing different aspects of time-series primitives: domain, characteristic, and representation, respectively, to activate time-series reasoning capabilities of LLMs to enable economical, flexible, and efficient reasoning."
+            },
+            "authors": [
+                {
+                    "authorId": "2367099723",
+                    "name": "Wei Li"
+                },
+                {
+                    "authorId": "2348750981",
+                    "name": "Yun-Feng Cheng"
+                },
+                {
+                    "authorId": "2160088377",
+                    "name": "Xinli Hao"
+                },
+                {
+                    "authorId": "2291952900",
+                    "name": "Chaohong Ma"
+                },
+                {
+                    "authorId": "2328193900",
+                    "name": "Yuxuan Liang"
+                },
+                {
+                    "authorId": "2298971233",
+                    "name": "Bin Yang"
+                },
+                {
+                    "authorId": "2290218771",
+                    "name": "Christian S. Jensen"
+                },
+                {
+                    "authorId": "2292073974",
+                    "name": "Xiaofeng Meng"
+                }
+            ],
+            "abstract": "Recent advances in Large Language Models (LLMs) have enabled unprecedented capabilities for time-series reasoning in diverse real-world applications, including medical, financial, and spatio-temporal domains. However, existing approaches typically focus on task-specific model customization, such as forecasting and anomaly detection, while overlooking the data itself, referred to as time-series primitives, which are essential for in-depth reasoning. This position paper advocates a fundamental shift in approaching time-series reasoning with LLMs: prioritizing alignment paradigms grounded in the intrinsic primitives of time series data over task-specific model customization. This realignment addresses the core limitations of current time-series reasoning approaches, which are often costly, inflexible, and inefficient, by systematically accounting for intrinsic structure of data before task engineering. To this end, we propose three alignment paradigms: Injective Alignment, Bridging Alignment, and Internal Alignment, which are emphasized by prioritizing different aspects of time-series primitives: domain, characteristic, and representation, respectively, to activate time-series reasoning capabilities of LLMs to enable economical, flexible, and efficient reasoning. We further recommend that practitioners adopt an alignment-oriented method to avail this instruction to select an appropriate alignment paradigm. Additionally, we categorize relevant literature into these alignment paradigms and outline promising research directions.",
+            "score": 4
+        },
+        {
+            "paperId": "adad31a3e5ed9c1805987fcba3e4e7f89d0856f5",
+            "title": "Machine Learning for Anomaly Detection: Insights into Data-Driven Applications",
+            "venue": "International journal of data science and machine learning",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.55640/ijdsml-05-01-07?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.55640/ijdsml-05-01-07, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "An in-depth review of anomaly analytics, focusing on the various techniques used in machine learning to detect anomalies in complex, high-dimensional data, offers insights into current methodologies and future advancements."
+            },
+            "authors": [
+                {
+                    "authorId": "2353482532",
+                    "name": "Christoffer Haland"
+                },
+                {
+                    "authorId": "2353477705",
+                    "name": "Anders Granmo"
+                }
+            ],
+            "abstract": "Anomaly detection plays a pivotal role in data-driven machine learning applications, enabling the identification of rare or unexpected patterns that deviate from the norm. These anomalies, which can indicate critical events such as fraud, security breaches, equipment failures, or medical conditions, are invaluable in a variety of fields. This paper provides an in-depth review of anomaly analytics, focusing on the various techniques used in machine learning to detect anomalies in complex, high-dimensional data. We explore statistical methods, machine learning-based approaches, and hybrid models, analyzing their strengths and weaknesses across multiple domains including cybersecurity, finance, healthcare, and manufacturing. The paper also discusses key evaluation metrics for anomaly detection and highlights the challenges of scalability, noise handling, and model interpretability. Finally, we examine emerging trends in anomaly detection, including real-time processing and explainability, and suggest future research directions to improve the robustness and efficiency of anomaly detection systems in large-scale, dynamic environments. This work serves as a comprehensive guide for understanding the role of anomaly analytics in modern machine learning applications, offering insights into current methodologies and future advancements.",
+            "score": 4
+        },
+        {
+            "paperId": "64eb30b29984de31720692f92b9ac856a886333e",
+            "title": "A fast 2D-AR(1) filtering for bitemporal change detection on UWB SAR images",
+            "venue": "Environmental Remote Sensing",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1117/12.3030977?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1117/12.3030977, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "An elementary change detection algorithm designed using a synchronous model of computation (MoC) aiming at efficient implementations on parallel architectures, potentially enabling energy and runtime optimizations with deterministic data parallelism over multicore, GPU, or FPGA architectures."
+            },
+            "authors": [
+                {
+                    "authorId": "2333218408",
+                    "name": "Marcello G. Costa"
+                },
+                {
+                    "authorId": "2266477646",
+                    "name": "Ingo Sander"
+                },
+                {
+                    "authorId": "1796076",
+                    "name": "I. S\u00f6derquist"
+                },
+                {
+                    "authorId": "2332143649",
+                    "name": "Patrik Dammert"
+                },
+                {
+                    "authorId": "2332149951",
+                    "name": "Anders \u00c5hlander"
+                },
+                {
+                    "authorId": "2292428488",
+                    "name": "Christer Fuglesang"
+                }
+            ],
+            "abstract": "This article presents an elementary change detection algorithm designed using a synchronous model of computation (MoC) aiming at efficient implementations on parallel architectures. The change detection method is based on a 2D-first-order autoregressive ([2D-AR(1)]) recursion that predicts one-lag changes over bitemporal signals, followed by a high-parallelized spatial filtering for neighborhood training, and an estimated quantile function to detect anomalies. The proposed method uses a model-based on the functional language paradigm and a well-defined MoC, potentially enabling energy and runtime optimizations with deterministic data parallelism over multicore, GPU, or FPGA architectures. Experimental results over the bitemporal CARABAS-II SAR UWB dataset are evaluated using the synchronous MoC implementation, achieving gains in detection and hardware performance compared to a closed-form and well-known complexity model over the generalized likelihood ratio test (GLRT). In addition, since the one-lag AR(1) is a Markov process, its extension for a Markov chain in multitemporal (n-lags) analysis is applicable, potentially improving the detection performance still subject to high-parallelized structures.",
+            "score": 3
+        },
+        {
+            "paperId": "348a70a72dcebecf319a0629fcecb74fe1b92f81",
+            "title": "EAPCR: A Universal Feature Extractor for Scientific Data without Explicit Feature Relation Patterns",
+            "venue": "arXiv.org",
+            "year": 2024,
+            "citationCount": 1,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2411.08164, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "EAPCR, a universal feature extractor designed for data without explicit Feature Relation Patterns (FRPs), is introduced, demonstrating its robustness and superior performance in scientific tasks without FRPs."
+            },
+            "authors": [
+                {
+                    "authorId": "2217278590",
+                    "name": "Zhuohang Yu"
+                },
+                {
+                    "authorId": "2330403145",
+                    "name": "Ling An"
+                },
+                {
+                    "authorId": "2330435840",
+                    "name": "Yansong Li"
+                },
+                {
+                    "authorId": "2326255223",
+                    "name": "Yu Wu"
+                },
+                {
+                    "authorId": "2326811113",
+                    "name": "Zeyu Dong"
+                },
+                {
+                    "authorId": "2330758410",
+                    "name": "Zhangdi Liu"
+                },
+                {
+                    "authorId": "2330537227",
+                    "name": "Le Gao"
+                },
+                {
+                    "authorId": "2226696943",
+                    "name": "Zhenyu Zhang"
+                },
+                {
+                    "authorId": "2232313827",
+                    "name": "Chichun Zhou"
+                }
+            ],
+            "abstract": "Conventional methods, including Decision Tree (DT)-based methods, have been effective in scientific tasks, such as non-image medical diagnostics, system anomaly detection, and inorganic catalysis efficiency prediction. However, most deep-learning techniques have struggled to surpass or even match this level of success as traditional machine-learning methods. The primary reason is that these applications involve multi-source, heterogeneous data where features lack explicit relationships. This contrasts with image data, where pixels exhibit spatial relationships; textual data, where words have sequential dependencies; and graph data, where nodes are connected through established associations. The absence of explicit Feature Relation Patterns (FRPs) presents a significant challenge for deep learning techniques in scientific applications that are not image, text, and graph-based. In this paper, we introduce EAPCR, a universal feature extractor designed for data without explicit FRPs. Tested across various scientific tasks, EAPCR consistently outperforms traditional methods and bridges the gap where deep learning models fall short. To further demonstrate its robustness, we synthesize a dataset without explicit FRPs. While Kolmogorov-Arnold Network (KAN) and feature extractors like Convolutional Neural Networks (CNNs), Graph Convolutional Networks (GCNs), and Transformers struggle, EAPCR excels, demonstrating its robustness and superior performance in scientific tasks without FRPs.",
+            "score": 3
+        },
+        {
+            "paperId": "fd0f09e6ff2cd9d47c04012272ad733c796bf5c5",
+            "title": "SRAD-CLF: Squeak and Rattle Anomaly Detection via Contrastive Learning Framework on Real Industrial Noise Recordings",
+            "venue": "European Signal Processing Conference",
+            "year": 2024,
+            "citationCount": 3,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.23919/eusipco63174.2024.10715069?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.23919/eusipco63174.2024.10715069, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The proposed SRAD-CLF achieves promising results for SR-AD on real-world industrial datasets collected from the Ford Manutacturing Plant in Valencia (Spain), and integrates a classifier based on road surface-type information within a self-supervised learning framework, fortifying the performance of the SR-AD task."
+            },
+            "authors": [
+                {
+                    "authorId": "2287968388",
+                    "name": "Zhaoyi Liu"
+                },
+                {
+                    "authorId": "2181058640",
+                    "name": "\u00c1lvaro L\u00f3pez-Chilet"
+                },
+                {
+                    "authorId": "2327229274",
+                    "name": "Dading Chong"
+                },
+                {
+                    "authorId": "2327228888",
+                    "name": "Sam Michiels"
+                },
+                {
+                    "authorId": "2181905091",
+                    "name": "Jon Ander G\u00f3mez"
+                },
+                {
+                    "authorId": "2287929622",
+                    "name": "Friedrich Wolf-Monheim"
+                },
+                {
+                    "authorId": "2287928260",
+                    "name": "David Newton"
+                },
+                {
+                    "authorId": "2269868337",
+                    "name": "Danny Hughes"
+                }
+            ],
+            "abstract": "Vehicle manufacturing monitoring places significant emphasis on special noises from vehicles, encompassing Squeaking and Rattling (SR) noises as a pivotal aspect. Existing SR Anomaly Detection (SR-AD) studies still suffer from several challenges under actual industrial scenarios: lengthy and diverse real-recordings, costly manual labelling, and subtle distinction in road track noises. For the first time, we proposed SRAD-CLF, a novel framework that leverages contrastive learning on Real Industrial Noise Recordings (RINR) to tackle these challenges. Specifically, we initiate the process by segmenting a complete audio sample into distinct road-surface-type audio clips, subsequently assigning a surface label to each clip. Then, a contrastive learning-based framework employing encoder perturbations is implemented to enhance representation, effectively mitigating risks associated with data augmentation, like context loss and the incorporation of irrelevant augmentation details into the features. To enhance the efficacy of SRAD-CLF, we integrate a classifier based on road surface-type information within a self-supervised learning framework, fortifying the performance of the SR-AD task. Our proposed SRAD-CLF achieves promising results for SR-AD on real-world industrial datasets collected from the Ford Manutacturing Plant in Valencia (Spain).",
+            "score": 3
+        },
+        {
+            "paperId": "5b6c7f20061d88bd3530268c4da2d1802700448e",
+            "title": "#439 Nephron number determination in whole slide mice kidney specimens using a deep learning assisted disector/fractionator approach",
+            "venue": "Nephrology, Dialysis and Transplantation",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "https://academic.oup.com/ndt/article-pdf/39/Supplement_1/gfae069-0277-439/57791598/gfae069-0277-439.pdf",
+                "status": "HYBRID",
+                "license": "other-oa",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1093/ndt/gfae069.277?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/ndt/gfae069.277, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This work proposes a new semi-automated nephron counting approach using serial PAS-stained whole slide kidney sections, deep learning segmentation and slide registration, and reports the first deep learning assisted disector/fractionator approach to determine nephron number in whole slide kidney specimens."
+            },
+            "authors": [
+                {
+                    "authorId": "2303130572",
+                    "name": "Martin Klaus"
+                },
+                {
+                    "authorId": "2303190701",
+                    "name": "R. Abdullah"
+                },
+                {
+                    "authorId": "1437940402",
+                    "name": "Qiubo Li"
+                },
+                {
+                    "authorId": "2303205810",
+                    "name": "Christoph Walz"
+                },
+                {
+                    "authorId": "2301946267",
+                    "name": "Hans J. Anders"
+                },
+                {
+                    "authorId": "10272699",
+                    "name": "S. Steiger"
+                }
+            ],
+            "abstract": "\n \n \n Nephron number highly varies between different species and within species, ranging in humans from 200 000 to 2 000 000 nephrons per kidney. Low nephron numbers can promote early onset of end-stage kidney disease. Nephron assessment is highly needed for better diagnosis and more targeted treatment. However, its assessment in vivo is not established in clinical practice yet. Pioneer studies suggest nephron number estimation in vivo through a combination of glomerular densities in kidney biopsies together with medical imaging. In contrast, post-mortem nephron assessment either using optical clearing or by exhaustive kidney sectioning is well studied but remains laborious. Here, we propose a new semi-automated nephron counting approach using serial PAS-stained whole slide kidney sections, deep learning segmentation and slide registration.\n \n \n \n Mice were sacrificed, kidneys harvested, measured, halved in the coronary plane and then opposingly embedded in paraffin. Subsequently, the entire kidney was sectioned with 10 \u00b5m thickness per slide. Tissue was stained with PAS and slides were digitalized using Aperio GT 450 DX scanner (Leica, Wetzlar, Germany) (Fig.\u00a0a). Deep learning segmentation of glomeruli was performed in the first and every 10th (reference) section and subsequent (look-up) section using Tensorflow. Obtained segmentation results were manually quality controlled and adjusted, if necessary, in QuPath (Fig.\u00a0b). Final segmentations of the look-up slides were registered to the reference slides in ImageJ using manual landmarks with the ImageJ BigWarp plugin (Fig.\u00a0c). Glomeruli being present either in the look-up slide, or in the reference slide were counted as disector particles (Q-). Kidney areas on every examined slide were measured. Total number of glomeruli and total kidney area were determined as previously described (Fig.\u00a0d).\n \n \n \n A kidney from a 12-week-old mouse suffering chronic kidney disease (mouse line Alb-creERT2 (ki/ki); Glut9 (fl/fl)) was used. Kidney weight was 162 mg, length 11 mm, width 6 mm, depth 4 mm and kidney volume 260 mm\u00b3. In total the kidney was sectioned in 95 slices. 20 reference sections and its respective look-up sections were stained and digitalized. In total 5981 glomeruli were segmented in 40 kidney slices using the deep learning algorithm. Glomerular segmentation quality was verified by two independent observers (mean dice score 0.79). Inaccuracies, if any, where manually corrected. For image registration in average 18.1 landmarks per slide were created within the ImageJ BigWarp plugin. Registration took in average 5 minutes per slide. Glomeruli without match (disector particles, Q-) were automatically counted. Number of disector particles (Q-) ranged from 32 to 244 per slide. Total nephron number was 11.085 and kidney area 210 mm\u00b3. The differences to the manual measured volume (260 mm\u00b3) might be explained by discard of small kidney fractions for the used sectioning technique.\n \n \n \n We report, to our knowledge, the first deep learning assisted disector/fractionator approach to determine nephron number in whole slide kidney specimens. This method requires no physical disector setup, is scalable, cheap, time efficient, and unbiased. The method was so far validated in a mouse model of chronic kidney disease. The method will further be validated on different animal models. Additionally, occurrence of atubular glomeruli will be considered in nephron number determination. Furthermore, the integration of GFR measurements might allow the calculation of mean single nephron GFR and might together with automated glomerular area measurements unravel pathophysiologic processes in kidney ageing and disease.\n",
+            "score": 2
+        },
+        {
+            "paperId": "979fb8774e2000cd8e27033e1337562a65e35dec",
+            "title": "MUSTER: Longitudinal Deformable Registration by Composition of Consecutive Deformations",
+            "venue": "arXiv.org",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2412.14671, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The results show that MUSTER can effectively identify patterns of neuro-degeneration from T1-weighted images and that these changes correlate with changes in cognition, matching the performance of state of the art segmentation methods."
+            },
+            "authors": [
+                {
+                    "authorId": "1841973741",
+                    "name": "E. Gr\u00f8dem"
+                },
+                {
+                    "authorId": "46355096",
+                    "name": "Donatas Sederevi\u010dius"
+                },
+                {
+                    "authorId": "2048200578",
+                    "name": "E. Leonardsen"
+                },
+                {
+                    "authorId": "2318127209",
+                    "name": "Bradley J. MacIntosh"
+                },
+                {
+                    "authorId": "5234320",
+                    "name": "A. Bj\u00f8rnerud"
+                },
+                {
+                    "authorId": "2303198107",
+                    "name": "Till Schellhorn"
+                },
+                {
+                    "authorId": "1403549841",
+                    "name": "\u00d8ystein S\u00f8rensen"
+                },
+                {
+                    "authorId": "2095634",
+                    "name": "I. Amlien"
+                },
+                {
+                    "authorId": "2336089487",
+                    "name": "Pablo F. Garrido"
+                },
+                {
+                    "authorId": "2231140073",
+                    "name": "Anders M. Fjell"
+                }
+            ],
+            "abstract": "Longitudinal imaging allows for the study of structural changes over time. One approach to detecting such changes is by non-linear image registration. This study introduces Multi-Session Temporal Registration (MUSTER), a novel method that facilitates longitudinal analysis of changes in extended series of medical images. MUSTER improves upon conventional pairwise registration by incorporating more than two imaging sessions to recover longitudinal deformations. Longitudinal analysis at a voxel-level is challenging due to effects of a changing image contrast as well as instrumental and environmental sources of bias between sessions. We show that local normalized cross-correlation as an image similarity metric leads to biased results and propose a robust alternative. We test the performance of MUSTER on a synthetic multi-site, multi-session neuroimaging dataset and show that, in various scenarios, using MUSTER significantly enhances the estimated deformations relative to pairwise registration. Additionally, we apply MUSTER on a sample of older adults from the Alzheimer's Disease Neuroimaging Initiative (ADNI) study. The results show that MUSTER can effectively identify patterns of neuro-degeneration from T1-weighted images and that these changes correlate with changes in cognition, matching the performance of state of the art segmentation methods. By leveraging GPU acceleration, MUSTER efficiently handles large datasets, making it feasible also in situations with limited computational resources.",
+            "score": 2
+        },
+        {
+            "paperId": "0388f7a9d96683ae12fd14b6654a03e036e890fb",
+            "title": "Prehospital vital sign monitoring in paediatric patients: an interregional study of educational interventions",
+            "venue": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine",
+            "year": 2023,
+            "citationCount": 6,
+            "openAccessPdf": {
+                "url": "https://sjtrem.biomedcentral.com/counter/pdf/10.1186/s13049-023-01067-z",
+                "status": "GOLD",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC9839956, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Mandatory educational initiatives for EMS providers were associated with an increase in the extent of vital sign registration in paediatric patients and incomplete vital registration was associated with, but not limited to non-urgent cases."
+            },
+            "authors": [
+                {
+                    "authorId": "7988880",
+                    "name": "V. Nielsen"
+                },
+                {
+                    "authorId": "1404303317",
+                    "name": "M. S\u00f8vs\u00f8"
+                },
+                {
+                    "authorId": "1422438806",
+                    "name": "T. Kl\u00f8jg\u00e5rd"
+                },
+                {
+                    "authorId": "2134315326",
+                    "name": "R. G. Skals"
+                },
+                {
+                    "authorId": "38851248",
+                    "name": "A. Corfield"
+                },
+                {
+                    "authorId": "120024907",
+                    "name": "L. Bender"
+                },
+                {
+                    "authorId": "6734549",
+                    "name": "H. Lossius"
+                },
+                {
+                    "authorId": "143775092",
+                    "name": "S. Mikkelsen"
+                },
+                {
+                    "authorId": "2099183",
+                    "name": "E. Christensen"
+                }
+            ],
+            "abstract": "Background Prehospital vital sign documentation in paediatric patients is incomplete, especially in patients\u2009\u2264\u20092\u00a0years. The aim of the study was to increase vital sign registration in paediatric patients through specific educational initiatives. Methods Prospective quasi-experimental study with interrupted time-series design in the North Denmark and South Denmark regions. The study consecutively included all children aged\u2009<\u200918\u00a0years attended by the emergency medical service (EMS) from 1 July 2019 to 31 December 2021. Specific educational initiatives were conducted only in the North Denmark EMS and included video learning and classroom training based on the European Paediatric Advanced Life Support principles. The primary outcome was the proportion of patients who had their respiratory rate, peripheral capillary oxygen saturation, heart rate and level of consciousness recorded at least twice. We used a binomial regression model stratified by age groups to compare proportions of the primary outcome in the pre- and post-intervention periods in each region. Results In North Denmark, 7551 patients were included, while 15,585 patients from South Denmark were used as a reference. Virtually all of the North Denmark EMS providers completed the video learning (98.7%). The total study population involved patients aged\u2009\u2264\u20092\u00a0months (5.5%), 3\u201311\u00a0months (7.4%), 1\u20132\u00a0years (18.8%), 3\u20137\u00a0years (16.2%) and\u2009\u2265\u20098\u00a0years (52.1%). In the intervention region, the primary outcome increased from the pre- to the post-intervention period from 35.3% to 40.5% [95% CI for difference 3.0;7.4]. There were large variations in between age groups with increases from 18.8% to 27.4% [95% CI for difference 5.3;12.0] among patients aged\u2009\u2264\u20092\u00a0years, from 33.5% to 43.7% [95% CI for difference 4.9;15.5] among patients aged 3\u20137\u00a0years and an insignificant increase among patients aged\u2009\u2265\u20098\u00a0years (from 46.4% to 47.9% [95% CI for difference\u2009\u2212\u20091.7;4.7]). In the region without the specific educational interventions, proportions were steady for all age groups throughout the entire study period. Conclusions Mandatory educational initiatives for EMS providers were associated with an increase in the extent of vital sign registration in paediatric patients\u2009\u2264\u20097\u00a0years. Incomplete vital registration was associated with, but not limited to non-urgent cases.",
+            "score": 1
+        }
+    ]
+}

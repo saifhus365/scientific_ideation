@@ -1,0 +1,1342 @@
+{
+    "initial_query": "do multi agent systems work well in science search ",
+    "query_analysis": {
+        "topics": [
+            "multi-agent systems",
+            "science search",
+            "performance evaluation"
+        ],
+        "timeline": {
+            "start_date": "2010-01-01",
+            "end_date": "2023-12-31",
+            "specific_year": null
+        },
+        "intention": "Comparative"
+    },
+    "discovered_papers": [
+        {
+            "paperId": "b2445d0ff46f3f6c46db70ddcfb3038941222598",
+            "title": "Multi-Agent Reinforcement Learning With Decentralized Distribution Correction",
+            "venue": "IEEE Transactions on Automation Science and Engineering",
+            "year": 2025,
+            "citationCount": 7,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/TASE.2024.3369592?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/TASE.2024.3369592, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This work reweight historical trajectories via a decentralized average consensus step and develop corresponding policy-optimization procedures, with which previous trajectories could be used to stabilize later iterations."
+            },
+            "authors": [
+                {
+                    "authorId": "2115469157",
+                    "name": "Kuo Li"
+                },
+                {
+                    "authorId": "2287075159",
+                    "name": "Qing-Shan Jia"
+                }
+            ],
+            "abstract": "This work considers decentralized multi-agent reinforcement learning (MARL), where the global states and rewards are assumed to be fully observable, while the local behavior policy is preserved locally for resisting adversarial attack. In order to cooperatively accumulate more rewards, the agents exchange messages among a time-varying communication network to reach consensus. For these cooperative tasks, we propose a decentralized actor-critic algorithm, where the agents make individual decisions, but the joint behavior policy is optimized towards more cumulative rewards. We provide the theoretical analysis towards the convergence under the tabular setting and then expand it to nonlinear function approximations. Furthermore, by incorporating decentralized distribution correction, the agents are trained in an off-policy manner for higher sample efficiency. Finally, we conduct experiments to evaluate the algorithms, where the proposed algorithm performs competitively in both stability and asymptotic performance. Note to Practitioners\u2014Fully decentralized MARL algorithms are widely applied in multi-agent systems for generating cooperative behaviors, e.g., multiple unmanned aerial vehicles (UAV) cooperatively performing search and rescue tasks, multiple vehicles efficiently passing a crowded intersection, and multiple robots cooperatively handling cargo or obstacles. Focusing on these potential applications, this work is motivated to improve the sample efficiency of recent decentralized MARL algorithms by incorporating off-policy training approaches. In this work, we reweight historical trajectories via a decentralized average consensus step and develop corresponding policy-optimization procedures, with which previous trajectories could be used to stabilize later iterations. Since the training materials are augmented by historical samples, the sample efficiency is significantly improved, and the training process is stabilized. With the fully decentralized training approach, the proposed algorithms are expected to be applied in large-scale systems, e.g., vehicle teams and UAV groups, for effective real-time control.",
+            "score": 10
+        },
+        {
+            "paperId": "a2bfc5c78c7ff7d9253a1cc9a97fd3223d746e61",
+            "title": "Decentralized Cognitive Swarm-Based Control Systems: A Novel Approach for Autonomous Decision-Making and Adaptation",
+            "venue": "2025 7th International Youth Conference on Radio Electronics, Electrical and Power Engineering (REEPE)",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/REEPE63962.2025.10971116?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/REEPE63962.2025.10971116, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The present paper explores the design and application of CSBCS, emphasizing its ability to foster adaptability, robustness, and scalability in dynamic environments, and the potential of CSBCS in augmenting both individual and collective performance across a spectrum of domains."
+            },
+            "authors": [
+                {
+                    "authorId": "2295914854",
+                    "name": "P. A. Panilov"
+                },
+                {
+                    "authorId": "2358245434",
+                    "name": "Tatiana Y. Tsibizova"
+                }
+            ],
+            "abstract": "The emergence of decentralized systems has precipitated a paradigm shift in the realm of autonomous control across diverse domains, ranging from robotics to critical infrastructure management. One such approach that is gaining traction is the cognitive swarm-based control system (CSBCS), which applies principles from cognitive science and swarm intelligence to decentralized decision-making processes. The present paper explores the design and application of CSBCS, emphasizing its ability to foster adaptability, robustness, and scalability in dynamic environments. The CSBCS framework integrates cognitive models that simulate human-like thinking, enabling individual agents within the swarm to operate autonomously, collaborate effectively, and adapt to changing conditions without centralized oversight. The experimental findings, derived from simulations and real-world applications demonstrate the potential of CSBCS in augmenting both individual and collective performance across a spectrum of domains, ranging from multi-robot coordination to critical infrastructure protection. CSBCS provides an framework for addressing complex issues that traditional centralized approaches are unable to tackle effectively.",
+            "score": 10
+        },
+        {
+            "paperId": "81d60441aa11e941c7060c92b2e5a8dad136e7df",
+            "title": "Multi-Agent Guided Policy Optimization",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2507.18059, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "authors": [
+                {
+                    "authorId": "2363373009",
+                    "name": "Yueheng Li"
+                },
+                {
+                    "authorId": "2362630966",
+                    "name": "Guangming Xie"
+                },
+                {
+                    "authorId": "2362635757",
+                    "name": "Zongqing Lu"
+                }
+            ],
+            "abstract": "Due to practical constraints such as partial observability and limited communication, Centralized Training with Decentralized Execution (CTDE) has become the dominant paradigm in cooperative Multi-Agent Reinforcement Learning (MARL). However, existing CTDE methods often underutilize centralized training or lack theoretical guarantees. We propose Multi-Agent Guided Policy Optimization (MAGPO), a novel framework that better leverages centralized training by integrating centralized guidance with decentralized execution. MAGPO uses an auto-regressive joint policy for scalable, coordinated exploration and explicitly aligns it with decentralized policies to ensure deployability under partial observability. We provide theoretical guarantees of monotonic policy improvement and empirically evaluate MAGPO on 43 tasks across 6 diverse environments. Results show that MAGPO consistently outperforms strong CTDE baselines and matches or surpasses fully centralized approaches, offering a principled and practical solution for decentralized multi-agent learning. Our code and experimental data can be found in https://github.com/liyheng/MAGPO.",
+            "score": 10
+        },
+        {
+            "paperId": "5cfd6bab55a113b4f2bf7fcf80f8351ac9baab5a",
+            "title": "Multi-Agent Deep Reinforcement Learning for Persistent Monitoring With Sensing, Communication, and Localization Constraints",
+            "venue": "IEEE Transactions on Automation Science and Engineering",
+            "year": 2021,
+            "citationCount": 11,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2109.06831, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A multi-agent deep reinforcement learning (MARL) based architecture with graph convolution called Graph Localized Proximal Policy Optimization (GALOPP), which incorporates the limited sensor field-of-view, communication, and localization constraints of the agents along with persistent monitoring objectives to determine motion policies for each agent is proposed."
+            },
+            "authors": [
+                {
+                    "authorId": "3083966",
+                    "name": "M. Mishra"
+                },
+                {
+                    "authorId": "2126871763",
+                    "name": "Prithvi Poddar"
+                },
+                {
+                    "authorId": "2295812610",
+                    "name": "Rajat Agrawal"
+                },
+                {
+                    "authorId": "2688691",
+                    "name": "Jingxi Chen"
+                },
+                {
+                    "authorId": "2390456",
+                    "name": "Pratap Tokekar"
+                },
+                {
+                    "authorId": "144583564",
+                    "name": "P. Sujit"
+                }
+            ],
+            "abstract": "Determining multi-robot motion policies for persistently monitoring a region with limited sensing, communication, and localization constraints in non-GPS environments is a challenging problem. To take the localization constraints into account, in this paper, we consider a heterogeneous robotic system consisting of two types of agents: anchor agents with accurate localization capability and auxiliary agents with low localization accuracy. To localize itself, the auxiliary agents must be within the communication range of an {anchor}, directly or indirectly. The robotic team's objective is to minimize environmental uncertainty through persistent monitoring. We propose a multi-agent deep reinforcement learning (MARL) based architecture with graph convolution called Graph Localized Proximal Policy Optimization (GALOPP), which incorporates the limited sensor field-of-view, communication, and localization constraints of the agents along with persistent monitoring objectives to determine motion policies for each agent. We evaluate the performance of GALOPP on open maps with obstacles having a different number of anchor and auxiliary agents. We further study (i) the effect of communication range, obstacle density, and sensing range on the performance and (ii) compare the performance of GALOPP with non-RL baselines, namely, greedy search, random search, and random search with communication constraint. For its generalization capability, we also evaluated GALOPP in two different environments -- 2-room and 4-room. The results show that GALOPP learns the policies and monitors the area well. As a proof-of-concept, we perform hardware experiments to demonstrate the performance of GALOPP.",
+            "score": 9
+        },
+        {
+            "paperId": "6f722e89a4bf57f6b4ae6aecee8c1a18384106a4",
+            "title": "A Novel Swam Robotic System for Navigating and Collective Decision-Making in Dynamic Environments",
+            "venue": "2024 4th International Conference on Ubiquitous Computing and Intelligent Information Systems (ICUIS)",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ICUIS64676.2024.10867086?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ICUIS64676.2024.10867086, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The study explores the role of sensor technologies, such as Zigbee and Wi-Fi, in facilitating communication and data sharing among the robots and addresses the challenges and potential of swarm robotics in disaster response, including scalability, robustness, and realtime adaptability."
+            },
+            "authors": [
+                {
+                    "authorId": "2130371886",
+                    "name": "S. S"
+                },
+                {
+                    "authorId": null,
+                    "name": "Mithun S"
+                },
+                {
+                    "authorId": "2345379615",
+                    "name": "Meghana P V"
+                },
+                {
+                    "authorId": "2345372574",
+                    "name": "Chethan S"
+                },
+                {
+                    "authorId": "2345384399",
+                    "name": "Dhanesh"
+                }
+            ],
+            "abstract": "This research investigates the application of swarm robotics for disaster response in dynamic environments. A team of autonomous robots, equipped with advanced sensors, is designed to collaboratively search and locate victims in disaster-stricken areas. Utilizing swarm intelligence, the robots coordinate their actions, adapt to changing conditions, and optimize search patterns based on real-time data gathered from the environment. The study explores the role of sensor technologies, such as Zigbee and Wi-Fi, in facilitating communication and data sharing among the robots. It also addresses the challenges and potential of swarm robotics in disaster response, including scalability, robustness, and realtime adaptability. This research contributes to the development of innovative and effective solutions for disaster management, enhancing search and rescue operations and improving the safety and well-being of affected populations.",
+            "score": 9
+        },
+        {
+            "paperId": "148ff5c965ec636909679f71cb22a41f1069e5e4",
+            "title": "Centralized Adaptive Sampling for Reliable Co-Training of Independent Multi-Agent Policies",
+            "venue": "",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2508.01049, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "authors": [
+                {
+                    "authorId": "97229908",
+                    "name": "Nicholas E Corrado"
+                },
+                {
+                    "authorId": "34719248",
+                    "name": "Josiah P. Hanna"
+                }
+            ],
+            "abstract": "Independent on-policy policy gradient algorithms are widely used for multi-agent reinforcement learning (MARL) in cooperative and no-conflict games, but they are known to converge suboptimally when each agent's policy gradient points toward a suboptimal equilibrium. In this work, we identify a subtler failure mode that arises \\textit{even when the expected policy gradients of all agents point toward an optimal solution.} After collecting a finite set of trajectories, stochasticity in independent action sampling can cause the joint data distribution to deviate from the expected joint on-policy distribution. This \\textit{sampling error} w.r.t. the joint on-policy distribution produces inaccurate gradient estimates that can lead agents to converge suboptimally. In this paper, we investigate if joint sampling error can be reduced through coordinated action selection and whether doing so improves the reliability of policy gradient learning in MARL. Toward this end, we introduce an adaptive action sampling approach to reduce joint sampling error. Our method, Multi-Agent Proximal Robust On-Policy Sampling (MA-PROPS), uses a centralized behavior policy that we continually adapt to place larger probability on joint actions that are currently under-sampled w.r.t. the current joint policy. We empirically evaluate MA-PROPS in a diverse range of multi-agent games and demonstrate that (1) MA-PROPS reduces joint sampling error more efficiently than standard on-policy sampling and (2) improves the reliability of independent policy gradient algorithms, increasing the fraction of training runs that converge to an optimal joint policy.",
+            "score": 9
+        },
+        {
+            "paperId": "688a662f7790834cd18dd84dd4e6a2f7fb3d735c",
+            "title": "Centralized Permutation Equivariant Policy for Cooperative Multi-Agent Reinforcement Learning",
+            "venue": "",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2508.11706, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "authors": [
+                {
+                    "authorId": "2342772755",
+                    "name": "Zhuofan Xu"
+                },
+                {
+                    "authorId": "2342701505",
+                    "name": "Benedikt Bollig"
+                },
+                {
+                    "authorId": "2212819845",
+                    "name": "Matthias Fugger"
+                },
+                {
+                    "authorId": "2308968657",
+                    "name": "Thomas Nowak"
+                },
+                {
+                    "authorId": "2376198253",
+                    "name": "Vincent Le Dr'eau"
+                }
+            ],
+            "abstract": "The Centralized Training with Decentralized Execution (CTDE) paradigm has gained significant attention in multi-agent reinforcement learning (MARL) and is the foundation of many recent algorithms. However, decentralized policies operate under partial observability and often yield suboptimal performance compared to centralized policies, while fully centralized approaches typically face scalability challenges as the number of agents increases. We propose Centralized Permutation Equivariant (CPE) learning, a centralized training and execution framework that employs a fully centralized policy to overcome these limitations. Our approach leverages a novel permutation equivariant architecture, Global-Local Permutation Equivariant (GLPE) networks, that is lightweight, scalable, and easy to implement. Experiments show that CPE integrates seamlessly with both value decomposition and actor-critic methods, substantially improving the performance of standard CTDE algorithms across cooperative benchmarks including MPE, SMAC, and RWARE, and matching the performance of state-of-the-art RWARE implementations.",
+            "score": 9
+        },
+        {
+            "paperId": "06389fadf08121fd779f6333d8812776de61233d",
+            "title": "Multi-Agent Trust Region Policy Optimisation: A Joint Constraint Approach",
+            "venue": "",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2508.10340, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "authors": [
+                {
+                    "authorId": "1500528055",
+                    "name": "Chak Lam Shek"
+                },
+                {
+                    "authorId": "101315646",
+                    "name": "Guan-Yu Shi"
+                },
+                {
+                    "authorId": "2390456",
+                    "name": "Pratap Tokekar"
+                }
+            ],
+            "abstract": "Multi-agent reinforcement learning (MARL) requires coordinated and stable policy updates among interacting agents. Heterogeneous-Agent Trust Region Policy Optimization (HATRPO) enforces per-agent trust region constraints using Kullback-Leibler (KL) divergence to stabilize training. However, assigning each agent the same KL threshold can lead to slow and locally optimal updates, especially in heterogeneous settings. To address this limitation, we propose two approaches for allocating the KL divergence threshold across agents: HATRPO-W, a Karush-Kuhn-Tucker-based (KKT-based) method that optimizes threshold assignment under global KL constraints, and HATRPO-G, a greedy algorithm that prioritizes agents based on improvement-to-divergence ratio. By connecting sequential policy optimization with constrained threshold scheduling, our approach enables more flexible and effective learning in heterogeneous-agent settings. Experimental results demonstrate that our methods significantly boost the performance of HATRPO, achieving faster convergence and higher final rewards across diverse MARL benchmarks. Specifically, HATRPO-W and HATRPO-G achieve comparable improvements in final performance, each exceeding 22.5%. Notably, HATRPO-W also demonstrates more stable learning dynamics, as reflected by its lower variance.",
+            "score": 9
+        },
+        {
+            "paperId": "71dd4e309cb3752d3b73447aa8ffacf3efa75329",
+            "title": "Implementation of an Automata Mechanism for a Self-Organizing Swarm of Drones Platform",
+            "venue": "Mathematical Problems of Computer Science",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.51408/1963-0133?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.51408/1963-0133, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A novel automation technique aimed at enhancing the efficiency, adaptability, and robustness of self-organizing drone swarms is presented, offering a comprehensive framework for deploying intelligent, self-organizing drone swarms and highlighting the transformative potential of automata-based approaches in future autonomous systems."
+            },
+            "authors": [
+                {
+                    "authorId": "2218513900",
+                    "name": "A. Atashyan"
+                },
+                {
+                    "authorId": "2218538943",
+                    "name": "A. Lazyan"
+                },
+                {
+                    "authorId": "2281464485",
+                    "name": "D. Hayrapetyan"
+                },
+                {
+                    "authorId": "2281465399",
+                    "name": "V. Poghosyan"
+                }
+            ],
+            "abstract": "Drone technology has enabled major advancements in autonomous systems, particularly in swarm robotics. This paper presents a novel automation technique aimed at enhancing the efficiency, adaptability, and robustness of self-organizing drone swarms. The system uses decentralized control algorithms and robust communication protocols to enable real-time adaptive learning and decision-making among drones. Each drone acts as an autonomous agent, adjusting its behavior based on environmental inputs and interactions with other drones. A hybrid communication model blending peer-to-peer and cluster-based protocols ensures effective information sharing and coordination. To build a scalable and resilient architecture, multi-agent systems theory is integrated with advanced self-organizing strategies. Extensive modeling and realworld testing evaluated the systems performance in complex scenarios such as disaster response, environmental monitoring, and surveillance. Results demonstrate significant improvements in swarm efficiency, resilience to failures, and adaptability to dynamic environments. The incorporation of adaptive learning algorithms further optimized task allocation and execution in real time. This work represents a substantial advancement in autonomous aerial robotics, offering a comprehensive framework for deploying intelligent, self-organizing drone swarms and highlighting the transformative potential of automata-based approaches in future autonomous systems.",
+            "score": 9
+        },
+        {
+            "paperId": "9cd0b83a7eaca2df4a6992ddf1e5f23a133032be",
+            "title": "Multi-Robot Exploration via Flocking Coordination and Machine Learning-Driven Connectivity Assessment",
+            "venue": "International Symposium on Modeling and Optimization in Mobile, Ad-Hoc and Wireless Networks",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.23919/WiOpt66569.2025.11123351?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.23919/WiOpt66569.2025.11123351, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A distributed multi-robot exploration system that combines bio-inspired flocking dynamics with machine learning-powered connectivity prediction to enable efficient unknown environment mapping while maintaining robust communication networks for emergency response scenarios."
+            },
+            "authors": [
+                {
+                    "authorId": "2375063178",
+                    "name": "Hazem Chaabi"
+                },
+                {
+                    "authorId": "2279735490",
+                    "name": "Nathalie Mitton"
+                }
+            ],
+            "abstract": "This paper introduces a distributed multi-robot exploration system that combines bio-inspired flocking dynamics with machine learning-powered connectivity prediction to enable efficient unknown environment mapping while maintaining robust communication networks. Designed for emergency response scenarios where operational timelines and network reliability are critical, the approach enriches a previous work to implement a role-adaptive framework in which robots dynamically alternate between exploration-focused and connectivity reinforcement behaviors based on real-time signal strength assessments. Explorers employ frontier detection to explore the unknown areas enhanced with RSSI-aware frontier choosing mechanism, while supporters autonomously position themselves using Flocking inspired behavior, forming communication relays. A comparative evaluation of machine learning models trained on FIT-IoT-Lab-collected signal propagation data enables the system to predict RSSI values in different environments. The system's innovation lies in its integration of flocking-based swarm coordination with data-driven connectivity prediction, addressing the challenge of maintaining network stability while exploring unknown areas efficiently. In addition, the system is designed to operate within the strict computational constraints typical of embedded robotic platforms, leveraging lightweight machine learning models that enable real-time connectivity predictions.",
+            "score": 9
+        },
+        {
+            "paperId": "5c562445aec1336cf2952e89c0fae9d6364b29c1",
+            "title": "Efficiently solving the thief orienteering problem with a max\u2013min ant colony optimization approach",
+            "venue": "Optimization Letters",
+            "year": 2021,
+            "citationCount": 10,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2109.13103, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This article presents an approach that combines swarm-intelligence with a randomized packing heuristic and outperforms existing works on almost all the 432 benchmarking instances, with significant improvements."
+            },
+            "authors": [
+                {
+                    "authorId": "8062552",
+                    "name": "Jonatas B. C. Chagas"
+                },
+                {
+                    "authorId": "145412358",
+                    "name": "Markus Wagner"
+                }
+            ],
+            "abstract": "We tackle the thief orienteering problem (ThOP), an academic multi-component problem that combines two classical combinatorial problems, namely the Knapsack Problem and the Orienteering Problem. In the ThOP, a thief has a time limit to steal items that distributed in a given set of cities. While traveling, the thief collects items by storing them in their knapsack, which in turn reduces the travel speed. The thief has as the objective to maximize the total profit of the stolen items. In this article, we present an approach that combines swarm-intelligence with a randomized packing heuristic. Our solution approach outperforms existing works on almost all the 432 benchmarking instances, with significant improvements.",
+            "score": 8
+        },
+        {
+            "paperId": "1adee3e8dbe8542ab2aa70306c18b0ae51e1134b",
+            "title": "Conceptual Framework Toward Embodied Collective Adaptive Intelligence",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 1,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2505.23153, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A conceptual framework for designing and analyzing Collective Adaptive Intelligence delineates key attributes including task generalization, resilience, scalability, and self-assembly, aiming to bridge theoretical foundations with practical methodologies for engineering adaptive, emergent intelligence."
+            },
+            "authors": [
+                {
+                    "authorId": "2364613255",
+                    "name": "Fan Wang"
+                },
+                {
+                    "authorId": "2364445381",
+                    "name": "Shaoshan Liu"
+                }
+            ],
+            "abstract": "Collective Adaptive Intelligence (CAI) represent a transformative approach in embodied AI, wherein numerous autonomous agents collaborate, adapt, and self-organize to navigate complex, dynamic environments. By enabling systems to reconfigure themselves in response to unforeseen challenges, CAI facilitate robust performance in real-world scenarios. This article introduces a conceptual framework for designing and analyzing CAI. It delineates key attributes including task generalization, resilience, scalability, and self-assembly, aiming to bridge theoretical foundations with practical methodologies for engineering adaptive, emergent intelligence. By providing a structured foundation for understanding and implementing CAI, this work seeks to guide researchers and practitioners in developing more resilient, scalable, and adaptable AI systems across various domains.",
+            "score": 8
+        },
+        {
+            "paperId": "06249c7f0b53d340e7deb0d4de63a9aba1e3ae59",
+            "title": "Online Robust Multi-Agent Reinforcement Learning under Model Uncertainties",
+            "venue": "",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2508.02948, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "authors": [
+                {
+                    "authorId": "2128097978",
+                    "name": "Zain Ulabedeen Farhat"
+                },
+                {
+                    "authorId": "2374967794",
+                    "name": "Debamita Ghosh"
+                },
+                {
+                    "authorId": "2338891170",
+                    "name": "George Atia"
+                },
+                {
+                    "authorId": "2375082736",
+                    "name": "Yue Wang"
+                }
+            ],
+            "abstract": "Well-trained multi-agent systems can fail when deployed in real-world environments due to model mismatches between the training and deployment environments, caused by environment uncertainties including noise or adversarial attacks. Distributionally Robust Markov Games (DRMGs) enhance system resilience by optimizing for worst-case performance over a defined set of environmental uncertainties. However, current methods are limited by their dependence on simulators or large offline datasets, which are often unavailable. This paper pioneers the study of online learning in DRMGs, where agents learn directly from environmental interactions without prior data. We introduce the {\\it Robust Optimistic Nash Value Iteration (RONAVI)} algorithm and provide the first provable guarantees for this setting. Our theoretical analysis demonstrates that the algorithm achieves low regret and efficiently finds the optimal robust policy for uncertainty sets measured by Total Variation divergence and Kullback-Leibler divergence. These results establish a new, practical path toward developing truly robust multi-agent systems.",
+            "score": 8
+        },
+        {
+            "paperId": "7e0c02e4809e3246343d945ef35f9e2230ec3d53",
+            "title": "Hierarchical Message-Passing Policies for Multi-Agent Reinforcement Learning",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2507.23604, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "authors": [
+                {
+                    "authorId": "2045740859",
+                    "name": "Tommaso Marzi"
+                },
+                {
+                    "authorId": "1785004",
+                    "name": "C. Alippi"
+                },
+                {
+                    "authorId": "115461566",
+                    "name": "Andrea Cini"
+                }
+            ],
+            "abstract": "Decentralized Multi-Agent Reinforcement Learning (MARL) methods allow for learning scalable multi-agent policies, but suffer from partial observability and induced non-stationarity. These challenges can be addressed by introducing mechanisms that facilitate coordination and high-level planning. Specifically, coordination and temporal abstraction can be achieved through communication (e.g., message passing) and Hierarchical Reinforcement Learning (HRL) approaches to decision-making. However, optimization issues limit the applicability of hierarchical policies to multi-agent systems. As such, the combination of these approaches has not been fully explored. To fill this void, we propose a novel and effective methodology for learning multi-agent hierarchies of message-passing policies. We adopt the feudal HRL framework and rely on a hierarchical graph structure for planning and coordination among agents. Agents at lower levels in the hierarchy receive goals from the upper levels and exchange messages with neighboring agents at the same level. To learn hierarchical multi-agent policies, we design a novel reward-assignment method based on training the lower-level policies to maximize the advantage function associated with the upper levels. Results on relevant benchmarks show that our method performs favorably compared to the state of the art.",
+            "score": 8
+        },
+        {
+            "paperId": "542cc737bb0d58d63811c5eb6851d0098e249abb",
+            "title": "Cooperative Cognitive Dynamic System in UAV Swarms: Reconfigurable Mechanism and Framework",
+            "venue": "IEEE Vehicular Technology Magazine",
+            "year": 2024,
+            "citationCount": 19,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2405.11281, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The cooperative cognitive dynamic system (CCDS) is proposed to optimize the management of UAV swarms via dynamic reconfigurability and adaptive intelligent optimization and can be integrated with a biomimetic mechanism to efficiently allocate tasks for UAV swarms."
+            },
+            "authors": [
+                {
+                    "authorId": "103015415",
+                    "name": "Ziye Jia"
+                },
+                {
+                    "authorId": "2302453924",
+                    "name": "Jiahao You"
+                },
+                {
+                    "authorId": "2153502187",
+                    "name": "Chao Dong"
+                },
+                {
+                    "authorId": "2243423033",
+                    "name": "Qihui Wu"
+                },
+                {
+                    "authorId": "2114902865",
+                    "name": "Fuhui Zhou"
+                },
+                {
+                    "authorId": "2266084696",
+                    "name": "Dusist Niyato"
+                },
+                {
+                    "authorId": "2267902891",
+                    "name": "Zhu Han"
+                }
+            ],
+            "abstract": "As the demands for immediate and effective responses increase in both the civilian and military domains, unmanned aerial vehicle (UAV) swarms emerge as effective solutions in which multiple cooperative UAVs can work together to achieve specific goals. However, how to manage such complex systems to ensure real-time adaptability lacks sufficient research. Hence, in this article, we propose the cooperative cognitive dynamic system (CCDS) to optimize the management of UAV swarms. CCDS leverages a hierarchical and cooperative control structure that enables real-time data processing and decision. Accordingly, CCDS optimizes UAV swarm management via dynamic reconfigurability and adaptive intelligent optimization. In addition, CCDS can be integrated with a biomimetic mechanism to efficiently allocate tasks for UAV swarms. Further, the distributed coordination of CCDS ensures reliable and resilient control, thus enhancing adaptability and robustness. Finally, the potential challenges and future directions are analyzed to provide insights into managing UAV swarms in dynamic heterogeneous networking.",
+            "score": 8
+        },
+        {
+            "paperId": "eef79f514e8505ae67ba87a4d2d3794b2067a1c4",
+            "title": "Scalable and Resilient Autonomous Drone Swarm Framework for Secure Operations in Threatened Environments",
+            "venue": "Ubiquitous Technology Journal",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.71346/utj.v1i2.17?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.71346/utj.v1i2.17, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The study proposes bio-inspired algorithms for adaptive swarm coordination, physics-informed neural networks for real-time collision avoidance, and quantum-inspired optimization models for resource-aware task allocation, further fortified by lattice-based cryptographic protocols to counter quantum-era adversarial threats."
+            },
+            "authors": [
+                {
+                    "authorId": "2365728950",
+                    "name": "Jes\u00fas Bellido"
+                },
+                {
+                    "authorId": "2366061640",
+                    "name": "Qian Gao"
+                }
+            ],
+            "abstract": "This research introduces a novel framework for autonomous drone swarms, addressing critical challenges in physical-cyber security by integrating advanced computational models, decentralized swarm intelligence, and robust cryptographic protocols. The work is motivated by the increasing reliance on drone swarms for securing critical infrastructure, disaster response, and surveillance, where hybrid physical and cyber threats present significant risks. The study proposes bio-inspired algorithms for adaptive swarm coordination, physics-informed neural networks for real-time collision avoidance, and quantum-inspired optimization models for resource-aware task allocation, further fortified by lattice-based cryptographic protocols to counter quantum-era adversarial threats. The experimental evaluation, conducted through high-fidelity simulations and physical deployments, demonstrates the system\u2019s robustness in mitigating threats, achieving high collision avoidance accuracy, and maintaining communication integrity in diverse scenarios. Results show scalability with up to 100 drones in simulations and 80 drones in physical tests, highlighting bandwidth as a key area for refinement. The findings advance the field by offering a multi-layered security and coordination framework applicable to sensitive real-world settings. This study provides a foundation for enhancing operational reliability in swarm systems and opens avenues for future work in communication optimization, energy modeling, and three-dimensional navigation for complex environments.",
+            "score": 8
+        },
+        {
+            "paperId": "628d73e154495037fbcd6fdae25ce679b94708de",
+            "title": "Swarm Intelligence for Multi-Robot Coordination in Agricultural Automation",
+            "venue": "2024 10th International Conference on Advanced Computing and Communication Systems (ICACCS)",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ICACCS60874.2024.10717088?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ICACCS60874.2024.10717088, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The research investigates the optimization of multi-robot coordination in agricultural automation through Particle Swarm Optimization, synergizing swarm intelligence and PSO, which ensures efficient scalability with an increasing number of robots and responsiveness to evolving agricultural demands."
+            },
+            "authors": [
+                {
+                    "authorId": "2201857",
+                    "name": "L. Abhang"
+                },
+                {
+                    "authorId": "73219867",
+                    "name": "Annapurna Gummadi"
+                },
+                {
+                    "authorId": "70550173",
+                    "name": "Ravindra Changala"
+                },
+                {
+                    "authorId": "2088194755",
+                    "name": "V. Vuyyuru"
+                },
+                {
+                    "authorId": "2350322926",
+                    "name": "Sabareesh R"
+                },
+                {
+                    "authorId": "2297020434",
+                    "name": "I. Raj"
+                }
+            ],
+            "abstract": "The research investigates the optimization of multi-robot coordination in agricultural automation through Particle Swarm Optimization. The methodology unfolds in four key aspects: firstly, by harnessing swarm intelligence principles, the approach enhances coordination among multiple robots in agricultural settings, fostering collaboration and dynamic task allocation in response to real-time changes. Secondly, the integration of Particle Swarm Optimization (PSO) introduces a powerful optimization technique, enabling the algorithm to dynamically adapt the swarm's configuration. This adaptability optimizes task allocation and individual robot positions, enhancing overall efficiency. Thirdly, the methodology systematically tackles scalability, adaptability, and robustness challenges in agricultural automation. By synergizing swarm intelligence and PSO, it ensures efficient scalability with an increasing number of robots and responsiveness to evolving agricultural demands. The holistic design makes it well-suited for practical implementation in real-world agricultural scenarios. A series of experiments varying PSO parameters were conducted, revealing nuanced relationships between iterations, swarm size, and coefficients and their impact on convergence time and fitness metrics. The outcomes demonstrate the trade-offs involved in selecting these parameters for efficient coordination in agricultural tasks. A comparative analysis with ABO and ACO highlights PSO's superior performance, achieving remarkable fitness value of 98% in the context of robotic swarm applications.",
+            "score": 8
+        },
+        {
+            "paperId": "319fb915288a99ea760ac303b65a97f093f1fb6e",
+            "title": "Genetic and Swarm Algorithms for Optimizing the Control of Building HVAC Systems Using Real Data: A Comparative Study",
+            "venue": "Mathematics",
+            "year": 2021,
+            "citationCount": 13,
+            "openAccessPdf": {
+                "url": "https://www.mdpi.com/2227-7390/9/18/2181/pdf?version=1631075145",
+                "status": "GOLD",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/math9182181?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/math9182181, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This article compares the performance of selected genetic and swarm-intelligence-based algorithms with the aim of discerning their capabilities in the field of smart buildings using real data from the Building Management System of Teatro Real de Madrid as a data model for the multiple objective calculations."
+            },
+            "authors": [
+                {
+                    "authorId": "1411908488",
+                    "name": "Alberto Garc\u00e9s-Jim\u00e9nez"
+                },
+                {
+                    "authorId": "1405194664",
+                    "name": "J. G\u00f3mez-Pulido"
+                },
+                {
+                    "authorId": "1411948293",
+                    "name": "Nuria Gallego-Salvador"
+                },
+                {
+                    "authorId": "1398700665",
+                    "name": "\u00c1. Garc\u00eda-Tejedor"
+                }
+            ],
+            "abstract": "Buildings consume a considerable amount of electrical energy, the Heating, Ventilation, and Air Conditioning (HVAC) system being the most demanding. Saving energy and maintaining comfort still challenge scientists as they conflict. The control of HVAC systems can be improved by modeling their behavior, which is nonlinear, complex, and dynamic and works in uncertain contexts. Scientific literature shows that Soft Computing techniques require fewer computing resources but at the expense of some controlled accuracy loss. Metaheuristics-search-based algorithms show positive results, although further research will be necessary to resolve new challenging multi-objective optimization problems. This article compares the performance of selected genetic and swarm-intelligence-based algorithms with the aim of discerning their capabilities in the field of smart buildings. MOGA, NSGA-II/III, OMOPSO, SMPSO, and Random Search, as benchmarking, are compared in hypervolume, generational distance, \u03b5-indicator, and execution time. Real data from the Building Management System of Teatro Real de Madrid have been used to train a data model used for the multiple objective calculations. The novelty brought by the analysis of the different proposed dynamic optimization algorithms in the transient time of an HVAC system also includes the addition, to the conventional optimization objectives of comfort and energy efficiency, of the coefficient of performance, and of the rate of change in ambient temperature, aiming to extend the equipment lifecycle and minimize the overshooting effect when passing to the steady state. The optimization works impressively well in energy savings, although the results must be balanced with other real considerations, such as realistic constraints on chillers\u2019 operational capacity. The intuitive visualization of the performance of the two families of algorithms in a real multi-HVAC system increases the novelty of this proposal.",
+            "score": 7
+        },
+        {
+            "paperId": "630feefad9164e33cef0e4e51b56ca79f238a2ee",
+            "title": "Swarm robotics: Robustness, scalability, and self-X features in industrial applications",
+            "venue": "it - Information Technology",
+            "year": 2019,
+            "citationCount": 10,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1515/itit-2019-0003?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1515/itit-2019-0003, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This article gives a brief introduction to swarm robotics for a broad audience, and presents a summary of four examples of recently published research results with simple models, which concern robustness, scalability, and self-X features."
+            },
+            "authors": [
+                {
+                    "authorId": "8011682",
+                    "name": "Mary Katherine Heinrich"
+                },
+                {
+                    "authorId": "1927795",
+                    "name": "Mohammad Divband Soorati"
+                },
+                {
+                    "authorId": "51467565",
+                    "name": "Tanja Katharina Kaiser"
+                },
+                {
+                    "authorId": "143868793",
+                    "name": "Mostafa Wahby"
+                },
+                {
+                    "authorId": "37452075",
+                    "name": "Heiko Hamann"
+                }
+            ],
+            "abstract": "Abstract Applying principles of swarm intelligence to the control of autonomous systems in industry can advance our ability to manage complexity in prominent and high-cost sectors\u2014such as transportation, logistics, and construction. In swarm robotics, the exclusive use of decentralized control relying on local communication and information provides the key advantage first of scalability, and second of robustness against failure points. These are directly useful in certain applied tasks that can be studied in laboratory environments, such as self-assembly and self-organized construction. In this article, we give a brief introduction to swarm robotics for a broad audience, with the intention of targeting future industrial applications. We then present a summary of four examples of our recently published research results with simple models. First, we present our approach to self-reconfiguration, which uses collective adjustment of swarm density in a dynamic setting. Second, we describe our robot experiments for self-organized material deployment in structured and semi-structured environments, applicable to braided composites. Third, we present our machine learning approach for self-assembly, motivated as a simple model developing foundational methods, which generates self-organizing robot behaviors to form emergent patterns. Fourth, we describe our experiments implementing a bioinspired model in a robot swarm, where we show self-healing of damage as the robots collectively locate a resource. Overall, the four examples we present concern robustness, scalability, and self-X features, which we propose as potentially relevant to future research in swarm robotics applied to industry sectors. We summarize these approaches as an introduction to our recent research, targeting the broad audience of this journal.",
+            "score": 7
+        },
+        {
+            "paperId": "5d246104abdab461990afaf187c82ed25c125457",
+            "title": "Crowd OS Powered Active 3D Mapping Leveraging Heterogeneous Crowd Robots",
+            "venue": "2023 International Conference on Artificial Intelligence of Things and Systems (AIoTSys)",
+            "year": 2023,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/AIoTSys58602.2023.00029?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/AIoTSys58602.2023.00029, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "By incorporating a UAV with its aerial perspective and powerful perception capabilities, the blind spots present in ground robot mapping are successfully eliminated, resulting in more comprehensive and accurate mapping outcomes."
+            },
+            "authors": [
+                {
+                    "authorId": "2225623940",
+                    "name": "Yigao Wang"
+                },
+                {
+                    "authorId": "2256625972",
+                    "name": "Changzhen Liu"
+                },
+                {
+                    "authorId": "2256309518",
+                    "name": "Yufei Wang"
+                },
+                {
+                    "authorId": "2256460979",
+                    "name": "Shengjie Wu"
+                },
+                {
+                    "authorId": "2289946587",
+                    "name": "Cheng Wang"
+                },
+                {
+                    "authorId": "2266714480",
+                    "name": "Longbiao Chen"
+                }
+            ],
+            "abstract": "This paper presents a method for active 3D mapping leveraging heterogeneous crowd robots. By incorporating a UAV with its aerial perspective and powerful perception capabilities, the blind spots present in ground robot mapping are successfully eliminated, resulting in more comprehensive and accurate mapping outcomes. Furthermore, our heterogeneous crowd robots exhibits high scalability, allowing for the addition of a specified number of robots based on the mapping requirements of different indoor environments, while also supporting dynamic addition and removal. This scalability enables the system to cater to diverse applications and establishes a foundation for a more robust, comprehensive, and sustainable collective robot system. Through this research, we fully demonstrate the advantages of integrating heterogeneous robotic systems and how different types of robots with complementary capabilities collaborate to improve indoor 3D mapping processes. In particular, the introduced CrowdOS plays a significant role in task assignment and coordination, offering powerful functionalities for intelligent task allocation and coordination among different robots.",
+            "score": 7
+        },
+        {
+            "paperId": "08d9602999fb7d06c7aae916b287335073101636",
+            "title": "A Distributed Actor-Critic Algorithm for Fixed-Time Consensus in Nonlinear Multi-Agent Systems",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2507.16520, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "authors": [
+                {
+                    "authorId": "2373046757",
+                    "name": "Aria Delshad"
+                },
+                {
+                    "authorId": "2372816972",
+                    "name": "Maryam Babazadeh"
+                }
+            ],
+            "abstract": "This paper proposes a reinforcement learning (RL)-based backstepping control strategy to achieve fixed time consensus in nonlinear multi-agent systems with strict feedback dynamics. Agents exchange only output information with their neighbors over a directed communication graph, without requiring full state measurements or symmetric communication. Achieving fixed time consensus, where convergence occurs within a pre-specified time bound that is independent of initial conditions is faced with significant challenges due to the presence of unknown nonlinearities, inter-agent couplings, and external disturbances. This work addresses these challenges by integrating actor critic reinforcement learning with a novel fixed time adaptation mechanism. Each agent employs an actor critic architecture supported by two estimator networks designed to handle system uncertainties and unknown perturbations. The adaptation laws are developed to ensure that all agents track the leader within a fixed time regardless of their initial conditions. The consensus and tracking errors are guaranteed to converge to a small neighborhood of the origin, with the convergence radius adjustable through control parameters. Simulation results demonstrate the effectiveness of the proposed approach and highlight its advantages over state-of-the-art methods in terms of convergence speed and robustness.",
+            "score": 7
+        },
+        {
+            "paperId": "b75e0d489c168663e3b8e98da5a08daa07e0b33e",
+            "title": "Policy Optimization in Multi-Agent Settings under Partially Observable Environments",
+            "venue": "",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2508.06061, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "authors": [
+                {
+                    "authorId": "31258627",
+                    "name": "Ainur Zhaikhan"
+                },
+                {
+                    "authorId": "2327231619",
+                    "name": "Malek Khammassi"
+                },
+                {
+                    "authorId": "2375330461",
+                    "name": "Ali H. Sayed"
+                }
+            ],
+            "abstract": "This work leverages adaptive social learning to estimate partially observable global states in multi-agent reinforcement learning (MARL) problems. Unlike existing methods, the proposed approach enables the concurrent operation of social learning and reinforcement learning. Specifically, it alternates between a single step of social learning and a single step of MARL, eliminating the need for the time- and computation-intensive two-timescale learning frameworks. Theoretical guarantees are provided to support the effectiveness of the proposed method. Simulation results verify that the performance of the proposed methodology can approach that of reinforcement learning when the true state is known.",
+            "score": 7
+        },
+        {
+            "paperId": "3cd8d99c7b4caf0229441ab7df1d25e554184ac6",
+            "title": "Multi-Agent Causal Dynamics Learning for Temporally Extended Tasks with Reward Machine Inference",
+            "venue": "American Control Conference",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.23919/ACC63710.2025.11107696?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.23919/ACC63710.2025.11107696, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "authors": [
+                {
+                    "authorId": "2120325708",
+                    "name": "Hadi Partovi Aria"
+                },
+                {
+                    "authorId": "2300244077",
+                    "name": "Zhe Xu"
+                }
+            ],
+            "abstract": "We introduce an approach called Multi-Agent State Abstraction with Causal dynamics and Reward Machine Learning (Multi-SACReM), designed to enhance the efficiency of reinforcement learning (RL) in multi-agent environments. By integrating causal information through state abstraction, MultiSACReM enables agents to learn more effectively in complex, dynamic settings. In our framework, each agent employs a reward machine, to optimize its behavior. Multi-SACReM identifies and eliminates redundant causal relationships, allowing agents to focus on essential interactions and optimize policies accordingly. Our approach works in both decentralized settings, where agents learn independently using local observations, and centralized RL environments. In centralized RL, a controller coordinates agents using global information to optimize collective behavior. We evaluate Multi-SACReM through case studies comparing decentralized versus centralized approaches. Results show Multi-SACReM effectively learns causal models with reward machines, comparing decentralized versus centralized approaches in multi-agent settings.",
+            "score": 7
+        },
+        {
+            "paperId": "bcffc6ec91c25af4a195e19f7f426cbf27cdff5a",
+            "title": "Robust Formation Coordination of Robot Swarms With Nonlinear Dynamics and Unknown Disturbances: Design and Experiments",
+            "venue": "IEEE Transactions on Circuits and Systems - II - Express Briefs",
+            "year": 2021,
+            "citationCount": 21,
+            "openAccessPdf": {
+                "url": "https://research.manchester.ac.uk/files/191362688/Junyan_TCASii_3_.pdf",
+                "status": "GREEN",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/TCSII.2021.3074705?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/TCSII.2021.3074705, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A robust adaptive formation coordination protocol is proposed for robot swarms, which utilizes only local information for tracking a dynamic target with uncertain maneuvers and a rigorous theoretical proof utilizing the Lyapunov stability approach is provided to guarantee the control performance."
+            },
+            "authors": [
+                {
+                    "authorId": "47756613",
+                    "name": "Junyan Hu"
+                },
+                {
+                    "authorId": "1714282",
+                    "name": "A. E. Turgut"
+                },
+                {
+                    "authorId": "1890595",
+                    "name": "B. Lennox"
+                },
+                {
+                    "authorId": "1711249",
+                    "name": "F. Arvin"
+                }
+            ],
+            "abstract": "Coordination of robot swarms has received significant research interest over the last decade due to its wide real-world applications including precision agriculture, target surveillance, planetary exploration, etc. Many of these practical activities can be formulated as a formation tracking problem. This brief aims to design a robust control strategy for networked robot swarms subjected to nonlinear dynamics and unknown disturbances. Firstly, a robust adaptive formation coordination protocol is proposed for robot swarms, which utilizes only local information for tracking a dynamic target with uncertain maneuvers. A rigorous theoretical proof utilizing the Lyapunov stability approach is then provided to guarantee the control performance. Towards the end, real-time hardware experiments with wheeled mobile robots are conducted to validate the robustness and feasibility of the proposed formation coordination approach.",
+            "score": 7
+        },
+        {
+            "paperId": "daebc6ab62708238446eed732540f28d7e9a4f22",
+            "title": "Neuro-Adaptive Swarm Control: A Decentralized AI Approach for Intelligent Traffic Management",
+            "venue": "2025 International Conference on Emerging Technologies in Computing and Communication (ETCC)",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ETCC65847.2025.11108480?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ETCC65847.2025.11108480, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Neuro-Adaptive Swarm Control is presented, a decentralized AI approach that combines swarm intelligence with adaptive neural networks to improve smart traffic management, Inspired by self-organizing biological systems, that enables real-time coordination between traffic signals, autonomous vehicles, and smart infrastructure without relying on centralized control."
+            },
+            "authors": [
+                {
+                    "authorId": "2375921773",
+                    "name": "Nanditha Shindhe"
+                },
+                {
+                    "authorId": "2375918389",
+                    "name": "Nandish M"
+                },
+                {
+                    "authorId": "2329245015",
+                    "name": "Moumita Roy"
+                }
+            ],
+            "abstract": "Urban traffic congestion requires intelligent solutions beyond traditional rule-based systems. This paper presents Neuro-Adaptive Swarm Control, a decentralized AI approach that combines swarm intelligence with adaptive neural networks to improve smart traffic management. Inspired by self-organizing biological systems, it enables real-time coordination between traffic signals, autonomous vehicles, and smart infrastructure without relying on centralized control. Using multi-agent reinforcement learning (MARL) and neural adaptation, the system allows traffic entities to learn, predict congestion, and optimize responses dynamically. Unlike conventional AI-based traffic control, which relies on precollected data, this approach continuously adapts to live traffic conditions, enhancing scalability and efficiency. Theoretical analysis and simulations demonstrate that this model reduces congestion, improves traffic flow, and minimizes energy consumption, making it a scalable and robust solution for future smart cities.",
+            "score": 7
+        },
+        {
+            "paperId": "5723f2600079b7879780536ba3753a6fbb501a03",
+            "title": "Towards Nature-Inspired Intelligence Search for Optimization of Multi-Dimensional Feature Selection",
+            "venue": "International Computer Science and Engineering Conference",
+            "year": 2019,
+            "citationCount": 2,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ICSEC47112.2019.8974798?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ICSEC47112.2019.8974798, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Wolf intelligence-based optimization of multi-dimensional feature selection approach (WI-OMFS) is proposed for news document classification and the results of performance are compared to conventional search-basedfeature selection approach."
+            },
+            "authors": [
+                {
+                    "authorId": "1423643559",
+                    "name": "Khin Sandar Kyaw"
+                },
+                {
+                    "authorId": "2277319",
+                    "name": "S. Limsiroratana"
+                }
+            ],
+            "abstract": "Since news document includes complex and high-dimensional feature, the conventional feature selection scheme becomes inefficient and ineffective for feature engineering in text mining field. Meanwhile, the nature-inspired intelligence (NII) is advanced significantly for solving the complex problem such as multi-dimensional feature selection. NII is the category of non-deterministic that is used the meta-heuristic search capability which consists of a group of search agents for exploring the feasible region based on both randomization and some rules. In this paper, Wolf intelligence-based optimization of multi-dimensional feature selection approach (WI-OMFS) is proposed for news document classification and compared the results of performance to conventional search-based feature selection approach. The performance (accuracy) is used as fitness function. Moreover, various measurements of performance and computation complexity are also used to evaluate the proposed system. According to the experimental results, WI-OMFS can provide robustness for performance according to the objective function.",
+            "score": 6
+        },
+        {
+            "paperId": "a666ce53cabda3c58f13b47f0cc507983bf2099a",
+            "title": "Grand Tour Algorithm: Novel Swarm-Based Optimization for High-Dimensional Problems",
+            "venue": "Processes",
+            "year": 2020,
+            "citationCount": 9,
+            "openAccessPdf": {
+                "url": "https://www.mdpi.com/2227-9717/8/8/980/pdf?version=1597317845",
+                "status": "GOLD",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/pr8080980?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/pr8080980, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "An improved swarm optimization technique, named Grand Tour Algorithm (GTA), based on the behavior of a peloton of cyclists, which embodies relevant physical concepts, is introduced and applied to fourteen benchmarking optimization problems to evaluate its performance in comparison to four popular classical optimization metaheuristic algorithms."
+            },
+            "authors": [
+                {
+                    "authorId": "51017592",
+                    "name": "Gustavo Meirelles"
+                },
+                {
+                    "authorId": "73578207",
+                    "name": "B. Brentan"
+                },
+                {
+                    "authorId": "145914163",
+                    "name": "J. Izquierdo"
+                },
+                {
+                    "authorId": "3463399",
+                    "name": "E. Luvizotto"
+                }
+            ],
+            "abstract": "Agent-based algorithms, based on the collective behavior of natural social groups, exploit innate swarm intelligence to produce metaheuristic methodologies to explore optimal solutions for diverse processes in systems engineering and other sciences. Especially for complex problems, the processing time, and the chance to achieve a local optimal solution, are drawbacks of these algorithms, and to date, none has proved its superiority. In this paper, an improved swarm optimization technique, named Grand Tour Algorithm (GTA), based on the behavior of a peloton of cyclists, which embodies relevant physical concepts, is introduced and applied to fourteen benchmarking optimization problems to evaluate its performance in comparison to four other popular classical optimization metaheuristic algorithms. These problems are tackled initially, for comparison purposes, with 1000 variables. Then, they are confronted with up to 20,000 variables, a really large number, inspired in the human genome. The obtained results show that GTA clearly outperforms the other algorithms. To strengthen GTA\u2019s value, various sensitivity analyses are performed to verify the minimal influence of the initial parameters on efficiency. It is demonstrated that the GTA fulfils the fundamental requirements of an optimization algorithm such as ease of implementation, speed of convergence, and reliability. Since optimization permeates modeling and simulation, we finally propose that GTA will be appealing for the agent-based community, and of great help for a wide variety of agent-based applications.",
+            "score": 6
+        },
+        {
+            "paperId": "874fb0f986d975de4ae43acae9aae3011df375cc",
+            "title": "Digital Twins and Artificial Collective Intelligence: Synergies for the Future",
+            "venue": "IEEE Internet Computing",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/MIC.2024.3521607?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/MIC.2024.3521607, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This article explores the synergies between DT and ACI, focusing on their integration into federated DTs (FDTs), which are networks of autonomous, collaborative DTs."
+            },
+            "authors": [
+                {
+                    "authorId": "1401513160",
+                    "name": "Elena Pretel"
+                },
+                {
+                    "authorId": "2238684325",
+                    "name": "Elena Navarro"
+                },
+                {
+                    "authorId": "2127779672",
+                    "name": "V\u00edctor Casamayor Pujol"
+                },
+                {
+                    "authorId": "1691109",
+                    "name": "S. Dustdar"
+                },
+                {
+                    "authorId": "1691109",
+                    "name": "S. Dustdar"
+                }
+            ],
+            "abstract": "Digital twins (DTs) and artificial collective intelligence (ACI) are transformative technologies that, when combined, hold significant potential for managing complex systems across diverse domains, such as smart cities, health care, and manufacturing. DTs encompass both physical objects and their virtual counterparts, enabling real-time monitoring, control, and predictive modeling, while ACI enhances decision-making by leveraging the collective knowledge from multiple models. This article explores the synergies between DT and ACI, focusing on their integration into federated DTs (FDTs), which are networks of autonomous, collaborative DTs. By leveraging collaboration, FDTs optimize processes, improve scalability, and adapt to dynamic environments. We analyze the properties of DTs and ACI and identify opportunities for innovation and challenges in areas, such as scalability, adaptability, and fault tolerance. This integration paves the way for smarter systems capable of addressing the complexities of modern technological and societal challenges.",
+            "score": 6
+        },
+        {
+            "paperId": "e6d4502ab75ee1bb0fddceb6e19ac5a52d8efb05",
+            "title": "Analysis of Gaussian & Cauchy Mutations in Modified Particle Swarm Optimization Algorithm",
+            "venue": "2019 5th International Conference on Advanced Computing & Communication Systems (ICACCS)",
+            "year": 2019,
+            "citationCount": 11,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ICACCS.2019.8728452?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ICACCS.2019.8728452, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This paper provides an analysis of the application of Cauchy mutation and Gaussian mutation in one of the modified version of the popular and well known particle swarm optimization technique to provide better convergence as well as finest results in the solutions of various real world applications."
+            },
+            "authors": [
+                {
+                    "authorId": "20216388",
+                    "name": "Archana Sarangi"
+                },
+                {
+                    "authorId": "134755472",
+                    "name": "Sonali Samal"
+                },
+                {
+                    "authorId": "3002707",
+                    "name": "S. Sarangi"
+                }
+            ],
+            "abstract": "This paper provides an analysis of the application of Cauchy mutation and Gaussian mutation in one of the modified version of the popular and well known particle swarm optimization technique. The main objective is to provide better convergence as well finest results in the solutions of various real world applications. The particle swarm optimization is generally acted as a foundation in the area of swarm intelligence. The modified PSO used a improved weight factor to provide a better convergence than the conventional PSO. But many real world problems need a further refinement in the solution. Therefore, in this paper two types of well known mutations are used with the modified PSO for betterment in the refining process. The proposed mutations are Gaussian mutation and Cauchy mutation. The proposed mutated modified PSO algorithms are simulated by the use of standard benchmarking functions to establish their dominance over the already modified PSO. Between Cauchy MPSO and Gaussian MPSO, the overall performance of Cauchy MPSO is better. The use of Cauchy mutation as well as Gaussian mutation in the modified PSO helps in the improvement of the convergence of the modified PSO for approaching much better solutions.",
+            "score": 5
+        },
+        {
+            "paperId": "4e4d356449eded6116a2b2b53a6aaa2daf89dd13",
+            "title": "Traffic Flow Prediction at Intersections: Enhancing with a Hybrid LSTM-PSO Approach",
+            "venue": "International Journal of Advanced Computer Science and Applications",
+            "year": 2024,
+            "citationCount": 3,
+            "openAccessPdf": {
+                "url": "http://thesai.org/Downloads/Volume15No5/Paper_49-Traffic Flow Prediction at Intersections.pdf",
+                "status": "GOLD",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.14569/ijacsa.2024.0150549?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.14569/ijacsa.2024.0150549, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This study proposes a hybrid model that combines the Long-Term Memory Algorithm and Particle Swarm Optimization to predict traffic flow more accurately at intersections to offer a promising solution for intelligent transportation systems to accurately predict traffic flow at intersections and improve overall traffic management efficiency."
+            },
+            "authors": [
+                {
+                    "authorId": "2193910253",
+                    "name": "Chaimaa Chaoura"
+                },
+                {
+                    "authorId": "39959352",
+                    "name": "Hajar Lazar"
+                },
+                {
+                    "authorId": "2579393",
+                    "name": "Zahi Jarir"
+                }
+            ],
+            "abstract": "\u2014The growing challenge of increasing traffic volumes presents a real challenge for road safety, emergency response and overall transport efficiency. Intelligent transportation systems play a fundamental role in solving these challenges, through accurate traffic prediction. In this study, we propose a hybrid model that combines the Long-Term Memory Algorithm (LSTM) and Particle Swarm Optimization (PSO) to predict traffic flow more accurately at intersections. Our approach takes advantage of the strength of PSO, a robust optimization technique inspired by swarm intelligence, to optimize the hyperparameters of the LSTM algorithm. Through in-depth benchmarking, we evaluate the performance of our hybrid LSTM-PSO model against other existing models. By evaluating measures such as root mean square error and mean absolute error, we demonstrate the superior efficiency of the proposed hybrid model. Our results highlight the effectiveness of our approach in outperforming alternative models, offering a promising solution for intelligent transportation systems to accurately predict traffic flow at intersections and improve overall traffic management efficiency.",
+            "score": 5
+        },
+        {
+            "paperId": "dfba0a30bf20cd514128e0567c434e5146a15daf",
+            "title": "Towards Developing Ethical Reasoners: Integrating Probabilistic Reasoning and Decision-Making for Complex AI Systems",
+            "venue": "International Conference on Agents and Artificial Intelligence",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2502.21250, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This work outlines the necessary ingredients for building a holistic, meta-level framework that combines intermediate representations, probabilistic reasoning, and knowledge representation, and proposes theorems outlining how ethical reasoners should operate, offering a foundation for practical implementation."
+            },
+            "authors": [
+                {
+                    "authorId": "2348054628",
+                    "name": "Nijesh Upreti"
+                },
+                {
+                    "authorId": "2321533364",
+                    "name": "Jessica Ciupa"
+                },
+                {
+                    "authorId": "2226597353",
+                    "name": "Vaishak Belle"
+                }
+            ],
+            "abstract": "A computational ethics framework is essential for AI and autonomous systems operating in complex, real-world environments. Existing approaches often lack the adaptability needed to integrate ethical principles into dynamic and ambiguous contexts, limiting their effectiveness across diverse scenarios. To address these challenges, we outline the necessary ingredients for building a holistic, meta-level framework that combines intermediate representations, probabilistic reasoning, and knowledge representation. The specifications therein emphasize scalability, supporting ethical reasoning at both individual decision-making levels and within the collective dynamics of multi-agent systems. By integrating theoretical principles with contextual factors, it facilitates structured and context-aware decision-making, ensuring alignment with overarching ethical standards. We further explore proposed theorems outlining how ethical reasoners should operate, offering a foundation for practical implementation. These constructs aim to support the development of robust and ethically reliable AI systems capable of navigating the complexities of real-world moral decision-making scenarios.",
+            "score": 5
+        },
+        {
+            "paperId": "98a4c207eee0c4292afde9e58e09fa2b8693c709",
+            "title": "Strengthening Lattice Kalman Filters: Introducing Strong Tracking Lattice Filtering for Enhanced Robustness",
+            "venue": "IEEE Access",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ACCESS.2024.3504338?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ACCESS.2024.3504338, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Simulation results validate that the proposed filtering strategy excels in terms of accuracy and robustness when faced with model uncertainties and extreme noise levels, consistently maintaining its performance in estimating states across different designed scenarios."
+            },
+            "authors": [
+                {
+                    "authorId": "78245945",
+                    "name": "A. Rahimnejad"
+                },
+                {
+                    "authorId": "2247851272",
+                    "name": "Luigi Vanfretti"
+                },
+                {
+                    "authorId": "145625566",
+                    "name": "S. A. Gadsden"
+                },
+                {
+                    "authorId": "2334028157",
+                    "name": "and Mohammad Alshabi"
+                }
+            ],
+            "abstract": "This work develops a novel formulation of the lattice Kalman filter (LKF) for enhanced robustness. This novel approach initially integrates the concept of sliding innovation to refine the measurement update phase of the LKF, ensuring that the filter\u2019s innovation is constrained within predetermined bounds; the resultant robust filter is designated as the Bounded Innovation Lattice Kalman Filter (BILF). To enhance its numerical stability and adaptive response to rapid changes in the process model or observational data, a Jacobian-free formulation of BILF with a time-varying bounded layer is first developed and then augmented with the adaptive fading factor strategy, leading to the establishment of a robust estimation method, termed as Strong Tracking LKF (ST-LKF). The developed estimation algorithm, in comparison with several renowned filters, is applied to the real-time estimation of states and output power of a single-machine infinite bus (SMIB) system under significantly noisy conditions. The effectiveness of ST-LKF is rigorously tested against a spectrum of operational conditions, including time-variant step and/or ramp inputs, measurement outliers, and short circuits, encompassing both stable and unstable states. Simulation results validate that the proposed filtering strategy excels in terms of accuracy and robustness when faced with model uncertainties and extreme noise levels, consistently maintaining its performance in estimating states across different designed scenarios.",
+            "score": 5
+        },
+        {
+            "paperId": "fe07442a7eb33396064eb4d2400ea3464a03cd29",
+            "title": "Multi-Agent AI Systems in Healthcare: Systematic Evidence Synthesis Via PRISMA of Clinical Decision Support Systems, Robotic Interventions, and Critical Care",
+            "venue": "International Journal of Latest Technology in Engineering Management &amp; Applied Science",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.51583/ijltemas.2025.140500080?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.51583/ijltemas.2025.140500080, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This systematic review aims to evaluate the deployment of MAS in healthcare across three key domains: Clinical Decision Support Systems (CDSS), Robotic Interventions, and Critical Care Monitoring, and offers a comparative framework, and identifies research gaps."
+            },
+            "authors": [
+                {
+                    "authorId": "2367915439",
+                    "name": "Oto Peter Ode"
+                },
+                {
+                    "authorId": "2367918992",
+                    "name": "Ndukwe Chika Kalu"
+                },
+                {
+                    "authorId": "2367915220",
+                    "name": "Saleh Abbas"
+                },
+                {
+                    "authorId": "2367913860",
+                    "name": "Arslan Arshad"
+                },
+                {
+                    "authorId": "2367913850",
+                    "name": "Adagboyi Isaac Inalegwu"
+                },
+                {
+                    "authorId": "2367915525",
+                    "name": "Konstantin Koshechkin"
+                }
+            ],
+            "abstract": "Abstract: Multi-agent artificial intelligence systems (MAS) is transforming the healthcare sector by enabling intelligent decision-making, robotic interventions, and critical care management. Despite growing interest, a comprehensive synthesis of their real-world applications, performance, and limitations is lacking. This systematic review aims to evaluate the deployment of MAS in healthcare across three key domains: Clinical Decision Support Systems (CDSS), Robotic Interventions, and Critical Care Monitoring. It also addresses ethical and legal considerations, offers a comparative framework, and identifies research gaps. A systematic search of PubMed, IEEE Xplore, Scopus, and Web of Science was conducted following PRISMA guidelines. A total of 150 records were retrieved. After duplicate removal and screening, 32 studies met inclusion criteria. The Joanna Briggs Institute (JBI) Critical Appraisal Checklist guided quality assessment. Data were extracted using a structured form and organized by topic. Among the 32 studies included, 12 focused on MAS-based CDSS, 11 on robotic interventions, and 9 on MAS in critical care. Most MAS demonstrated improved diagnostic accuracy, aided real-time decision support, and enhanced patient monitoring. However, over 60% involved practical models and lacked clinical validation. Ethical concerns, particularly around autonomy, data privacy, transparency, and legal accountability were sometimes overlooked. Only 7 studies discussed ethical or legal implications in depth. A comparative framework was developed, comparing MAS tools based on scalability, clinical validation, autonomy, human-AI interaction, and data transparency. No doubt, MAS hold transformative potential across healthcare domains. However, real-world deployment remains unclear. Greater emphasis on clinical validation, ethical design, and regulatory frameworks is needed. This review provides suggestions for future research and responsible adoption of MAS in healthcare.",
+            "score": 4
+        },
+        {
+            "paperId": "ca5367818b382177e830ef5b0d47f61918f83a82",
+            "title": "A Novel Improved Whale Optimization Algorithm for Global Optimization and Engineering Applications",
+            "venue": "Mathematics",
+            "year": 2024,
+            "citationCount": 11,
+            "openAccessPdf": {
+                "url": "https://www.mdpi.com/2227-7390/12/5/636/pdf?version=1708527605",
+                "status": "GOLD",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/math12050636?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/math12050636, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": null,
+            "authors": [
+                {
+                    "authorId": "2289913250",
+                    "name": "Ziying Liang"
+                },
+                {
+                    "authorId": "2016626081",
+                    "name": "Ting Shu"
+                },
+                {
+                    "authorId": "2112355762",
+                    "name": "Zuohua Ding"
+                }
+            ],
+            "abstract": "The Whale Optimization Algorithm (WOA) is a swarm intelligence algorithm based on natural heuristics, which has gained considerable attention from researchers and engineers. However, WOA still has some limitations, including limited global search efficiency and a slow convergence rate. To address these issues, this paper presents an improved whale optimization algorithm with multiple strategies, called Dynamic Gain-Sharing Whale Optimization Algorithm (DGSWOA). Specifically, a Sine\u2013Tent\u2013Cosine map is first adopted to more effectively initialize the population, ensuring a more uniform distribution of individuals across the search space. Then, a gaining\u2013sharing knowledge based algorithm is used to enhance global search capability and avoid falling into a local optimum. Finally, to increase the diversity of solutions, Dynamic Opposition-Based Learning is incorporated for population updating. The effectiveness of our approach is evaluated through comparative experiments on blackbox optimization benchmarking and two engineering application problems. The experimental results suggest that the proposed method is competitive in terms of solution quality and convergence speed in most cases.",
+            "score": 4
+        },
+        {
+            "paperId": "bb89e60c1778dbe5c0171d0b88b4f344216fda1a",
+            "title": "Organizing a Society of Language Models: Structures and Mechanisms for Enhanced Collective Intelligence",
+            "venue": "arXiv.org",
+            "year": 2024,
+            "citationCount": 1,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2405.03825, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This paper introduces a transformative approach by organizing LLMs into community-based structures, aimed at enhancing their collective intelligence and problem-solving capabilities."
+            },
+            "authors": [
+                {
+                    "authorId": "2161582017",
+                    "name": "Silvan Ferreira"
+                },
+                {
+                    "authorId": "2246251476",
+                    "name": "Ivanovitch Silva"
+                },
+                {
+                    "authorId": "2205445044",
+                    "name": "Allan Martins"
+                }
+            ],
+            "abstract": "Recent developments in Large Language Models (LLMs) have significantly expanded their applications across various domains. However, the effectiveness of LLMs is often constrained when operating individually in complex environments. This paper introduces a transformative approach by organizing LLMs into community-based structures, aimed at enhancing their collective intelligence and problem-solving capabilities. We investigate different organizational models-hierarchical, flat, dynamic, and federated-each presenting unique benefits and challenges for collaborative AI systems. Within these structured communities, LLMs are designed to specialize in distinct cognitive tasks, employ advanced interaction mechanisms such as direct communication, voting systems, and market-based approaches, and dynamically adjust their governance structures to meet changing demands. The implementation of such communities holds substantial promise for improve problem-solving capabilities in AI, prompting an in-depth examination of their ethical considerations, management strategies, and scalability potential. This position paper seeks to lay the groundwork for future research, advocating a paradigm shift from isolated to synergistic operational frameworks in AI research and application.",
+            "score": 4
+        },
+        {
+            "paperId": "347bc1e8f042700d343cc61f72712909fa9c41bb",
+            "title": "Using Non-Monopolize Search for Fast and Optimal PID Tuning of AVR System",
+            "venue": "International Conference on System Science and Engineering",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ICSSE61472.2024.10608935?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ICSSE61472.2024.10608935, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A novel approach using a new non-monopolize (NO) search algorithm to tune the PID controller in AVR systems and results indicate that the proposed NO-based PID controller is highly effective in producing better function of demerit (FOD) with less values of NFE in comparison with other existing well-known based methods."
+            },
+            "authors": [
+                {
+                    "authorId": "145725428",
+                    "name": "M. I. F. M. Hanif"
+                },
+                {
+                    "authorId": "2289732728",
+                    "name": "Mohd Ashraf Ahmad"
+                },
+                {
+                    "authorId": "2260406682",
+                    "name": "Muhammad Ikram Mohd Rashid"
+                },
+                {
+                    "authorId": "3410704",
+                    "name": "M. H. Suid"
+                },
+                {
+                    "authorId": "48400456",
+                    "name": "M. Tumari"
+                }
+            ],
+            "abstract": "Voltage regulation within automatic voltage regulator (AVR) systems presents a significant engineering challenge due to uncertain load conditions. Consequently, employing a PID-based controller is crucial for maintaining AVR system performance. Recently, there has been a growing interest in utilizing better optimization tools to tune the PID control parameters, providing an advantage in enhancing AVR system output response while maintaining the robustness and simplicity of PID controller. However, existing optimization tools for tuning PID controllers, particularly those based on multi-agent optimization, often involve many function evaluations, resulting in high computational burdens. This study introduces a novel approach using a new non-monopolize (NO) search algorithm to tune the PID controller in AVR systems. The NO search method, which is in the class of single agent-based optimization techniques, requires fewer number of function evaluations per iteration, addressing the computational burden issue. Simulation analyses, including convergence curve of the fitness function, time response specification analysis of step response, stability analysis using Bode plot, computational effort analysis based on number of function evaluations (NFE), are conducted to assess the efficacy of the proposed NO-based PID controller for AVR systems. The results indicate that the proposed NO-based PID controller is highly effective in producing better function of demerit (FOD) with less values of NFE in comparison with other existing well-known based methods.",
+            "score": 3
+        },
+        {
+            "paperId": "1897d0afd44185e2ca0254bf53bde2cb3118eb96",
+            "title": "A Multi-Agent Based Approach to Short Message Service (SMS) Normalization System",
+            "venue": "JOURNAL OF RESEARCH AND REVIEW IN SCIENCE",
+            "year": 2018,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "https://jrrslasu.com/publications/JRRS_ppaper522_2019-08-07_965727868.pdf",
+                "status": "BRONZE",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.36108/jrrslasu/8102/50(0161)?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.36108/jrrslasu/8102/50(0161), which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The proposed application, Web Information Retrieval System Architecture Based on SMS (WIRSABoSMS), normalizes SMS language to retain its original syntactic structure to achieve SMS normalization."
+            },
+            "authors": [
+                {
+                    "authorId": "115061187",
+                    "name": "O. Adesina"
+                }
+            ],
+            "abstract": "SMS language is characterized by fashion and user\u2019s creativity but needs a transformation to proper English words or spelling to formulate natural language and text processing activities. The proposed application, Web Information Retrieval System Architecture Based on SMS (WIRSABoSMS), normalizes SMS language to retain its original syntactic structure. The concept of mobile agents in web technology was introduced as a medium to achieving Short Message Service (SMS) normalization. SMS normalization was carried out with the adoption of multi-agent technology, as agents are involved in character search, sort, and compare of the strings written in SMS form into its parental orthography. This architecture was designed based on web information retrieval system (IRS) in order to achieve SMS normalization. BLEU (bilingual evaluation understudy) was used to evaluate the quality of text. BLEU scores compare the human judgment with that of the machine translation using two set of corpora. The outcome of syntactic text message normalization recorded an average of 90% performance (for the corpus collected from researchers) when compared with the similar test conducted with human judgment using BLEU scores metric in an health-related domain.",
+            "score": 2
+        },
+        {
+            "paperId": "a0af1aad517cad50915fed5d590bf0c868ac5f9d",
+            "title": "Chaotic Artificial Algae Algorithm for Solving Global Optimization With Real-World Space Trajectory Design Problems",
+            "venue": "The Arabian journal for science and engineering",
+            "year": 2024,
+            "citationCount": 9,
+            "openAccessPdf": {
+                "url": "https://link.springer.com/content/pdf/10.1007/s13369-024-09222-z.pdf",
+                "status": "HYBRID",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s13369-024-09222-z?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s13369-024-09222-z, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Chaos theory is introduced as a strategy to improve the performance of the chaotic artificial algae algorithm (CAAA), a recently introduced metaheuristic algorithm inspired by the behavior and characteristics of microalgae."
+            },
+            "authors": [
+                {
+                    "authorId": "2005710283",
+                    "name": "Bahaeddin Turkoglu"
+                },
+                {
+                    "authorId": "3037035",
+                    "name": "Sait Ali Uymaz"
+                },
+                {
+                    "authorId": "21448986",
+                    "name": "Ersin Kaya"
+                }
+            ],
+            "abstract": "The artificial algae algorithm (AAA) is a recently introduced metaheuristic algorithm inspired by the behavior and characteristics of microalgae. Like other metaheuristic algorithms, AAA faces challenges such as local optima and premature convergence. Various strategies to address these issues and enhance the performance of the algorithm have been proposed in the literature. These include levy flight, local search, variable search, intelligent search, multi-agent systems, and quantum behaviors. This paper introduces chaos theory as a strategy to improve AAA's performance. Chaotic maps are utilized to effectively balance exploration and exploitation, prevent premature convergence, and avoid local minima. Ten popular chaotic maps are employed to enhance AAA's performance, resulting in the chaotic artificial algae algorithm (CAAA). CAAA's performance is evaluated on thirty benchmark test functions, including unimodal, multimodal, and fixed dimension problems. The algorithm is also tested on three classical engineering problems and eight space trajectory design problems at the European Space Agency. A statistical analysis using the Friedman and Wilcoxon tests confirms that CAA demonstrates successful performance in optimization problems.",
+            "score": 2
+        },
+        {
+            "paperId": "dc34e7cd3f740222c106364f0e830c7e5593297d",
+            "title": "On-Demand Real-Time Optimizable Dynamic Model Sizing for Digital Predistortion of Broadband RF Power Amplifiers",
+            "venue": "IEEE transactions on microwave theory and techniques",
+            "year": 2020,
+            "citationCount": 20,
+            "openAccessPdf": {
+                "url": "http://researchrepository.ucd.ie/bitstreams/a2dfd181-5a30-4eca-ae19-ba252efc5b03/download",
+                "status": "GREEN",
+                "license": "CCBYNCND",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/TMTT.2020.2982165?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/TMTT.2020.2982165, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Experimental results show that the algorithm can quickly find the optimum model structure when the operation condition changes and maintain robust linearization performance with a relatively low computational complexity and thus demonstrates itself as a suitable solution to the linearization of future broadband wireless systems."
+            },
+            "authors": [
+                {
+                    "authorId": "2144462200",
+                    "name": "Yue Li"
+                },
+                {
+                    "authorId": "13310901",
+                    "name": "Anding Zhu"
+                }
+            ],
+            "abstract": "In this article, we present a dynamic model sizing approach for digital predistortion (DPD) of broadband radio-frequency power amplifiers. By employing a novel model structure adaptation algorithm, the DPD model structure can be adaptively adjusted during its real-time deployment to keep the optimum size and complexity under different operation conditions. Power consumption of DPD can be reduced by on-demand automatic model structure adaptation instead of reusing the same model structure for all power levels and band allocations. To realize dynamic model sizing, the adaptation algorithm explores new potential terms based on prior knowledge of the model structure and prunes the DPD model with a stepwise backward regression method. Experimental results show that the algorithm can quickly find the optimum model structure when the operation condition changes. During the adaptation, it can also maintain robust linearization performance with a relatively low computational complexity and thus demonstrates itself as a suitable solution to the linearization of future broadband wireless systems.",
+            "score": 1
+        }
+    ]
+}

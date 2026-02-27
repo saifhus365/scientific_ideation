@@ -1,0 +1,1863 @@
+{
+    "initial_query": "how are hip sizes and pelvic cancer corelated\n\n\n\n",
+    "query_analysis": {
+        "topics": [
+            "hip size",
+            "pelvic cancer",
+            "correlation"
+        ],
+        "timeline": {
+            "start_date": null,
+            "end_date": null,
+            "specific_year": null
+        },
+        "intention": "Relational"
+    },
+    "discovered_papers": [
+        {
+            "paperId": "fa8e76822be1ec273bf62d4dbdd571144cb3b159",
+            "title": "Improving MR image quality with a multi-task model, using convolutional losses",
+            "venue": "BMC Medical Imaging",
+            "year": 2023,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "https://bmcmedimaging.biomedcentral.com/counter/pdf/10.1186/s12880-023-01109-z",
+                "status": "GOLD",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10544274, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A model to simultaneously correct for all four aforementioned artefacts using multi-task learning using multi-task learning and a novel loss function that significantly improves the image quality of the outputs over using mean squared error."
+            },
+            "authors": [
+                {
+                    "authorId": "91466190",
+                    "name": "A. Simk\u00f3"
+                },
+                {
+                    "authorId": "2249575859",
+                    "name": "Simone Ruiter"
+                },
+                {
+                    "authorId": "40136362",
+                    "name": "Tommy L\u00f6fstedt"
+                },
+                {
+                    "authorId": "3092642",
+                    "name": "A. Garpebring"
+                },
+                {
+                    "authorId": "3853327",
+                    "name": "T. Nyholm"
+                },
+                {
+                    "authorId": "30434361",
+                    "name": "M. Bylund"
+                },
+                {
+                    "authorId": "46418246",
+                    "name": "J. Jonsson"
+                }
+            ],
+            "abstract": "Purpose During the acquisition of MRI data, patient-, sequence-, or hardware-related factors can introduce artefacts that degrade image quality. Four of the most significant tasks for improving MRI image quality have been bias field correction, super-resolution, motion-, and noise correction. Machine learning has achieved outstanding results in improving MR image quality for these tasks individually, yet multi-task methods are rarely explored. Methods In this study, we developed a model to simultaneously correct for all four aforementioned artefacts using multi-task learning. Two different datasets were collected, one consisting of brain scans while the other pelvic scans, which were used to train separate models, implementing their corresponding artefact augmentations. Additionally, we explored a novel loss function that does not only aim to reconstruct the individual pixel values, but also the image gradients, to produce sharper, more realistic results. The difference between the evaluated methods was tested for significance using a Friedman test of equivalence followed by a Nemenyi post-hoc test. Results Our proposed model generally outperformed other commonly-used correction methods for individual artefacts, consistently achieving equal or superior results in at least one of the evaluation metrics. For images with multiple simultaneous artefacts, we show that the performance of using a combination of models, trained to correct individual artefacts depends heavily on the order that they were applied. This is not an issue for our proposed multi-task model. The model trained using our novel convolutional loss function always outperformed the model trained with a mean squared error loss, when evaluated using Visual Information Fidelity, a quality metric connected to perceptual quality. Conclusion We trained two models for multi-task MRI artefact correction of brain, and pelvic scans. We used a novel loss function that significantly improves the image quality of the outputs over using mean squared error. The approach performs well on real world data, and it provides insight into which artefacts it detects and corrects for. Our proposed model and source code were made publicly available.",
+            "score": 6
+        },
+        {
+            "paperId": "ab0919b8af9f368cc7b442a4122d9b1434092bfd",
+            "title": "Genome-wide association meta-analysis of knee and hip osteoarthritis uncovers genetic differences between patients treated with joint replacement and patients without joint replacement",
+            "venue": "Annals of the Rheumatic Diseases",
+            "year": 2022,
+            "citationCount": 25,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1136/ard-2022-223199?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1136/ard-2022-223199, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Differences in genetic associations between knee and hip osteoarthritis depending on joint replacement status are indicated and are likely to be stronger in the non-surgical groups."
+            },
+            "authors": [
+                {
+                    "authorId": "39523389",
+                    "name": "C. Henkel"
+                },
+                {
+                    "authorId": "5240933",
+                    "name": "U. Styrk\u00e1rsd\u00f3ttir"
+                },
+                {
+                    "authorId": "4714342",
+                    "name": "G. Thorleifsson"
+                },
+                {
+                    "authorId": "4611570",
+                    "name": "L. Stef\u00e1nsd\u00f3ttir"
+                },
+                {
+                    "authorId": "114949811",
+                    "name": "Gyda Bj\u00f6rnsdottir"
+                },
+                {
+                    "authorId": "3738271",
+                    "name": "K. Banasik"
+                },
+                {
+                    "authorId": "8169197",
+                    "name": "S. Brunak"
+                },
+                {
+                    "authorId": "3453733",
+                    "name": "C. Erikstrup"
+                },
+                {
+                    "authorId": "14063430",
+                    "name": "K. Dinh"
+                },
+                {
+                    "authorId": "153804687",
+                    "name": "T. Hansen"
+                },
+                {
+                    "authorId": "144935366",
+                    "name": "K. Nielsen"
+                },
+                {
+                    "authorId": "145380463",
+                    "name": "M. Bruun"
+                },
+                {
+                    "authorId": "2003614125",
+                    "name": "Joseph Dowsett"
+                },
+                {
+                    "authorId": "51011931",
+                    "name": "T. Brodersen"
+                },
+                {
+                    "authorId": "2157308",
+                    "name": "T. Thorgeirsson"
+                },
+                {
+                    "authorId": "145614089",
+                    "name": "K. Gromov"
+                },
+                {
+                    "authorId": "145590405",
+                    "name": "M. Boesen"
+                },
+                {
+                    "authorId": "3453230",
+                    "name": "H. Ullum"
+                },
+                {
+                    "authorId": "2921658",
+                    "name": "S. Ostrowski"
+                },
+                {
+                    "authorId": "144886764",
+                    "name": "O. Pedersen"
+                },
+                {
+                    "authorId": "145074995",
+                    "name": "K. Stef\u00e1nsson"
+                },
+                {
+                    "authorId": "5712679",
+                    "name": "A. Troelsen"
+                }
+            ],
+            "abstract": "Objectives Osteoarthritis is a common and severe, multifactorial disease with a well-established genetic component. However, little is known about how genetics affect disease progression, and thereby the need for joint placement. Therefore, we aimed to investigate whether the genetic associations of knee and hip osteoarthritis differ between patients treated with joint replacement and patients without joint replacement. Methods We included knee and hip osteoarthritis cases along with healthy controls, altogether counting >700\u2009000 individuals. The cases were divided into two groups based on joint replacement status (surgical vs non-surgical) and included in four genome-wide association meta-analyses: surgical knee osteoarthritis (N = 22\u2009525), non-surgical knee osteoarthritis (N = 38\u2009626), surgical hip osteoarthritis (N = 20\u2009221) and non-surgical hip osteoarthritis (N = 17\u2009847). In addition, we tested for genetic correlation between the osteoarthritis groups and the pain phenotypes intervertebral disc disorder, dorsalgia, fibromyalgia, migraine and joint pain. Results We identified 52 sequence variants associated with knee osteoarthritis (surgical: 17, non-surgical: 3) or hip osteoarthritis (surgical: 34, non-surgical: 1). For the surgical phenotypes, we identified 10 novel variants, including genes involved in autophagy (rs2447606 in ATG7) and mechanotransduction (rs202127176 in PIEZO1). One variant, rs13107325 in SLC39A8, associated more strongly with non-surgical knee osteoarthritis than surgical knee osteoarthritis. For all other variants, significance and effect sizes were higher for the surgical phenotypes. In contrast, genetic correlations with pain phenotypes tended to be stronger in the non-surgical groups. Conclusions Our results indicate differences in genetic associations between knee and hip osteoarthritis depending on joint replacement status.",
+            "score": 4
+        },
+        {
+            "paperId": "690589a397dbc7564ab16749ef33095b789f30d3",
+            "title": "Correction of B0-related distortions in diffusion-weighted images of malignant and normal cervical tissue",
+            "venue": "ISMRM Annual Meeting",
+            "year": null,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.58530/2024/2581?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.58530/2024/2581, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A combined prospective-retrospective distortion reduction approach, based on distortion correction of female pelvic DWI acquired with reduced-FOV, outperformed RPG, with statistically significant but modest improvements of initially small distortions resulting from the reduced-FOV acquisition."
+            },
+            "authors": [
+                {
+                    "authorId": "2296524904",
+                    "name": "Elin Lundstr\u00f6m"
+                },
+                {
+                    "authorId": "1401676008",
+                    "name": "A. Rodr\u00edguez-Soto"
+                },
+                {
+                    "authorId": "21366877",
+                    "name": "C. Conlin"
+                },
+                {
+                    "authorId": "108140758",
+                    "name": "Stephane Loubrie"
+                },
+                {
+                    "authorId": "2288097118",
+                    "name": "Stephan Jordan"
+                },
+                {
+                    "authorId": "2288228681",
+                    "name": "Sheida Ebrahimi"
+                },
+                {
+                    "authorId": "2317895809",
+                    "name": "Alexandra Besser"
+                },
+                {
+                    "authorId": "2288230180",
+                    "name": "Alexandra Schlein"
+                },
+                {
+                    "authorId": "2128053938",
+                    "name": "Marianne Hom-Tedla"
+                },
+                {
+                    "authorId": "2318055578",
+                    "name": "Cheryl Saenz"
+                },
+                {
+                    "authorId": "2318053241",
+                    "name": "Shira Varon"
+                },
+                {
+                    "authorId": "2332589853",
+                    "name": "Michael McHale"
+                },
+                {
+                    "authorId": "2332592563",
+                    "name": "Michael Hahn"
+                },
+                {
+                    "authorId": "2241177244",
+                    "name": "Elisabeth Hedlund"
+                },
+                {
+                    "authorId": "2332590375",
+                    "name": "Bj\u00f6rg J\u00f3nsd\u00f3ttir"
+                },
+                {
+                    "authorId": "2332590849",
+                    "name": "Katarzyna Kozar"
+                },
+                {
+                    "authorId": "2318095051",
+                    "name": "J. Kuperman"
+                },
+                {
+                    "authorId": "2278819330",
+                    "name": "Tyler Seibert"
+                },
+                {
+                    "authorId": "14814010",
+                    "name": "Anthoula Koliadi"
+                },
+                {
+                    "authorId": "2332595189",
+                    "name": "Per Liss"
+                },
+                {
+                    "authorId": "2227887750",
+                    "name": "Anders M. Dale"
+                },
+                {
+                    "authorId": "1396767307",
+                    "name": "R. Rakow-Penner"
+                }
+            ],
+            "abstract": "Motivation: DWI in cervical cancer evaluation suffers from distortions, especially pronounced by intestinal gas, potentially impeding lesion detection/delineation. Goal(s): To evaluate a combined prospective-retrospective distortion reduction approach, based on distortion correction of female pelvic DWI acquired with reduced-FOV. Approach: Two correction methods, RPG and Topup, were applied on images from cervical cancer patients and volunteers. Distortion correction performance was evaluated by the concordance between tumour/cervix borders in images before and after correction. Results: Topup outperformed RPG, with statistically significant but modest improvements of initially small distortions resulting from the reduced-FOV acquisition. Occasional correction failures and limitations in the proton density correction warrant alternative approaches. Impact: Topup distortion correction, commonly used for brain studies, shows statistically significant but modest improvements in female pelvic reduced-FOV DWI. Despite indications of clinical utility, limited improvements and occasional correction failures suggest alternative approaches and prospective distortion reduction as potential strategies.",
+            "score": 4
+        },
+        {
+            "paperId": "57d7f9692591fa726e635983243bff63514904bd",
+            "title": "Pretreatment MRI in Primary Rectal Cancer as a Predictor for Oncological Outcomes After Surgery for Local Recurrence",
+            "venue": "Anticancer Research",
+            "year": 2021,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "https://doi.org/10.21873/anticanres.15021",
+                "status": "BRONZE",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.21873/anticanres.15021?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.21873/anticanres.15021, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Long-term outcomes after surgery forLRRC were not significantly associated with MRI characteristics of the index tumour, however, factors associated with increased risk of R1 resection of LRRC were identified."
+            },
+            "authors": [
+                {
+                    "authorId": "51896333",
+                    "name": "A. Elliot"
+                },
+                {
+                    "authorId": "2086901857",
+                    "name": "Barwar Othman"
+                },
+                {
+                    "authorId": "35874281",
+                    "name": "C. Suzuki"
+                },
+                {
+                    "authorId": "50214932",
+                    "name": "L. Blomqvist"
+                },
+                {
+                    "authorId": "6889078",
+                    "name": "A. Martling"
+                },
+                {
+                    "authorId": "115639548",
+                    "name": "H. Johansson"
+                },
+                {
+                    "authorId": "145598516",
+                    "name": "B. Glimelius"
+                },
+                {
+                    "authorId": "40505843",
+                    "name": "P. Nilsson"
+                },
+                {
+                    "authorId": "144835153",
+                    "name": "H. Iversen"
+                }
+            ],
+            "abstract": "Background/Aim: For patients with locally recurrent rectal cancer (LRRC) extensive surgery is often the only curative option and patient selection is crucial. This study aimed to investigate whether magnetic resonance imaging (MRI) characteristics of the primary tumour can predict oncological outcome after surgery for locally recurrent rectal cancer (LRRC). Patients and Methods: All patients undergoing surgery for LRRC with a curative intent at the Karolinska University Hospital 2003-2013 were included. MRI examinations of the primary tumour were re-evaluated. Results: In total, 54 patients were included. A tumour volume decrease of <70% after preoperative radiotherapy or chemoradiotherapy (C)RT for the primary tumour was correlated with a lower proportion of R0 resection of the LRRC (OR=0.07, 95% CI=0.01-0.84). No association between MRI characteristics of the primary tumour and prognosis after LRRC surgery was found. Conclusion: Long-term outcomes after surgery for LRRC were not significantly associated with MRI characteristics of the index tumour. However, factors associated with increased risk of R1 resection of LRRC were identified.",
+            "score": 4
+        },
+        {
+            "paperId": "15ba2ebda5e48976386d2ad988861a99b4d4601a",
+            "title": "Correlation of anogenital distance from childhood to age 9 years\u2014a prospective population-based birth cohort\u2014the Odense Child Cohort",
+            "venue": "Human Reproduction Open",
+            "year": 2024,
+            "citationCount": 2,
+            "openAccessPdf": {
+                "url": "https://doi.org/10.1093/hropen/hoae050",
+                "status": "GOLD",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11415829, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "In boys, AGDas, relative to body size, correlated from infancy to 9\u2009years, suggesting that AGD in infancy can be considered a non-invasive marker of later reproductive health."
+            },
+            "authors": [
+                {
+                    "authorId": "2284855068",
+                    "name": "Sarah Munk Andreasen"
+                },
+                {
+                    "authorId": "2320602416",
+                    "name": "Lise Gehrt"
+                },
+                {
+                    "authorId": "3559071",
+                    "name": "C. Hagen"
+                },
+                {
+                    "authorId": "2261092422",
+                    "name": "A. Juul"
+                },
+                {
+                    "authorId": "6554591",
+                    "name": "Gylli Mola"
+                },
+                {
+                    "authorId": "1567695542",
+                    "name": "M. Fischer"
+                },
+                {
+                    "authorId": "2250047916",
+                    "name": "M. Andersen"
+                },
+                {
+                    "authorId": "2294556015",
+                    "name": "D. M. Kristensen"
+                },
+                {
+                    "authorId": "2308267508",
+                    "name": "T. K. Jensen"
+                }
+            ],
+            "abstract": "Abstract STUDY QUESTION Does anogenital distance (AGD) \u2013 distance from the anus to the genitals \u2013 correlate from infancy (3\u2009months) to the age of 9\u2009years in boys and girls? SUMMARY ANSWER In boys, AGD correlated from infancy to 9\u2009years of age, whereas in girls, correlations were weaker, especially between infancy and later childhood. WHAT IS KNOWN ALREADY AGD is considered a marker for prenatal androgen action. In males, reduced AGD is associated with testicular cancer, infertility, and lower sperm count. In females, AGD is associated with endometriosis and polycystic ovary syndrome. STUDY DESIGN, SIZE, DURATION In the Odense Child Cohort, a prospective population-based birth cohort, pregnant women were enrolled in early pregnancy. AGD and BMI were measured repeatedly in children at ages 3 and 18\u2009months, as well as at 3, 5, 7, and 9\u2009years. PARTICIPANTS/MATERIALS, SETTING, METHODS AGD was measured from the anus to the scrotum (AGDas) and to the penis (AGDap) in 1022 boys, and to the posterior fourchette and the clitoris in 887 girls repeatedly between the age of 3\u2009months to 9\u2009years. In total, 7706 assessments were made. AGD was adjusted for body weight, and SD scores (the difference between individual AGD and the mean of AGD in the population divided by SD of AGD) were calculated for each child. Pearson correlation coefficient (r) of each measurement was performed to investigate whether individual AGD was stable during childhood. Short predictive values at 3\u2009months (20th percentile) to 9\u2009years were investigated using the AUC produced by the receiver operating characteristic curve. MAIN RESULTS AND THE ROLE OF CHANCE In boys, AGD/body size-index SD score correlated significantly between infancy and 9\u2009years, strongest for AGDas (r\u2009=\u20090.540 P\u2009>\u20090.001). In girls, weaker significant correlation coefficients were found between AGD at infancy and 9\u2009years; higher correlation coefficients were found between AGD from 3 to 9\u2009years (P\u2009>\u20090.001). Short AGDas in infancy predicted short AGDas in boys aged 9\u2009years (AUC: 0.767, sensitivity 0.71, specificity 0.71). The predictive values of short infant AGDap, penile width (in boys), and AGD (in girls) concerning short outcomes at 9\u2009years were low. LIMITATIONS, REASONS FOR CAUTION The AGD measurements are less precisely measurable in girls compared to boys, especially in infancy, resulting in less reproducible measurements. Additionally, because AGD is shorter in girls, the same absolute measurement error is relatively more significant, potentially contributing to greater variability and lower reproducibility in girls. This may contribute to the weaker correlations in girls compared to boys. WIDER IMPLICATIONS OF THE FINDINGS In boys, AGDas, relative to body size, correlated from infancy to 9\u2009years, suggesting that AGD in infancy can be considered a non-invasive marker of later reproductive health. Further follow-up studies are needed to evaluate long-term individual tracking of AGD as well as assessment of childhood AGD as early marker of adult reproductive health. STUDY FUNDING/COMPETING INTEREST(S) This study was supported by Odense University Hospital, Denmark, the Region of Southern Denmark, the Municipality of Odense, Denmark, the University of Southern Denmark, Odense Patient data Exploratory Network (OPEN), Denmark, the Danish Research Council (4004-00352B_FSS), Novo Nordisk Foundation, Denmark (grant no. NNF19OC0058266 and NNF17OC0029404), Sygeforsikring Danmark (journalnr. 2021-0173), the Collaborative Foundation between Odense University Hospital and Rigshospitalet, and Helsefonden. There is no conflict of interest of any author that could be perceived as prejudicing the impartiality of the research reported. TRIAL REGISTRATION NUMBER N/A.",
+            "score": 3
+        },
+        {
+            "paperId": "0582a1a251588cb5406a660f4d377c081c2d1c36",
+            "title": "Staging of Rectal Cancer: MRI Protocol, Pelvic Anatomy, and Definitions",
+            "venue": "Journal of Gastrointestinal and Abdominal Radiology",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1055/s-0045-1809694?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1055/s-0045-1809694, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "MRI stands out as the preferred modality for locoregional staging, detecting adverse prognostic indicators, assessing post-CRT changes, and long-term surveillance due to its superior contrast resolution."
+            },
+            "authors": [
+                {
+                    "authorId": "2132612104",
+                    "name": "Dollphy Garg"
+                },
+                {
+                    "authorId": "2223093374",
+                    "name": "Vansha Mehta"
+                },
+                {
+                    "authorId": "2260918571",
+                    "name": "Ajay Gulati"
+                },
+                {
+                    "authorId": "2066121160",
+                    "name": "S. Nagaraj"
+                },
+                {
+                    "authorId": "51887384",
+                    "name": "Y. Sakaray"
+                },
+                {
+                    "authorId": "2202005202",
+                    "name": "Harjeet Singh"
+                },
+                {
+                    "authorId": "2365084431",
+                    "name": "Pankaj Gupta"
+                }
+            ],
+            "abstract": "Abstract Rectal carcinoma is a prevalent and increasingly diagnosed cancer globally, posing significant mortality and morbidity risks, particularly among younger individuals. Prognosis hinges on several factors, such as site of involvement (upper rectum vs. lower rectum), tumor extension into surrounding tissues, involvement of critical structures like the mesorectal fascia and vessels, and the presence of distant metastases. Treatment approaches are tailored to the tumor's location and extent. Diagnostic tools including digital rectal examination and various imaging modalities like computed tomography (CT), magnetic resonance imaging (MRI), and positron emission tomography-CT play crucial roles in staging, identifying high-risk patients needing neoadjuvant chemoradiotherapy (CRT), and monitoring treatment response. MRI stands out as the preferred modality for locoregional staging, detecting adverse prognostic indicators, assessing post-CRT changes, and long-term surveillance due to its superior contrast resolution. This review discusses the key concepts in the application of MRI to rectal cancer imaging.",
+            "score": 3
+        },
+        {
+            "paperId": "3c3bf3bbf8d24a18cf3d61b891dc4f767d6a5fd0",
+            "title": "Correcting B0 inhomogeneity-induced distortions in whole-body diffusion MRI of bone metastases",
+            "venue": "medRxiv",
+            "year": 2020,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "https://www.medrxiv.org/content/medrxiv/early/2021/03/31/2020.11.22.20236547.full.pdf",
+                "status": "GREEN",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2020.11.22.20236547?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2020.11.22.20236547, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "These findings support the use of distortion correction techniques to improve localization of bone metastases on DWI and suggest that distorted DWI more accurately reflects underlying anatomy."
+            },
+            "authors": [
+                {
+                    "authorId": "52147618",
+                    "name": "Leonardino A. Digma"
+                },
+                {
+                    "authorId": "12491425",
+                    "name": "C. Feng"
+                },
+                {
+                    "authorId": "21366877",
+                    "name": "C. Conlin"
+                },
+                {
+                    "authorId": "1401676008",
+                    "name": "A. Rodr\u00edguez-Soto"
+                },
+                {
+                    "authorId": "2044558606",
+                    "name": "Kanha Batra"
+                },
+                {
+                    "authorId": "1997922519",
+                    "name": "A. Simon"
+                },
+                {
+                    "authorId": "1680885",
+                    "name": "R. Karunamuni"
+                },
+                {
+                    "authorId": "2455090",
+                    "name": "J. Kuperman"
+                },
+                {
+                    "authorId": "1396767307",
+                    "name": "R. Rakow-Penner"
+                },
+                {
+                    "authorId": "2066110293",
+                    "name": "M. Hahn"
+                },
+                {
+                    "authorId": "143619169",
+                    "name": "A. Dale"
+                },
+                {
+                    "authorId": "3128977",
+                    "name": "T. Seibert"
+                }
+            ],
+            "abstract": "Background: Accurate imaging of bone metastases is necessary for treatment planning and assessing treatment response. Diffusion-weighted magnetic resonance imaging (DWI) can detect bone metastases, but DWI acquired with echo-planar imaging is susceptible to distortions due to static magnetic field inhomogeneities. Purpose: Estimate spatial displacements of bone lesions on DWI. Examine whether distortion-corrected DWI more accurately reflects underlying anatomy. Study Type: Retrospective. Subjects: 18 patients with prostate cancer bone metastases. Field Strength/Sequence: 3.0 T; DWI and T2-weighted imaging. Assessment: We first applied the reverse polarity gradient (RPG) technique to estimate spatial displacements of bone metastasis on DWI. Next, we calculated changes in mutual information (MI) between DWI and T2-weighted images after RPG distortion correction. Further, we annotated skeletal landmarks on DWI and T2-weighted images. RPG was again used to estimate displacements of these landmarks. Lastly, we calculated changes in distance between DWI- and T2-defined landmarks (i.e., changes in error) after RPG distortion correction. Statistical Tests: Mean and bootstrap-derived confidence intervals were used to summarize variables that estimate bone lesion distortions. Wilcoxon signed-rank tests were used to assess change in MI between DWI and T2-weighted images after RPG. Results: Mean (95% CI) displacement of bone lesions was 5.6 mm (95% CI: 4.8-6.5); maximum displacement was 17.1 mm. Corrected diffusion images were more similar to structural MRI, as evidenced by consistent increases in MI after applying RPG (Wilcoxon signed-rank p<10-13). Like bone metastases, our annotated skeletal landmarks also underwent substantial displacement (average, 6.3 mm). Lastly, RPG led to consistent error reductions between DWI and T2 for each skeletal landmark (mean, [95% CI]): thoracic vertebrae (-3.8 mm, [-4.3,-3.3]), abdominal vertebrae (-1.0 mm, [-1.2,-0.71]), pelvic vertebrae (-0.6 mm, [-1.0,-0.17]), and femoral head (-1.2 mm, [-2.1,-0.4]). Data Conclusions: These findings support the use of distortion correction techniques to improve localization of bone metastases on DWI.",
+            "score": 3
+        },
+        {
+            "paperId": "ab81b3ad9ab29e8a02b5637aee52bccbcba14e24",
+            "title": "Stereotactic MRI Guided Adaptive Radiotherapy: a pooled analysis of a master prospective trial.",
+            "venue": "Journal of the National Cancer Institute",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1093/jnci/djaf208?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/jnci/djaf208, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "SMART is feasible and safe for multiple thoracic, abdominal and pelvic radiotherapy indications and the master protocol platform offers an adaptable approach for assessment of new oncologic treatment technologies applicable to multiple indications."
+            },
+            "authors": [
+                {
+                    "authorId": "2262214069",
+                    "name": "Jonathan E. Leeman"
+                },
+                {
+                    "authorId": "2327751669",
+                    "name": "K. Shin"
+                },
+                {
+                    "authorId": "2249393476",
+                    "name": "A. Droznin"
+                },
+                {
+                    "authorId": "2375786636",
+                    "name": "Paul Catalano"
+                },
+                {
+                    "authorId": "10171338",
+                    "name": "D. Cagney"
+                },
+                {
+                    "authorId": "2274598464",
+                    "name": "Lisa Singer"
+                },
+                {
+                    "authorId": "2375786003",
+                    "name": "Rasheedat Damilola Oniyangi"
+                },
+                {
+                    "authorId": "2375785999",
+                    "name": "Kris Zhai"
+                },
+                {
+                    "authorId": "2364167043",
+                    "name": "Grant Benham"
+                },
+                {
+                    "authorId": "2375786461",
+                    "name": "Sejal Chirmade"
+                },
+                {
+                    "authorId": "2376139081",
+                    "name": "Jennifer Campbell"
+                },
+                {
+                    "authorId": "47937989",
+                    "name": "S. Boyle"
+                },
+                {
+                    "authorId": "2375786522",
+                    "name": "Abbie Saranteas"
+                },
+                {
+                    "authorId": "2268687333",
+                    "name": "Christopher L. Williams"
+                },
+                {
+                    "authorId": "46502264",
+                    "name": "E. Huynh"
+                },
+                {
+                    "authorId": "2148765650",
+                    "name": "Z. Han"
+                },
+                {
+                    "authorId": "2249337830",
+                    "name": "A. Sudhyadhom"
+                },
+                {
+                    "authorId": "2306594883",
+                    "name": "Yue-Houng Hu"
+                },
+                {
+                    "authorId": "2323161488",
+                    "name": "D. Ferguson"
+                },
+                {
+                    "authorId": "2274596997",
+                    "name": "Kamal Singhrao"
+                },
+                {
+                    "authorId": "2287764234",
+                    "name": "Shu-Hui Hsu"
+                },
+                {
+                    "authorId": "2327783985",
+                    "name": "Jeremy Bredfeldt"
+                },
+                {
+                    "authorId": "2375782942",
+                    "name": "Neil E Martin"
+                },
+                {
+                    "authorId": "3986474",
+                    "name": "J. Mancias"
+                },
+                {
+                    "authorId": "2327750205",
+                    "name": "Harvey J. Mamon"
+                },
+                {
+                    "authorId": "1396432344",
+                    "name": "R. van Dams"
+                },
+                {
+                    "authorId": "2211981950",
+                    "name": "Veena Venkatachalam"
+                },
+                {
+                    "authorId": "2249442492",
+                    "name": "S. Tanguturi"
+                },
+                {
+                    "authorId": "2253422771",
+                    "name": "M. A. Huynh"
+                },
+                {
+                    "authorId": "2242729273",
+                    "name": "Kelly J. Fitzgerald"
+                },
+                {
+                    "authorId": "2249312441",
+                    "name": "H. Elhalawani"
+                },
+                {
+                    "authorId": "3771811",
+                    "name": "D. Bitterman"
+                },
+                {
+                    "authorId": "2318887691",
+                    "name": "Jonathan D. Schoenfeld"
+                },
+                {
+                    "authorId": "2255045574",
+                    "name": "Paul L Nguyen"
+                },
+                {
+                    "authorId": "2253441910",
+                    "name": "D. Haas-Kogan"
+                },
+                {
+                    "authorId": "2334647138",
+                    "name": "Raymond H Mak"
+                }
+            ],
+            "abstract": "BACKGROUND\nMaster clinical trial protocol structures offer administrative, procedural and statistical advantages but have not been applied in assessing new radiotherapy devices. Herein, we report on a pooled analysis from a first-of-kind master trial evaluating stereotactic MRI-guided adaptive radiotherapy (SMART).\n\n\nMETHODS\nSubjects were enrolled on a prospective master protocol evaluating SMART for multiple oncologic indications. CTCAE v5 toxicities, patient reported outcome measures (PROMs), and treatment efficiency metrics were assessed across the entire cohort and in anatomic subsets.\n\n\nRESULTS\n193 subjects were enrolled into 20 sub-protocols for different SMART indications. Data were analyzed from the first 161 subjects. The median time from subprotocol amendment submission to activation was 70.5\u2009days (range 63-93). All completed phase I sub-protocols (n\u2009=\u20099) met the primary endpoints of safety and feasibility. The risk of grade 3+ toxicity was 1.9% (95%CI 0.4-5.3%), 7.1% (95%CI 0.9-23.5%), 1.8% (95%CI 0.05-9.6%) and 0% (95%CI 0.0-4.7%) in the overall cohort and thoracic, abdominal and pelvic subsets, respectively. PROMs (PROMIS-10) during and after SMART were unchanged from baseline in all subsets. SMART delivery efficiency improved over the study period (first vs final 3\u2009months: 78.5 vs 48.2\u2009minutes, p\u2009<\u2009.001). Adaptive planning performed for 771 fractions resulted in clinically significant plan improvements in 93.0% of fractions (52.7% for organ-at-risk sparing, 20.5% for target coverage and 19.8% for both).\n\n\nCONCLUSIONS\nSMART is feasible and safe for multiple thoracic, abdominal and pelvic radiotherapy indications. The master protocol platform offers an adaptable approach for assessment of new oncologic treatment technologies applicable to multiple indications.\n\n\nCLINICAL TRIAL\nNCT04115254.",
+            "score": 3
+        },
+        {
+            "paperId": "6003d7de3cc4e3d7981cfbda38cfd485e6bcbf51",
+            "title": "The Potential of Iron Oxide Nanoparticle-Enhanced MRI at 7 T Compared With 3 T for Detecting Small Suspicious Lymph Nodes in Patients With Prostate Cancer",
+            "venue": "Investigative Radiology",
+            "year": 2023,
+            "citationCount": 3,
+            "openAccessPdf": {
+                "url": "https://journals.lww.com/investigativeradiology/fulltext/9900/the_potential_of_iron_oxide_nanoparticle_enhanced.184.aspx",
+                "status": "HYBRID",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1097/RLI.0000000000001056?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1097/RLI.0000000000001056, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The high spatial resolution of USPIO-enhanced MRI at 7 T improves structure delineation and the visibility of very small suspicious LNs, potentially expanding the in vivo detection limits of pelvic LN metastases in PCa patients."
+            },
+            "authors": [
+                {
+                    "authorId": "1389838924",
+                    "name": "C. Tenbergen"
+                },
+                {
+                    "authorId": "6429827",
+                    "name": "Ansje S Fortuin"
+                },
+                {
+                    "authorId": "143628052",
+                    "name": "J. V. van Asten"
+                },
+                {
+                    "authorId": "5794877",
+                    "name": "A. Veltien"
+                },
+                {
+                    "authorId": "26748767",
+                    "name": "Bart W. J. Philips"
+                },
+                {
+                    "authorId": "2522758",
+                    "name": "T. Hambrock"
+                },
+                {
+                    "authorId": "2302963",
+                    "name": "S. Orzada"
+                },
+                {
+                    "authorId": "2239813985",
+                    "name": "Harald H. Quick"
+                },
+                {
+                    "authorId": "2513290",
+                    "name": "J. Barentsz"
+                },
+                {
+                    "authorId": "4152192",
+                    "name": "M. Maas"
+                },
+                {
+                    "authorId": "144586746",
+                    "name": "T. Scheenen"
+                }
+            ],
+            "abstract": "Background Accurate detection of lymph node (LN) metastases in prostate cancer (PCa) is a challenging but crucial step for disease staging. Ultrasmall superparamagnetic iron oxide (USPIO)\u2013enhanced magnetic resonance imaging (MRI) enables distinction between healthy LNs and nodes suspicious for harboring metastases. When combined with MRI at an ultra-high magnetic field, an unprecedented spatial resolution can be exploited to visualize these LNs. Purpose The aim of this study was to explore USPIO-enhanced MRI at 7 T in comparison to 3 T for the detection of small suspicious LNs in the same cohort of patients with PCa. Materials and Methods Twenty PCa patients with high-risk primary or recurrent disease were referred to our hospital for an investigational USPIO-enhanced 3 T MRI examination with ferumoxtran-10. With consent, they underwent a 7 T MRI on the same day. Three-dimensional anatomical and T2*-weighted images of both examinations were evaluated blinded, with an interval, by 2 readers who annotated LNs suspicious for metastases. Number, size, and level of suspicion (LoS) of LNs were paired within patients and compared between field strengths. Results At 7 T, both readers annotated significantly more LNs compared with 3 T (474 and 284 vs 344 and 162), with 116 suspicious LNs on 7 T (range, 1\u201334 per patient) and 79 suspicious LNs on 3 T (range, 1\u201314 per patient) in 17 patients. For suspicious LNs, the median short axis diameter was 2.6 mm on 7 T (1.3\u20139.5 mm) and 2.8 mm for 3 T (1.7\u201310.4 mm, P = 0.05), with large overlap in short axis of annotated LNs between LoS groups. At 7 T, significantly more suspicious LNs had a short axis <2.5 mm compared with 3 T (44% vs 27%). Magnetic resonance imaging at 7 T provided better image quality and structure delineation and a higher LoS score for suspicious nodes. Conclusions In the same cohort of patients with PCa, more and more small LNs were detected on 7 T USPIO-enhanced MRI compared with 3 T MRI. Suspicious LNs are generally very small, and increased nodal size was not a good indication of suspicion for the presence of metastases. The high spatial resolution of USPIO-enhanced MRI at 7 T improves structure delineation and the visibility of very small suspicious LNs, potentially expanding the in vivo detection limits of pelvic LN metastases in PCa patients.",
+            "score": 2
+        },
+        {
+            "paperId": "247bcf903e33e5ab7d36d98e60d8024b5237a79a",
+            "title": "Impact of bias field correction on 0.35 T pelvic MR images: evaluation on generative adversarial network-based OARs\u2019 auto-segmentation and visual grading assessment",
+            "venue": "Frontiers in Oncology",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2024.1294252/pdf",
+                "status": "GOLD",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11007142, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The bias field correction did not improve the anatomy visualization from a clinical point of view and the OARs\u2019 auto-segmentation outputs generated by the GAN by evaluating clinical anatomy visualization and generative adversarial network (GAN) auto-segmentation performance."
+            },
+            "authors": [
+                {
+                    "authorId": "2254145816",
+                    "name": "M. Vagni"
+                },
+                {
+                    "authorId": "2153844103",
+                    "name": "Huong Elena Tran"
+                },
+                {
+                    "authorId": "11612956",
+                    "name": "F. Catucci"
+                },
+                {
+                    "authorId": "7453036",
+                    "name": "G. Chiloiro"
+                },
+                {
+                    "authorId": "1432537546",
+                    "name": "A. D\u2019Aviero"
+                },
+                {
+                    "authorId": "2294468601",
+                    "name": "A. Re"
+                },
+                {
+                    "authorId": "1742626166",
+                    "name": "A. Romano"
+                },
+                {
+                    "authorId": "2249387905",
+                    "name": "L. Boldrini"
+                },
+                {
+                    "authorId": "2117628953",
+                    "name": "M. Kawula"
+                },
+                {
+                    "authorId": "2056501375",
+                    "name": "E. Lombardo"
+                },
+                {
+                    "authorId": "2237766191",
+                    "name": "Christopher Kurz"
+                },
+                {
+                    "authorId": "2237768372",
+                    "name": "Guillaume Landry"
+                },
+                {
+                    "authorId": "2266611581",
+                    "name": "C. Belka"
+                },
+                {
+                    "authorId": "7427682",
+                    "name": "Luca Indovina"
+                },
+                {
+                    "authorId": "50184115",
+                    "name": "M. Gambacorta"
+                },
+                {
+                    "authorId": "14590198",
+                    "name": "D. Cusumano"
+                },
+                {
+                    "authorId": "49774651",
+                    "name": "L. Placidi"
+                }
+            ],
+            "abstract": "Purpose Magnetic resonance imaging (MRI)-guided radiotherapy enables adaptive treatment plans based on daily anatomical changes and accurate organ visualization. However, the bias field artifact can compromise image quality, affecting diagnostic accuracy and quantitative analyses. This study aims to assess the impact of bias field correction on 0.35 T pelvis MRIs by evaluating clinical anatomy visualization and generative adversarial network (GAN) auto-segmentation performance. Materials and methods 3D simulation MRIs from 60 prostate cancer patients treated on MR-Linac (0.35 T) were collected and preprocessed with the N4ITK algorithm for bias field correction. A 3D GAN architecture was trained, validated, and tested on 40, 10, and 10 patients, respectively, to auto-segment the organs at risk (OARs) rectum and bladder. The GAN was trained and evaluated either with the original or the bias-corrected MRIs. The Dice similarity coefficient (DSC) and 95th percentile Hausdorff distance (HD95th) were computed for the segmented volumes of each patient. The Wilcoxon signed-rank test assessed the statistical difference of the metrics within OARs, both with and without bias field correction. Five radiation oncologists blindly scored 22 randomly chosen patients in terms of overall image quality and visibility of boundaries (prostate, rectum, bladder, seminal vesicles) of the original and bias-corrected MRIs. Bennett\u2019s S score and Fleiss\u2019 kappa were used to assess the pairwise interrater agreement and the interrater agreement among all the observers, respectively. Results In the test set, the GAN trained and evaluated on original and bias-corrected MRIs showed DSC/HD95th of 0.92/5.63 mm and 0.92/5.91 mm for the bladder and 0.84/10.61 mm and 0.83/9.71 mm for the rectum. No statistical differences in the distribution of the evaluation metrics were found neither for the bladder (DSC: p = 0.07; HD95th: p = 0.35) nor for the rectum (DSC: p = 0.32; HD95th: p = 0.63). From the clinical visual grading assessment, the bias-corrected MRI resulted mostly in either no change or an improvement of the image quality and visualization of the organs\u2019 boundaries compared with the original MRI. Conclusion The bias field correction did not improve the anatomy visualization from a clinical point of view and the OARs\u2019 auto-segmentation outputs generated by the GAN.",
+            "score": 2
+        },
+        {
+            "paperId": "55f5b93b4de9b898bea961a0a043cfbe5cf4f31d",
+            "title": "A step towards stereotactic navigation during pelvic surgery: 3D nerve topography",
+            "venue": "Surgical Endoscopy",
+            "year": 2018,
+            "citationCount": 24,
+            "openAccessPdf": {
+                "url": "https://link.springer.com/content/pdf/10.1007%2Fs00464-018-6086-3.pdf",
+                "status": "HYBRID",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC6061054, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Pelvic nerves at risk of injury are usually visible on high-resolution MRI with dedicated scanning protocols, and a specific knowledge of their course and its application in stereotactic navigation is suggested to improve quality of life by decreasing the likelihood of nerve injury."
+            },
+            "authors": [
+                {
+                    "authorId": "7145183",
+                    "name": "A. Wijsmuller"
+                },
+                {
+                    "authorId": "4025876",
+                    "name": "C. Giraudeau"
+                },
+                {
+                    "authorId": "145979980",
+                    "name": "J. Leroy"
+                },
+                {
+                    "authorId": "19164081",
+                    "name": "G. Kleinrensink"
+                },
+                {
+                    "authorId": "3663008",
+                    "name": "E. Rociu"
+                },
+                {
+                    "authorId": "48752721",
+                    "name": "L. Romagnolo"
+                },
+                {
+                    "authorId": "40422924",
+                    "name": "A. Melani"
+                },
+                {
+                    "authorId": "2015546",
+                    "name": "V. Agnus"
+                },
+                {
+                    "authorId": "144123811",
+                    "name": "M. Diana"
+                },
+                {
+                    "authorId": "145272842",
+                    "name": "L. Soler"
+                },
+                {
+                    "authorId": "2208938",
+                    "name": "B. Dallemagne"
+                },
+                {
+                    "authorId": "144688664",
+                    "name": "J. Marescaux"
+                },
+                {
+                    "authorId": "2055499",
+                    "name": "D. Mutter"
+                }
+            ],
+            "abstract": "BackgroundLong-term morbidity after multimodal treatment for rectal cancer is suggested to be mainly made up by nerve-injury-related dysfunctions. Stereotactic navigation for rectal surgery was shown to be feasible and will be facilitated by highlighting structures at risk of iatrogenic damage. The aim of this study was to investigate the ability to make a 3D map of the pelvic nerves with magnetic resonance imaging (MRI).MethodsA systematic review was performed to identify a main positional reference for each pelvic nerve and plexus. The nerves were manually delineated in 20 volunteers who were scanned with a 3-T MRI. The nerve identifiability rate and the likelihood of nerve identification correctness were determined.ResultsThe analysis included 61 studies on pelvic nerve anatomy. A main positional reference was defined for each nerve. On MRI, the sacral nerves, the lumbosacral plexus, and the obturator nerve could be identified bilaterally in all volunteers. The sympathetic trunk could be identified in 19 of 20 volunteers bilaterally (95%). The superior hypogastric plexus, the hypogastric nerve, and the inferior hypogastric plexus could be identified bilaterally in 14 (70%), 16 (80%), and 14 (70%) of the 20 volunteers, respectively. The pudendal nerve could be identified in 17 (85%) volunteers on the right side and in 13 (65%) volunteers on the left side. The levator ani nerve could be identified in only a few volunteers. Except for the levator ani nerve, the radiologist and the anatomist agreed that the delineated nerve depicted the correct nerve in 100% of the cases.ConclusionPelvic nerves at risk of injury are usually visible on high-resolution MRI with dedicated scanning protocols. A specific knowledge of their course and its application in stereotactic navigation is suggested to improve quality of life by decreasing the likelihood of nerve injury.",
+            "score": 2
+        },
+        {
+            "paperId": "45482b6dd6d7a55916a84a51b1f307882e5ddb59",
+            "title": "Subnodal Correspondence of PSMA Expression and USPIO-MRI in Metastatic Pelvic Lymph Nodes in Prostate Cancer",
+            "venue": "Investigative Radiology",
+            "year": 2023,
+            "citationCount": 1,
+            "openAccessPdf": {
+                "url": "https://journals.lww.com/investigativeradiology/fulltext/9900/subnodal_correspondence_of_psma_expression_and.174.aspx",
+                "status": "HYBRID",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1097/RLI.0000000000001046?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1097/RLI.0000000000001046, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Ex vivo imaging may help localize small cancer deposits within resected LNs and could contribute to improved interpretation of in vivo imaging of LNs."
+            },
+            "authors": [
+                {
+                    "authorId": "150232579",
+                    "name": "M. Schilham"
+                },
+                {
+                    "authorId": "6080039",
+                    "name": "D. Somford"
+                },
+                {
+                    "authorId": "5794877",
+                    "name": "A. Veltien"
+                },
+                {
+                    "authorId": "145747446",
+                    "name": "P. Z\u00e1mecnik"
+                },
+                {
+                    "authorId": "2513290",
+                    "name": "J. Barentsz"
+                },
+                {
+                    "authorId": "11501216",
+                    "name": "M. Sedelaar"
+                },
+                {
+                    "authorId": "1423349373",
+                    "name": "Heidi Kusters-Vandevelde"
+                },
+                {
+                    "authorId": "2268350374",
+                    "name": "M. Gotthardt"
+                },
+                {
+                    "authorId": "123649726",
+                    "name": "M. Rijpkema"
+                },
+                {
+                    "authorId": "144586746",
+                    "name": "T. Scheenen"
+                }
+            ],
+            "abstract": "Objectives Two advanced imaging modalities used to detect lymph node (LN) metastases in prostate cancer patients are prostate-specific membrane antigen (PSMA) positron emission tomography/computed tomography and ultrasmall superparamagnetic iron oxide (USPIO)\u2013enhanced magnetic resonance imaging (MRI). As these modalities use different targets, a subnodal comparison is needed to interpret both their correspondence and their differences. The aim of this explorative study was to compare ex vivo 111In-PSMA \u03bcSPECT images with high-resolution 7 T USPIO \u03bcMR images and histopathology of resected LN specimens from prostate cancer patients to assess the degree of correspondence at subnodal level. Materials and Methods Twenty primary prostate cancer patients who underwent pelvic LN dissection were included and received USPIO contrast and 111In-PSMA. A total of 41 LNs of interest (LNOIs) were selected for ex vivo imaging based on \u03b3-probe detection or palpation. \u03bcSPECT and \u03bcMRI acquisition were performed immediately after resection. Overlay of \u03bcSPECT images on MR images was performed, and the level of correspondence (LoC) between \u03bcSPECT and \u03bcMR findings was assessed according to a 4-point Likert classification scheme. Results Forty-one LNOIs could be matched to an LN on ex vivo \u03bcMRI. Coregistration of \u03bcSPECT and USPIO-enhanced water-selective multigradient echo MR images was successful for all 41 LNOIs. Ninety percent of the lesions showed excellent correspondence regarding the presence of metastatic tissue and affected subnodal site (LoC 4; 37/41). In only 1 of 41 LNOIs, a small metastasis was misclassified by both techniques. Three LNOIs were classified as LoC 3 (7%) and 1 LNOI as LoC 2. All LoC 2 and LoC 3 lesions had PSMA-expressing metastases on final histopathology Conclusions Coregistration of \u03bcSPECT and USPIO-\u03bcMRI showed excellent subnodal correspondence in the majority (90%) of LNs. Ex vivo imaging may thus help localize small cancer deposits within resected LNs and could contribute to improved interpretation of in vivo imaging of LNs.",
+            "score": 2
+        },
+        {
+            "paperId": "148c7d3df6784911a853d656b35928e13bd11382",
+            "title": "Comparison of synthesized and acquired high b-value diffusion-weighted MRI for detection of prostate cancer",
+            "venue": "Cancer Imaging",
+            "year": 2024,
+            "citationCount": 1,
+            "openAccessPdf": {
+                "url": "https://cancerimagingjournal.biomedcentral.com/counter/pdf/10.1186/s40644-024-00723-6",
+                "status": "GOLD",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11229343, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": null
+            },
+            "authors": [
+                {
+                    "authorId": "2281300787",
+                    "name": "K. Kallis"
+                },
+                {
+                    "authorId": "21366877",
+                    "name": "C. Conlin"
+                },
+                {
+                    "authorId": "2253422383",
+                    "name": "A. Y. Zhong"
+                },
+                {
+                    "authorId": "2149489676",
+                    "name": "T. Hussain"
+                },
+                {
+                    "authorId": "6097031",
+                    "name": "A. Chatterjee"
+                },
+                {
+                    "authorId": "2249746105",
+                    "name": "Gregory S Karczmar"
+                },
+                {
+                    "authorId": "1396767307",
+                    "name": "R. Rakow-Penner"
+                },
+                {
+                    "authorId": "2227887750",
+                    "name": "Anders M. Dale"
+                },
+                {
+                    "authorId": "2255730160",
+                    "name": "Tyler M. Seibert"
+                }
+            ],
+            "abstract": "Background High b -value diffusion-weighted images (DWI) are used for detection of clinically significant prostate cancer (csPCa). This study qualitatively and quantitatively compares synthesized DWI (sDWI) to acquired (aDWI) for detection of csPCa. Methods One hundred fifty-one consecutive patients who underwent prostate MRI and biopsy were included in the study. Axial DWI with b \u2009=\u20090, 500, 1000, and 2000\u00a0s/mm^2 using a 3T clinical scanner using a 32-channel phased-array body coil were acquired. We retrospectively synthesized DWI for b \u2009=\u20092000\u00a0s/mm^2 via extrapolation based on mono-exponential decay, using b \u2009=\u20090 and b \u2009=\u2009500\u00a0s/mm^2 (sDWI_500) and b \u2009=\u20090, b \u2009=\u2009500\u00a0s/mm^2, and b \u2009=\u20091000\u00a0s/mm^2 (sDWI_1000). Differences in signal intensity between sDWI and aDWI were evaluated within different regions of interest (prostate alone, prostate plus 5\u00a0mm, 30\u00a0mm and 70\u00a0mm margin and full field of view). The maximum DWI value within each ROI was evaluated for prediction of csPCa. Classification accuracy was compared to Restriction Spectrum Imaging restriction score (RSIrs), a previously validated biomarker based on multi-exponential DWI. Discrimination of csPCa was evaluated via area under the receiver operating characteristic curve (AUC). Results Within the prostate, mean\u2009\u00b1\u2009standard deviation of percent mean differences between sDWI and aDWI signal were -46\u2009\u00b1\u200935% for sDWI_1000 and -67\u2009\u00b1\u200924% for sDWI_500. AUC for aDWI, sDWI_500, sDWI_1000, and RSIrs within the prostate 0.62[95% confidence interval: 0.53, 0.71], 0.63[0.54, 0.72], 0.65[0.56, 0.73] and 0.78[0.71, 0.86], respectively. Conclusion sDWI is qualitatively comparable to aDWI within the prostate. However, hyperintense artifacts are introduced with sDWI in the surrounding pelvic tissue that interfere with quantitative cancer detection and might mask metastases. In the prostate, RSIrs yields superior quantitative csPCa detection than sDWI or aDWI.",
+            "score": 2
+        },
+        {
+            "paperId": "0737efac51677e854db95483d07e2fbc4cbac30a",
+            "title": "First-time imaging of [89Zr]trastuzumab in breast cancer using a long axial field-of-view PET/CT scanner",
+            "venue": "European Journal of Nuclear Medicine and Molecular Imaging",
+            "year": 2022,
+            "citationCount": 13,
+            "openAccessPdf": {
+                "url": "https://link.springer.com/content/pdf/10.1007/s00259-022-05777-x.pdf",
+                "status": "HYBRID",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC9308603, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "These first human immunoPET images on a LAFOV system show that the large axial FOV system provides substantial improvement in image quality when applying currently preferred overall scan durations on SAFOV systems, even for 89Zr-labelled mAb PET/CT studies."
+            },
+            "authors": [
+                {
+                    "authorId": "3908287",
+                    "name": "A. Brouwers"
+                },
+                {
+                    "authorId": "88118926",
+                    "name": "J. van Sluis"
+                },
+                {
+                    "authorId": "147170315",
+                    "name": "J. H. van Snick"
+                },
+                {
+                    "authorId": "153048568",
+                    "name": "C. Schr\u00f6der"
+                },
+                {
+                    "authorId": "4327166",
+                    "name": "I. Baas"
+                },
+                {
+                    "authorId": "2281286",
+                    "name": "R. Boellaard"
+                },
+                {
+                    "authorId": "145021143",
+                    "name": "A. Glaudemans"
+                },
+                {
+                    "authorId": "2105629170",
+                    "name": "R. Borra"
+                },
+                {
+                    "authorId": "2237772",
+                    "name": "A. Lammertsma"
+                },
+                {
+                    "authorId": "38761039",
+                    "name": "R. Dierckx"
+                },
+                {
+                    "authorId": "1411014962",
+                    "name": "C. Tsoumpas"
+                }
+            ],
+            "abstract": "Long axial field-of-view (LAFOV) PET/CT scanners have been introduced recently [1, 2], which offer numerous advantages [3]. One important advantage of using LAFOV PET/CT for imaging 89Zr-labelled monoclonal antibodies (mAbs), i.e., immunoPET, is the substantial increase in sensitivity compared with standard axial field-of-view (SAFOV) PET/CT systems, which may lead to a remarkable image quality improvement. This first study showcases such improvement for immunoPET with Biograph Vision QuadraTM (VQ) LAFOV PET/CT (Siemens Healthineers, Knoxville, TN, USA). Two patients suffering from metastatic HER2-positive breast cancer were administered with 37 MBq [89Zr] trastuzumab in order to assist clinical decision-making [4, 5]. Patients were scanned 4 days postinjection with a BiographTM mCT PET/CT (patient A) or a Biograph VisionTM PET/CT (patient B) (Siemens Healthineers, Knoxville, TN, USA), according to local standard operating procedures with overall scan durations of 45 min and 32 min, for, respectively, mCT and Vision. Following the clinical scans, patients were scanned with VQ. For VQ, we choose to apply a long scan duration of 30 min (patient A) and 32 min (patient B) to improve image quality rather than shortening the overall scan duration, as compared to Vision. For SAFOV systems, the acquisition and reconstruction parameters complied with EARL1, whilst for LAFOV, we also applied clinically (CLIN) recommended settings (Table 1) [6, 7]. PET/CT images of patient A are shown in the top two rows (a-h), for patient B in the bottom rows (i-p). The same intensity scale, SUV range 0\u201310, applies for all images, except the fused images (e, m). Additional reconstructions of the Vision Quadra data were obtained, mimicking 3-min (d, h, l, p) and 10-min (c, g, k, o) acquisitions, illustrating more pragmatic scan durations. As can be appreciated from these first human immunoPET images on a LAFOV system, the image quality improvement (f) is most spectacular when compared with the mCT (a). For example, in patient A, an additional small bone lesion was visualized with VQ in the pelvic area (f), which was not visible with the SAFOV system (a). Even when compared to the Vision (i), the VQ image (n) shows improved quality without applying any filter after reconstruction. Moreover, this image quality was improved even in the 10 min image compared with the 30\u201345 min acquisition needed for SAFOV systems. Thus, this image shows that the large axial FOV system provides substantial improvement in image quality when applying currently preferred overall scan durations on SAFOV systems (45 min for mCT, 32 min for Vision). Additionally, with the new LAFOV system, there is room for further reduction of the overall scan duration with still very acceptable image quality, even for 89Zr-labelled mAb PET/CT studies. This article is part of the Topical Collection on Image of the month",
+            "score": 2
+        },
+        {
+            "paperId": "3c06a6246e5b57a5c16185a99c4469d36c277e70",
+            "title": "MRI as a tool to assess surgical margins and pseudocapsule features directly following partial nephrectomy for small renal masses",
+            "venue": "European Radiology",
+            "year": 2018,
+            "citationCount": 19,
+            "openAccessPdf": {
+                "url": "https://link.springer.com/content/pdf/10.1007%2Fs00330-018-5630-9.pdf",
+                "status": "HYBRID",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC6302880, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Ex vivo 7T MRI is a feasible tool for perioperative evaluation of SMs, and if present, PC features after PN, and may facilitate maximal sparing of renal parenchyma without compromising oncological outcomes."
+            },
+            "authors": [
+                {
+                    "authorId": "12390490",
+                    "name": "T. V. van Oostenbrugge"
+                },
+                {
+                    "authorId": "1404318948",
+                    "name": "Willemien Runneboom"
+                },
+                {
+                    "authorId": "4335803",
+                    "name": "E. Bekers"
+                },
+                {
+                    "authorId": "35269609",
+                    "name": "J. Heidkamp"
+                },
+                {
+                    "authorId": "5735952",
+                    "name": "J. Langenhuijsen"
+                },
+                {
+                    "authorId": "5794877",
+                    "name": "A. Veltien"
+                },
+                {
+                    "authorId": "40640041",
+                    "name": "Arie Maat"
+                },
+                {
+                    "authorId": "39015437",
+                    "name": "P. Mulders"
+                },
+                {
+                    "authorId": "1398259109",
+                    "name": "C. Hulsbergen\u2013van de Kaa"
+                },
+                {
+                    "authorId": "2039143",
+                    "name": "J. F\u00fctterer"
+                }
+            ],
+            "abstract": "PurposeTo evaluate the feasibility of ex vivo 7T MRI to assess surgical margins (SMs) and pseudocapsule (PC) features after partial nephrectomy (PN).Materials and methodsIn this prospective, IRB-approved study, seven patients undergoing a PN for nine tumours between November 2014 and July 2015 were included for analysis after obtaining informed consent. MRI of the specimen was acquired using a 7T small bore scanner. The imaging protocol consisted of anatomical T1-, T2- and diffusion-weighted imaging. After formalin fixation, specimens were cut for pathology work-up in the same orientation as the MR images were obtained. The entire specimen was processed into H&E slides that were digitally scanned, annotated and correlated with radiological findings for negative SMs, PC presence, PC continuity and extra-PC-extension (EPCE). Sensitivity and specificity of MRI for assessment of these endpoints were calculated.ResultsThe sensitivity and specificity for assessment of the SM were 100% and 75%, respectively. Two false-positive outcomes were reported, both in case of EPCE and a SM \u22640.5 mm. For the presence of a PC, sensitivity and specificity were 100% and 33%, respectively. Two false-positive scans with anatomical structures mimicking the presence of a PC occurred. If a PC was present, continuity and EPCE were assessed with a sensitivity and specificity of 75% and 100% and 67% and 100%, respectively.ConclusionEx vivo 7T MRI is a feasible tool for perioperative evaluation of SMs, and if present, PC features after PN. This may facilitate maximal sparing of renal parenchyma without compromising oncological outcomes.Key Points\u2022 Ex vivo MRI may contribute to improvement of negative surgical margins during partial nephrectomy.\u2022 Due to the assessment of surgical margins within a limited time span from obtaining the partial nephrectomy specimen, surgery for more complex tumours is possible with maximum sparing of healthy renal parenchyma without compromising oncological outcomes.\u2022 The intra operative assessment of pseudocapsule continuity along the resection margin enables maximal sparing of healthy renal parenchyma without delayed diagnosis of incomplete resection.",
+            "score": 2
+        },
+        {
+            "paperId": "3ac79439b514ca478aef97972b8d47b2b3d50737",
+            "title": "Clinical Impact of Contouring Variability for Prostate Cancer Tumor Boost",
+            "venue": "medRxiv",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "https://www.medrxiv.org/content/medrxiv/early/2024/01/30/2024.01.29.24301942.full.pdf",
+                "status": "GREEN",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2024.01.29.24301942?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2024.01.29.24301942, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Radiation oncologists' attempts to contour tumor targets for focal RT boost are frequently inaccurate enough to yield meaningfully inferior clinical outcomes for patients."
+            },
+            "authors": [
+                {
+                    "authorId": "2253422383",
+                    "name": "A. Y. Zhong"
+                },
+                {
+                    "authorId": "32368098",
+                    "name": "Asona J Lui"
+                },
+                {
+                    "authorId": "2249376358",
+                    "name": "S. Kuznetsova"
+                },
+                {
+                    "authorId": "2281300787",
+                    "name": "K. Kallis"
+                },
+                {
+                    "authorId": "21366877",
+                    "name": "C. Conlin"
+                },
+                {
+                    "authorId": "2159879222",
+                    "name": "D. Do"
+                },
+                {
+                    "authorId": "2223412032",
+                    "name": "Mariluz Rojo Domingo"
+                },
+                {
+                    "authorId": "2249359433",
+                    "name": "R. Manger"
+                },
+                {
+                    "authorId": "2249403219",
+                    "name": "P. Hua"
+                },
+                {
+                    "authorId": "1680885",
+                    "name": "R. Karunamuni"
+                },
+                {
+                    "authorId": "2455090",
+                    "name": "J. Kuperman"
+                },
+                {
+                    "authorId": "2227887750",
+                    "name": "Anders M. Dale"
+                },
+                {
+                    "authorId": "1396767307",
+                    "name": "R. Rakow-Penner"
+                },
+                {
+                    "authorId": "2066110293",
+                    "name": "M. Hahn"
+                },
+                {
+                    "authorId": "67075198",
+                    "name": "U. A. van der Heide"
+                },
+                {
+                    "authorId": "2249276959",
+                    "name": "X. Ray"
+                },
+                {
+                    "authorId": "2251433651",
+                    "name": "T. Seibert"
+                }
+            ],
+            "abstract": "Purpose: The focal radiotherapy (RT) boost technique was shown in the FLAME trial to improve prostate cancer outcomes without increasing toxicity. This technique relies on the accurate delineation of prostate tumors on MRI. The ReIGNITE RT Boost study evaluated radiation oncologists' accuracy when asked to delineate prostate tumors on MRI and demonstrated high variability in tumor contours. We sought to evaluate the impact of contour variability and inaccuracy on predicted clinical outcomes. We hypothesized that radiation oncologists' contour inaccuracies would yield meaningfully worse clinical outcomes. Materials & Methods: 44 radiation oncologists and 2 expert radiologists contoured prostate tumors on 30 patient cases. Of these cases, those with CT simulation or diagnostic CT available were selected for analysis. A knowledge-based planning model was developed to generate focal RT boost plans for each contour per the FLAME trial protocol. Probability of biochemical failure (BF) was determined using a model from the FLAME trial. The primary metric evaluated was delta BF ({Delta}BF = Participant BF - Expert BF). An absolute increase in BF [\u2265]5% was considered clinically meaningful. Results: 8 patient cases and 394 target volumes for focal RT boost planning were included in this analysis. In general, participant plans were associated with worse predicted clinical outcomes compared to the expert plan, with an average absolute increase in BF of 4.3%. 37% of participant plans were noted to have an absolute increase in BF of 5% or more. Conclusion: Radiation oncologists' attempts to contour tumor targets for focal RT boost are frequently inaccurate enough to yield meaningfully inferior clinical outcomes for patients.",
+            "score": 2
+        },
+        {
+            "paperId": "2117272f4b826726695c59963c9b5806a8eb8e69",
+            "title": "E-DM: Evaluating Diffusion Model by Conformal Prediction",
+            "venue": "IEEE International Symposium on Biomedical Imaging",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ISBI56570.2024.10635216?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ISBI56570.2024.10635216, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The Conformal Prediction Set is introduced into diffusion models as an uncertainty quantification method, namely E-DM, providing uncertainty-controlled results without compromising image quality and providing a reliable monitor for any black-box predictor."
+            },
+            "authors": [
+                {
+                    "authorId": "2316778629",
+                    "name": "Chunjiang Wang"
+                },
+                {
+                    "authorId": "2316835499",
+                    "name": "Yunjie Gu"
+                },
+                {
+                    "authorId": "2316972931",
+                    "name": "Pengbo Liu"
+                },
+                {
+                    "authorId": "2316776352",
+                    "name": "Shang Zhao"
+                },
+                {
+                    "authorId": "2319867756",
+                    "name": "and S. Kevin Zhou"
+                }
+            ],
+            "abstract": "Diffusion models, as new score-based generative models, have drawn increasing attention by achieving state-of-the-art performance on different domains and tasks. The majority use signal to noise methods (e.g., PSNR, SSIM) as evaluation metrics because diffusion models generally learn through a reversible denoising process. However, evaluating the diffusion models with comprehensive consideration is still a pressing challenge, especially for the outcome reliability that involves sensitive information. Specifically, users in the healthcare domain also ask for trustworthiness and image quality. To address this issue, we introduce the Conformal Prediction Set into diffusion models as an uncertainty quantification method, namely E-DM, providing uncertainty-controlled results without compromising image quality. Conformal Prediction allows us to estimate a confidence set with guaranteed coverage for any finite population, thereby providing a reliable monitor for any black-box predictor. In this research, we illustrate our approach by improving the trustworthiness degree of a Denoising Diffusion Probabilistic Model (DDPM) for super-resolution tasks on Magnetic Resonance Imaging (MRI) images.",
+            "score": 2
+        },
+        {
+            "paperId": "567df753635a2d8d5f751a1a4bf3ac41e8e95103",
+            "title": "A prospective study on tumour response assessment methods after neoadjuvant endocrine therapy in early oestrogen receptor-positive breast cancer",
+            "venue": "Breast Cancer Research",
+            "year": 2024,
+            "citationCount": 6,
+            "openAccessPdf": {
+                "url": "https://breast-cancer-research.biomedcentral.com/counter/pdf/10.1186/s13058-023-01756-8",
+                "status": "GOLD",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10765775, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The findings shed light on the dynamics of tumour response to NET, challenge the paradigm of the ability of NET to decrease surgical volume and point to the utility of the TCS to quantify the scattered tumour response usually produced by endocrine therapy."
+            },
+            "authors": [
+                {
+                    "authorId": "2008176205",
+                    "name": "J. I. L\u00f3pez-Velazco"
+                },
+                {
+                    "authorId": "2277618513",
+                    "name": "Sara Manzano"
+                },
+                {
+                    "authorId": "152452231",
+                    "name": "M. Ota\u00f1o"
+                },
+                {
+                    "authorId": "8151895",
+                    "name": "K. Elorriaga"
+                },
+                {
+                    "authorId": "2204532747",
+                    "name": "N. Bult\u00f3"
+                },
+                {
+                    "authorId": "2277617399",
+                    "name": "Julio Herrero"
+                },
+                {
+                    "authorId": "84373790",
+                    "name": "A. Lahuerta"
+                },
+                {
+                    "authorId": "11554572",
+                    "name": "V. Segur"
+                },
+                {
+                    "authorId": "1398687893",
+                    "name": "I. \u00c1lvarez-L\u00f3pez"
+                },
+                {
+                    "authorId": "39681880",
+                    "name": "M. Caffarel"
+                },
+                {
+                    "authorId": "6851850",
+                    "name": "A. Urruticoechea"
+                }
+            ],
+            "abstract": "Background Neoadjuvant endocrine therapy (NET) in oestrogen receptor-positive (ER+) /HER2-negative\u00a0(HER2-) breast cancer allows real-time evaluation of drug efficacy as well as investigation of the biological and molecular changes that occur after estrogenic deprivation. Clinical and pathological evaluation after NET may be used to obtain prognostic and predictive information of tumour response to decide adjuvant treatment. In this setting, clinical scales developed to evaluate response after neoadjuvant chemotherapy are not useful and there are not validated biomarkers to assess response to NET beyond Ki67 levels and preoperative endocrine prognostic index score\u00a0(mPEPI). Methods In this prospective study, we extensively analysed radiological (by ultrasound\u00a0scan (USS) and magnetic resonance imaging (MRI)) and pathological tumour response of 104 postmenopausal patients with ER+\u2009/HER2-\u00a0resectable breast cancer, treated with NET for a mean of 7\u00a0months prior to surgery. We defined a new score, tumour cellularity size (TCS), calculated as the product of the residual tumour cellularity in the surgical specimen and the tumour pathological size. Results Our results show that radiological evaluation of response to NET by both USS and MRI underestimates pathological tumour size (path-TS). Tumour size [mean (range); mm] was: path-TS 20 (0\u201380); radiological-TS by USS 9 (0\u201331); by MRI: 12 (0\u201360). Nevertheless, they support the use of MRI over USS to clinically assess radiological tumour response (rad-TR) due to the statistically significant association of rad-TR by MRI, but not USS, with Ki67 decrease ( p \u2009=\u20090.002 and p \u2009=\u20090.3, respectively) and mPEPI score ( p \u2009=\u20090.002 and p \u2009=\u20090.6, respectively). In addition, we propose that TCS could become a new tool to standardize response assessment to NET given its simplicity, reproducibility and its good correlation with existing biomarkers (such as \u0394Ki67, p \u2009=\u20090.001) and potential added value. Conclusion Our findings shed light on the dynamics of tumour response to NET, challenge the paradigm of the ability of NET to decrease surgical volume and point to the utility of the TCS to quantify the scattered tumour response usually produced by endocrine therapy. In the future, these results should be validated in independent cohorts with associated survival data.",
+            "score": 1
+        },
+        {
+            "paperId": "0f5c2e82e37e1afc97bf903ebbd834486ccd7ef6",
+            "title": "A prospective study on tumour response assessments methods after neoadjuvant endocrine therapy in early oestrogen receptor positive breast cancer",
+            "venue": "medRxiv",
+            "year": 2023,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "https://breast-cancer-research.biomedcentral.com/counter/pdf/10.1186/s13058-023-01756-8",
+                "status": "GREEN",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2023.02.02.23285373?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2023.02.02.23285373, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The results show that radiological evaluation by both USS and MRI underestimate pathological tumour size, although they support the use of MRI over USS to clinically assess tumour response, and propose that the tumour cellularity size, calculated as the product of the percentage of residual tumours cellularity in the surgical specimen and the tumours pathological size, could become a new tool to standardize response assessment to NET."
+            },
+            "authors": [
+                {
+                    "authorId": "2008176205",
+                    "name": "J. I. L\u00f3pez-Velazco"
+                },
+                {
+                    "authorId": "88200385",
+                    "name": "S. Manzano"
+                },
+                {
+                    "authorId": "152452231",
+                    "name": "M. Ota\u00f1o"
+                },
+                {
+                    "authorId": "8151895",
+                    "name": "K. Elorriaga"
+                },
+                {
+                    "authorId": "2204532747",
+                    "name": "N. Bult\u00f3"
+                },
+                {
+                    "authorId": "2064793221",
+                    "name": "J. Herrero"
+                },
+                {
+                    "authorId": "84373790",
+                    "name": "A. Lahuerta"
+                },
+                {
+                    "authorId": "11554572",
+                    "name": "V. Segur"
+                },
+                {
+                    "authorId": "1398687893",
+                    "name": "I. \u00c1lvarez-L\u00f3pez"
+                },
+                {
+                    "authorId": "49241728",
+                    "name": "M. M Caffarel"
+                },
+                {
+                    "authorId": "6851850",
+                    "name": "A. Urruticoechea"
+                }
+            ],
+            "abstract": "Neoadjuvant endocrine therapy in oestrogen receptor (ER) positive HER2 negative breast cancer allows real-time evaluation of drug efficacy as well as investigation of the biological and molecular changes that occur after estrogenic deprivation. Clinical and pathological evaluation after neoadjuvant endocrine therapy may be used to obtain prognostic and predictive information of tumour response to decide adjuvant treatment. In this setting, clinical scales developed to evaluate response after neoadjuvant chemotherapy are not useful and there are not many validated biomarkers to assess response to neoadjuvant endocrine therapy beyond Ki67 expression and preoperative prognostic index (PEPI) score. In this prospective study, we extensively analysed radiological (by ultrasound and magnetic resonance imaging) and pathological tumour response of 104 postmenopausal patients with ER+/HER2- resectable breast cancer, treated with neoadjuvant endocrine treatment for a mean of 7 months prior to surgery. Our results show that radiological evaluation by both USS and MRI underestimate pathological tumour size, although they support the use of MRI over USS to clinically assess tumour response. In addition, we propose that the tumour cellularity size, calculated as the product of the percentage of residual tumour cellularity in the surgical specimen and the tumour pathological size, could become a new tool to standardize response assessment to NET given its good correlation with and potential added value to existing biomarkers. Our findings shed light on the dynamics of tumour response to neoadjuvant endocrine therapy, challenge the paradigm of the ability of NET to decrease surgical volume and point to the utility of the tumour cellularity size to quantify the scattered tumour response usually produced by endocrine therapy.",
+            "score": 1
+        },
+        {
+            "paperId": "7767f1b0bb237e0d6a69e7a96a114c29cc7b5d44",
+            "title": "Influence of the Bladder and Rectum Volume Changes on their Received Dose During the Prostate Hypofractionated Radiotherapy",
+            "venue": "Meditsinskaya Fizika",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.52775/1810-200x-2024-104-4-26-32?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.52775/1810-200x-2024-104-4-26-32, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The need for strict control of hollow organ filling during prostate irradiation has been demonstrated and it was shown that, despite preradiation preparation, it is not possible to predict a critical deviation threshold-one at which the dose received by a critical organ will not significantly differ from the planned dose."
+            },
+            "authors": [
+                {
+                    "authorId": "2339794488",
+                    "name": "A. A. Iamandi"
+                },
+                {
+                    "authorId": "2339795186",
+                    "name": "M. N. Smorodina"
+                }
+            ],
+            "abstract": "Purpose: Strict control of patient anatomy during each radiation fraction and aims to determine the magnitude of interfractional changes in pelvic volume and displacement during the prostate hypofractionated radiotherapy to assess potential dosimetric effects on critical organs. \nMaterial and methods: 61 patients with I II stage prostate cancer at very low, low or intermediate risk of progression with a prostate volume <80 cm. for transrectal ultrasound or CT/MRI with contrast was first radiated with a dose of 7.5 Gy per fraction every other day. The treatment consisted of 5 fractions. A comparative analysis of bladder and rectal filling was performed between topometric CT and cone beam CT (CBCT) obtained before each fraction. \nResults: The dependence of the doses received by the bladder and rectum on the deviations in their filling was determined. It was shown that, despite preradiation preparation, it is not possible to predict a critical deviation threshold-one at which the dose received by a critical organ will not significantly differ from the planned dose. \nConclusion: The need for strict control of hollow organ filling during prostate irradiation has been demonstrated.",
+            "score": 1
+        },
+        {
+            "paperId": "62e659d73f9cc18cb71b8da095454a35825ba782",
+            "title": "Variation in uterus position prior to brachytherapy of the cervix: A case report",
+            "venue": "Journal of Medicine and Life",
+            "year": 2017,
+            "citationCount": 4,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC5304382, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "To assess the movement of the uterus and cervix prior to brachytherapy in patients with gynecological cancer, in order to select the proper type of brachyTherapy applicator, the implementation of a prior imaging of the uterine position and computed tomography/ MRI-based simulation is proposed."
+            },
+            "authors": [
+                {
+                    "authorId": "2253052614",
+                    "name": "Georgescu Mt"
+                },
+                {
+                    "authorId": "2138287442",
+                    "name": "Rodica Anghel"
+                }
+            ],
+            "abstract": "Rationale: brachytherapy is administered in the treatment of patients with locally advanced cervical cancer following chemoradiotherapy. Lack of local anatomy evaluation prior to this procedure might lead to the selection of an inappropriate brachytherapy applicator, increasing the risk of side effects (e.g. uterus perforation, painful procedure ...). Objective: To assess the movement of the uterus and cervix prior to brachytherapy in patients with gynecological cancer, in order to select the proper type of brachytherapy applicator. Also we wanted to promote the replacement of the plain X-ray brachytherapy with the image-guided procedure. Methods and results: We presented the case of a 41-year-old female diagnosed with a biopsy that was proven cervical cancer stage IIIB. At diagnosis, the imaging studies identified an anteverted uterus. The patient underwent preoperative chemoradiotherapy. Prior to brachytherapy, the patient underwent a pelvic magnetic resonance imaging (MRI), which identified a displacement of the uterus in the retroverted position. Discussion: A great variety of brachytherapy applicators is available nowadays. Major changes in uterus position and lack of evaluation prior to brachytherapy might lead to a higher rate of incidents during this procedure. Also, by using orthogonal simulation and bidimensional (2D) treatment planning, brachytherapy would undoubtedly fail to treat the remaining tumoral tissue. This is the reason why we proposed the implementation of a prior imaging of the uterus and computed tomography (CT)/ MRI-based simulation in the brachytherapy procedure. Abbreviations: MRI = magnetic resonance imaging, CT = computed tomography, CTV = clinical target volume, DVH = dose-volume histogram, EBRT = external beam radiotherapy, GTV = gross tumor volume, Gy = Gray (unit), ICRU = International Commission of Radiation Units, IGRT = image guided radiotherapy, IM = internal margin, IMRT = image modulated radiotherapy, ITV = internal target volume, MRI = magnetic resonance imaging, OAR = organs at risk, PTV = planning target volume, QUANTEC = Quantitative Analyses of Normal Tissue Effects in the Clinic",
+            "score": 1
+        },
+        {
+            "paperId": "c151edd0a3160b4d14ebbbb750471c2075e553a3",
+            "title": "Results after Four Years of Screening for Prostate Cancer with PSA and MRI.",
+            "venue": "New England Journal of Medicine",
+            "year": 2024,
+            "citationCount": 28,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1056/NEJMoa2406050?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1056/NEJMoa2406050, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "In this trial, omitting biopsy in patients with negative MRI results eliminated more than half of diagnoses of clinically insignificant prostate cancer, and the associated risk of having incurable cancer diagnosed at screening or as interval cancer was very low."
+            },
+            "authors": [
+                {
+                    "authorId": "2267938",
+                    "name": "J. Hugosson"
+                },
+                {
+                    "authorId": "4971214",
+                    "name": "R. Godtman"
+                },
+                {
+                    "authorId": "2322843642",
+                    "name": "Jonas Wallstrom"
+                },
+                {
+                    "authorId": "3545654",
+                    "name": "U. Axcrona"
+                },
+                {
+                    "authorId": "2307215086",
+                    "name": "Anders Bergh"
+                },
+                {
+                    "authorId": "2252778799",
+                    "name": "Lars Egevad"
+                },
+                {
+                    "authorId": "7644865",
+                    "name": "K. Geterud"
+                },
+                {
+                    "authorId": "2194800992",
+                    "name": "Ali Khatami"
+                },
+                {
+                    "authorId": "12439474",
+                    "name": "Andreas Socratous"
+                },
+                {
+                    "authorId": "2242370716",
+                    "name": "Vasiliki Spyratou"
+                },
+                {
+                    "authorId": "2267892946",
+                    "name": "Linda Svensson"
+                },
+                {
+                    "authorId": "6696607",
+                    "name": "J. Stranne"
+                },
+                {
+                    "authorId": "50876425",
+                    "name": "M. M\u00e5nsson"
+                },
+                {
+                    "authorId": "2322852627",
+                    "name": "Mikael Hellstrom"
+                }
+            ],
+            "abstract": "BACKGROUND\nData on the efficacy and safety of screening for prostate cancer with magnetic resonance imaging (MRI) are needed from studies of follow-up screening.\n\n\nMETHODS\nIn a population-based trial that started in 2015, we invited men who were 50 to 60 years of age to undergo prostate-specific antigen (PSA) screening. Men with a PSA level of 3 ng per milliliter or higher underwent MRI of the prostate. Men were randomly assigned to the systematic biopsy group, in which they underwent systematic biopsy and, if suspicious lesions were found on MRI, targeted biopsy, or the MRI-targeted biopsy group, in which they underwent MRI-targeted biopsy only. At each visit, men were invited for repeat screening 2, 4, or 8 years later, depending on the PSA level. The primary outcome was detection of clinically insignificant (International Society of Urological Pathology [ISUP] grade 1) prostate cancer; detection of clinically significant (ISUP grade \u22652) cancer was a secondary outcome, and detection of clinically advanced or high-risk (metastatic or ISUP grade 4 or 5) cancer was also assessed.\n\n\nRESULTS\nAfter a median follow-up of 3.9 years (approximately 26,000 person-years in each group), prostate cancer had been detected in 185 of the 6575 men (2.8%) in the MRI-targeted biopsy group and 298 of the 6578 men (4.5%) in the systematic biopsy group. The relative risk of detecting clinically insignificant cancer in the MRI-targeted biopsy group as compared with the systematic biopsy group was 0.43 (95% confidence interval [CI], 0.32 to 0.57; P<0.001) and was lower at repeat rounds of screening than in the first round (relative risk, 0.25 vs. 0.49); the relative risk of a diagnosis of clinically significant prostate cancer was 0.84 (95% CI, 0.66 to 1.07). The number of advanced or high-risk cancers detected (by screening or as interval cancer) was 15 in the MRI-targeted biopsy group and 23 in the systematic biopsy group (relative risk, 0.65; 95% CI, 0.34 to 1.24). Five severe adverse events occurred (three in the systematic biopsy group and two in the MRI-targeted biopsy group).\n\n\nCONCLUSIONS\nIn this trial, omitting biopsy in patients with negative MRI results eliminated more than half of diagnoses of clinically insignificant prostate cancer, and the associated risk of having incurable cancer diagnosed at screening or as interval cancer was very low. (Funded by Karin and Christer Johansson's Foundation and others; G\u00d6TEBORG-2 ISRCTN registry number, ISRCTN94604465.).",
+            "score": 1
+        },
+        {
+            "paperId": "832c7eef7b9e6e7c9922e523e54ec13ba9e7215d",
+            "title": "Trabecular Bone Score Improves Early After Successful Kidney Transplantation Irrespective of Antiresorptive Therapy and Changes in Bone Mineral Density",
+            "venue": "Transplantation Direct",
+            "year": 2023,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "https://doi.org/10.1097/txd.0000000000001566",
+                "status": "GOLD",
+                "license": "CCBYNCND",
+                "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10727526, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Treatment with ibandronate or vitamin D and calcium did not affect bone quality as measured by TBS in de novo KTRs, but TBS increased early, irrespective of intervention, indicating that these measurements reflect different aspects of bone integrity."
+            },
+            "authors": [
+                {
+                    "authorId": "2220173693",
+                    "name": "Ruth C Str\u00f8mmen"
+                },
+                {
+                    "authorId": "5509939",
+                    "name": "K. Godang"
+                },
+                {
+                    "authorId": "2266946702",
+                    "name": "Trine E. Finnes"
+                },
+                {
+                    "authorId": "8403147",
+                    "name": "K. Smerud"
+                },
+                {
+                    "authorId": "7571074",
+                    "name": "A. Reis\u00e6ter"
+                },
+                {
+                    "authorId": "2238715039",
+                    "name": "Anders Hartmann"
+                },
+                {
+                    "authorId": "2248921638",
+                    "name": "Anders \u00c5sberg"
+                },
+                {
+                    "authorId": "2237610788",
+                    "name": "Jens Bollerslev"
+                },
+                {
+                    "authorId": "1399227874",
+                    "name": "H. Pihlstr\u00f8m"
+                }
+            ],
+            "abstract": "Background. Trabecular bone score (TBS) is a new tool to assess trabecular bone microarchitecture based on standard dual-energy x-ray absorptiometry (DXA) of lumbar spine images. TBS may be important to assess bone quality and fracture susceptibility in kidney transplant recipients (KTRs). This study aimed to investigate the effect of different bone therapies on TBS in KTRs. Methods. We reanalyzed DXA scans to assess TBS in 121 de novo KTRs at baseline, 10\u2009wk, and 1 y. This cohort, between 2007 and 2009, participated in a randomized, placebo-controlled trial evaluating the effect of ibandronate versus placebo in addition to vitamin D and calcium. Results. Although bone mineral density (BMD) Z scores showed a subtle decrease in the first weeks, TBS Z scores increased from baseline to 10\u2009wk for both treatment groups, followed by a slight decline at 12 mo. When comparing treatment groups and adjusting for baseline TBS, there were no differences found in TBS at 12 mo (P\u2009=\u20090.419). Correlation between TBS and BMD at baseline was weak (Spearman\u2019s \u03c1\u2009=\u20090.234, P\u2009=\u20090.010), and change in TBS was not correlated with changes in lumbar spine BMD in either of the groups (\u03c1\u2005=\u20050.003, P\u2009=\u20090.973). Conclusions. Treatment with ibandronate or vitamin D and calcium did not affect bone quality as measured by TBS in de novo KTRs, but TBS increased early, irrespective of intervention. Changes in TBS and BMD during the study period were not correlated, indicating that these measurements reflect different aspects of bone integrity. TBS may complement BMD assessment in identifying KTRs with a high fracture risk.",
+            "score": 1
+        },
+        {
+            "paperId": "e51a168f1cd7e397476c408362b14fdc31c40ca6",
+            "title": "No evidence for an association of voxel-based morphometry with short-term non-motor outcomes in deep brain stimulation for Parkinson\u2019s disease",
+            "venue": "npj Parkinson's Disease",
+            "year": 2024,
+            "citationCount": 5,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11053137, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Overall non-motor burden was not significantly associated with morphometric features, limiting its use as a marker to inform patient selection and holistic preoperative counselling."
+            },
+            "authors": [
+                {
+                    "authorId": "31710163",
+                    "name": "P. Loehrer"
+                },
+                {
+                    "authorId": "1412817642",
+                    "name": "Wibke Schumacher"
+                },
+                {
+                    "authorId": "1557366901",
+                    "name": "S. Jost"
+                },
+                {
+                    "authorId": "3444166",
+                    "name": "M. Silverdale"
+                },
+                {
+                    "authorId": "1404583309",
+                    "name": "J. Petry-Schmelzer"
+                },
+                {
+                    "authorId": "6959328",
+                    "name": "A. Sauerbier"
+                },
+                {
+                    "authorId": "1716825106",
+                    "name": "A. Gronostay"
+                },
+                {
+                    "authorId": "2235608426",
+                    "name": "V. Visser-Vandewalle"
+                },
+                {
+                    "authorId": "2251736869",
+                    "name": "G. R. Fink"
+                },
+                {
+                    "authorId": "102258108",
+                    "name": "J. Evans"
+                },
+                {
+                    "authorId": "2298286241",
+                    "name": "Max J. Krause"
+                },
+                {
+                    "authorId": "37689975",
+                    "name": "A. Rizos"
+                },
+                {
+                    "authorId": "2237776317",
+                    "name": "A. Antonini"
+                },
+                {
+                    "authorId": "3438193",
+                    "name": "K. Ashkan"
+                },
+                {
+                    "authorId": "2243874250",
+                    "name": "P. Martinez-Martin"
+                },
+                {
+                    "authorId": "2273068584",
+                    "name": "Christian Gaser"
+                },
+                {
+                    "authorId": "144544781",
+                    "name": "K. Ray Chaudhuri"
+                },
+                {
+                    "authorId": "2245370221",
+                    "name": "Lars Timmermann"
+                },
+                {
+                    "authorId": "5988551",
+                    "name": "J. Baldermann"
+                },
+                {
+                    "authorId": "4292221",
+                    "name": "H. Dafsari"
+                },
+                {
+                    "authorId": "2298288507",
+                    "name": "On behalf of Europar and the International Parkinson Group"
+                }
+            ],
+            "abstract": "Deep brain stimulation of the subthalamic nucleus (STN-DBS) is an established therapy in advanced Parkinson\u2019s disease (PD). Motor and non-motor outcomes, however, show considerable inter-individual variability. Preoperative morphometry-based metrics have recently received increasing attention to explain treatment effects. As evidence for the prediction of non-motor outcomes is limited, we sought to investigate the association between metrics of voxel-based morphometry and short-term non-motor outcomes following STN-DBS in this prospective open-label study. Forty-nine PD patients underwent structural MRI and a comprehensive clinical assessment at preoperative baseline and 6-month follow-up. Voxel-based morphometry was used to assess associations between cerebral volume and non-motor outcomes corrected for multiple comparisons using a permutation-based approach. We replicated existing results associating volume loss of the superior frontal cortex with subpar motor outcomes. Overall non-motor burden, however, was not significantly associated with morphometric features, limiting its use as a marker to inform patient selection and holistic preoperative counselling.",
+            "score": 1
+        },
+        {
+            "paperId": "a2628013a4e9312b9e268725da8fdd8bff18dba9",
+            "title": "App-based assessment of patient-reported outcomes in the Molecular Tumor Board in the Center for Personalized Medicine-(TRACE).",
+            "venue": "Neuro-Oncology Practice",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1093/nop/npae002?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/nop/npae002, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A pilot study proved the feasibility and acceptance of a smartphone application based on symptom burden and health-related quality of life metrics reported in a retrospective analysis of 292 neuro-oncological patients and expanded its application during biomarker-guided therapies to enable systematic PRO assessments."
+            },
+            "authors": [
+                {
+                    "authorId": "2190883670",
+                    "name": "L. D\u00f6rner"
+                },
+                {
+                    "authorId": "2190883662",
+                    "name": "L. Grosse"
+                },
+                {
+                    "authorId": "2238732775",
+                    "name": "F. Stange"
+                },
+                {
+                    "authorId": "2190845208",
+                    "name": "H. Hille"
+                },
+                {
+                    "authorId": "2238726443",
+                    "name": "S. Kurz"
+                },
+                {
+                    "authorId": "2106141297",
+                    "name": "H. Becker"
+                },
+                {
+                    "authorId": "2280226311",
+                    "name": "Sebastian Volkmer"
+                },
+                {
+                    "authorId": "1720748779",
+                    "name": "M. Hippler"
+                },
+                {
+                    "authorId": "2074144778",
+                    "name": "D. Rieger"
+                },
+                {
+                    "authorId": "2247816909",
+                    "name": "Paula Bombach"
+                },
+                {
+                    "authorId": "2238611277",
+                    "name": "J. Rieger"
+                },
+                {
+                    "authorId": "2132406813",
+                    "name": "Lina Weinert"
+                },
+                {
+                    "authorId": "2133706562",
+                    "name": "Laura Svensson"
+                },
+                {
+                    "authorId": "2263596597",
+                    "name": "Carolin Anders"
+                },
+                {
+                    "authorId": "2280229461",
+                    "name": "Sila Cekin"
+                },
+                {
+                    "authorId": "2238725493",
+                    "name": "F. Paulsen"
+                },
+                {
+                    "authorId": "32862289",
+                    "name": "\u00d6. \u00d6ner"
+                },
+                {
+                    "authorId": "1658774992",
+                    "name": "K. Ruhm"
+                },
+                {
+                    "authorId": "2206797264",
+                    "name": "Holly Sundberg Malek"
+                },
+                {
+                    "authorId": "2301128385",
+                    "name": "Yonne M\u00f6ller"
+                },
+                {
+                    "authorId": "2071804952",
+                    "name": "M. Tatagiba"
+                },
+                {
+                    "authorId": "2238732918",
+                    "name": "M. Wallwiener"
+                },
+                {
+                    "authorId": "2190891118",
+                    "name": "Nils Eckert"
+                },
+                {
+                    "authorId": "2190883604",
+                    "name": "P. Escher"
+                },
+                {
+                    "authorId": "2280236074",
+                    "name": "Nico Pfeifer"
+                },
+                {
+                    "authorId": "4949216",
+                    "name": "A. Forschner"
+                },
+                {
+                    "authorId": "1917822151",
+                    "name": "A. Bauer"
+                },
+                {
+                    "authorId": "2278611887",
+                    "name": "Daniel Zips"
+                },
+                {
+                    "authorId": "2238724795",
+                    "name": "M. Bitzer"
+                },
+                {
+                    "authorId": "2238725111",
+                    "name": "N. Malek"
+                },
+                {
+                    "authorId": "6466885",
+                    "name": "C. Gani"
+                },
+                {
+                    "authorId": "2238641361",
+                    "name": "G. Tabatabai"
+                },
+                {
+                    "authorId": "4464123",
+                    "name": "M. Renovanz"
+                }
+            ],
+            "abstract": "Background\nBiomarker-based therapies are increasingly used in cancer patients outside clinical trials. Systematic assessment of patient-reported outcomes (PRO) is warranted to take patients' perspectives during biomarker-based therapies into consideration. We assessed the feasibility of an electronic PRO assessment via a smartphone application.\n\n\nMethods\nAn interdisciplinary expert panel developed a smartphone application based on symptom burden and health-related quality of life (HRQoL) metrics reported in a retrospective analysis of 292 neuro-oncological patients. The app included validated assessments of health-related quality of life (HRQoL), the burden of symptoms, and psychological stress. Feasibility and usability were tested in a pilot study. Semi-structured interviews with patients and health care professionals (HCP) were conducted, transcribed, and analyzed according to Mayring\u00b4s qualitative content analysis. Furthermore, we assessed compliance and descriptive data of ePROs.\n\n\nResults\nA total of 14 patients have been enrolled, (9 female, 5 male). A total of 4 HCPs, 9 patients, and 1 caregiver were interviewed regarding usability/feasibility. The main advantages were the possibility to complete questionnaires at home and comfortable implementation in daily life. Compliance was high, for example, 82% of the weekly distributed NCCN distress thermometer questionnaires were answered on time, however, with interindividual variability. We observed a median distress score of 5 (range 0-10, 197 results, n = 12, weekly assessed) and a median Global health score of 58.3 according to the EORTC QLQ-C30 instrument (range 16.7-100, 77 results, n = 12, monthly assessed).\n\n\nConclusions\nThis pilot study proved the feasibility and acceptance of the app. We will therefore expand its application during biomarker-guided therapies to enable systematic PRO assessments.",
+            "score": 1
+        }
+    ]
+}

@@ -1,0 +1,340 @@
+import scipy.stats as stats
+from statsmodels.formula.api import ols
+from statsmodels.stats.anova import anova_lm
+import numpy as np
+import pandas as pd
+import math
+import warnings
+import itertools
+from io import StringIO
+import nlpaf.utils as utils
+import os 
+
+def pairwise_significance(sample1: list, sample2: list) -> dict:
+    """
+    Performs a detailed statistical comparison between two PAIRED samples.
+    - Checks for normality on the differences (Shapiro-Wilk).
+    - Automatically selects the appropriate paired test (Paired t-test or Wilcoxon).
+    - Calculates Cohen's d effect size for paired data.
+    """
+    results = {
+        "is_normal_on_diffs": False,
+        "test_used": None,
+        "p_value": None,
+        "effect_size": None
+    }
+
+    # For paired tests, the key assumption is the normality of the differences.
+    differences = [x - y for x, y in zip(sample1, sample2)]
+    
+    try:
+        shapiro_stat, shapiro_p = stats.shapiro(differences)
+        is_normal = shapiro_p >= 0.05
+        results["is_normal_on_diffs"] = bool(is_normal)
+    except (Warning, ValueError):
+        is_normal = False
+    # --- Select and Perform the Appropriate Test ---
+    if is_normal:
+        # The differences are normally distributed, so use the Paired T-test.
+        results["test_used"] = "Paired t-test"
+        stat, p_val = stats.ttest_rel(sample1, sample2)
+    else:
+        # The differences are not normal, so use the non-parametric Wilcoxon test.
+        results["test_used"] = "Wilcoxon signed-rank"
+        if all(d == 0 for d in differences):
+            stat, p_val = 0, 1.0
+        else:
+            try:
+                stat, p_val = stats.wilcoxon(sample1, sample2, zero_method='zsplit', correction=True)
+            except ValueError:
+                stat, p_val = 0, 1.0
+    
+    results["p_value"] = p_val
+    results["effect_size"] = cohend_paired(sample1, sample2)
+    
+    return results
+
+def cohend_paired(d1: list, d2: list) -> float:
+    """Calculates Cohen's d for paired samples."""
+    # Calculate the differences between paired samples
+    diffs = [x - y for x, y in zip(d1, d2)]
+    
+    # Calculate the mean and standard deviation of the differences
+    mean_diff = np.mean(diffs)
+    std_diff = np.std(diffs, ddof=1)
+    
+    # Avoid division by zero if there is no variation in differences
+    if std_diff == 0:
+        return 0.0
+        
+    # Effect size is the mean of differences divided by the stdev of differences
+    return mean_diff / std_diff
+
+def cohend(d1, d2):
+    # calculate the size of samples
+    n1, n2 = len(d1), len(d2)
+    # calculate the variance of the samples
+    # FIX: Use numpy.var instead of math.var
+    s1, s2 = np.var(d1, ddof=1), np.var(d2, ddof=1)
+    # calculate the pooled standard deviation
+    s = math.sqrt(((n1 - 1) * s1 + (n2 - 1) * s2) / (n1 + n2 - 2))
+    # calculate the means of the samples
+    # FIX: Use numpy.mean instead of math.mean
+    u1, u2 = np.mean(d1), np.mean(d2)
+    # calculate the effect size
+
+    return (u1 - u2) / s
+
+
+def effect_size_r(p_val, N):
+    z = stats.norm.ppf(1 - ((1 - p_val)))
+    sqrt_n = math.sqrt(N)
+    return z / sqrt_n
+
+
+def anova_table(aov):
+    aov["mean_sq"] = aov[:]["sum_sq"] / aov[:]["df"]
+
+    aov["eta_sq"] = aov[:-1]["sum_sq"] / sum(aov["sum_sq"])
+
+    aov["omega_sq"] = (
+        aov[:-1]["sum_sq"] - (aov[:-1]["df"] * aov["mean_sq"][-1])
+    ) / (sum(aov["sum_sq"]) + aov["mean_sq"][-1])
+    # eta squared (η2), and omega squared (ω2)
+    cols = ["sum_sq", "df", "mean_sq", "F", "PR(>F)", "eta_sq", "omega_sq"]
+    aov = aov[cols]
+    return aov
+
+
+def _siginificance_calculated(filename):
+    if filename is not None and len(filename) > 0:
+        filepath_detailed = "{}_detailed.csv".format(filename)
+        filepath = "{}.csv".format(filename)
+        if os.path.exists(filepath_detailed) and os.path.exists(
+            filepath
+        ):
+            return pd.read_csv(filepath, sep=";").set_index(
+                ["feature"]
+            ), pd.read_csv(filepath_detailed, sep=";")
+    return None, None
+
+
+def significance(
+    original_df, features=None, filename="", independent_var="cluster",
+    p_value_threshold: float = 0.05
+):
+    result = []
+    warnings.filterwarnings("ignore")
+    print("data has {} instances".format(str(len(original_df))))
+
+    result_df, detailed_df = _siginificance_calculated(filename)
+    if result_df is not None and detailed_df is not None:
+        print("already calculated")
+        return result_df, detailed_df
+    result_df, detailed_df = None, None
+    # to save the data
+    row = "feature;is_normal (shapiro);is_homogeneous (levene);p_value;is_significant;effect;result"
+    # all pairs
+    original_df = original_df.sort_values(by=[independent_var],
+                                          ascending=True)
+    pairs = list(
+        itertools.combinations(original_df[independent_var].unique(), 2)
+    )
+
+    for pair in pairs:
+        row += ";" + str(pair) + ";" + str(pair)
+    row += "\n"
+
+    # thresholds
+    
+    bonforrini_threshold = p_value_threshold / len(pairs)
+    print("bonforrini_threshold: ", bonforrini_threshold)
+
+    # conduct sig. test for each characteristic
+    if features is None:
+        features = original_df.columns.to_list()
+        features.remove(independent_var)
+        print(f"there are {len(features)} features.")
+
+    for feature in features:
+        print(f"Feature: {feature}")
+        with warnings.catch_warnings():
+            # warnings.filterwarnings('error')
+            try:
+                df = original_df[[independent_var, feature]].copy()
+                # Get feature values for each group
+                groups = {}
+                for g, g_df in original_df.groupby([independent_var]):
+                    groups[g] = g_df[feature]
+
+                # SHAPIRO FOR NORMALITY
+                is_all_normal = True
+                try:
+                    for v in groups.values():
+                        if stats.shapiro(v)[1] < 0.05:  # not normal
+                            is_all_normal = False
+                            break
+                except Warning:
+                    is_all_normal = False
+
+                # LEVENE FOR HOMOGENEITY
+                is_homogeneous = False
+                if is_all_normal:
+                    is_homogeneous = stats.levene(*groups.values())[1] >= 0.05
+
+                # DEFAULTS
+                stat = -1
+                p_val = np.nan
+                str_res = ""
+                effect_interpretation = ""
+
+                # sig TESTS FOR EACH FEATURE
+                if is_all_normal and is_homogeneous and len(pairs) > 1:
+                    # stat, p_val= stats.f_oneway(no_effect_feat, empowering_feat, challenging_feat, na_feat)
+                    anova_result = ols(
+                        feature + " ~ C(" + independent_var + ")", data=df
+                    ).fit()
+                    aov_table = anova_lm(anova_result, typ=2)
+
+                    aov = anova_table(aov_table).loc[
+                        "C(" + independent_var + ")"
+                    ]
+
+                    stat = aov["F"]
+                    p_val = aov["PR(>F)"]
+                    effect_omega = aov["omega_sq"]
+
+                    # low (0.01 – 0.059), medium (0.06 – 0.139), and large (0.14+)
+
+                    if p_val < p_value_threshold:
+                        effect_interpretation = "high"
+                        if effect_omega < 0.06:
+                            effect_interpretation = "low"
+                        elif effect_omega < 0.14:
+                            effect_interpretation = "medium"
+
+                    str_res = (
+                        "F({0},{1})= {2:.2f}, p= {3:.7f}, ω2= {4:.2f}".format(
+                            int(anova_result.df_model),
+                            int(anova_result.df_resid),
+                            stat,
+                            p_val,
+                            effect_omega,
+                        )
+                    )
+
+                elif len(pairs) > 1:
+                    stat, p_val = stats.kruskal(*groups.values())  # , na_feat)
+                
+
+                # POST HOC
+
+                # posthoc_df= pd.DataFrame({"no-effect": no_effect_feat, "reinforcing": empowering_feat, "challenging": challenging_feat, "na":na_feat})
+                # posthoc_df= posthoc_df.melt(var_name='groups', value_name='values')
+                # posthoc_p_values_df =sp.posthoc_mannwhitney(posthoc_df, val_col='values', group_col='groups', p_adjust='bonferroni') #corrected
+
+                # PAIRS EFFECT SIZE
+                pairs_results = ""
+                result_row = {}
+                result_row["feature"] = feature
+                print(f"There are {len(pairs)} pairs")
+                for pair in pairs:
+                    try:
+                        sample1 = list(
+                            (
+                                df[feature][df[independent_var] == pair[0]]
+                            ).values
+                        )
+                        sample2 = list(
+                            (
+                                df[feature][df[independent_var] == pair[1]]
+                            ).values
+                        )
+
+                        pair_stat, pair_p_val = (
+                            stats.ttest_ind(sample1, sample2)
+                            if (is_all_normal and is_homogeneous)
+                            else stats.mannwhitneyu(
+                                sample1, sample2, alternative="two-sided"
+                            )
+                        )
+                        if len(pairs) == 1:
+                            stat = pair_stat
+                            p_val = pair_p_val
+
+                        pair_effect_size = ""
+                        pair_effect_size_num = float("nan")
+                        if pair_p_val < bonforrini_threshold:
+                            N = len(sample1) + len(sample2)
+                            if is_all_normal and is_homogeneous:
+                                z = stats.norm.ppf(1 - (1 - pair_p_val))
+                                pair_effect_size_num = round(
+                                    (z) / (np.sqrt(N)), 2
+                                )
+                                pair_effect_size = str(pair_effect_size_num)
+                            else:
+                                m_u = len(sample1) * len(sample2) / 2
+                                sigma_u = np.sqrt(
+                                    len(sample1)
+                                    * len(sample2)
+                                    * (len(sample1) + len(sample2) + 1)
+                                    / 12
+                                )
+                                z = (pair_stat - m_u) / sigma_u
+                                pair_effect_size_num = round(
+                                    (z) / (np.sqrt(N)), 2
+                                )
+                                pair_effect_size = str(pair_effect_size_num)
+                        # if pair_stat < bonforrini_threshold:
+                        result_row[
+                            pair[0] + " " + pair[1]
+                        ] = pair_effect_size_num
+
+                        pair_res = "{0}".format(
+                            (pair_p_val < bonforrini_threshold)
+                        )
+                        pairs_results += (
+                            ";" + str(pair_res) + ";" + pair_effect_size
+                        )
+
+                    except Exception as e:
+                        print(feature)
+                        pairs_results += ";same values;same values"
+                        print("INNER EXCEPTION", e)
+
+                        # logging.error(traceback.format_exc())
+
+                row += "{};{};{};{};{};{};{}".format(
+                    feature,
+                    is_all_normal,
+                    is_homogeneous,
+                    p_val,
+                    (p_val < 0.05),
+                    effect_interpretation,
+                    str_res,
+                )
+                row += pairs_results
+                row += "\n"
+                if not np.isnan(p_val) and p_val < p_value_threshold:
+                    result.append(result_row)
+
+            except Exception as e:
+                print("exception for feature ", e)
+
+    detailed_df = pd.read_csv(StringIO(row), sep=";")
+
+    result_df = None
+    if len(result) > 0:
+        result_df = pd.DataFrame(result)
+        result_df.set_index(["feature"], inplace=True)
+
+    if filename is not None and len(filename.strip()) > 0:
+        filepath_detailed = "{}_detailed.csv".format(filename)
+        with open(filepath_detailed, "w", encoding="utf-8") as w:
+            w.write(row)
+
+        if len(result) > 0:
+            filepath = "{}.csv".format(filename)
+            result_df.reset_index().to_csv(filepath, sep=";")
+
+    return result_df, detailed_df

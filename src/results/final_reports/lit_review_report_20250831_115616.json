@@ -1,0 +1,1591 @@
+{
+    "initial_query": "Science Search And research paper retrieval methodologies using Multi Agent Systems",
+    "query_analysis": {
+        "topics": [
+            "multi-agent systems",
+            "research retrieval",
+            "science search"
+        ],
+        "timeline": {
+            "start_date": "2010-01-01",
+            "end_date": "2023-12-31",
+            "specific_year": null
+        },
+        "intention": "Descriptive"
+    },
+    "discovered_papers": [
+        {
+            "paperId": "d4e77d7944415da7a75540218ad1a0c1c0899102",
+            "title": "Datarus-R1: An Adaptive Multi-Step Reasoning LLM for Automated Data Analysis",
+            "venue": "",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2508.13382, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "authors": [
+                {
+                    "authorId": "2338268828",
+                    "name": "Ayoub Ben Chaliah"
+                },
+                {
+                    "authorId": "2338271109",
+                    "name": "Hela Dellagi"
+                }
+            ],
+            "abstract": "We present Datarus-R1-14B, a 14 B-parameter open-weights language model fine-tuned from Qwen 2.5-14B-Instruct to act as a virtual data analyst and graduate-level problem solver. Datarus is trained not on isolated question-answer pairs but on full analytical trajectories including reasoning steps, code execution, error traces, self-corrections, and final conclusions, all captured in a ReAct-style notebook format spanning finance, medicine, numerical analysis, and other quantitative domains. Our training pipeline combines (i) a trajectory-centric synthetic data generator that yielded 144 000 tagged notebook episodes, (ii) a dual-reward framework blending a lightweight tag-based structural signal with a Hierarchical Reward Model (HRM) that scores both single-step soundness and end-to-end coherence, and (iii) a memory-optimized implementation of Group Relative Policy Optimization (GRPO) featuring KV-cache reuse, sequential generation, and reference-model sharding. A cosine curriculum smoothly shifts emphasis from structural fidelity to semantic depth, reducing the format collapse and verbosity that often plague RL-aligned LLMs. A central design choice in Datarus is it dual reasoning interface. In agentic mode the model produces ReAct-tagged steps that invoke Python tools to execute real code; in reflection mode it outputs compact Chain-of-Thought (CoT) traces delimited byandtags. On demanding postgraduate-level problems, Datarus exhibits an\"AHA-moment\"pattern: it sketches hypotheses, revises them once or twice, and converges avoiding the circular, token-inflating loops common to contemporary systems. Across standard public benchmarks Datarus surpasses similar size models and even reaches the level of larger reasoning models such as QwQ-32B achieving up to 30% higher accuracy on AIME 2024/2025 and LiveCodeBench while emitting 18-49% fewer tokens per solution.",
+            "score": 10
+        },
+        {
+            "paperId": "e366b47c98cb922d7d5b536ca776dde8333b4bdc",
+            "title": "DISCOVERYWORLD: A Virtual Environment for Developing and Evaluating Automated Scientific Discovery Agents",
+            "venue": "Neural Information Processing Systems",
+            "year": 2024,
+            "citationCount": 34,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2406.06769, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "It is found that strong baseline agents, that perform well in prior published environments, struggle on most DISCOVERYWORLD tasks, suggesting that DISCOVERYWORLD captures some of the novel challenges of discovery, and thus that DISCOVERYWORLD may help accelerate near-term development and assessment of scientific discovery competency in agents."
+            },
+            "authors": [
+                {
+                    "authorId": "144949918",
+                    "name": "Peter Alexander Jansen"
+                },
+                {
+                    "authorId": "40638665",
+                    "name": "Marc-Alexandre C\u00f4t\u00e9"
+                },
+                {
+                    "authorId": "2236429",
+                    "name": "Tushar Khot"
+                },
+                {
+                    "authorId": "2203427167",
+                    "name": "Erin Bransom"
+                },
+                {
+                    "authorId": "40135250",
+                    "name": "Bhavana Dalvi"
+                },
+                {
+                    "authorId": "3165738",
+                    "name": "Bodhisattwa Prasad Majumder"
+                },
+                {
+                    "authorId": "3385516",
+                    "name": "Oyvind Tafjord"
+                },
+                {
+                    "authorId": "2258709497",
+                    "name": "Peter Clark"
+                }
+            ],
+            "abstract": "Automated scientific discovery promises to accelerate progress across scientific domains. However, developing and evaluating an AI agent's capacity for end-to-end scientific reasoning is challenging as running real-world experiments is often prohibitively expensive or infeasible. In this work we introduce DISCOVERYWORLD, the first virtual environment for developing and benchmarking an agent's ability to perform complete cycles of novel scientific discovery. DISCOVERYWORLD contains a variety of different challenges, covering topics as diverse as radioisotope dating, rocket science, and proteomics, to encourage development of general discovery skills rather than task-specific solutions. DISCOVERYWORLD itself is an inexpensive, simulated, text-based environment (with optional 2D visual overlay). It includes 120 different challenge tasks, spanning eight topics each with three levels of difficulty and several parametric variations. Each task requires an agent to form hypotheses, design and run experiments, analyze results, and act on conclusions. DISCOVERYWORLD further provides three automatic metrics for evaluating performance, based on (a) task completion, (b) task-relevant actions taken, and (c) the discovered explanatory knowledge. We find that strong baseline agents, that perform well in prior published environments, struggle on most DISCOVERYWORLD tasks, suggesting that DISCOVERYWORLD captures some of the novel challenges of discovery, and thus that DISCOVERYWORLD may help accelerate near-term development and assessment of scientific discovery competency in agents. Code available at: www.github.com/allenai/discoveryworld",
+            "score": 10
+        },
+        {
+            "paperId": "edd1ef7dd5fc57ac4fbc186baba48c9efc9f285f",
+            "title": "A Knowledge Graph Reasoning Approach Integrating Attention-based LSTM and Multi-Agent Reinforcement Learning",
+            "venue": "2023 4th International Conference on Big Data & Artificial Intelligence & Software Engineering (ICBASE)",
+            "year": 2023,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ICBASE59196.2023.10303211?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ICBASE59196.2023.10303211, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A novel knowledge reasoning method named ALMARL (Attention-based LSTM and Multi-Agent Reinforcement Learning for Knowledge Graph Reasoning) is proposed, which utilizes Attention-basedLSTM in conjunction with multi-agent reinforcement learning and produces inference results and extracts interpretable paths."
+            },
+            "authors": [
+                {
+                    "authorId": "2265187851",
+                    "name": "Qingqing Wang"
+                },
+                {
+                    "authorId": "2265090433",
+                    "name": "Han Jiao"
+                },
+                {
+                    "authorId": "2266702477",
+                    "name": "Danpu Zhang"
+                },
+                {
+                    "authorId": "2265058528",
+                    "name": "Xuemei Dong"
+                }
+            ],
+            "abstract": "Knowledge reasoning methods play a pivotal role in various applications, including knowledge graph completion, knowledge-based question answering, and knowledge recommendation. Among these methods, path-based multi-hop reasoning techniques have the ability to leverage the rich graph information in knowledge graphs beyond triplets, but they still encounter certain challenges. Existing multi-hop knowledge reasoning methods heavily rely on data and lack interpretability. Additionally, the vast exploration space of paths, composed of numerous entities and relations in large knowledge graphs, often leads to irrelevant and redundant exploration. To address these challenges, this paper proposes a novel knowledge reasoning method named ALMARL (Attention-based LSTM and Multi-Agent Reinforcement Learning for Knowledge Graph Reasoning). It utilizes Attention-based LSTM in conjunction with multi-agent reinforcement learning. The method first employs clustering techniques to group entities. Based on the clustering results, multi-agents at different levels are established to selectively explore certain clusters or limit the search to specific clusters, effectively reducing the exploration of irrelevant entities and minimizing redundant exploration. Subsequently, the agents efficiently explore paths and effectively mine deep semantic information in entity relationships through the integration of Attention-based LSTM. Finally, the model produces inference results and extracts interpretable paths. We evaluate our proposed model on two types of tasks: link prediction and fact prediction. Experimental results demonstrate significant performance improvements compared to several competitive baselines.",
+            "score": 10
+        },
+        {
+            "paperId": "2f1b64b98ee2f04308f4f3b41814e8291f52ddf5",
+            "title": "Towards Human-Guided, Data-Centric LLM Co-Pilots",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2501.10321, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "CliMB-DC is introduced, a human-guided, data-centric framework for LLM co-pilots that combines advanced data-centric tools with LLM-driven reasoning to enable robust, context-aware data processing and promises to empower domain experts from diverse domains to actively participate in driving real-world impact using ML."
+            },
+            "authors": [
+                {
+                    "authorId": "2064350535",
+                    "name": "Evgeny S. Saveliev"
+                },
+                {
+                    "authorId": "2340922924",
+                    "name": "Jiashuo Liu"
+                },
+                {
+                    "authorId": "50842362",
+                    "name": "Nabeel Seedat"
+                },
+                {
+                    "authorId": "2340685224",
+                    "name": "Anders Boyd"
+                },
+                {
+                    "authorId": "1729969",
+                    "name": "M. Schaar"
+                }
+            ],
+            "abstract": "Machine learning (ML) has the potential to revolutionize various domains, but its adoption is often hindered by the disconnect between the needs of domain experts and translating these needs into robust and valid ML tools. Despite recent advances in LLM-based co-pilots to democratize ML for non-technical domain experts, these systems remain predominantly focused on model-centric aspects while overlooking critical data-centric challenges. This limitation is problematic in complex real-world settings where raw data often contains complex issues, such as missing values, label noise, and domain-specific nuances requiring tailored handling. To address this we introduce CliMB-DC, a human-guided, data-centric framework for LLM co-pilots that combines advanced data-centric tools with LLM-driven reasoning to enable robust, context-aware data processing. At its core, CliMB-DC introduces a novel, multi-agent reasoning system that combines a strategic coordinator for dynamic planning and adaptation with a specialized worker agent for precise execution. Domain expertise is then systematically incorporated to guide the reasoning process using a human-in-the-loop approach. To guide development, we formalize a taxonomy of key data-centric challenges that co-pilots must address. Thereafter, to address the dimensions of the taxonomy, we integrate state-of-the-art data-centric tools into an extensible, open-source architecture, facilitating the addition of new tools from the research community. Empirically, using real-world healthcare datasets we demonstrate CliMB-DC's ability to transform uncurated datasets into ML-ready formats, significantly outperforming existing co-pilot baselines for handling data-centric challenges. CliMB-DC promises to empower domain experts from diverse domains -- healthcare, finance, social sciences and more -- to actively participate in driving real-world impact using ML.",
+            "score": 9
+        },
+        {
+            "paperId": "6cb412977323c07c56a828ae619f19908afe3e2c",
+            "title": "From Assistants to Agents: The Evolution of Large Language Models in Data Science Workflows",
+            "venue": "Advances in Engineering Technology Research",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.56028/aetr.14.1.1582.2025?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.56028/aetr.14.1.1582.2025, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "authors": [
+                {
+                    "authorId": "2376148675",
+                    "name": "Xiyuan Yin"
+                }
+            ],
+            "abstract": "This paper presents a comprehensive overview of the evolution of data science from a statistics-centric discipline to a machine learning\u2013driven field, culminating in the current integration of large language models (LLMs). It identifies key limitations in traditional LLM applications\u2014such as limited cross-domain adaptability, lack of interpretability, and workflow rigidity\u2014and explores recent innovations addressing these challenges. Three representative frameworks\u2014R&D-Agent, SPIO, and Agent Laboratory\u2014illustrate LLMs\u2019 transition from assistive tools to autonomous agents capable of planning, executing, and optimizing entire data science workflows. These systems leverage dual-agent cooperation, modular architectures, and self-correcting capabilities to improve performance in end-to-end data analysis and scientific research. The paper concludes by outlining future priorities, including domain-specific customization, standardized agent evaluation, and improved interpretability, all of which are essential for the next generation of intelligent, autonomous data science systems.",
+            "score": 9
+        },
+        {
+            "paperId": "fc2534220d753c9def3f4e0f56a69e2ef15a2e87",
+            "title": "DruGagent: Multi-Agent Large Language Model-Based Reasoning for Drug-Target Interaction Prediction",
+            "venue": "arXiv.org",
+            "year": 2024,
+            "citationCount": 3,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2408.13378, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "DrugAgent is a multi-agent LLM system for DTI prediction that combines multiple specialized perspectives with transparent reasoning that provides detailed, human-interpretable reasoning for each prediction by combining evidence from multiple sources - a critical feature for biomedical applications where understanding the rationale behind predictions is essential for clinical decision-making and regulatory compliance."
+            },
+            "authors": [
+                {
+                    "authorId": "2301432341",
+                    "name": "Yoshitaka Inoue"
+                },
+                {
+                    "authorId": "2317014671",
+                    "name": "Tianci Song"
+                },
+                {
+                    "authorId": "2354284239",
+                    "name": "Xinling Wang"
+                },
+                {
+                    "authorId": "2301312578",
+                    "name": "Augustin Luna"
+                },
+                {
+                    "authorId": "2304553065",
+                    "name": "Tianfan Fu"
+                }
+            ],
+            "abstract": "Advancements in large language models (LLMs) allow them to address diverse questions using human-like interfaces. Still, limitations in their training prevent them from answering accurately in scenarios that could benefit from multiple perspectives. Multi-agent systems allow the resolution of questions to enhance result consistency and reliability. While drug-target interaction (DTI) prediction is important for drug discovery, existing approaches face challenges due to complex biological systems and the lack of interpretability needed for clinical applications. DrugAgent is a multi-agent LLM system for DTI prediction that combines multiple specialized perspectives with transparent reasoning. Our system adapts and extends existing multi-agent frameworks by (1) applying coordinator-based architecture to the DTI domain, (2) integrating domain-specific data sources, including ML predictions, knowledge graphs, and literature evidence, and (3) incorporating Chain-of-Thought (CoT) and ReAct (Reason+Act) frameworks for transparent DTI reasoning. We conducted comprehensive experiments using a kinase inhibitor dataset, where our multi-agent LLM method outperformed the non-reasoning multi-agent model (GPT-4o mini) by 45% in F1 score (0.514 vs 0.355). Through ablation studies, we demonstrated the contributions of each agent, with the AI agent being the most impactful, followed by the KG agent and search agent. Most importantly, our approach provides detailed, human-interpretable reasoning for each prediction by combining evidence from multiple sources - a critical feature for biomedical applications where understanding the rationale behind predictions is essential for clinical decision-making and regulatory compliance. Code is available at https://anonymous.4open.science/r/DrugAgent-B2EA.",
+            "score": 9
+        },
+        {
+            "paperId": "bfa9be10770b742f9843274195b15938e479c095",
+            "title": "Cognitive Loop via In-Situ Optimization: Self-Adaptive Reasoning for Science",
+            "venue": "",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2508.02789, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "It is discovered that oscillations within internal uncertainty measures are key in determining the accuracy of CLIO's results, revealing how its open design and internal mechanisms can provide insight and control into scientific decision-making processes."
+            },
+            "authors": [
+                {
+                    "authorId": "2374964207",
+                    "name": "Newman Cheng"
+                },
+                {
+                    "authorId": "2374963763",
+                    "name": "Gordon Broadbent"
+                },
+                {
+                    "authorId": "2374971729",
+                    "name": "William Chappell"
+                }
+            ],
+            "abstract": "The capacity for artificial intelligence (AI) to formulate, evolve, and test altered thought patterns under dynamic conditions indicates advanced cognition that is crucial for scientific discovery. The existing AI development landscape falls into two categories: 1) frameworks over non-reasoning models that natively incorporate opinions on how humans think, and 2) reasoning models that abstract precise control of the reasoning intuition away from end users. While powerful, for scientists to maximize utility of AI in scientific discovery, they not only require accuracy and transparency in reasoning, but also steerability. Hence, we introduce an alternative approach that enables deep and precise control over the reasoning process called: a cognitive loop via in-situ optimization (CLIO). CLIO enables large language models (LLMs) to self-formulate ways of approaching a problem, adapt behavior when self-confidence is low, and ultimately provide scientists with a final belief or answer. Through CLIO's open design, scientists can observe uncertainty levels, understand how final belief states are formulated using graph structures, and interject corrections. Without any further post-training, OpenAI's GPT-4.1 with CLIO yields an accuracy of 22.37\\% in text-based biology and medicine questions on Humanity's Last Exam (HLE). This yields a 13.82\\% net or 161.64\\% relative increase when compared to the base GPT-4.1 model and surpasses OpenAI's o3 performance in high and low reasoning effort modes. We further discovered that oscillations within internal uncertainty measures are key in determining the accuracy of CLIO's results, revealing how its open design and internal mechanisms can provide insight and control into scientific decision-making processes.",
+            "score": 9
+        },
+        {
+            "paperId": "7e69d2364aa334aaced769a4276c51c6eab4a8ca",
+            "title": "Knowledge graph-enhanced multi-agent reinforcement learning for adaptive scheduling in smart manufacturing",
+            "venue": "Journal of Intelligent Manufacturing",
+            "year": 2024,
+            "citationCount": 6,
+            "openAccessPdf": {
+                "url": "https://doi.org/10.1007/s10845-024-02494-0",
+                "status": "HYBRID",
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s10845-024-02494-0?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s10845-024-02494-0, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Knowledge Graph-enhanced Multi-Agent Reinforcement Learning method is introduced that integrates interoperable communication via Knowledge Graphs with adaptive manufacturing control through Reinforcement Learning and demonstrates improved training speed compared with individual Reinforcement Learning methods under the same training hyperparameters."
+            },
+            "authors": [
+                {
+                    "authorId": "2092659106",
+                    "name": "Zhaojun Qin"
+                },
+                {
+                    "authorId": "2238946357",
+                    "name": "Yuqian Lu"
+                }
+            ],
+            "abstract": "Self-organizing manufacturing network has emerged as a viable solution for adaptive manufacturing control within the mass personalization paradigm. This approach involves three critical elements: system modeling and control architecture, interoperable communication, and adaptive manufacturing control. However, current research often separates interoperable communication from adaptive manufacturing control as isolated areas of study. To address this gap, this paper introduces Knowledge Graph-enhanced Multi-Agent Reinforcement Learning (MARL) method that integrates interoperable communication via Knowledge Graphs with adaptive manufacturing control through Reinforcement Learning. We hypothesize that implicit domain knowledge obtained from historical production job allocation records can guide each agent to learn more effective scheduling policies with accelerated learning rates. This is based on the premise that machine assignment preferences effectively could reduce the Reinforcement Learning search space. Specifically, we redesign machine agents with new observation, action, reward, and cooperation mechanisms considering the preference of machines, building upon our previous MARL base model. The scheduling policies are trained under extensive simulation experiments that consider manufacturing requirements. During the training process, our approach demonstrates improved training speed compared with individual Reinforcement Learning methods under the same training hyperparameters. The obtained scheduling policies generated by our Knowledge Graph-enhanced MARL also outperform both individual Reinforcement Learning methods and heuristic rules under dynamic manufacturing settings.",
+            "score": 9
+        },
+        {
+            "paperId": "9d017d62fa057d8cfaab90d7a2b5ccf91661cc12",
+            "title": "Self-Clustering Hierarchical Multi-Agent Reinforcement Learning With Extensible Cooperation Graph",
+            "venue": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+            "year": 2024,
+            "citationCount": 2,
+            "openAccessPdf": {
+                "url": "https://arxiv.org/pdf/2403.18056",
+                "status": "GREEN",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2403.18056, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This paper proposes a novel hierarchical MARL model called Hierarchical Cooperation Graph Learning (HCGL), which has shown outstanding performance in multi-agent benchmarks with sparse rewards and can be transferred to large-scale scenarios with high zero-shot transfer success rates."
+            },
+            "authors": [
+                {
+                    "authorId": "2153259799",
+                    "name": "Qing Fu"
+                },
+                {
+                    "authorId": "1381390977",
+                    "name": "Tenghai Qiu"
+                },
+                {
+                    "authorId": "2114335013",
+                    "name": "Jianqiang Yi"
+                },
+                {
+                    "authorId": "2243334210",
+                    "name": "Zhiqiang Pu"
+                },
+                {
+                    "authorId": "2242976784",
+                    "name": "Xiaolin Ai"
+                }
+            ],
+            "abstract": "Multi-Agent Reinforcement Learning (MARL) has been successful in solving many cooperative challenges. However, classic non-hierarchical MARL algorithms still cannot address various complex multi-agent problems that require hierarchical cooperative behaviors. The cooperative knowledge and policies learned in non-hierarchical algorithms are implicit and not interpretable, thereby restricting the integration of existing knowledge. This paper proposes a novel hierarchical MARL model called Hierarchical Cooperation Graph Learning (HCGL) for solving general multi-agent problems. HCGL has three components: a dynamic Extensible Cooperation Graph (ECG) for achieving self-clustering cooperation; a group of graph operators for adjusting the topology of ECG; and an MARL optimizer for training these graph operators. HCGL's key distinction from other MARL models is that the behaviors of agents are guided by the topology of ECG instead of policy neural networks. ECG is a three-layer graph consisting of an agent node layer, a cluster node layer, and a target node layer. To manipulate the ECG topology in response to changing environmental conditions, four graph operators are trained to adjust the edge connections of ECG dynamically. The hierarchical feature of ECG provides a unique approach to merge primitive actions (actions executed by the agents) and cooperative actions (actions executed by the clusters) into a unified action space, allowing us to integrate fundamental cooperative knowledge into an extensible interface. In our experiments, the HCGL model has shown outstanding performance in multi-agent benchmarks with sparse rewards. We also verify that HCGL can easily be transferred to large-scale scenarios with high zero-shot transfer success rates.",
+            "score": 9
+        },
+        {
+            "paperId": "4feedb3dce9ef48c89b51423084afa1f794a2d58",
+            "title": "The role of artificial intelligence in news portal fact-checking systems",
+            "venue": "International Journal of Science and Research Archive",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.30574/ijsra.2025.16.1.2164?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.30574/ijsra.2025.16.1.2164, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "Artificial intelligence automates fact extraction, evidence retrieval, and multimodal verification to accelerate the fact-checking workflow on news platforms to identify AI\u2019s potential for optimizing fact-checking processes and develop recommendations for integrating these solutions into editorial practices."
+            },
+            "authors": [
+                {
+                    "authorId": "2375074168",
+                    "name": "Sprinchinat Kateryna"
+                }
+            ],
+            "abstract": "This article examines the application of artificial intelligence within the fact-checking systems of news portals. Its relevance stems from the rising volume of misinformation in digital environments and the limited capacity of manual verification. The novelty of the study lies in a comprehensive analysis of contemporary AI tools that not only isolate cl AI ms for verification but also perform multi-agent source retrieval\u2014ensuring verdict transparency through citation of original data. The paper describes mechanisms for initial text analysis, corroboration searches, and detection of visual forgeries, and reviews implementation examples in the editorial workflows of Der Spiegel, FullFact, and Maldita [Der Spiegel; FullFact; Maldita]. Methods for assessing veracity using language models and computer-vision algorithms are explored, with special attention to model hallucination risks and the need for expl AI nable decisions. The study\u2019s objective is to identify AI \u2019s potential for optimizing fact-checking processes and to develop recommendations for integrating these solutions into editorial practices. To achieve this, the authors employ comparative analysis, data systematization, and a survey of empirical case studies. The work builds on a comparative juxtaposition of empirical practices and theoretical models presented in the international literature. Artificial intelligence automates fact extraction, evidence retrieval, and multimodal verification to accelerate the fact-checking workflow on news platforms.",
+            "score": 8
+        },
+        {
+            "paperId": "81b6143853e3380ccd24eae8e32a47dc94351576",
+            "title": "C2-Evo: Co-Evolving Multimodal Data and Model for Self-Improving Reasoning",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2507.16518, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "authors": [
+                {
+                    "authorId": "2346900385",
+                    "name": "Xiuwei Chen"
+                },
+                {
+                    "authorId": "2374148600",
+                    "name": "Wentao Hu"
+                },
+                {
+                    "authorId": "2276604489",
+                    "name": "Hanhui Li"
+                },
+                {
+                    "authorId": "2298472548",
+                    "name": "Jun Zhou"
+                },
+                {
+                    "authorId": "2347655946",
+                    "name": "Zisheng Chen"
+                },
+                {
+                    "authorId": "2334443159",
+                    "name": "Meng Cao"
+                },
+                {
+                    "authorId": "2237077457",
+                    "name": "Yihan Zeng"
+                },
+                {
+                    "authorId": "2373720163",
+                    "name": "Kui Zhang"
+                },
+                {
+                    "authorId": "2350180100",
+                    "name": "Yu-Jie Yuan"
+                },
+                {
+                    "authorId": "47180442",
+                    "name": "Jianhua Han"
+                },
+                {
+                    "authorId": "2320227478",
+                    "name": "Hang Xu"
+                },
+                {
+                    "authorId": "2309503120",
+                    "name": "Xiaodan Liang"
+                }
+            ],
+            "abstract": "Recent advances in multimodal large language models (MLLMs) have shown impressive reasoning capabilities. However, further enhancing existing MLLMs necessitates high-quality vision-language datasets with carefully curated task complexities, which are both costly and challenging to scale. Although recent self-improving models that iteratively refine themselves offer a feasible solution, they still suffer from two core challenges: (i) most existing methods augment visual or textual data separately, resulting in discrepancies in data complexity (e.g., over-simplified diagrams paired with redundant textual descriptions); and (ii) the evolution of data and models is also separated, leading to scenarios where models are exposed to tasks with mismatched difficulty levels. To address these issues, we propose C2-Evo, an automatic, closed-loop self-improving framework that jointly evolves both training data and model capabilities. Specifically, given a base dataset and a base model, C2-Evo enhances them by a cross-modal data evolution loop and a data-model evolution loop. The former loop expands the base dataset by generating complex multimodal problems that combine structured textual sub-problems with iteratively specified geometric diagrams, while the latter loop adaptively selects the generated problems based on the performance of the base model, to conduct supervised fine-tuning and reinforcement learning alternately. Consequently, our method continuously refines its model and training data, and consistently obtains considerable performance gains across multiple mathematical reasoning benchmarks. Our code, models, and datasets will be released.",
+            "score": 8
+        },
+        {
+            "paperId": "a51b28d8fcf17077a038fe775117865731f9c98d",
+            "title": "DrugPilot: LLM-based Parameterized Reasoning Agent for Drug Discovery",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 3,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2505.13940, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "DrugPilot is introduced, a LLM-based agent system with a parameterized reasoning architecture designed for end-to-end scientific workflows in drug discovery and significantly outperforms state-of-the-art agents such as ReAct and LoT under the Berkeley function-calling benchmark."
+            },
+            "authors": [
+                {
+                    "authorId": "2261355876",
+                    "name": "Kun Li"
+                },
+                {
+                    "authorId": "2362626491",
+                    "name": "Zhennan Wu"
+                },
+                {
+                    "authorId": "2362514227",
+                    "name": "Shoupeng Wang"
+                },
+                {
+                    "authorId": "2248467517",
+                    "name": "Wenbin Hu"
+                }
+            ],
+            "abstract": "Large language models (LLMs) integrated with autonomous agents hold significant potential for advancing scientific discovery through automated reasoning and task execution. However, applying LLM agents to drug discovery is still constrained by challenges such as large-scale multimodal data processing, limited task automation, and poor support for domain-specific tools. To overcome these limitations, we introduce DrugPilot, a LLM-based agent system with a parameterized reasoning architecture designed for end-to-end scientific workflows in drug discovery. DrugPilot enables multi-stage research processes by integrating structured tool use with a novel parameterized memory pool. The memory pool converts heterogeneous data from both public sources and user-defined inputs into standardized representations. This design supports efficient multi-turn dialogue, reduces information loss during data exchange, and enhances complex scientific decision-making. To support training and benchmarking, we construct a drug instruction dataset covering eight core drug discovery tasks. Under the Berkeley function-calling benchmark, DrugPilot significantly outperforms state-of-the-art agents such as ReAct and LoT, achieving task completion rates of 98.0%, 93.5%, and 64.0% for simple, multi-tool, and multi-turn scenarios, respectively. These results highlight DrugPilot's potential as a versatile agent framework for computational science domains requiring automated, interactive, and data-integrated reasoning.",
+            "score": 8
+        },
+        {
+            "paperId": "a9d7a85fbd1028be86e93410f095a51148656a56",
+            "title": "IRIS: Interactive Research Ideation System for Accelerating Scientific Discovery",
+            "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+            "year": 2025,
+            "citationCount": 1,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2504.16728, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "IRIS incorporates innovative features to enhance ideation, including adaptive test-time compute expansion via Monte Carlo Tree Search, fine-grained feedback mechanism, and query-based literature synthesis, to empower researchers with greater control and insight throughout the ideation process."
+            },
+            "authors": [
+                {
+                    "authorId": "2356859679",
+                    "name": "Aniketh Garikaparthi"
+                },
+                {
+                    "authorId": "47977285",
+                    "name": "Manasi S. Patwardhan"
+                },
+                {
+                    "authorId": "3213990",
+                    "name": "L. Vig"
+                },
+                {
+                    "authorId": "2266838179",
+                    "name": "Arman Cohan"
+                }
+            ],
+            "abstract": "The rapid advancement in capabilities of large language models (LLMs) raises a pivotal question: How can LLMs accelerate scientific discovery? This work tackles the crucial first stage of research, generating novel hypotheses. While recent work on automated hypothesis generation focuses on multi-agent frameworks and extending test-time compute, none of the approaches effectively incorporate transparency and steerability through a synergistic Human-in-the-loop (HITL) approach. To address this gap, we introduce IRIS: Interactive Research Ideation System, an open-source platform designed for researchers to leverage LLM-assisted scientific ideation. IRIS incorporates innovative features to enhance ideation, including adaptive test-time compute expansion via Monte Carlo Tree Search (MCTS), fine-grained feedback mechanism, and query-based literature synthesis. Designed to empower researchers with greater control and insight throughout the ideation process. We additionally conduct a user study with researchers across diverse disciplines, validating the effectiveness of our system in enhancing ideation. We open-source our code at https://github.com/Anikethh/IRIS-Interactive-Research-Ideation-System",
+            "score": 8
+        },
+        {
+            "paperId": "1e17e87bdcedd0dca162b302fef19428288b60d8",
+            "title": "Multi-Task Multi-Agent Reinforcement Learning via Skill Graphs",
+            "venue": "IEEE Robotics and Automation Letters",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2507.06690, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This paper proposes a hierarchical approach to multi-task multi-agent reinforcement learning, using a skill graph as the upper layer of the standard hierarchical approach, with training independent of the lower layer, effectively handling unrelated tasks and enhancing knowledge transfer capabilities."
+            },
+            "authors": [
+                {
+                    "authorId": "2353563925",
+                    "name": "Guobin Zhu"
+                },
+                {
+                    "authorId": "2353204760",
+                    "name": "Rui Zhou"
+                },
+                {
+                    "authorId": "2263709028",
+                    "name": "Wenkang Ji"
+                },
+                {
+                    "authorId": "2155343887",
+                    "name": "Hongyin Zhang"
+                },
+                {
+                    "authorId": "2324671153",
+                    "name": "Donglin Wang"
+                },
+                {
+                    "authorId": "2237954615",
+                    "name": "Shiyu Zhao"
+                }
+            ],
+            "abstract": "Multi-task multi-agent reinforcement learning (M T-MARL) has recently gained attention for its potential to enhance MARL's adaptability across multiple tasks. However, it is challenging for existing multi-task learning methods to handle complex problems, as they are unable to handle unrelated tasks and possess limited knowledge transfer capabilities. In this paper, we propose a hierarchical approach that efficiently addresses these challenges. The high-level module utilizes a skill graph, while the low-level module employs a standard MARL algorithm. Our approach offers two contributions. First, we consider the MT-MARL problem in the context of unrelated tasks, expanding the scope of MTRL. Second, the skill graph is used as the upper layer of the standard hierarchical approach, with training independent of the lower layer, effectively handling unrelated tasks and enhancing knowledge transfer capabilities. Extensive experiments are conducted to validate these advantages and demonstrate that the proposed method outperforms the latest hierarchical MAPPO algorithms. Videos and code are available at https://github.com/WindyLab/MT-MARL-SG",
+            "score": 8
+        },
+        {
+            "paperId": "18ba6290f2cbe15386bfb01acba9f7dc12a08e7b",
+            "title": "Dynamic Graph Communication for Decentralised Multi-Agent Reinforcement Learning",
+            "venue": "arXiv.org",
+            "year": 2024,
+            "citationCount": 1,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2501.00165, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This work presents a novel communication framework for decentralized multi-agent systems operating in dynamic network environments designed to enhance decision-making by optimizing the network's collective knowledge through efficient communication."
+            },
+            "authors": [
+                {
+                    "authorId": "2338269809",
+                    "name": "Ben McClusky"
+                }
+            ],
+            "abstract": "This work presents a novel communication framework for decentralized multi-agent systems operating in dynamic network environments. Integrated into a multi-agent reinforcement learning system, the framework is designed to enhance decision-making by optimizing the network's collective knowledge through efficient communication. Key contributions include adapting a static network packet-routing scenario to a dynamic setting with node failures, incorporating a graph attention network layer in a recurrent message-passing framework, and introducing a multi-round communication targeting mechanism. This approach enables an attention-based aggregation mechanism to be successfully trained within a sparse-reward, dynamic network packet-routing environment using only reinforcement learning. Experimental results show improvements in routing performance, including a 9.5 percent increase in average rewards and a 6.4 percent reduction in communication overhead compared to a baseline system. The study also examines the ethical and legal implications of deploying such systems in critical infrastructure and military contexts, identifies current limitations, and suggests potential directions for future research.",
+            "score": 8
+        },
+        {
+            "paperId": "9224b442c09a49e02e03ca2cfa118c3411027b38",
+            "title": "Scaling Up Multi-Agent Reinforcement Learning via Graph Decomposition Invariant Network",
+            "venue": "2024 5th International Seminar on Artificial Intelligence, Networking and Information Technology (AINIT)",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/AINIT61980.2024.10581435?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/AINIT61980.2024.10581435, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "It is proved that neural network architectures satisfying the GDI are of great help in realizing efficient course learning, and designed a model architecture called GDI model suitable for multi-agent curriculum learning, which satisfies the graph decomposition invariant proposed by the authors."
+            },
+            "authors": [
+                {
+                    "authorId": "2304716531",
+                    "name": "Hongyi Fu"
+                },
+                {
+                    "authorId": "2311313345",
+                    "name": "Jianmin Ji"
+                }
+            ],
+            "abstract": "This paper focuses on the dilemma faced by largescale multi-agent systems. With the increase of agent size, the policy search space grows exponentially, reaching the task complexity that is difficult for the current mainstream multiagent algorithms to deal with, so that the optimal strategy is converged in large-scale multi-agent systems. In order to make the learning process of large-scale multi-agent tasks more smooth, many researchers have introduced the method of course learning, setting the scale from small to large courses, compared with learning training from scratch, this way can continue to inherit the knowledge learned in the smaller scale tasks, making the training smoother. However, in order to realize the multiagent course learning from small to large scale, we face the following difficulties. First, the neural network structure we designed can adapt to the observation input of agents of different scales, rather than only applicable to a fixed scale. Second, in the multi-stage course learning, due to the network's inefficient representation of multi-agent systems, the knowledge learned in small-scale courses cannot be effectively utilized in large-scale courses, and even the problem of catastrophic forgetting occurs in the neural network. Specifically, we view multi-agent systems from a graph perspective and derive the Graph Decomposition Invariant (GDI) for the first time. We prove that neural network architectures satisfying the GDI are of great help in realizing efficient course learning. We design a model architecture called GDI model suitable for multi-agent curriculum learning, which satisfies the graph decomposition invariant proposed by us. Finally, we designed small-scale to large-scale multi-agent tasks on two experimental platforms, StarCraft and Neural MMO, and conducted a large number of comparative experiments, which verified that our proposed GDI model has a great promotion effect on course learning.",
+            "score": 8
+        },
+        {
+            "paperId": "1897d0afd44185e2ca0254bf53bde2cb3118eb96",
+            "title": "A Multi-Agent Based Approach to Short Message Service (SMS) Normalization System",
+            "venue": "JOURNAL OF RESEARCH AND REVIEW IN SCIENCE",
+            "year": 2018,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "https://jrrslasu.com/publications/JRRS_ppaper522_2019-08-07_965727868.pdf",
+                "status": "BRONZE",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.36108/jrrslasu/8102/50(0161)?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.36108/jrrslasu/8102/50(0161), which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "The proposed application, Web Information Retrieval System Architecture Based on SMS (WIRSABoSMS), normalizes SMS language to retain its original syntactic structure to achieve SMS normalization."
+            },
+            "authors": [
+                {
+                    "authorId": "115061187",
+                    "name": "O. Adesina"
+                }
+            ],
+            "abstract": "SMS language is characterized by fashion and user\u2019s creativity but needs a transformation to proper English words or spelling to formulate natural language and text processing activities. The proposed application, Web Information Retrieval System Architecture Based on SMS (WIRSABoSMS), normalizes SMS language to retain its original syntactic structure. The concept of mobile agents in web technology was introduced as a medium to achieving Short Message Service (SMS) normalization. SMS normalization was carried out with the adoption of multi-agent technology, as agents are involved in character search, sort, and compare of the strings written in SMS form into its parental orthography. This architecture was designed based on web information retrieval system (IRS) in order to achieve SMS normalization. BLEU (bilingual evaluation understudy) was used to evaluate the quality of text. BLEU scores compare the human judgment with that of the machine translation using two set of corpora. The outcome of syntactic text message normalization recorded an average of 90% performance (for the corpus collected from researchers) when compared with the similar test conducted with human judgment using BLEU scores metric in an health-related domain.",
+            "score": 7
+        },
+        {
+            "paperId": "7de44cf84608426d631fee51a44e28ff03290a12",
+            "title": "OmniScience: A Domain-Specialized LLM for Scientific Reasoning and Discovery",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 9,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2503.17604, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This work introduces OmniScience, a specialized large reasoning model for general science, developed through three key components: domain adaptive pretraining on a carefully curated corpus of scientific literature, instruction tuning on a specialized dataset to guide the model in following domain-specific tasks, and reasoning-based knowledge distillation through fine-tuning."
+            },
+            "authors": [
+                {
+                    "authorId": "2212680455",
+                    "name": "Vignesh Prabhakar"
+                },
+                {
+                    "authorId": "2351964048",
+                    "name": "Md Amirul Islam"
+                },
+                {
+                    "authorId": "2351785823",
+                    "name": "Adam Atanas"
+                },
+                {
+                    "authorId": "2351795008",
+                    "name": "Yao-Ting Wang"
+                },
+                {
+                    "authorId": "2351818754",
+                    "name": "Joah Han"
+                },
+                {
+                    "authorId": "151472559",
+                    "name": "Aastha Jhunjhunwala"
+                },
+                {
+                    "authorId": "153036931",
+                    "name": "Rucha Apte"
+                },
+                {
+                    "authorId": "2352084342",
+                    "name": "Robert Clark"
+                },
+                {
+                    "authorId": "2322613317",
+                    "name": "Kang Xu"
+                },
+                {
+                    "authorId": "2351813970",
+                    "name": "Zihan Wang"
+                },
+                {
+                    "authorId": "2352291682",
+                    "name": "Kai Liu"
+                }
+            ],
+            "abstract": "Large Language Models (LLMs) have demonstrated remarkable potential in advancing scientific knowledge and addressing complex challenges. In this work, we introduce OmniScience, a specialized large reasoning model for general science, developed through three key components: (1) domain adaptive pretraining on a carefully curated corpus of scientific literature, (2) instruction tuning on a specialized dataset to guide the model in following domain-specific tasks, and (3) reasoning-based knowledge distillation through fine-tuning to significantly enhance its ability to generate contextually relevant and logically sound responses. We demonstrate the versatility of OmniScience by developing a battery agent that efficiently ranks molecules as potential electrolyte solvents or additives. Comprehensive evaluations reveal that OmniScience is competitive with state-of-the-art large reasoning models on the GPQA Diamond and domain-specific battery benchmarks, while outperforming all public reasoning and non-reasoning models with similar parameter counts. We further demonstrate via ablation experiments that domain adaptive pretraining and reasoning-based knowledge distillation are critical to attain our performance levels, across benchmarks.",
+            "score": 7
+        },
+        {
+            "paperId": "6f2c2ff215323cd3e77a184846fdc0b9ddc3b56a",
+            "title": "From Retrieval to Reasoning: Advancing AI Agents for Knowledge Discovery and Collaboration",
+            "venue": "The Web Conference",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1145/3696410.3714542?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1145/3696410.3714542, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This talk will explore the frontiers of AI-driven knowledge retrieval and reasoning, drawing from recent research on knowledge graphs, semi-structured retrieval, adaptive tool use, and multi-turn AI collaboration."
+            },
+            "authors": [
+                {
+                    "authorId": "1702139",
+                    "name": "J. Leskovec"
+                }
+            ],
+            "abstract": "The web is the world's largest knowledge repository, yet as AI systems become increasingly integrated into our digital infrastructure, the ability to retrieve, reason, and collaborate effectively has become paramount. Large Language Models (LLMs) are evolving from passive responders to active knowledge agents that can retrieve complex information, validate hypotheses, and optimize interactions over multiple turns. In this talk, I will explore the frontiers of AI-driven knowledge retrieval and reasoning, drawing from recent research on knowledge graphs, semi-structured retrieval, adaptive tool use, and multi-turn AI collaboration. I will also discuss how agentic frameworks enable rigorous, automated hypothesis validation through sequential falsifications. Together, these advancements push beyond traditional search and QA systems, unlocking new capabilities for knowledge discovery, scientific research, and human-AI collaboration. Finally, I will highlight key challenges and opportunities in building AI systems that are not just accurate, but also interactive, explainable, and aligned with human needs.",
+            "score": 7
+        },
+        {
+            "paperId": "02ddfd12a050386e579b4e9e24d5af4c919ae271",
+            "title": "A cooperative game for automated learning of elasto-plasticity knowledge graphs and models with AI-guided experimentation",
+            "venue": "Computational Mechanics",
+            "year": 2019,
+            "citationCount": 58,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1903.04307, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "A new concept from graph theory where a modeler agent is tasked with evaluating all the modeling options recast as a directed multigraph and find the optimal path that links the source of the directed graph to the target measured by an objective function is introduced."
+            },
+            "authors": [
+                {
+                    "authorId": "2119325049",
+                    "name": "Kun Wang"
+                },
+                {
+                    "authorId": "40984439",
+                    "name": "WaiChing Sun"
+                },
+                {
+                    "authorId": "144486979",
+                    "name": "Q. Du"
+                }
+            ],
+            "abstract": "We introduce a multi-agent meta-modeling game to generate data, knowledge, and models that make predictions on constitutive responses of elasto-plastic materials. We introduce a new concept from graph theory where a modeler agent is tasked with evaluating all the modeling options recast as a directed multigraph and find the optimal path that links the source of the directed graph (e.g. strain history) to the target (e.g. stress) measured by an objective function. Meanwhile, the data agent, which is tasked with generating data from real or virtual experiments (e.g. molecular dynamics, discrete element simulations), interacts with the modeling agent sequentially and uses reinforcement learning to design new experiments to optimize the prediction capacity. Consequently, this treatment enables us to emulate an idealized scientific collaboration as selections of the optimal choices in a decision tree search done automatically via deep reinforcement learning.",
+            "score": 7
+        },
+        {
+            "paperId": "317a8423560a9b8ea7168cfa2a02da17ae59cfc3",
+            "title": "Exploiting Hierarchical Symmetry in Multi-Agent Reinforcement Learning",
+            "venue": "European Conference on Artificial Intelligence",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA240741",
+                "status": "HYBRID",
+                "license": "CCBYNC",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3233/FAIA240741?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3233/FAIA240741, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This paper focuses on multi-agent cooperative tasks and proposes a method incorporating hierarchical symmetry, termed the Hierarchical Equivariant Policy Network (HEPN), which is O ( n ) - equivariant which is O ( n ) - equivariant."
+            },
+            "authors": [
+                {
+                    "authorId": "80281502",
+                    "name": "Yongkai Tian"
+                },
+                {
+                    "authorId": "2157311852",
+                    "name": "Xin Yu"
+                },
+                {
+                    "authorId": "2324869222",
+                    "name": "Yirong Qi"
+                },
+                {
+                    "authorId": "2315627479",
+                    "name": "Li Wang"
+                },
+                {
+                    "authorId": "2114810563",
+                    "name": "Pu Feng"
+                },
+                {
+                    "authorId": "2274078396",
+                    "name": "Wenjun Wu"
+                },
+                {
+                    "authorId": "2273974068",
+                    "name": "Rongye Shi"
+                },
+                {
+                    "authorId": "2324598664",
+                    "name": "Jie Luo"
+                }
+            ],
+            "abstract": ". Achieving high sample efficiency is a critical research area in reinforcement learning. This becomes extremely difficult in multi-agent reinforcement learning (MARL), as the capacity of the joint state and action space grows exponentially with the number of agents. The reliance of MARL solely on exploration and trial-and-error, without incorporating prior knowledge, exacerbates the issue of low sample efficiency. Currently, introducing symmetry into MARL is an effective approach to address this issue. Yet the concept of hierarchical symmetry, which maintains symmetry across different levels of a multi-agent system (MAS), has not been explored in existing methods. This paper focuses on multi-agent cooperative tasks and proposes a method incorporating hierarchical symmetry, termed the Hierarchical Equivariant Policy Network (HEPN) which is O ( n ) - equivariant. Specifically, HEPN utilizes clustering to perform hierarchical information extraction in MAS, and employs graph neural networks to model agent interactions. We conducted extensive experiments across various multi-agent tasks. The results indicate that our method achieves faster convergence speeds and higher convergence rewards compared to baseline algorithms. Additionally, we have deployed our algorithm in a physical multi-robot system, confirming its effectiveness in real-world environments. Supplementary materials are available at https://yongkai-tian.github.io/HEPN/.",
+            "score": 7
+        },
+        {
+            "paperId": "b709a4359b6809c5cd93f58ac8d85879faeb8df8",
+            "title": "Bootstrapping Grounded Chain-of-Thought in Multimodal LLMs for Data-Efficient Model Adaptation",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2507.02859, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "authors": [
+                {
+                    "authorId": "2182293108",
+                    "name": "Jiaer Xia"
+                },
+                {
+                    "authorId": "2372256146",
+                    "name": "Bingkui Tong"
+                },
+                {
+                    "authorId": "12862495",
+                    "name": "Yuhang Zang"
+                },
+                {
+                    "authorId": "2372265732",
+                    "name": "Rui Shao"
+                },
+                {
+                    "authorId": "2364091729",
+                    "name": "Kaiyang Zhou"
+                }
+            ],
+            "abstract": "Multimodal Large Language Models (MLLMs) have demonstrated remarkable capabilities in interpreting images using natural language. However, without using large-scale datasets for retraining, these models are difficult to adapt to specialized vision tasks, e.g., chart understanding. This problem is caused by a mismatch between pre-training and downstream datasets: pre-training datasets primarily concentrate on scenes and objects but contain limited information about specialized, non-object images, such as charts and tables. In this paper, we share an interesting finding that training an MLLM with Chain-of-Thought (CoT) reasoning data can facilitate model adaptation in specialized vision tasks, especially under data-limited regimes. However, we identify a critical issue within CoT data distilled from pre-trained MLLMs, i.e., the data often contains multiple factual errors in the reasoning steps. To address the problem, we propose Grounded Chain-of-Thought (GCoT), a simple bootstrapping-based approach that aims to inject grounding information (i.e., bounding boxes) into CoT data, essentially making the reasoning steps more faithful to input images. We evaluate our approach on five specialized vision tasks, which cover a variety of visual formats including charts, tables, receipts, and reports. The results demonstrate that under data-limited regimes our approach significantly improves upon fine-tuning and distillation.",
+            "score": 6
+        },
+        {
+            "paperId": "466c7118d3070a1f88a0cd45108a9640e3013eda",
+            "title": "MicroVQA: A Multimodal Reasoning Benchmark for Microscopy-Based Scientific Research",
+            "venue": "Computer Vision and Pattern Recognition",
+            "year": 2025,
+            "citationCount": 10,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": "CCBY",
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2503.13399, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": null
+            },
+            "authors": [
+                {
+                    "authorId": "2195445745",
+                    "name": "James Burgess"
+                },
+                {
+                    "authorId": "2243427503",
+                    "name": "Jeffrey J. Nirschl"
+                },
+                {
+                    "authorId": "2066453653",
+                    "name": "Laura Bravo-S'anchez"
+                },
+                {
+                    "authorId": "2282390626",
+                    "name": "Alejandro Lozano"
+                },
+                {
+                    "authorId": "24627399",
+                    "name": "S. Gupte"
+                },
+                {
+                    "authorId": "1401554536",
+                    "name": "Jes\u00fas G. Galaz-Montoya"
+                },
+                {
+                    "authorId": "49889860",
+                    "name": "Yuhui Zhang"
+                },
+                {
+                    "authorId": "2303890937",
+                    "name": "Yuchang Su"
+                },
+                {
+                    "authorId": "2350608918",
+                    "name": "Disha Bhowmik"
+                },
+                {
+                    "authorId": "2350756276",
+                    "name": "Zachary Coman"
+                },
+                {
+                    "authorId": "2350788687",
+                    "name": "Sarina M. Hasan"
+                },
+                {
+                    "authorId": "2327208419",
+                    "name": "Alexandra Johannesson"
+                },
+                {
+                    "authorId": "16649382",
+                    "name": "William D. Leineweber"
+                },
+                {
+                    "authorId": "2350756782",
+                    "name": "Malvika G Nair"
+                },
+                {
+                    "authorId": "2350756424",
+                    "name": "Ridhi Yarlagadda"
+                },
+                {
+                    "authorId": "2332396014",
+                    "name": "Connor Zuraski"
+                },
+                {
+                    "authorId": "2350643586",
+                    "name": "Wah Chiu"
+                },
+                {
+                    "authorId": "2351186252",
+                    "name": "Sarah Cohen"
+                },
+                {
+                    "authorId": "2329889629",
+                    "name": "J. N. Hansen"
+                },
+                {
+                    "authorId": "2313244006",
+                    "name": "Manuel D. Leonetti"
+                },
+                {
+                    "authorId": "2350667512",
+                    "name": "Chad Liu"
+                },
+                {
+                    "authorId": "2251451265",
+                    "name": "Emma Lundberg"
+                },
+                {
+                    "authorId": "2275638250",
+                    "name": "S. Yeung-Levy"
+                }
+            ],
+            "abstract": "Scientific research demands sophisticated reasoning over multimodal data, a challenge especially prevalent in biology. Despite recent advances in multimodal large language models (MLLMs) for AI-assisted research, existing multimodal reasoning benchmarks only target up to college-level difficulty, while research-level benchmarks emphasize lower-level perception, falling short of the complex multimodal reasoning needed for scientific discovery. To bridge this gap, we introduce MicroVQA, a visual-question answering (VQA) benchmark designed to assess three reasoning capabilities vital in research workflows: expert image understanding, hypothesis generation, and experiment proposal. MicroVQA consists of 1,042 multiple-choice questions (MCQs) curated by biology experts across diverse microscopy modalities, ensuring VQA samples represent real scientific practice. In constructing the benchmark, we find that standard MCQ generation methods induce language shortcuts, motivating a new two-stage pipeline: an optimized LLM prompt structures question-answer pairs into MCQs; then, an agent-based \u2018RefineBot\u2019 updates them to remove shortcuts. Benchmarking on state-of-the-art MLLMs reveal a peak performance of 53%; models with smaller LLMs only slightly underperform top models, suggesting that language-based reasoning is less challenging than multimodal reasoning; and tuning with scientific articles enhances performance. Expert analysis of chain-of-thought responses shows that perception errors are the most frequent, followed by knowledge errors and then overgeneralization errors. These insights highlight the challenges in multimodal scientific reasoning, showing MicroVQA is a valuable resource advancing AI-driven biomedical research. MicroVQA is available here, project here.",
+            "score": 6
+        },
+        {
+            "paperId": "cd4b4cb3d2cf5b2213de1dce7abd7d946867bdba",
+            "title": "NETEVOLVE: Social Network Forecasting using Multi-Agent Reinforcement Learning with Interpretable Features",
+            "venue": "The Web Conference",
+            "year": 2024,
+            "citationCount": 4,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1145/3589334.3647982?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1145/3589334.3647982, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This study proposes NetEvolve, a novel multi-agent reinforcement learning-based method that predicts changes in a given social network and achieves comparable or better accuracy than existing methods in predicting network changes in real-world social networks while keeping the prediction results interpretable."
+            },
+            "authors": [
+                {
+                    "authorId": "2300654064",
+                    "name": "Kentaro Miyake"
+                },
+                {
+                    "authorId": "2110352338",
+                    "name": "Hiroyoshi Ito"
+                },
+                {
+                    "authorId": "2256724188",
+                    "name": "Christos Faloutsos"
+                },
+                {
+                    "authorId": "2300535211",
+                    "name": "Hirotomo Matsumoto"
+                },
+                {
+                    "authorId": "34573158",
+                    "name": "Atsuyuki Morishima"
+                }
+            ],
+            "abstract": "Predicting how social networks change in the future is important in many applications. Results in social network research have shown that the change in the network can be explained by a small number of concepts, such as \"homophily\" and \"transitivity\". However, existing prediction methods require many latent features that are not connected to such concepts, making the methods' black boxes and their prediction results difficult to interpret, making them harder to derive scientific knowledge about social networks. In this study, we propose NetEvolve a novel multi-agent reinforcement learning-based method that predicts changes in a given social network. Given a sequence of changes as training data, NetEvolve learns the characteristics of the nodes with interpretable features, such as how the node feels rewards for connecting with similar people and the cost of the connection itself. Based on the learned feature, NetEvolve makes a forecast based on multi-agent simulation. The method achieves comparable or better accuracy than existing methods in predicting network changes in real-world social networks while keeping the prediction results interpretable.",
+            "score": 6
+        },
+        {
+            "paperId": "aefcbc059c85337d94d62c7e659db8b32e94ca87",
+            "title": "MMAT-1M: A Large Reasoning Dataset for Multimodal Agent Tuning",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2507.21924, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "authors": [
+                {
+                    "authorId": "2374460261",
+                    "name": "Tianhong Gao"
+                },
+                {
+                    "authorId": "2374400532",
+                    "name": "Yannian Fu"
+                },
+                {
+                    "authorId": "2374180847",
+                    "name": "Weiqun Wu"
+                },
+                {
+                    "authorId": "40069452",
+                    "name": "Haixiao Yue"
+                },
+                {
+                    "authorId": "2354278625",
+                    "name": "Shanshan Liu"
+                },
+                {
+                    "authorId": "2373766858",
+                    "name": "Gang Zhang"
+                }
+            ],
+            "abstract": "Large Language Models (LLMs), enhanced through agent tuning, have demonstrated remarkable capabilities in Chain-of-Thought (CoT) and tool utilization, significantly surpassing the performance of standalone models. However, the multimodal domain still lacks a large-scale, high-quality agent tuning dataset to unlock the full potential of multimodal large language models. To bridge this gap, we introduce MMAT-1M, the first million-scale multimodal agent tuning dataset designed to support CoT, reflection, and dynamic tool usage. Our dataset is constructed through a novel four-stage data engine: 1) We first curate publicly available multimodal datasets containing question-answer pairs; 2) Then, leveraging GPT-4o, we generate rationales for the original question-answer pairs and dynamically integrate API calls and Retrieval Augmented Generation (RAG) information through a multi-turn paradigm; 3) Furthermore, we refine the rationales through reflection to ensure logical consistency and accuracy, creating a multi-turn dialogue dataset with both Rationale and Reflection (RR); 4) Finally, to enhance efficiency, we optionally compress multi-turn dialogues into a One-turn Rationale and Reflection (ORR) format. By fine-tuning open-source multimodal models on the MMAT-1M, we observe significant performance gains. For instance, the InternVL2.5-8B-RR model achieves an average improvement of 2.7% across eight public benchmarks and 8.8% on the RAG benchmark Dyn-VQA, demonstrating the dataset's effectiveness in enhancing multimodal reasoning and tool-based capabilities. The dataset is publicly available at https://github.com/VIS-MPU-Agent/MMAT-1M.",
+            "score": 5
+        },
+        {
+            "paperId": "48263720fba12b39ccbfee884a364bb6f543b9c6",
+            "title": "Toward Automated Knowledge Discovery in Case-Based Reasoning",
+            "venue": "The Florida AI Research Society",
+            "year": 2024,
+            "citationCount": 2,
+            "openAccessPdf": {
+                "url": "",
+                "status": "CLOSED",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.32473/flairs.37.1.135434?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.32473/flairs.37.1.135434, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "ACE's ability to extract strategic knowledge against world-class opponents is demonstrated by demonstrating its ability to extract strategic knowledge against world-class opponents, highlighting its potential for impact across gaming, autonomous systems, and other complex problem-solving domains."
+            },
+            "authors": [
+                {
+                    "authorId": "2166505306",
+                    "name": "Sherri Weitl-Harms"
+                },
+                {
+                    "authorId": "2317939542",
+                    "name": "John D. Hastings"
+                },
+                {
+                    "authorId": "1742609",
+                    "name": "Jay H. Powell"
+                }
+            ],
+            "abstract": "Automated Case Elicitation (ACE) enables case-based reasoning (CBR) systems to automatically acquire knowledge through real-time exploration and interaction with environments. CBR is an explainable AI methodology, where decisions are based on previous encounters. ACE combined with CBR continues learning as it is being deployed, and produces specific cases that can be reviewed by humans, unlike pretrained large language models (LLMs) that learn by training offline on prior data. ACE and CBR may be useful methods to gather training data for use with generative AI, or to help them to adapt on the fly. This research explores ACE's potential by applying it to chess and conducting extensive experiments against Stockfish, the world's highest rated chess engine. An ACE agent was developed that combines random exploration with shallow alpha-beta search for novel game states. Results over 1000+ games showed the ACE player defeated Stockfish in nearly 10% of games\u2014a notable achievement given Stockfish's extreme strength. Notably, the ACE agent required only 0.1 seconds per game compared an average of 8 minutes for Stockfish, while still gradually improving its win rate through accrued experience. Detailed analyses revealed how the relaxation of ACE's case matching criteria along with selective retention of useful cases enabled accumulation of strategic chess knowledge. The research provides valuable insights into ACE's proficiency for knowledge discovery in complex, adversarial domains. It lays groundwork for integrating ACE, an unsupervised CBR learner, with modern deep learning techniques like neural networks and large language models to combine the strengths of symbolic and subsymbolic AI. By demonstrating ACE's ability to extract strategic knowledge against world-class opponents, this work highlights its potential for impact across gaming, autonomous systems, and other complex problem-solving domains.",
+            "score": 5
+        },
+        {
+            "paperId": "4442d4d54c369034d4e504b311332dd89c463fdb",
+            "title": "LLM-based Question-Answer Framework for Sensor-driven HVAC System Interaction",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2507.04748, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "authors": [
+                {
+                    "authorId": "2144479703",
+                    "name": "Sungmin Lee"
+                },
+                {
+                    "authorId": "2374403008",
+                    "name": "Minju Kang"
+                },
+                {
+                    "authorId": "2373999124",
+                    "name": "Joonhee Lee"
+                },
+                {
+                    "authorId": "2372746291",
+                    "name": "Seungyong Lee"
+                },
+                {
+                    "authorId": "2373591567",
+                    "name": "Dongju Kim"
+                },
+                {
+                    "authorId": "2374006550",
+                    "name": "Jingi Hong"
+                },
+                {
+                    "authorId": "2373598511",
+                    "name": "Jun Shin"
+                },
+                {
+                    "authorId": "2373715440",
+                    "name": "Pei Zhang"
+                },
+                {
+                    "authorId": "2374199895",
+                    "name": "JeongGil Ko"
+                }
+            ],
+            "abstract": "Question-answering (QA) interfaces powered by large language models (LLMs) present a promising direction for improving interactivity with HVAC system insights, particularly for non-expert users. However, enabling accurate, real-time, and context-aware interactions with HVAC systems introduces unique challenges, including the integration of frequently updated sensor data, domain-specific knowledge grounding, and coherent multi-stage reasoning. In this paper, we present JARVIS, a two-stage LLM-based QA framework tailored for sensor data-driven HVAC system interaction. JARVIS employs an Expert-LLM to translate high-level user queries into structured execution instructions, and an Agent that performs SQL-based data retrieval, statistical processing, and final response generation. To address HVAC-specific challenges, JARVIS integrates (1) an adaptive context injection strategy for efficient HVAC and deployment-specific information integration, (2) a parameterized SQL builder and executor to improve data access reliability, and (3) a bottom-up planning scheme to ensure consistency across multi-stage response generation. We evaluate JARVIS using real-world data collected from a commercial HVAC system and a ground truth QA dataset curated by HVAC experts to demonstrate its effectiveness in delivering accurate and interpretable responses across diverse queries. Results show that JARVIS consistently outperforms baseline and ablation variants in both automated and user-centered assessments, achieving high response quality and accuracy.",
+            "score": 4
+        },
+        {
+            "paperId": "477a992a8f802e3e4292bf698f6f2011deeddcbd",
+            "title": "InfiAlign: A Scalable and Sample-Efficient Framework for Aligning LLMs to Enhance Reasoning Capabilities",
+            "venue": "",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2508.05496, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "authors": [
+                {
+                    "authorId": "2345902042",
+                    "name": "Shuo Cai"
+                },
+                {
+                    "authorId": "2345865958",
+                    "name": "Su Lu"
+                },
+                {
+                    "authorId": "2326574820",
+                    "name": "Qi Zhou"
+                },
+                {
+                    "authorId": "2326559296",
+                    "name": "Kejing Yang"
+                },
+                {
+                    "authorId": "2326299236",
+                    "name": "Zhijie Sang"
+                },
+                {
+                    "authorId": "2340656564",
+                    "name": "Congkai Xie"
+                },
+                {
+                    "authorId": "2358015282",
+                    "name": "Hongxia Yang"
+                }
+            ],
+            "abstract": "Large language models (LLMs) have exhibited impressive reasoning abilities on a wide range of complex tasks. However, enhancing these capabilities through post-training remains resource intensive, particularly in terms of data and computational cost. Although recent efforts have sought to improve sample efficiency through selective data curation, existing methods often rely on heuristic or task-specific strategies that hinder scalability. In this work, we introduce InfiAlign, a scalable and sample-efficient post-training framework that integrates supervised fine-tuning (SFT) with Direct Preference Optimization (DPO) to align LLMs for enhanced reasoning. At the core of InfiAlign is a robust data selection pipeline that automatically curates high-quality alignment data from open-source reasoning datasets using multidimensional quality metrics. This pipeline enables significant performance gains while drastically reducing data requirements and remains extensible to new data sources. When applied to the Qwen2.5-Math-7B-Base model, our SFT model achieves performance on par with DeepSeek-R1-Distill-Qwen-7B, while using only approximately 12% of the training data, and demonstrates strong generalization across diverse reasoning tasks. Additional improvements are obtained through the application of DPO, with particularly notable gains in mathematical reasoning tasks. The model achieves an average improvement of 3.89% on AIME 24/25 benchmarks. Our results highlight the effectiveness of combining principled data selection with full-stage post-training, offering a practical solution for aligning large reasoning models in a scalable and data-efficient manner. The model checkpoints are available at https://huggingface.co/InfiX-ai/InfiAlign-Qwen-7B-SFT.",
+            "score": 4
+        },
+        {
+            "paperId": "4b7840077a5878c83cf05c79af3918f34b988270",
+            "title": "Question Classification with Transfer Learning",
+            "venue": "International Journal for Research in Applied Science and Engineering Technology",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.22214/ijraset.2025.72752?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.22214/ijraset.2025.72752, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": {
+                "model": "tldr@v2.0.0",
+                "text": "This study explores a transfer learning-based approach for classifying questions into predefined categories by leveraging the power of RoBERTa, a robustly optimized transformer model, and demonstrates strong capability for detecting and removing duplicate questions, leading to cleaner data and more effective information retrieval."
+            },
+            "authors": [
+                {
+                    "authorId": "2369092664",
+                    "name": "Pawan"
+                },
+                {
+                    "authorId": "2358722784",
+                    "name": "Amandeep"
+                },
+                {
+                    "authorId": "2369094993",
+                    "name": "Ankita"
+                }
+            ],
+            "abstract": "The widespread growth of online platforms has led to an overwhelming volume of user-generated questions, many of\nwhich are redundant, poorly categorized, or lack clarity in purpose. Effective question classification has thus become a crucial\ntask in natural language processing, especially for applications like intelligent search systems, educational forums, and\nconversational agents. This study explores a transfer learning-based approach for classifying questions into predefined\ncategories by leveraging the power of RoBERTa,a robustly optimized transformer model. We rely on a preprocessed draft of the\nQuora Question Pairs dataset for training and evaluation. For more reliable learning, we adapt fine-tuning strategies to a\nsubsampled subset and analyze linguistic properties and semantic embeddings. Results show higher accuracy especially among\nthe overlapped classes or the fine grained semantic ones. Furthermore, our method demonstrates strong capability for detecting\nand removing duplicate questions, leading to cleaner data and more effective information retrieval. These results bolster the\nutility of transfer learning for tackling challenging language problems with only limited amounts of manual feature\nengineering. As part of future work, we are likely to generalize this model for multi-label classification, domain adaptation, and\nto real-time question stream analysis in continual systems.",
+            "score": 3
+        },
+        {
+            "paperId": "a7d42f60c7db599b3500d31f1353b83c841a3c39",
+            "title": "From Data-Centric to Sample-Centric: Enhancing LLM Reasoning via Progressive Optimization",
+            "venue": "arXiv.org",
+            "year": 2025,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2507.06573, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "authors": [
+                {
+                    "authorId": "2264732221",
+                    "name": "Xinjie Chen"
+                },
+                {
+                    "authorId": "2211476336",
+                    "name": "Minpeng Liao"
+                },
+                {
+                    "authorId": "2300110478",
+                    "name": "Guoxin Chen"
+                },
+                {
+                    "authorId": "2279871391",
+                    "name": "Chengxi Li"
+                },
+                {
+                    "authorId": "2372274243",
+                    "name": "Biao Fu"
+                },
+                {
+                    "authorId": "2297775845",
+                    "name": "Kai Fan"
+                },
+                {
+                    "authorId": "2373678108",
+                    "name": "Xinggao Liu"
+                }
+            ],
+            "abstract": "Reinforcement learning with verifiable rewards (RLVR) has recently advanced the reasoning capabilities of large language models (LLMs). While prior work has emphasized algorithmic design, data curation, and reward shaping, we investigate RLVR from a sample-centric perspective and introduce LPPO (Learning-Progress and Prefix-guided Optimization), a framework of progressive optimization techniques. Our work addresses a critical question: how to best leverage a small set of trusted, high-quality demonstrations, rather than simply scaling up data volume. First, motivated by how hints aid human problem-solving, we propose prefix-guided sampling, an online data augmentation method that incorporates partial solution prefixes from expert demonstrations to guide the policy, particularly for challenging instances. Second, inspired by how humans focus on important questions aligned with their current capabilities, we introduce learning-progress weighting, a dynamic strategy that adjusts each training sample's influence based on model progression. We estimate sample-level learning progress via an exponential moving average of per-sample pass rates, promoting samples that foster learning and de-emphasizing stagnant ones. Experiments on mathematical-reasoning benchmarks demonstrate that our methods outperform strong baselines, yielding faster convergence and a higher performance ceiling.",
+            "score": 3
+        },
+        {
+            "paperId": "00108f2b138ea93b8276d66d962c5548f8f4719f",
+            "title": "Follow-Your-Instruction: A Comprehensive MLLM Agent for World Data Synthesis",
+            "venue": "",
+            "year": 2025,
+            "citationCount": 2,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2508.05580, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "authors": [
+                {
+                    "authorId": "2329185778",
+                    "name": "Kunyu Feng"
+                },
+                {
+                    "authorId": "2304696523",
+                    "name": "Yue Ma"
+                },
+                {
+                    "authorId": "2365998196",
+                    "name": "Xinhua Zhang"
+                },
+                {
+                    "authorId": "2375729583",
+                    "name": "Boshi Liu"
+                },
+                {
+                    "authorId": "2374481470",
+                    "name": "Yikuang Yuluo"
+                },
+                {
+                    "authorId": "2351708504",
+                    "name": "Yinhan Zhang"
+                },
+                {
+                    "authorId": "2327908494",
+                    "name": "Runtao Liu"
+                },
+                {
+                    "authorId": "2303802159",
+                    "name": "Hongyu Liu"
+                },
+                {
+                    "authorId": "2376046888",
+                    "name": "Zhiyuan Qin"
+                },
+                {
+                    "authorId": "2375138938",
+                    "name": "Shanhui Mo"
+                },
+                {
+                    "authorId": "2316674804",
+                    "name": "Qifeng Chen"
+                },
+                {
+                    "authorId": "2316790205",
+                    "name": "Zeyu Wang"
+                }
+            ],
+            "abstract": "With the growing demands of AI-generated content (AIGC), the need for high-quality, diverse, and scalable data has become increasingly crucial. However, collecting large-scale real-world data remains costly and time-consuming, hindering the development of downstream applications. While some works attempt to collect task-specific data via a rendering process, most approaches still rely on manual scene construction, limiting their scalability and accuracy. To address these challenges, we propose Follow-Your-Instruction, a Multimodal Large Language Model (MLLM)-driven framework for automatically synthesizing high-quality 2D, 3D, and 4D data. Our \\textbf{Follow-Your-Instruction} first collects assets and their associated descriptions through multimodal inputs using the MLLM-Collector. Then it constructs 3D layouts, and leverages Vision-Language Models (VLMs) for semantic refinement through multi-view scenes with the MLLM-Generator and MLLM-Optimizer, respectively. Finally, it uses MLLM-Planner to generate temporally coherent future frames. We evaluate the quality of the generated data through comprehensive experiments on the 2D, 3D, and 4D generative tasks. The results show that our synthetic data significantly boosts the performance of existing baseline models, demonstrating Follow-Your-Instruction's potential as a scalable and effective data engine for generative intelligence.",
+            "score": 3
+        },
+        {
+            "paperId": "a73cdcfa79f74055e96270da633d39d3b26bbe49",
+            "title": "Nanohertz gravitational wave astronomy during SKA era: An InPTA perspective",
+            "venue": "Journal of astrophysics and astronomy",
+            "year": 2022,
+            "citationCount": 9,
+            "openAccessPdf": {
+                "url": "https://arxiv.org/pdf/2207.06461",
+                "status": "GREEN",
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2207.06461, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": null,
+            "authors": [
+                {
+                    "authorId": "92126340",
+                    "name": "B. C. Joshi"
+                },
+                {
+                    "authorId": "146077576",
+                    "name": "A. Gopakumar"
+                },
+                {
+                    "authorId": "2064926733",
+                    "name": "A. Pandian"
+                },
+                {
+                    "authorId": "49701658",
+                    "name": "T. Prabu"
+                },
+                {
+                    "authorId": "147300180",
+                    "name": "L. Dey"
+                },
+                {
+                    "authorId": "46174705",
+                    "name": "M. Bagchi"
+                },
+                {
+                    "authorId": "2067694574",
+                    "name": "Shantanu Desai"
+                },
+                {
+                    "authorId": "23142942",
+                    "name": "P. Tarafdar"
+                },
+                {
+                    "authorId": "72463256",
+                    "name": "P. Rana"
+                },
+                {
+                    "authorId": "30634612",
+                    "name": "Y. Maan"
+                },
+                {
+                    "authorId": "102575801",
+                    "name": "Neelam Dhanda Batra"
+                },
+                {
+                    "authorId": "1796267379",
+                    "name": "Raghav Girgaonkar"
+                },
+                {
+                    "authorId": "2067723891",
+                    "name": "Nikita Agarwal"
+                },
+                {
+                    "authorId": "2074034392",
+                    "name": "P. Arumugam"
+                },
+                {
+                    "authorId": "2176187791",
+                    "name": "Sarmistha Banik Avishek Basu"
+                },
+                {
+                    "authorId": "2121550092",
+                    "name": "A. Bathula"
+                },
+                {
+                    "authorId": "2118980320",
+                    "name": "S. Dandapat"
+                },
+                {
+                    "authorId": "34995616",
+                    "name": "Y. Gupta"
+                },
+                {
+                    "authorId": "102695454",
+                    "name": "S. Hisano"
+                },
+                {
+                    "authorId": "2057258849",
+                    "name": "R. Kato"
+                },
+                {
+                    "authorId": "13360613",
+                    "name": "D. Kharbanda"
+                },
+                {
+                    "authorId": "2067791853",
+                    "name": "T. Kikunaga"
+                },
+                {
+                    "authorId": "2118969677",
+                    "name": "N. Kolhe"
+                },
+                {
+                    "authorId": "39010987",
+                    "name": "M. Krishnakumar"
+                },
+                {
+                    "authorId": "69023405",
+                    "name": "P. K. Manoharan"
+                },
+                {
+                    "authorId": "2123386271",
+                    "name": "Piyush Marmat"
+                },
+                {
+                    "authorId": "38538456",
+                    "name": "A. Naidu"
+                },
+                {
+                    "authorId": "1796273495",
+                    "name": "K. Nobleson"
+                },
+                {
+                    "authorId": "2171652934",
+                    "name": "A. K. Paladi"
+                },
+                {
+                    "authorId": "15873504",
+                    "name": "Dhruv Pathak"
+                },
+                {
+                    "authorId": "1686768353",
+                    "name": "J. Singha"
+                },
+                {
+                    "authorId": "2149057858",
+                    "name": "Aman K Srivastava"
+                },
+                {
+                    "authorId": "103092443",
+                    "name": "M. Surnis"
+                },
+                {
+                    "authorId": "2095083782",
+                    "name": "S. Susarla"
+                },
+                {
+                    "authorId": "102449040",
+                    "name": "A. Susobhanan"
+                },
+                {
+                    "authorId": "2046125085",
+                    "name": "Keitaro Takahashi"
+                },
+                {
+                    "authorId": "2176186489",
+                    "name": "National Centre for Radio Astrophysics India"
+                },
+                {
+                    "authorId": "2176185889",
+                    "name": "Tata Institute of Fundamental Research India"
+                },
+                {
+                    "authorId": "2176184987",
+                    "name": "Raman Research Institute India"
+                },
+                {
+                    "authorId": "2176185892",
+                    "name": "The Institute of Mathetical Sciences India"
+                },
+                {
+                    "authorId": "2176186459",
+                    "name": "Homi Bhabha National Institute India"
+                },
+                {
+                    "authorId": "2176186616",
+                    "name": "Iit Hyderabad India"
+                },
+                {
+                    "authorId": "139043535",
+                    "name": "University Grants Commission and Ministry of Education. Gover India"
+                },
+                {
+                    "authorId": "2176184802",
+                    "name": "Amity University India"
+                },
+                {
+                    "authorId": "2077111880",
+                    "name": "Manipal India"
+                },
+                {
+                    "authorId": "2040835727",
+                    "name": "India India"
+                },
+                {
+                    "authorId": "2176185768",
+                    "name": "UK JodrellBankCentreforAstrophysics"
+                },
+                {
+                    "authorId": "2176184931",
+                    "name": "The Indian Institute of Science Education"
+                },
+                {
+                    "authorId": "2176184989",
+                    "name": "Research India"
+                },
+                {
+                    "authorId": "2176186621",
+                    "name": "Kumamoto University Japan"
+                },
+                {
+                    "authorId": "102746736",
+                    "name": "Faculty of Computer Science"
+                },
+                {
+                    "authorId": "2176186595",
+                    "name": "Technology Kumamoto University Japan"
+                },
+                {
+                    "authorId": "2176185766",
+                    "name": "Osaka Japan"
+                },
+                {
+                    "authorId": "79786575",
+                    "name": "Stringer India"
+                },
+                {
+                    "authorId": "102854517",
+                    "name": "M. F. R. Germany"
+                },
+                {
+                    "authorId": "2176185244",
+                    "name": "Universitat Bielefeld Germany"
+                },
+                {
+                    "authorId": "74465460",
+                    "name": "A. Usa"
+                },
+                {
+                    "authorId": "102278105",
+                    "name": "UK UniversityofOxford"
+                },
+                {
+                    "authorId": "2176185242",
+                    "name": "Bits Pilani Hyderabad Campus India"
+                },
+                {
+                    "authorId": "2276608688",
+                    "name": "Indian Institute of Space Science"
+                },
+                {
+                    "authorId": "2176185894",
+                    "name": "Technology Thiruvananthapuram India"
+                },
+                {
+                    "authorId": "102690878",
+                    "name": "Inter-University Centre for Astronomy"
+                },
+                {
+                    "authorId": "1571323533",
+                    "name": "A. India"
+                },
+                {
+                    "authorId": "102908846",
+                    "name": "N. U. Ireland"
+                },
+                {
+                    "authorId": "102450488",
+                    "name": "National Astronomical Observatories of China"
+                },
+                {
+                    "authorId": "2047486588",
+                    "name": "International Center of Quantum Artificial Intelligence for Science"
+                }
+            ],
+            "abstract": "Decades long monitoring of millisecond pulsars, which exhibit highly stable rotational periods in pulsar timing array experiments is on the threshold of discovering nanohertz stochastic gravitational wave background. This paper describes the Indian pulsar timing array (InPTA) experiment, which employs the upgraded Giant Metrewave Radio Telescope (uGMRT) for timing an ensemble of millisecond pulsars for this purpose. We highlight InPTA\u2019s observation strategies and analysis methods, which are relevant for a future PTA experiment with the more sensitive Square Kilometer Array (SKA) telescope. We show that the unique multi-sub-array multi-band wide-bandwidth frequency coverage of the InPTA, provides dispersion measure estimates with unprecedented precision for PTA pulsars, e.g., $$\\sim 2 \\times 10^{-5}$$ \u223c 2 \u00d7 10 - 5 pc cm $$^{-3}$$ - 3 for PSR J1909-3744. Configuring the SKA-low and SKA-mid as two and four sub-arrays, respectively, it is shown that comparable precision is achievable, using observation strategies similar to those pursued by the InPTA, for a larger sample of 62 pulsars, requiring about 26 and 7 h per epoch for the SKA-mid and the SKA-low telescopes, respectively. We also review the ongoing efforts to develop PTA-relevant general relativistic constructs that will be required to search for nanohertz gravitational waves from isolated super-massive black hole binary systems like blazar OJ\u00a0287. These efforts should be relevant to pursue persistent multi-messenger gravitational wave astronomy during the forthcoming era of the SKA telescope, the thirty meter telescope, and the next-generation event horizon telescope.",
+            "score": 1
+        }
+    ]
+}

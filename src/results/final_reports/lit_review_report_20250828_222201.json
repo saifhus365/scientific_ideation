@@ -1,0 +1,118 @@
+{
+    "initial_query": "bonnie blue\n\n\n",
+    "query_analysis": {
+        "topics": [
+            "Bonnie Blue flag",
+            "Southern secession",
+            "Civil War symbolism"
+        ],
+        "timeline": {
+            "start_date": "1861-01-09",
+            "end_date": "1865-04-09",
+            "specific_year": null
+        },
+        "intention": "Descriptive"
+    },
+    "discovered_papers": [
+        {
+            "paperId": "e21c4c61c43167774229db56263ac66af8d30f00",
+            "title": "Cementing Their Heroes: Historical Newspaper Coverage of Confederate Monuments",
+            "venue": "Journalism History",
+            "year": 2022,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1080/00947679.2022.2088000?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1080/00947679.2022.2088000, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": null,
+            "authors": [
+                {
+                    "authorId": "2171065276",
+                    "name": "Alexia Little"
+                }
+            ],
+            "abstract": "ABSTRACT Following continued conflicts over Confederate monuments in American society, this study explores Civil War memory encapsulated in newspaper coverage of the initial construction and dedication of four Confederate monuments. Discourse and narrative analyses of 258 articles published in seven US newspapers in the 1890s and 1920s examine how the American public negotiated terms of heroes, victims, and villains, largely in a hegemonic \u201cLost Cause\u201d myth that took primacy over fact, thus distorting collective memory of the war.",
+            "score": 9
+        },
+        {
+            "paperId": "ec56ab1f4e6c3c9e9b538410d744f88f547291be",
+            "title": "Living Among Confederate Icons: Perpetuating White Supremacist Beliefs and Blindness to Black Suffering",
+            "venue": "Studies in Social Justice",
+            "year": 2023,
+            "citationCount": 1,
+            "openAccessPdf": {
+                "url": "https://journals.library.brocku.ca/index.php/SSJ/article/download/3909/3239",
+                "status": "GOLD",
+                "license": "CCBYNCND",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.26522/ssj.v17i3.3909?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.26522/ssj.v17i3.3909, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": null,
+            "authors": [
+                {
+                    "authorId": "14857441",
+                    "name": "Susan H. Sarapin"
+                },
+                {
+                    "authorId": "12858385",
+                    "name": "Richard Ledet"
+                },
+                {
+                    "authorId": "2254450923",
+                    "name": "Pamela L. Morris"
+                },
+                {
+                    "authorId": "118811969",
+                    "name": "S. Emeigh"
+                }
+            ],
+            "abstract": "Almost 160 years after the American Civil War, where the Union defeated the Confederacy and ended slavery in the United States, approximately 1,910 tributes remain to Confederate military leaders located on public property in the 11 original Confederate states, particularly in cities with an exceptionally high density of Black residents. To Blacks, this iconography delivers a clear message of White supremacy. Six states have enacted laws to protect and preserve these memorials, making it almost impossible to use the court system to move them to private property. This paper explores connections between support for a myth called the Lost Cause, which is a revisionist history intended to spread misinformation about the true cause of the American Civil War, and attitudes toward placement of Confederate symbols on public land. We show that there is significant belief in the Lost-Cause myth among many White U.S. Southerners. Furthermore, we find those who believe most in the myth are the least likely to want to move the monuments or end taxpayer support for their maintenance.",
+            "score": 8
+        },
+        {
+            "paperId": "5102d7af5462aa120e8de3e29672d88cda774b57",
+            "title": "The \u201cLost Cause\u201d Goes West",
+            "venue": "",
+            "year": 2020,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "https://durham-repository.worktribe.com/file/1288687/1/Published%20Journal%20Article",
+                "status": "GREEN",
+                "license": "other-oa",
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1525/ch.2020.97.1.33?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1525/ch.2020.97.1.33, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": null,
+            "authors": [
+                {
+                    "authorId": "108722240",
+                    "name": "Kevin Waite"
+                }
+            ],
+            "abstract": "California once housed over a dozen monuments, memorials, and place-names honoring the Confederacy, far more than any other state beyond the South. The list included schools and trees named for Robert E. Lee, mountaintops and highways for Jefferson Davis, and large memorials to Confederate soldiers in Hollywood and Orange County. Many of the monuments have been removed or renamed in the recent national reckoning with Confederate iconography. But for much of the twentieth century and into the twenty-first, they stood as totems to the \u201cLost Cause\u201d in the American West. Despite a vast literature on the origins, evolution, and enduring influence of the Lost Cause myth, little is known about how this ideology impacted the political culture and physical space of the American West. This article explores the commemorative landscape of California to explain why a free state, far beyond the major military theaters of the Civil War, gave rise to such a vibrant Confederate culture in the twentieth century. California chapters of the United Daughters of the Confederacy (UDC) carried out much of this commemorative work. They emerged in California shortly after the organization's founding in Tennessee in 1894 and, over the course of a century, emblazoned the Western map with salutes to a slaveholding rebellion. In the process, the UDC and other Confederate organizations triggered a continental struggle over Civil War memory that continues to this day.",
+            "score": 7
+        },
+        {
+            "paperId": "08cd2af1fa319b7a3a6794861954739caa1a2454",
+            "title": "Debunking the Yule Log Myth",
+            "venue": "",
+            "year": 2024,
+            "citationCount": 0,
+            "openAccessPdf": {
+                "url": "",
+                "status": null,
+                "license": null,
+                "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5771/9798881801793?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5771/9798881801793, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+            },
+            "tldr": null,
+            "authors": [
+                {
+                    "authorId": "2358334833",
+                    "name": "Robert E. May"
+                }
+            ],
+            "abstract": "\n A powerful new book that corrects a false myth in African American history that \n \n Kirkus Reviews\n \n calls \"a thoughtful antidote to white Southern propaganda.\u201d\n \n According to an oft repeated legend, during Christmas before the Civil War, all enslaved people in the American South enjoyed lengthy vacations of a week or more depending on how long an oversized \u201cYule log\u201d burned in their master\u2019s fireplace. As long as the log held out, slaves escaped heavy labor and their masters\u2019 whips and enjoyed a rare freedom of movement to go and do what they wished as well as gorge themselves on food and drink they never got the rest of the year. No wonder they soaked those logs in swamps to make them burn even longer.\n But is it true? \n In this book, historian Robert May takes readers on a detective caper as he investigates a story that reaches back to colonial America and continues today. May finds no evidence of the Yule log tradition in the historical record, instead showing that it originated with pro-Confederate Lost Cause propagandists attempting to present the South\u2019s prewar system of human bondage in as soft tones as possible. Tales about good-natured masters and unresentful slaves jovially sharing Christmases played to this impulse beautifully.\n \n Debunking the Yule Log Myth does more than correct the historical record. It serves as a highly instructive case study in the process of historical mythmaking. This captivating tale will appeal to all readers interested in African American history and the long struggle to support white supremacy by creating a mythical antebellum American South.",
+            "score": 4
+        }
+    ]
+}
