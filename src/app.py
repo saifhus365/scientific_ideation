@@ -44,7 +44,7 @@ if "workflow_complete" not in st.session_state:
 with st.form("research_form"):
     query_text = st.text_area(
         "Enter your research query:", 
-        "AI researcher",
+        "Explore how ancient trade networks can inform modern blockchain-based supply chains.",
         height=100
     )
     submitted = st.form_submit_button("Start Full Research Workflow")

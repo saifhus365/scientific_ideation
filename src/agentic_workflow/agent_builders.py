@@ -7,7 +7,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from pydantic import BaseModel
 from langchain_mistralai import ChatMistralAI
 from dotenv import load_dotenv
-from langchain.output_parsers.pydantic import PydanticOutputParser
+
 # --- Configuration ---
 load_dotenv()
 CHROMA_PERSIST_DIR = Path(__file__).resolve().parent.parent.parent / "chroma_db"
